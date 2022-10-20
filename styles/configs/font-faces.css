@@ -1,61 +1,61 @@
-/* rubik-regular - latin */
 @font-face {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Rubik'), local('Rubik-Regular'),
-        url('../../assets/font/Rubik/rubik-v21-latin-regular.woff2') format('woff2'),
-        url('../../assets/font/Rubik/rubik-v21-latin-regular.woff') format('woff'),
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Rubik"), local("Rubik-Regular"),
+    url("assets/fonts/rubik-regular.woff2") format("woff2"),
+    url("assets/fonts/rubik-regular.woff") format("woff");
 }
 
-/* rubik-500 - latin */
 @font-face {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Rubik'), local('Rubik-Medium'),
-        url('../../assets/font/Rubik/rubik-v21-latin-500.woff2') format('woff2'),
-        url('../../assets/font/Rubik/rubik-v21-latin-500.woff') format('woff'),
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Rubik"), local("Rubik-Medium"),
+    url("assets/fonts/rubik-500.woff2") format("woff2"),
+    url("assets/fonts/rubik-500.woff") format("woff");
 }
 
-/* rubik-700 - latin */
 @font-face {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Rubik'), local('Rubik-Bold'),
-        url('../../assets/font/Rubik/rubik-v21-latin-700.woff2') format('woff2'),
-        url('../../assets/font/Rubik/rubik-v21-latin-700.woff') format('woff'),
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Rubik"), local("Rubik-Bold"),
+    url("assets/fonts/rubik-700.woff2") format("woff2"),
+    url("assets/fonts/rubik-700.woff") format("woff");
 }
 
 /* **************************************************************************************************************************************************** */
 
-/* mulish-regular - latin */
 @font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Mulish'), local('Mulish-Regular'),
-        url('../../assets/font/Mulish/mulish-v12-latin-regular.woff2') format('woff2'),
-        url('../../assets/font/Mulish/mulish-v12-latin-regular.woff') format('woff'),
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Mulish"), local("Mulish-Regular"),
+    url("assets/fonts/mulish-regular.woff2") format("woff2"),
+    url("assets/fonts/mulish-regular.woff") format("woff");
 }
 
-/* mulish-500 - latin */
 @font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Mulish'), local('Mulish-Medium'),
-        url('../../assets/font/Mulish/mulish-v12-latin-500.woff2') format('woff2'),
-        url('../../assets/font/Mulish/mulish-v12-latin-500.woff') format('woff'),
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Mulish"), local("Mulish-Medium"),
+    url("assets/fonts/mulish-500.woff2") format("woff2"),
+    url("assets/fonts/mulish-500.woff") format("woff");
 }
 
-/* mulish-700 - latin */
 @font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Mulish'), local('Mulish-Bold'),
-        url('../../assets/font/Mulish/mulish-v12-latin-700.woff2') format('woff2'),
-        url('../../assets/font/Mulish/mulish-v12-latin-700.woff2') format('woff'),
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Mulish"), local("Mulish-Bold"),
+    url("assets/fonts/mulish-700.woff2") format("woff2"),
+    url("assets/fonts/mulish-700.woff2") format("woff");
 }

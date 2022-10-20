@@ -1,0 +1,12 @@
+:global(.vtex-store__template),
+:global(.vtex-store-drawer-0-x-drawer),
+:global(.vtex-modal-layout-0-x-container),
+:global(.vtex-minicart-2-x-drawer),
+:global(.vtex-telemarketing-2-x-portalContainer),
+:global(.vtex-login-2-x-portalContainer) {
+  --primary-orange: #ed752d;
+  --secondary-orange: #df6922;
+  --primary-blue: #002f87;
+  --secondary-blue: #4e7eff;
+  --tertiary-blue: #DFDFDF;
+}
