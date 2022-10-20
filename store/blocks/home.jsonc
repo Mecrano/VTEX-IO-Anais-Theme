@@ -1,7 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "list-context.image-list#first__banner"
     ]
   },
   "rich-text": { 
@@ -11,5 +11,28 @@
       "textPosition": "CENTER",
       "blockClass": "test"
     }
-  }
+  },
+  "list-context.image-list#first__banner": {
+    "title": "Banner 1",
+    "children": [
+        "slider-layout#first__banner"
+    ],
+    "props": {
+        "images": []
+    }
+  },
+  "slider-layout#first__banner": {
+    "title": "Banner",
+    "props": {
+        "blockClass": [
+            "carousel__home",
+            "carousel__home-1"
+        ],
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        }
+    }
+  } 
 }
