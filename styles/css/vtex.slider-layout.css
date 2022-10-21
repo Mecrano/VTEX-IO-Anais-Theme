@@ -1,0 +1,21 @@
+.sliderLayoutContainer--carousel__home-1 .sliderLeftArrow--carousel__home-1{
+    height: 160px;
+    width: 80px;
+    border-radius: 0 150px 150px 0;
+    background-color: #fff !important;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 42px;
+}
+
+.sliderLayoutContainer--carousel__home-1 .sliderRightArrow--carousel__home-1{
+    height: 160px;
+    width: 80px;
+    border-radius: 150px 0px 0px 150px;
+    background-color: #fff !important;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 42px;
+}
