@@ -1,6 +1,6 @@
 {
   "search-bar#desktop": {
-    "blocks": ["autocomplete-result-list.v2"],
+    "blocks": ["autocomplete-result-list.v2#search"],
     "props": {
       "openAutocompleteOnFocus": true,
       "disableBlurAndTouchEndHandler": true,
@@ -10,7 +10,51 @@
       "autocompleteAlignment": "center"
     }
   },
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
+  "drawer#header_search-mobile": {
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "rightToLeft",
+      "blockClass": "header_drawer"
+    },
+    "blocks": ["drawer-trigger#header_search-mobile"],
+    "children": ["search-bar#mobile"]
+  },
+  "drawer-trigger#header_search-mobile": {
+    "children": ["icon#search"]
+  },
+  "icon#search": {
+    "props": {
+      "id": "hpa-search",
+      "size": 24,
+      "viewBox": "0 0 16 16"
+    }
+  },
+  "search-bar#mobile": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "disableBlurAndTouchEndHandler": true,
+      "displayMode": "search-button",
+      "placeholder": "Busca ropa, tenis, marcas y más",
+      "containerMode": "container",
+      "autocompleteAlignment": "center"
+    },
+    "blocks": ["autocomplete-result-list.v2#search"]
+  },
+  "autocomplete-result-list.v2#search": {
+    "props": {
+      "hideUnavailableItems": true,
+      "maxTopSearches": 4,
+      "maxHistory": 4,
+      "maxSuggestedProducts": 6,
+      "maxSuggestedTerms": 0,
+      "simulationBehavior": "default",
+      "HorizontalProductSummary": "product-summary.shelf#search",
+      "hideTitles": true,
+      "productLayout": "HORIZONTAL"
+    },
+    "blocks": ["product-summary.shelf#search"]
+  },
+  "product-summary.shelf#search": {
+    "children": ["product-summary-name"]
   }
 }

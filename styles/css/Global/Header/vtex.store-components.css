@@ -1,4 +1,5 @@
-.sizeDesktop {
+.sizeDesktop,
+.sizeMobile {
   max-width: none;
   max-height: none;
   min-width: auto;
@@ -8,6 +9,7 @@
 .logoLink {
   display: block;
   padding: 10px;
+  padding-left: 0;
 }
 
 .searchBarContainer {
@@ -51,18 +53,50 @@
 }
 
 .searchBarContainer .searchBarIcon--search,
-  .searchBarContainer .searchBarIcon--clear {
+.searchBarContainer .searchBarIcon--clear {
   background-color: var(--primary-blue);
   margin: 0;
-  border-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
   color: #fff;
   padding: 0 16px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1367px) {
   .searchBarContainer .searchBarIcon--search::after {
     content: "Buscar";
     display: block;
     margin-left: 5px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .searchBarContainer {
+    width: 20vw;
+  }
+
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logoLink {
+    padding: 0;
+  }
+
+  .searchBarContainer {
+    width: 100%;
+    padding: 0;
+    margin: 20px;
+  }
+
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    height: 50px;
+  }
+
+  .searchBarContainer .suffixWrapper {
+    margin-left: 0;
   }
 }

@@ -51,15 +51,15 @@
   "flex-layout.row#header_cart-profile": {
     "props": {
       "preventVerticalStretch": false,
-      "blockClass": "cart-profile"
+      "blockClass": "cart-profile",
+      "colSizing": "auto"
     },
-    "children": ["minicart.v2", "login", "menu#header_history"]
+    "children": ["minicart.v2", "login#desktop", "menu#header_history"]
   },
 
-  "login": {
+  "login#desktop": {
     "props": {
-      "showIconProfile": true,
-      "hideIconLabel": true
+      "showIconProfile": true
     }
   },
   "menu#header_history": {
@@ -88,14 +88,65 @@
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["flex-layout.col#header_logo"],
+    "children": [
+      "flex-layout.col#header_logo",
+      "flex-layout.col#header_mobile-right"
+    ],
     "props": {
+      "blockClass": "container-header",
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "flex-layout.col#header_mobile-right": {
+    "children": ["flex-layout.row#header_mobile-right"]
+  },
+  "flex-layout.row#header_mobile-right": {
+    "props": {
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "drawer#header_search-mobile",
+      "minicart.v2",
+      "drawer#header-menu-mobile"
+    ]
+  },
+  "drawer#header-menu-mobile": {
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "rightToLeft",
+      "blockClass": "header_drawer"
+    },
+    "children": ["flex-layout.row#header-main-menu-mobile"]
+  },
+  "flex-layout.row#header-main-menu-mobile": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header_menu-container"
+    },
+    "children": ["flex-layout.col#header-main-menu-mobile"]
+  },
+  "flex-layout.col#header-main-menu-mobile": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["menu#header-main-menu-mobile", "login#mobile"]
+  },
+  "login#mobile": {
+    "props": {
+      "iconLabel": "Iniciar sesión",
+      "logInButtonBehavior": "popover"
     }
   }
 }

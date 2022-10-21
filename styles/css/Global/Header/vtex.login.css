@@ -17,3 +17,29 @@
   height: 28px;
   color: white;
 }
+
+.contentForm .button {
+  color: black !important;
+}
+
+.contentForm .accountOptions :global(.vtex-button) {
+  background: white;
+  color: black;
+}
+
+.profile {
+  color: white;
+}
+
+@media (min-width: 1010px) {
+  .label {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .profileIcon {
+    width: 24px;
+    height: 24px;
+  }
+}
