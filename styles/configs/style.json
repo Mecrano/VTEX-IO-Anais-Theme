@@ -79,10 +79,10 @@
   "semanticColors": {
     "background": {
       "base": "#ffffff",
-      "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "base--inverted": "#000000",
+      "action-primary": "#004793",
+      "action-secondary": "#CF0E2D",
+      "emphasis": "#004793",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -97,9 +97,9 @@
       "muted-5": "#f2f4f5"
     },
     "hover-background": {
-      "action-primary": "#072c75",
-      "action-secondary": "#dbe9fd",
-      "emphasis": "#dd1659",
+      "action-primary": "#004793",
+      "action-secondary": "#CF0E2D",
+      "emphasis": "#004793",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
       "danger": "#e13232",
@@ -113,9 +113,9 @@
       "muted-5": "#f2f4f5"
     },
     "active-background": {
-      "action-primary": "#0c389f",
-      "action-secondary": "#dbe9fd",
-      "emphasis": "#dd1659",
+      "action-primary": "#004793",
+      "action-secondary": "#CF0E2D",
+      "emphasis": "#004793",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
       "danger": "#ff4c4c",
@@ -129,10 +129,10 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
-      "link": "#0F3E99",
-      "emphasis": "#f71963",
+      "action-primary": "#fff",
+      "action-secondary": "#fff",
+      "link": "#004793",
+      "emphasis": "#fff",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -147,12 +147,12 @@
       "muted-5": "#f2f4f5"
     },
     "visited-text": {
-      "link": "#0c389f"
+      "link": "#004793"
     },
     "hover-text": {
-      "action-primary": "#072c75",
-      "action-secondary": "#dbe9fd",
-      "link": "#0c389f",
+      "action-primary": "#fff",
+      "action-secondary": "#fff",
+      "link": "#004793",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -162,7 +162,7 @@
       "warning--faded": "#fff6e0"
     },
     "active-text": {
-      "link": "#0c389f",
+      "link": "#004793",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -172,9 +172,9 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#0F3E99",
-      "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "action-primary": "#004793",
+      "action-secondary": "#CF0E2D",
+      "emphasis": "#004793",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -189,9 +189,9 @@
       "muted-5": "#f2f4f5"
     },
     "hover-border": {
-      "action-primary": "#072c75",
-      "action-secondary": "#dbe9fd",
-      "emphasis": "#dd1659",
+      "action-primary": "#004793",
+      "action-secondary": "#CF0E2D",
+      "emphasis": "#004793",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
       "danger": "#e13232",
@@ -205,9 +205,9 @@
       "muted-5": "#f2f4f5"
     },
     "active-border": {
-      "action-primary": "#0c389f",
-      "action-secondary": "#dbe9fd",
-      "emphasis": "#dd1659",
+      "action-primary": "#004793",
+      "action-secondary": "#CF0E2D",
+      "emphasis": "#004793",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
       "danger": "#ff4c4c",
@@ -221,10 +221,10 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#3f3f40",
+      "base": "#000",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-secondary": "#ffffff",
       "emphasis": "#ffffff",
       "disabled": "#979899",
       "success": "#ffffff",
@@ -241,7 +241,7 @@
     },
     "hover-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-secondary": "#ffffff",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
@@ -252,7 +252,7 @@
     },
     "active-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "#0F3E99",
+      "action-secondary": "#ffffff",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
@@ -272,10 +272,10 @@
   ],
   "borderRadius": [
     0,
-    0.125,
-    0.25,
-    0.5,
-    1
+    0,
+    0,
+    0,
+    0
   ],
   "widths": [
     1,
@@ -361,50 +361,50 @@
       "heading-6": {
         "fontFamily": "Mulish",
         "fontWeight": "normal",
-        "fontSize": "1.25rem",
+        "fontSize": "1.125rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
         "fontFamily": "Rubik",
         "fontWeight": "normal",
-        "fontSize": "1rem",
+        "fontSize": "1.125rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
         "fontFamily": "Rubik",
         "fontWeight": "normal",
-        "fontSize": "0.875rem",
+        "fontSize": "1.125rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
         "fontFamily": "Rubik",
         "fontWeight": "normal",
-        "fontSize": "0.75rem",
+        "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
         "fontFamily": "Rubik",
-        "fontWeight": "500",
-        "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "fontWeight": "400",
+        "fontSize": "1.25rem",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--small": {
         "fontFamily": "Rubik",
-        "fontWeight": "500",
-        "fontSize": "0.875rem",
-        "textTransform": "uppercase",
+        "fontWeight": "400",
+        "fontSize": "1rem",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--large": {
         "fontFamily": "Rubik",
-        "fontWeight": "500",
-        "fontSize": "1.25rem",
-        "textTransform": "uppercase",
+        "fontWeight": "400",
+        "fontSize": "1.5rem",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "code": {

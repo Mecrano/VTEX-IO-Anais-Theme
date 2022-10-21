@@ -1,0 +1,16 @@
+{
+  "search-bar#desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "disableBlurAndTouchEndHandler": true,
+      "displayMode": "search-button",
+      "placeholder": "Busca ropa, tenis, marcas y más",
+      "containerMode": "container",
+      "autocompleteAlignment": "center"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  }
+}

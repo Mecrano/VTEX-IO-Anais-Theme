@@ -4,9 +4,8 @@
 :global(.vtex-minicart-2-x-drawer),
 :global(.vtex-telemarketing-2-x-portalContainer),
 :global(.vtex-login-2-x-portalContainer) {
-  --primary-orange: #ed752d;
-  --secondary-orange: #df6922;
-  --primary-blue: #002f87;
-  --secondary-blue: #4e7eff;
-  --tertiary-blue: #DFDFDF;
+  --primary-blue: #004793;
+  --primary-red: #CF0E2D;
+  --primary-yellow: #FFE700;
+  --primary-green: #4AA358;
 }

@@ -6,9 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -18,26 +16,20 @@
   },
   "flex-layout.row#desktop": {
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "between",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#header_logo",
+      "menu#header_main-menu",
+      "search-bar#desktop",
+      "flex-layout.col#header_cart-profile"
     ]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-  "flex-layout.col#logo-desktop": {
+
+  "flex-layout.col#header_logo": {
     "props": {
       "verticalAlign": "middle"
     },
@@ -47,10 +39,51 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "assets/logo.png",
+      "width": 116,
+      "mobileWidth": 75
     }
   },
+
+  "flex-layout.col#header_cart-profile": {
+    "children": ["flex-layout.row#header_cart-profile"]
+  },
+  "flex-layout.row#header_cart-profile": {
+    "props": {
+      "preventVerticalStretch": false,
+      "blockClass": "cart-profile"
+    },
+    "children": ["minicart.v2", "login", "menu#header_history"]
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+  "menu#header_history": {
+    "props": {
+      "blockClass": "header_menu"
+    },
+    "children": ["menu-item#header_aux-menu-history"]
+  },
+  "menu-item#header_aux-menu-history": {
+    "props": {
+      "id": "menu-item-header-history",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/historial",
+        "noFollow": false,
+        "tagTitle": "Historial",
+        "text": "Historial"
+      }
+    }
+  },
+
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
@@ -58,21 +91,11 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
+    "children": ["flex-layout.col#header_logo"],
     "props": {
-      "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "drawer": {
-    "children": []
   }
 }

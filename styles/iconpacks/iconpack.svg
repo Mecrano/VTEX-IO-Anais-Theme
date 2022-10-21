@@ -1,0 +1,22 @@
+<svg class="dn" height="0" version="1.1" width="0"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="hpa-profile">
+      <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:10;" d="M 22.068604 25.651123 L 19.505615 19.9729 L 8.927979 19.9729 L 6.265869 25.39624 " transform="matrix(0.551724,0,0,0.551724,0,0)"/>
+      <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 18.776367 11.498047 C 18.776367 13.976074 16.772705 15.979736 14.294678 15.979736 C 11.81665 15.979736 9.812988 13.976074 9.812988 11.498047 C 9.812988 9.02002 11.81665 7.016357 14.294678 7.016357 C 16.772705 7.016357 18.776367 9.02002 18.776367 11.498047 Z M 18.776367 11.498047 " transform="matrix(0.551724,0,0,0.551724,0,0)"/>
+      <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 27.329102 14.5 C 27.329102 21.941162 21.480957 27.923828 14.322998 27.923828 C 7.172119 27.923828 1.323975 21.941162 1.323975 14.5 C 1.323975 7.058838 7.172119 1.076172 14.322998 1.076172 C 21.480957 1.076172 27.329102 7.058838 27.329102 14.5 Z M 27.329102 14.5 " transform="matrix(0.551724,0,0,0.551724,0,0)"/>
+    </g>
+
+    <g id="hpa-cart">
+      <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:10;" d="M 26.323242 19.694336 L 8.825684 19.694336 L 5.976562 16.987305 L 5.976562 1.011719 L 0.175781 1.011719 " transform="matrix(0.533333,0,0,0.571429,0,0)"/>
+      <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:10;" d="M 5.947266 15.469727 L 23.034668 15.469727 L 28.828125 12.578125 L 28.828125 1.182617 L 17.336426 1.182617 " transform="matrix(0.533333,0,0,0.571429,0,0)"/>
+      <path style=" stroke:none;fill-rule:nonzero;fill:currentColor;fill-opacity:1;" d="M 6.566406 14.65625 C 6.566406 15.394531 6.011719 15.992188 5.324219 15.992188 C 4.636719 15.992188 4.078125 15.394531 4.078125 14.65625 C 4.078125 13.921875 4.636719 13.324219 5.324219 13.324219 C 6.011719 13.324219 6.566406 13.921875 6.566406 14.65625 Z M 6.566406 14.65625 "/>
+      <path style=" stroke:none;fill-rule:nonzero;fill:currentColor;fill-opacity:1;" d="M 14.039062 14.65625 C 14.039062 15.394531 13.480469 15.992188 12.792969 15.992188 C 12.105469 15.992188 11.550781 15.394531 11.550781 14.65625 C 11.550781 13.921875 12.105469 13.324219 12.792969 13.324219 C 13.480469 13.324219 14.039062 13.921875 14.039062 14.65625 Z M 14.039062 14.65625 "/>
+    </g>
+
+    <g id="hpa-search">
+      <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 21.002197 11.838867 C 21.002197 17.362793 16.522217 21.838623 10.998535 21.838623 C 5.474854 21.838623 1.000977 17.362793 1.000977 11.838867 C 1.000977 6.314941 5.474854 1.839111 10.998535 1.839111 C 16.522217 1.839111 21.002197 6.314941 21.002197 11.838867 Z M 21.002197 11.838867 " transform="matrix(0.64,0,0,0.592593,0,0)"/>
+      <path style="fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 17.840576 19.320557 L 23.687744 25.160889 " transform="matrix(0.64,0,0,0.592593,0,0)"/>
+    </g>
+  </defs>
+</svg>

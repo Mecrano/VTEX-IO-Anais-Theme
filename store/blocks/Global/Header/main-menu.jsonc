@@ -1,0 +1,283 @@
+{
+  "menu#header_main-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header_menu"
+    },
+    "children": [
+      "menu-item#header_category-hombre",
+      "menu-item#header_category-mujer",
+      "menu-item#header_category-ninos",
+      "menu-item#header_category-deportes",
+      "menu-item#header_category-colecciones",
+      "menu-item#header_category-promociones"
+    ]
+  },
+  "menu-item#header_category-hombre": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre/",
+        "noFollow": false,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#header_category-mujer": {
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer/",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#header_category-ninos": {
+    "props": {
+      "id": "menu-item-category-ninos",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ninos/",
+        "noFollow": false,
+        "tagTitle": "Niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#header_category-deportes": {
+    "props": {
+      "id": "menu-item-category-deportes",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes/",
+        "noFollow": false,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#header_category-colecciones": {
+    "props": {
+      "id": "menu-item-category-colecciones",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/colecciones/",
+        "noFollow": false,
+        "tagTitle": "Colecciones",
+        "text": "Colecciones"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#header_category-promociones": {
+    "props": {
+      "id": "menu-item-category-promociones",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/promociones/",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+
+  "submenu#header_sub-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#header_menu-content"]
+  },
+  "flex-layout.row#header_menu-content": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header_menu-content-menu-1",
+      "flex-layout.col#header_menu-content-menu-2",
+      "flex-layout.col#header_menu-content-menu-3",
+      "flex-layout.col#header_menu-content-menu-4",
+      "flex-layout.col#header_menu-content-menu-5"
+    ]
+  },
+  "flex-layout.col#header_menu-content-menu-1": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-2": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-3": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-4": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-5": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
+  },
+  "image-new#header_menu-content": {
+    "props": {
+      "src": "assets/images/header/header_brand.jpg",
+      "link": {
+        "url": "/menu-image"
+      },
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
+  },
+  "menu#header_content": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        }
+      ]
+    }
+  }
+}

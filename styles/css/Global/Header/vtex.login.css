@@ -1,0 +1,19 @@
+.container {
+  float: none;
+  align-items: stretch;
+}
+
+.container :global(.vtex-button) {
+  width: 100%;
+  height: 100%;
+}
+
+.container :global(.vtex-button):hover {
+  background-color: var(--primary-blue);
+}
+
+.profileIcon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
