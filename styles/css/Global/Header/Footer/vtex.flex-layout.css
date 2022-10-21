@@ -1,0 +1,25 @@
+/* Columna 1 */
+.flexCol--container-footer-1-column-1 {
+  background: #004793;
+  padding: 65px 165px;
+}
+
+.flexRowContent--footer-1-social-network-row1 .stretchChildrenWidth,
+.flexRowContent--footer-1-social-network-row2 .stretchChildrenWidth {
+  align-items: center;
+  width: auto !important;
+}
+
+.flexRowContent--container-row-social-networl-footer {
+  border-bottom: 1px solid #3D7BBE;
+}
+
+/* Columna 2 */
+.flexCol--container-footer-1-column-2 {
+  background: #0955A6;
+}
+
+/* Footer 2 */
+.flexRowContent--container-footer-2{
+  background-color: #000;
+}

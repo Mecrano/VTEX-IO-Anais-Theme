@@ -1,0 +1,23 @@
+.container--footer-1-column-1a-headerTitle .paragraph--footer-1-column-1a-headerTitle {
+  border-left: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.wrapper--text-social-network-footer .link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.paragraph--text-footer2 {
+  color: #fff;
+}
+
+.wrapper--footer-1-title-categories-column-1 .paragraph {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+}

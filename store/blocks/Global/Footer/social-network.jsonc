@@ -1,0 +1,100 @@
+{
+  "flex-layout.row#footer-1-social-network-column-1": {
+    "children": ["flex-layout.col#footer-1-container-social-network"]
+  },
+  "flex-layout.col#footer-1-container-social-network": {
+    "children": [
+      "flex-layout.row#footer-1-social-network-email",
+      "flex-layout.row#footer-1-social-network-whatsapp",
+      "flex-layout.row#footer-1-social-network-facebook",
+      "flex-layout.row#footer-1-social-network-instagram"
+    ]
+  },
+  "flex-layout.row#footer-1-social-network-email": {
+    "props": {
+      "blockClass": "container-row-social-networl-footer"
+    },
+    "children": [
+      "flex-layout.col#footer-1-social-network-column-1",
+      "flex-layout.col#footer-1-social-network-column-2"
+    ]
+  },
+  "flex-layout.row#footer-1-social-network-whatsapp": {
+    "props": {
+      "blockClass": "container-row-social-networl-footer"
+    },
+    "children": [
+      "flex-layout.col#footer-1-social-network-column-1",
+      "flex-layout.col#footer-1-social-network-column-2"
+    ]
+  },
+  "flex-layout.row#footer-1-social-network-facebook": {
+    "props": {
+      "blockClass": "container-row-social-networl-footer"
+    },
+    "children": [
+      "flex-layout.col#footer-1-social-network-column-1",
+      "flex-layout.col#footer-1-social-network-column-2"
+    ]
+  },
+  "flex-layout.row#footer-1-social-network-instagram": {
+    "props": {
+      "blockClass": "container-row-social-networl-footer"
+    },
+    "children": [
+      "flex-layout.col#footer-1-social-network-column-1",
+      "flex-layout.col#footer-1-social-network-column-2"
+    ]
+  },
+  "flex-layout.col#footer-1-social-network-column-1": {
+    "props": { "verticalAlign": "middle" },
+    "children": ["flex-layout.row#footer-1-social-network-row1"]
+  },
+  "flex-layout.col#footer-1-social-network-column-2": {
+    "children": ["flex-layout.row#footer-1-social-network-row2"]
+  },
+  "flex-layout.row#footer-1-social-network-row1": {
+    "props": { "blockClass": "footer-1-social-network-row1" },
+    "children": ["logo#social-network-footer", "link#social-network-footer"]
+  },
+  "flex-layout.row#footer-1-social-network-row2": {
+    "props": { "blockClass": "footer-1-social-network-row2" },
+    "children": [
+      "rich-text#text-social-network-footer",
+      "logo#arrow-social-network-footer"
+    ]
+  },
+  "logo#social-network-footer": {
+    "props": {
+      "blockClass": "logo-social-network-footer",
+      "title": "Logo SocialNetwork",
+      "href": "/",
+      "url": "assets/images/footer/footer_logo_social_network.png",
+      "width": 22,
+      "mobileWidth": 17
+    }
+  },
+  "link#social-network-footer": {
+    "props": {
+      "blockClass": "link-social-network-footer",
+      "href": "/",
+      "label": "Email"
+    }
+  },
+  "rich-text#text-social-network-footer": {
+    "props": {
+      "blockClass": "text-social-network-footer",
+      "text": "ecommerce@rimet.com.gt"
+    }
+  },
+  "logo#arrow-social-network-footer": {
+    "props": {
+      "blockClass": "logoArrow-social-network-footer",
+      "title": "SocialNetwork",
+      "href": "/",
+      "url": "assets/images/footer/footer_social_network_arrow.png",
+      "width": 32,
+      "mobileWidth": 32
+    }
+  }
+}

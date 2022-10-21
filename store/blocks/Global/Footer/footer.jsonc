@@ -1,0 +1,65 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-1", "flex-layout.row#footer-2"]
+  },
+  "flex-layout.row#footer-1": {
+    "props": { "blockClass": "container-footer-1", "fullWidth": true },
+    "children": [
+      "flex-layout.col#footer-1-column-1",
+      "flex-layout.col#footer-1-column-2"
+    ]
+  },
+  "flex-layout.col#footer-1-column-1": {
+    "props": { "blockClass": "container-footer-1-column-1", "width": "50%" },
+    "children": [
+      "flex-layout.row#footer-1-header-column-1",
+      "flex-layout.row#footer-1-social-network-column-1",
+      "flex-layout.row#footer-1-categories-column-1"
+    ]
+  },
+  "flex-layout.row#footer-1-header-column-1": {
+    "children": [
+      "flex-layout.col#footer-1-column-1a-headerLogo",
+      "flex-layout.col#footer-1-column-1a-headerTitle"
+    ]
+  },
+  "flex-layout.col#footer-1-column-1a-headerLogo": {
+    "props": { "horizontalAlign": "right", "width": "20%" },
+    "children": ["logo"]
+  },
+  "flex-layout.col#footer-1-column-1a-headerTitle": {
+    "children": ["rich-text#footer-1-column-1a-headerTitle"]
+  },
+  "rich-text#footer-1-column-1a-headerTitle": {
+    "props": {
+      "text": "Somos la principal tienda de artículos deportivos en Guatemala desde 1992.",
+      "blockClass": "footer-1-column-1a-headerTitle"
+    }
+  },
+
+  /* ******************* */
+  "flex-layout.col#footer-1-column-2": {
+    "props": { "blockClass": "container-footer-1-column-2", "width": "50%" },
+    "children": []
+  },
+
+  /* ******************************** */
+
+  "flex-layout.row#footer-2": {
+    "props": { "blockClass": "container-footer-2", "fullWidth": true },
+    "children": ["rich-text#text-footer2"]
+  },
+  "rich-text#text-footer2": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "text-footer2"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": []
+  }
+}
