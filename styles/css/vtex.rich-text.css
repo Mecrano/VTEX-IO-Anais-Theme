@@ -1,0 +1,38 @@
+.wrapper--home--benefits--title{
+    color: #fff;
+    font-family: Mulish;
+    font-size: 32px;
+    line-height: 40.16px;
+}
+
+.wrapper--home--benefits--title{
+    margin-left: 51px;
+}
+
+.paragraph--home--benefits--title{
+    margin: 27px 0 52px 0;
+}
+
+.wrapper--home--benefits-benefit{
+    background-color: #0955a6;
+    margin-inline: 4px;
+    clip-path: polygon(44px 0, 100% 0, 100% 100%, 0 100%, 0 44px);
+    min-height: 112px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--home--benefits-benefit{
+    margin-top: -44px;
+    z-index: 2;
+}
+
+.paragraph--home--benefits-benefit{
+    line-height: 21.33px;
+    font-size: 18px;
+    font-family: Rubik;
+    color: #B0E3FF;
+    
+}

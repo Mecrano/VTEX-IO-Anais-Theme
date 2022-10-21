@@ -1,11 +1,12 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "list-context.image-list#first__banner"
+      "list-context.image-list#first__banner",
+      "flex-layout.row#benefits-container"
     ]
   },
-  "rich-text": { 
-    "props": { 
+  "rich-text": {
+    "props": {
       "text": "VTEX Store Framework",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -13,26 +14,97 @@
     }
   },
   "list-context.image-list#first__banner": {
-    "title": "Banner 1",
-    "children": [
-        "slider-layout#first__banner"
-    ],
+    "children": ["slider-layout#first__banner"],
     "props": {
-        "images": []
+      "images": [
+        {
+          "image": "assets/images/Home/Main-Banner-Home.jpg",
+          "mobileImage": "assets/images/Home/Main-Banner-Home-Mobile.jpg",
+          "description": "Banner Home",
+          "link": {
+            "url": "/banner"
+          }
+        },
+        {
+          "image": "assets/images/Home/Main-Banner-Home.jpg",
+          "mobileImage": "assets/images/Home/Main-Banner-Home-Mobile.jpg",
+          "description": "Banner Home",
+          "link": {
+            "url": "/banner"
+          }
+        }
+      ]
     }
   },
   "slider-layout#first__banner": {
     "title": "Banner",
     "props": {
-        "blockClass": [
-            "carousel__home",
-            "carousel__home-1"
-        ],
-        "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-        }
+      "blockClass": ["carousel__home", "carousel__home-1"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never"
     }
-  } 
+  },
+  "flex-layout.row#benefits-container": {
+    "children": ["rich-text#benefits-title", "flex-layout.row#benefits"],
+    "props": {
+      "blockClass": "home--benefits--container"
+    }
+  },
+  "rich-text#benefits-title": {
+    "props": {
+      "text": "Beneficios a suscriptores",
+      "blockClass": "home--benefits--title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.row#benefits": {
+    "children": [
+      "rich-text#benefit-1",
+      "rich-text#benefit-2",
+      "rich-text#benefit-3",
+      "rich-text#benefit-4"
+    ],
+    "props": {
+      "blockClass": "home--benefits--content",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#benefit-1": {
+    "props": {
+      "text": "Envío gratis en productos desde Q300",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit1"]
+    }
+  },
+  "rich-text#benefit-2": {
+    "props": {
+      "text": "Promosiones solo para suscriptores",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit2"]
+    }
+  },
+  "rich-text#benefit-3": {
+    "props": {
+      "text": "Tus compras siempre seguras",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit3"]
+    }
+  },
+  "rich-text#benefit-4": {
+    "props": {
+      "text": "los mejores precios y marcas siempre",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit4"]
+    }
+  }
 }
