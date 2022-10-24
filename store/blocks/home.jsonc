@@ -3,6 +3,17 @@
     "blocks": [
       "list-context.image-list#first__banner",
       "flex-layout.row#benefits-container",
+      "rich-text#ideal-products-title",
+      "flex-layout.row#ideal-products",
+      "flex-layout.row#shelf-title-container",
+      // shelf
+      "rich-text#brands-title",
+      "flex-layout.row#brands-container",
+      "flex-layout.row#shelf2-title-container",
+      // shelf,
+      "flex-layout.row#newsletter",
+      "rich-text#info-title",
+      "flex-layout.row#info-content",
       "rich-text",
       "rich-text",
       "rich-text",
@@ -72,10 +83,10 @@
   },
   "flex-layout.row#benefits": {
     "children": [
-      "rich-text#benefit-1",
-      "rich-text#benefit-2",
-      "rich-text#benefit-3",
-      "rich-text#benefit-4"
+      "flex-layout.row#benefit-1",
+      "flex-layout.row#benefit-2",
+      "flex-layout.row#benefit-3",
+      "flex-layout.row#benefit-4"
     ],
     "props": {
       "blockClass": "home--benefits--content",
@@ -112,6 +123,593 @@
       "textAlignment": "LEFT",
       "textPosition": "CENTER",
       "blockClass": ["home--benefits-benefit", "home--benefits-benefit4"]
+    }
+  },
+  "flex-layout.row#benefit-1": {
+    "children": [
+      "icon#benefit-1",
+      "rich-text#benefit-1"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-1"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-1": {
+    "props": {
+      "id": "bnf-truck",
+      "activeClassName": "vtex-bnf-icon vtex-icon-truck"
+    }
+  },
+  "flex-layout.row#benefit-2": {
+    "children": [
+      "icon#benefit-2",
+      "rich-text#benefit-2"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-2"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-2": {
+    "props": {
+      "id": "bnf-diamond",
+      "activeClassName": "vtex-bnf-icon vtex-icon-diamond"
+    }
+  },
+  "flex-layout.row#benefit-3": {
+    "children": [
+      "icon#benefit-3",
+      "rich-text#benefit-3"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-3"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-3": {
+    "props": {
+      "id": "bnf-check",
+      "activeClassName": "vtex-bnf-icon vtex-icon-check"
+    }
+  },
+  "flex-layout.row#benefit-4": {
+    "children": [
+      "icon#benefit-4",
+      "rich-text#benefit-4"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-4"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-4": {
+    "props": {
+      "id": "bnf-heart",
+      "activeClassName": "vtex-bnf-icon vtex-icon-heart"
+    }
+  },
+  "rich-text#ideal-products-title": {
+    "props": {
+      "text": "Encuentra tus porductos ideales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home--ideal-products--title"      
+    }
+  },
+  "flex-layout.row#ideal-products": {
+    "children": [
+      "info-card#ideal-products-1",
+      "info-card#ideal-products-2",
+      "info-card#ideal-products-3",
+      "info-card#ideal-products-4"
+    ],
+    "props": {
+      "blockClass": "home--ideal-products--content-container",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "info-card#ideal-products-2": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/training.jpg",
+      "headline": "",
+      "callToActionText": "Training",
+      "callToActionUrl": "/training",
+      "blockClass": ["home--ideal-products--infocard-1", "home--ideal-products--infocard"]
+    }
+  },
+  "info-card#ideal-products-3": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/futbol.jpg",
+      "headline": "",
+      "callToActionText": "Fútbol",
+      "callToActionUrl": "/running",
+      "blockClass": ["home--ideal-products--infocard-2", "home--ideal-products--infocard"]
+    }
+  },
+  "info-card#ideal-products-4": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/casual.jpg",
+      "headline": "",
+      "callToActionText": "Casual",
+      "callToActionUrl": "/casual",
+      "blockClass": ["home--ideal-products--infocard-3", "home--ideal-products--infocard"]
+    }
+  },
+  "info-card#ideal-products-1": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/Running.jpg",
+      "headline": "",
+      "callToActionText": "Running",
+      "callToActionUrl": "/running",
+      "blockClass": ["home--ideal-products--infocard-4", "home--ideal-products--infocard"]
+    }
+  },
+  "flex-layout.row#shelf-title-container": {
+    "children": [
+      "rich-text#shelf-title",
+      "rich-text#more-products",
+      "rich-text#more-products-mobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home--shelf--titles-container"
+    }
+  },
+  "flex-layout.row#shelf2-title-container": {
+    "children": [
+      "rich-text#shelf2-title",
+      "rich-text#more-products",
+      "rich-text#more-products-mobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home--shelf--titles-container"
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Lo más vendido",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#shelf2-title": {
+    "props": {
+      "text": "Lanzamientos exclusivos",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#more-products": {
+    "props": {
+      "text": "[Ver más productos](/tenis)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#more-products-mobile": {
+    "props": {
+      "text": "[Ver más](/tenis)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#brands-title": {
+    "props": {
+      "text": "Tus marcas favoritas en un solo lugar",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home--ideal-products--title", "home--brands--title"]      
+    }
+  },
+  "rich-text#info-title": {
+    "props": {
+      "text": "Información útil para tus compras",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home--ideal-products--title", "home--brands--title"]      
+    }
+  },
+  "flex-layout.row#brands-container": {
+    "children": [
+      "flex-layout.col#brand-1",
+      "flex-layout.col#brand-2",
+      "flex-layout.col#brand-3",
+      "flex-layout.col#brand-4",
+      "flex-layout.col#brand-5",
+      "flex-layout.col#brand-6"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home--brands--content-container"
+    }
+  },
+  "flex-layout.col#brand-1": {
+    "children": [
+      "image#brand-1-image-1",
+      "image#brand-1-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-1-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-1-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-adidas.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  "flex-layout.col#brand-2": {
+    "children": [
+      "image#brand-2-image-1",
+      "image#brand-2-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-2-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-2-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-new-balance.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  "flex-layout.col#brand-3": {
+    "children": [
+      "image#brand-3-image-1",
+      "image#brand-3-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-3-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-3-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-nike.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  "flex-layout.col#brand-4": {
+    "children": [
+      "image#brand-4-image-1",
+      "image#brand-4-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-4-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-4-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-reebok.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  "flex-layout.col#brand-5": {
+    "children": [
+      "image#brand-5-image-1",
+      "image#brand-5-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-5-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-5-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-puma.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  "flex-layout.col#brand-6": {
+    "children": [
+      "image#brand-6-image-1",
+      "image#brand-6-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-6-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-6-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-skechers.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  "rich-text#brand-see-more": {
+    "props": {
+      "text": "[Ver más](/adidas)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home--brands--see-more"      
+    }
+  },
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#newsletter",
+      "image#newsletter"
+    ],
+    "props": {
+      "blockClass": "home--newsletter--container"
+    }
+  },
+  "flex-layout.col#newsletter": {
+    "children": [
+      "rich-text#newsletter-title",
+      "newsletter-form"
+    ],
+    "props": {
+      
+    }
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "text": "**Newsletter** \n\n Regístrate para disfrutar de beneficios exclusivos en tu siguente compra y recibe las útimas noticas acerca de nuestros productos.",
+      "blockClass": "home--newsletter--text",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT"
+      
+    }
+  },
+  "image#newsletter": {
+    "props": {
+      "src": "assets/images/Home/newsletter.png",
+      "blockClass": "home--newsletter--image"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-checkbox-confirmation",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email":{
+    "props": {
+      "placeholderText": "Dirección de email"
+    }
+  },
+  "newsletter-input-name":{
+    "props": {
+      "placeholderText": "Nombre"
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props": {
+      "checkboxLabel": "Estoy de acuerdo en compartir mis datos personales solicitados, he leído la Política de privacidad al igual que los Términos y condiciones"
+    }
+  },
+  "newsletter-submit":{
+    "props": {
+      "submitButtonLabel": "Suscribirme"
+    }
+  },
+  "flex-layout.row#info-content": {
+    "children": [
+      "flex-layout.col#info-content-envios",
+      "flex-layout.col#info-content-tallas",
+      "flex-layout.col#info-content-catalogo"
+    ],
+    "props": {
+      "blockClass": "home--info--container",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#info-content-envios": {
+    "children": [
+      "flex-layout.row#title-icon1",
+      "rich-text#envios-paragraph",
+      "rich-text#envios-mas"
+    ],
+    "props": {
+      "blockClass": ["home--info--content", "home--info--envios"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#info-content-tallas": {
+    "children": [
+      "flex-layout.row#title-icon2",
+      "rich-text#tallas-paragraph",
+      "rich-text#tallas-mas"
+    ],
+    "props": {
+      "blockClass": ["home--info--content", "home--info--tallas"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#info-content-catalogo": {
+    "children": [
+      "flex-layout.row#title-icon3",
+      "rich-text#catalog-paragraph",
+      "rich-text#catalog-mas"
+    ],
+    "props": {
+      "blockClass": ["home--info--content", "home--info--catalog"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#title-icon1": {
+    "children": [
+      "rich-text#title-envios",
+      "icon#envios"
+    ],
+    "props": {
+      "blockClass": "home--info--title-icon",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#title-icon2": {
+    "children": [
+      "rich-text#title-tallas",
+      "icon#tallas"
+    ],
+    "props": {
+      "blockClass": "home--info--title-icon",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#title-icon3": {
+    "children": [
+      "rich-text#title-catalog",
+      "icon#catalog"
+    ],
+    "props": {
+      "blockClass": "home--info--title-icon",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#title-envios": {
+    "props": {
+      "text": "Envíos y devoluciones",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-title"
+    }
+  },
+  "rich-text#title-tallas": {
+    "props": {
+      "text": "Guía de tallas",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-title"
+    }
+  },
+  "rich-text#title-catalog": {
+    "props": {
+      "text": "Guía de tallas",
+      "textAlignment": "LEFT",
+      "textPosition":"LEFT" ,
+      "blockClass": "home--info--content-title"
+    }
+  },
+  "rich-text#envios-paragraph": {
+    "props": {
+      "text": "Conoce los tiempos de entregas, costos de envios y horarios de entregas.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-text"
+    }
+  },
+  "rich-text#tallas-paragraph": {
+    "props": {
+      "text": "Obtén una guía por marcas para pedir tus productos en la medida correcta.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-text"
+    }
+  },
+  "rich-text#catalog-paragraph": {
+    "props": {
+      "text": "Consigue nuestro catálogo de productos y explora nuestra variedad en marcas y artículos.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-text"
+    }
+  },
+  "rich-text#envios-mas": {
+    "props": {
+      "text": "[Leer más](/envios-y-devoluciones)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--info--content-more"
+    }
+  },
+  "rich-text#tallas-mas": {
+    "props": {
+      "text": "[Leer más](/guia-de-tallas)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--info--content-more"
+    }
+  },
+  "rich-text#catalog-mas": {
+    "props": {
+      "text": "[Leer más](/catalogo)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--info--content-more"
+    }
+  },
+  "icon#envios": {
+    "props": {
+      "id": "info-box",
+      "activeClassName": "vtex-bnf-icon vtex-icon-box"
+    }
+  },
+  "icon#tallas": {
+    "props": {
+      "id": "info-rule",
+      "activeClassName": "vtex-bnf-icon vtex-icon-rule"
+    }
+  },
+  "icon#catalog": {
+    "props": {
+      "id": "info-shoe",
+      "activeClassName": "vtex-bnf-icon vtex-icon-shoe"
     }
   }
 }

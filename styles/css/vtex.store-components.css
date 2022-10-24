@@ -1,9 +1,0 @@
-.imageElement--carousel__home-1{
-    max-height: unset !important;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--home--benefits--container) .container{
-    margin: 0 !important;
-    padding: 0 !important;
-    max-width: unset;
-}

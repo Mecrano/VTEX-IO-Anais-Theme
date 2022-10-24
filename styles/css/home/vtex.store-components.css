@@ -1,0 +1,149 @@
+.imageElement--carousel__home-1{
+    max-height: unset !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home--benefits--container) .container,
+:global(.vtex-flex-layout-0-x-flexRow--home--ideal-products--content-container) .container{
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: unset;
+}
+
+.infoCardTextContainer--home--ideal-products--infocard{
+    position: absolute;
+    bottom: 8px;
+    left: 0.25rem;
+    width: 50%;
+}
+
+.infoCardTextContainer--home--ideal-products--infocard-4{
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+}
+
+.infoCardContainer--home--ideal-products--infocard{
+    position: relative;
+    background-color: transparent;
+}
+
+.infoCardImageContainer--home--ideal-products--infocard{
+    width: 100%;
+}
+
+.infoCardContainer--home--ideal-products--infocard-3{
+    padding-right: 0;
+}
+
+.infoCardContainer--home--ideal-products--infocard-4{
+    padding-left: 0;
+}
+
+.infoCardCallActionContainer--home--ideal-products--infocard{
+    margin: 0;
+    width: 100%;
+}
+
+.infoCardTextContainer--home--ideal-products--infocard{
+    padding: 0;
+}
+
+.infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label){
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-block: 18px !important;
+}
+
+.infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button){
+    background-color: black;
+    border: black;
+    width: 100%;
+}
+
+.infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label)::after{
+    content: " ";
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIwIDAgMTUgMTQiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZTpyZ2IoMTAwJSwxMDAlLDEwMCUpO3N0cm9rZS1vcGFjaXR5OjE7c3Ryb2tlLW1pdGVybGltaXQ6NDsiIGQ9Ik0gMTEuODQ1MzEyIDEuMzY3NzQ2IEwgMTkuOTgyODEyIDkuNSBMIDExLjg0NTMxMiAxNy42MzIyNTQgIiB0cmFuc2Zvcm09Im1hdHJpeCgwLjcxNDI4NiwwLDAsMC43MzY4NDIsMCwwKSIvPgo8cGF0aCBzdHlsZT0iZmlsbDpub25lO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2U6cmdiKDEwMCUsMTAwJSwxMDAlKTtzdHJva2Utb3BhY2l0eToxO3N0cm9rZS1taXRlcmxpbWl0OjQ7IiBkPSJNIDEuMDAwNzgxIDkuNSBMIDE5Ljk4MjgxMiA5LjUgIiB0cmFuc2Zvcm09Im1hdHJpeCgwLjcxNDI4NiwwLDAsMC43MzY4NDIsMCwwKSIvPgo8L2c+Cjwvc3ZnPgo=");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home--shelf--titles-container) .container{
+    max-width: 87%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home--brands--content-container) .container{
+    max-width: 98%;
+}
+
+.imageElement--home--brands--images{
+    padding-top: 15px;
+    width: 95%;
+}
+
+.infoCardImage--home--ideal-products--infocard{
+    width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--home--newsletter--container) .container,
+:global(.vtex-flex-layout-0-x-flexRow--home--info--container) .container{
+    max-width: 92%;
+}
+
+@media (max-width: 1400px){
+    .infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label){
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1024px){
+    .infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label){
+        font-size: 23px;
+    }
+
+    .infoCardContainer--home--ideal-products--infocard{
+        min-width: 40vw;
+    }
+
+    .infoCardContainer--home--ideal-products--infocard{
+        min-width: 30vw;
+    }
+}
+
+@media (max-width: 768px){
+    .infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label){
+        font-size: 23px;
+    }
+
+    .infoCardContainer--home--ideal-products--infocard{
+        width: 80vw !important;
+        padding: 0.25rem;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--home--brands--content-container) .container{
+        max-width: unset;
+        width: max-content;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRow--home--info--container) .container{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px){
+    .infoCardTextContainer--home--ideal-products--infocard{
+        width: 65%;
+    }
+}
