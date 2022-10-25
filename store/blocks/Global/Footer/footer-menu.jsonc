@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer-1-categories-column-1": {
+    "props": { "blockClass": "footer-1-categories" },
     "children": ["flex-layout.col#footer-1-categories-column-1"]
   },
   "flex-layout.col#footer-1-categories-column-1": {
@@ -22,24 +23,25 @@
   },
   "menu#footer_main-menu": {
     "props": {
-      "experimentalOptimizeRendering": true,
-      "blockClass": "header_menu"
+      //"experimentalOptimizeRendering": true,
+      "blockClass": "footer_menu"
     },
     "children": [
-      "menu-item#header_category-hombre",
-      "menu-item#header_category-mujer",
-      "menu-item#header_category-ninos",
-      "menu-item#header_category-deportes",
-      "menu-item#header_category-colecciones",
-      "menu-item#header_category-promociones"
+      "menu-item#footer_category-hombre",
+      "menu-item#footer_category-mujer",
+      "menu-item#footer_category-ninos",
+      "menu-item#footer_category-deportes",
+      "menu-item#footer_category-colecciones",
+      "menu-item#footer_category-promociones",
+      "menu-item#footer_category-hisotrias"
     ]
   },
-  "menu-item#header_category-hombre": {
+  "menu-item#footer_category-hombre": {
     "props": {
-      "id": "menu-item-category-hombre",
+      "id": "menu-item-category-footer-hombre",
       "type": "custom",
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
         "href": "/hombre/",
@@ -49,12 +51,12 @@
       }
     }
   },
-  "menu-item#header_category-mujer": {
+  "menu-item#footer_category-mujer": {
     "props": {
-      "id": "menu-item-category-mujer",
+      "id": "menu-item-category-footer-mujer",
       "type": "custom",
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
         "href": "/mujer/",
@@ -64,12 +66,12 @@
       }
     }
   },
-  "menu-item#header_category-ninos": {
+  "menu-item#footer_category-ninos": {
     "props": {
-      "id": "menu-item-category-ninos",
+      "id": "menu-item-category-footer-ninos",
       "type": "custom",
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
         "href": "/ninos/",
@@ -79,12 +81,12 @@
       }
     }
   },
-  "menu-item#header_category-deportes": {
+  "menu-item#footer_category-deportes": {
     "props": {
-      "id": "menu-item-category-deportes",
+      "id": "menu-item-category-footer-deportes",
       "type": "custom",
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
         "href": "/deportes/",
@@ -94,12 +96,12 @@
       }
     }
   },
-  "menu-item#header_category-colecciones": {
+  "menu-item#footer_category-colecciones": {
     "props": {
-      "id": "menu-item-category-colecciones",
+      "id": "menu-item-category-footer-colecciones",
       "type": "custom",
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
         "href": "/colecciones/",
@@ -109,18 +111,33 @@
       }
     }
   },
-  "menu-item#header_category-promociones": {
+  "menu-item#footer_category-promociones": {
     "props": {
-      "id": "menu-item-category-promociones",
+      "id": "menu-item-category-footer-promociones",
       "type": "custom",
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
         "href": "/promociones/",
         "noFollow": false,
         "tagTitle": "Promociones",
         "text": "Promociones"
+      }
+    }
+  },
+  "menu-item#footer_category-hisotrias": {
+    "props": {
+      "id": "menu-item-category-footer-historias",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "root-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/historias/",
+        "noFollow": false,
+        "tagTitle": "Historias",
+        "text": "Historias"
       }
     }
   }

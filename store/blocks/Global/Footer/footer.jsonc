@@ -40,25 +40,148 @@
     }
   },
 
-  /* ******************* */
+  /* ********Colum 2*********** */
   "flex-layout.col#footer-1-column-2": {
-    "props": { "blockClass": "container-footer-1-column-2", "width": "50%" },
-    "children": []
+    "props": {
+      "blockClass": "container-footer-1-column-2",
+      "width": "50%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#footer-1-header-column-2",
+      "flex-layout.row#footer-1-information-column-2"
+    ]
   },
 
-  /* ******************************** */
+  "flex-layout.row#footer-1-header-column-2": {
+    "children": ["flex-layout.col#footer-1-column-2-headerTitle"]
+  },
+  "flex-layout.col#footer-1-column-2-headerTitle": {
+    "children": [
+      "rich-text#footer-1-column-2a-headerTitle",
+      "rich-text#footer-1-column-2b-headerTitle"
+    ]
+  },
+  "rich-text#footer-1-column-2a-headerTitle": {
+    "props": {
+      "text": "Horarios de atención",
+      "blockClass": "footer-1-column-2a-headerTitle"
+    }
+  },
+  "rich-text#footer-1-column-2b-headerTitle": {
+    "props": {
+      "text": "8:00-20:00 CT | 7 Días a la semana",
+      "blockClass": "footer-1-column-2b-headerTitle"
+    }
+  },
+  /* ************Footer row 2******************** */
 
   "flex-layout.row#footer-2": {
     "props": { "blockClass": "container-footer-2", "fullWidth": true },
-    "children": ["rich-text#text-footer2"]
+    "children": [
+      "flex-layout.col#footer-2-column-1",
+      "flex-layout.col#footer-2-column-2"
+    ]
   },
-  "rich-text#text-footer2": {
+  "flex-layout.col#footer-2-column-1": {
+    "children": ["flex-layout.row#footer-2-column-1"]
+  },
+  "flex-layout.col#footer-2-column-2": {
+    "props": { "horizontalAlign": "rigth" },
+    "children": ["flex-layout.row#footer-2-column-2"]
+  },
+  "flex-layout.row#footer-2-column-1": {
+    "props": { "colSizing": "auto", "horizontalAlign": "left" },
+    "children": [
+      "rich-text#title-text-footer-2-column1",
+      "flex-layout.col#brands-footer-2",
+      "flex-layout.col#payments-footer-2"
+    ]
+  },
+  "flex-layout.row#footer-2-column-2": {
+    "props": { "colSizing": "auto", "horizontalAlign": "right" },
+    "children": [
+      "rich-text#title-text-footer-2-column1",
+      "flex-layout.col#brands-footer-2"
+    ]
+  },
+  "rich-text#title-text-footer-2-column1": {
     "props": {
       "text": "Medios de pago",
       "blockClass": "text-footer2"
     }
   },
-
+  "flex-layout.col#brands-footer-2": {
+    "props": { "verticalAlign": "middle" },
+    "children": ["flex-layout.row#brands-footer-2"]
+  },
+  "flex-layout.row#brands-footer-2": {
+    "children": [
+      "logo#brand-1-footer-2",
+      "logo#brand-2-footer-2",
+      "logo#brand-3-footer-2"
+    ]
+  },
+  "logo#brand-1-footer-2": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/footer_brand.png",
+      "width": 70,
+      "mobileWidth": 17
+    }
+  },
+  "logo#brand-2-footer-2": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/footer_brand.png",
+      "width": 70,
+      "mobileWidth": 17
+    }
+  },
+  "logo#brand-3-footer-2": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/footer_brand.png",
+      "width": 70,
+      "mobileWidth": 17
+    }
+  },
+  "flex-layout.col#payments-footer-2": {
+    "children": ["flex-layout.row#payments-texts-footer-2"]
+  },
+  "flex-layout.row#payments-texts-footer-2": {
+    "children": [
+      "flex-layout.col#payments-texts-1-footer-2",
+      "flex-layout.col#payments-texts-2-footer-2",
+      "flex-layout.col#payments-texts-3-footer-2"
+    ]
+  },
+  "flex-layout.col#payments-texts-1-footer-2": {
+    "props": { "blockClass": "col-payments-texts-footer" },
+    "children": ["rich-text#payments-text-footer-2"]
+  },
+  "flex-layout.col#payments-texts-2-footer-2": {
+    "props": { "blockClass": "col-payments-texts-footer" },
+    "children": ["rich-text#payments-text-footer-2"]
+  },
+  "flex-layout.col#payments-texts-3-footer-2": {
+    "props": { "blockClass": "col-payments-texts-footer" },
+    "children": ["rich-text#payments-text-footer-2"]
+  },
+  "rich-text#payments-text-footer-2": {
+    "props": {
+      "blockClass": "payments-text-footer-2",
+      "text": "Trajetas de crédito o débito"
+    }
+  },
+  /* +++++++++++++++++++ */
   "footer-layout.mobile": {
     "children": []
   }

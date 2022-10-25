@@ -13,23 +13,8 @@
       // shelf,
       "flex-layout.row#newsletter",
       "rich-text#info-title",
-      "flex-layout.row#info-content",
-      "rich-text",
-      "rich-text",
-      "rich-text",
-      "rich-text",
-      "rich-text",
-      "rich-text",
-      "rich-text"
+      "flex-layout.row#info-content"
     ]
-  },
-  "rich-text": {
-    "props": {
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "test"
-    }
   },
   "list-context.image-list#first__banner": {
     "children": ["slider-layout#first__banner"],
@@ -194,7 +179,7 @@
       "text": "Encuentra tus porductos ideales",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "home--ideal-products--title"      
+      "blockClass": "home--ideal-products--title"
     }
   },
   "flex-layout.row#ideal-products": {
@@ -316,7 +301,7 @@
       "text": "Tus marcas favoritas en un solo lugar",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["home--ideal-products--title", "home--brands--title"]      
+      "blockClass": ["home--ideal-products--title", "home--brands--title"]
     }
   },
   "rich-text#info-title": {
@@ -324,7 +309,7 @@
       "text": "Información útil para tus compras",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["home--ideal-products--title", "home--brands--title"]      
+      "blockClass": ["home--ideal-products--title", "home--brands--title"]
     }
   },
   "flex-layout.row#brands-container": {
@@ -484,7 +469,7 @@
       "text": "[Ver más](/adidas)",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "home--brands--see-more"      
+      "blockClass": "home--brands--see-more"
     }
   },
   "flex-layout.row#newsletter": {
@@ -502,7 +487,7 @@
       "newsletter-form"
     ],
     "props": {
-      
+
     }
   },
   "rich-text#newsletter-title": {
@@ -511,7 +496,7 @@
       "blockClass": "home--newsletter--text",
       "textPosition": "CENTER",
       "textAlignment": "LEFT"
-      
+
     }
   },
   "image#newsletter": {

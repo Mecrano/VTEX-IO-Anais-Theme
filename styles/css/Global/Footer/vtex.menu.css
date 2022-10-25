@@ -1,0 +1,13 @@
+.menuContainer--footer_menu {
+  justify-content: space-between;
+}
+
+.styledLinkContainer--root-footer {
+  margin: 0;
+  padding: 0;
+}
+
+.menuContainer--footer_menu .styledLink--root-footer {
+  font-size: 18px;
+  color: #fff;
+}

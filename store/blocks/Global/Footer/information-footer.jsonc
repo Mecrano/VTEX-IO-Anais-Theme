@@ -1,0 +1,64 @@
+{
+  "flex-layout.row#footer-1-information-column-2": {
+    "props": {"blockClass":"container-footer-1-information", "fullWidth": true },
+    "children": ["flex-layout.col#footer-1-information-column-2"]
+  },
+  "flex-layout.col#footer-1-information-column-2": {
+    "props": { "width": "100%" },
+    "children": [
+      "flex-layout.row#footer-1-information-frequent-questions",
+      "flex-layout.row#footer-1-information-shipping-returns",
+      "flex-layout.row#footer-1-information-terms-conditions",
+      "flex-layout.row#footer-1-information-privacy-policies"
+    ]
+  },
+  "flex-layout.row#footer-1-information-frequent-questions": {
+    "props": {
+      "blockClass": "container-row-footer-information",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": ["link#information-footer", "logo#arrow-information-footer"]
+  },
+  "flex-layout.row#footer-1-information-shipping-returns": {
+    "props": {
+      "blockClass": "container-row-footer-information",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": ["link#information-footer", "logo#arrow-information-footer"]
+  },
+  "flex-layout.row#footer-1-information-terms-conditions": {
+    "props": {
+      "blockClass": "container-row-footer-information",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": ["link#information-footer", "logo#arrow-information-footer"]
+  },
+  "flex-layout.row#footer-1-information-privacy-policies": {
+    "props": {
+      "blockClass": "container-row-footer-information",
+      "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": ["link#information-footer", "logo#arrow-information-footer"]
+  },
+  "link#information-footer": {
+    "props": {
+      "blockClass": "link-information-footer",
+      "href": "/",
+      "label": "Preguntas Frecuentes"
+    }
+  },
+  "logo#arrow-information-footer": {
+    "props": {
+      "blockClass": "logoArrow-information-footer",
+      "title": "SocialNetwork",
+      "href": "/",
+      "url": "assets/images/footer/footer_information_arrow.png",
+      "width": 7,
+      "mobileWidth": 7
+    }
+  }
+}

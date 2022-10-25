@@ -21,3 +21,22 @@
   font-weight: 400;
   font-size: 24px;
 }
+
+.paragraph--footer-1-column-2a-headerTitle {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+.paragraph--footer-1-column-2b-headerTitle {
+  color: #fff;
+  margin: 0;
+  font-weight: 300;
+}
+
+.paragraph--payments-text-footer-2 {
+  border-left: 1px solid #727272;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 10px;
+}
