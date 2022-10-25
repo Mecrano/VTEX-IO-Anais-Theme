@@ -113,10 +113,11 @@
     }
   },
   "flex-layout.col#brands-footer-2": {
-    "props": { "verticalAlign": "middle" },
+    "props": { "horizontalAlign": "center", "verticalAlign": "middle" },
     "children": ["flex-layout.row#brands-footer-2"]
   },
   "flex-layout.row#brands-footer-2": {
+    "props": { "preserveLayoutOnMobile": true },
     "children": [
       "logo#brand-1-footer-2",
       "logo#brand-2-footer-2",
@@ -130,7 +131,7 @@
       "href": "/",
       "url": "assets/images/footer/footer_brand.png",
       "width": 70,
-      "mobileWidth": 17
+      "mobileWidth": 70
     }
   },
   "logo#brand-2-footer-2": {
@@ -140,7 +141,7 @@
       "href": "/",
       "url": "assets/images/footer/footer_brand.png",
       "width": 70,
-      "mobileWidth": 17
+      "mobileWidth": 70
     }
   },
   "logo#brand-3-footer-2": {
@@ -150,13 +151,18 @@
       "href": "/",
       "url": "assets/images/footer/footer_brand.png",
       "width": 70,
-      "mobileWidth": 17
+      "mobileWidth": 70
     }
   },
   "flex-layout.col#payments-footer-2": {
     "children": ["flex-layout.row#payments-texts-footer-2"]
   },
   "flex-layout.row#payments-texts-footer-2": {
+    "props": {
+      "blockClass": "payments-texts-footer-2",
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true
+    },
     "children": [
       "flex-layout.col#payments-texts-1-footer-2",
       "flex-layout.col#payments-texts-2-footer-2",
@@ -183,6 +189,6 @@
   },
   /* +++++++++++++++++++ */
   "footer-layout.mobile": {
-    "children": []
+    "children": ["flex-layout.row#footer-1", "flex-layout.row#footer-2"]
   }
 }

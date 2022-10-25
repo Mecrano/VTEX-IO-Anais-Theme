@@ -12,7 +12,8 @@
   },
   "flex-layout.row#footer-1-social-network-email": {
     "props": {
-      "blockClass": "container-row-social-networl-footer"
+      "blockClass": "container-row-social-networl-footer",
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#footer-1-social-network-column-1",
@@ -21,7 +22,8 @@
   },
   "flex-layout.row#footer-1-social-network-whatsapp": {
     "props": {
-      "blockClass": "container-row-social-networl-footer"
+      "blockClass": "container-row-social-networl-footer",
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#footer-1-social-network-column-1",
@@ -30,7 +32,8 @@
   },
   "flex-layout.row#footer-1-social-network-facebook": {
     "props": {
-      "blockClass": "container-row-social-networl-footer"
+      "blockClass": "container-row-social-networl-footer",
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#footer-1-social-network-column-1",
@@ -39,7 +42,8 @@
   },
   "flex-layout.row#footer-1-social-network-instagram": {
     "props": {
-      "blockClass": "container-row-social-networl-footer"
+      "blockClass": "container-row-social-networl-footer",
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#footer-1-social-network-column-1",
@@ -54,11 +58,17 @@
     "children": ["flex-layout.row#footer-1-social-network-row2"]
   },
   "flex-layout.row#footer-1-social-network-row1": {
-    "props": { "blockClass": "footer-1-social-network-row1" },
+    "props": {
+      "blockClass": "footer-1-social-network-row1",
+      "preserveLayoutOnMobile": true
+    },
     "children": ["logo#social-network-footer", "link#social-network-footer"]
   },
   "flex-layout.row#footer-1-social-network-row2": {
-    "props": { "blockClass": "footer-1-social-network-row2" },
+    "props": {
+      "blockClass": "footer-1-social-network-row2",
+      "preserveLayoutOnMobile": true
+    },
     "children": [
       "rich-text#text-social-network-footer",
       "logo#arrow-social-network-footer"

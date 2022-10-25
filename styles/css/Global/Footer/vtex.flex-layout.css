@@ -44,5 +44,25 @@
 }
 
 .flexCol--col-payments-texts-footer {
-  width: 120px;
+  width: 120px !important;
+}
+
+@media (max-width: 1024px) {
+  .flexCol--container-footer-1-column-1{
+    padding: 0 20px;
+  }
+
+  .flexRowContent--container-footer-2 {
+    padding: 20px 0 0 !important;
+  }
+
+  .flexRowContent--payments-texts-footer-2 {
+    border-top: 1px solid #2D2D2D;
+    border-bottom: 1px solid #2D2D2D;
+  }
+
+  .flexCol--container-footer-1-column-2 {
+    padding: 25px 0;
+  }
+
 }

@@ -40,3 +40,23 @@
   font-size: 13px;
   padding-left: 10px;
 }
+
+@media (max-width: 1024px) {
+  .wrapper--text-footer2 {
+    width: 100%;
+  }
+
+  .paragraph--text-footer2 {
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .paragraph--payments-text-footer-2{
+    font-size: 14px;
+  }
+
+  .paragraph--footer-1-column-2a-headerTitle{
+    font-size: 20px;
+  }
+}

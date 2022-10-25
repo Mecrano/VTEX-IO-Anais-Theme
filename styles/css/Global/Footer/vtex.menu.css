@@ -11,3 +11,11 @@
   font-size: 18px;
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .menuContainer--footer_menu {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 15px;
+  }
+}

@@ -16,7 +16,8 @@
     "props": {
       "blockClass": "container-row-footer-information",
       "fullWidth": true,
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
     },
     "children": ["link#information-footer", "logo#arrow-information-footer"]
   },
@@ -24,7 +25,8 @@
     "props": {
       "blockClass": "container-row-footer-information",
       "fullWidth": true,
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
     },
     "children": ["link#information-footer", "logo#arrow-information-footer"]
   },
@@ -32,7 +34,8 @@
     "props": {
       "blockClass": "container-row-footer-information",
       "fullWidth": true,
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
     },
     "children": ["link#information-footer", "logo#arrow-information-footer"]
   },
@@ -40,7 +43,8 @@
     "props": {
       "blockClass": "container-row-footer-information",
       "fullWidth": true,
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
     },
     "children": ["link#information-footer", "logo#arrow-information-footer"]
   },
