@@ -64,6 +64,10 @@
     <g id="info-shoe">
       <path style="fill:none;stroke-width:3.64439;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:10;" d="M 1.996094 28.712674 L 1.996094 8.207465 L 7.205078 8.207465 L 12.25 13.253038 L 22.667969 3.000434 L 53.416016 18.460069 L 53.416016 28.712674 L 7.205078 28.712674 L 12.25 21.648872 L 46.197266 21.648872 " transform="matrix(0.285714,0,0,0.290323,0,0)"/>
       <path style="fill:none;stroke-width:3.64439;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:10;" d="M 27.712891 5.516493 L 27.712891 13.253038 " transform="matrix(0.285714,0,0,0.290323,0,0)"/>
+    <g id="hpa-hamburguer-menu">
+      <path style="fill:none;stroke-width:1.80384;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 0.270996 1.039844 L 36.792236 1.039844 " transform="matrix(0.432432,0,0,0.454545,0,0)"/>
+      <path style="fill:none;stroke-width:1.80384;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 0.270996 10.957031 L 36.792236 10.957031 " transform="matrix(0.432432,0,0,0.454545,0,0)"/>
+      <path style="fill:none;stroke-width:1.80384;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 11.192139 20.882812 L 36.792236 20.882812 " transform="matrix(0.432432,0,0,0.454545,0,0)"/>
     </g>
   </defs>
 </svg>

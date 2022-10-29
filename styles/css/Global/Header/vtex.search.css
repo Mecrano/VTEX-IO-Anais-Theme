@@ -1,0 +1,87 @@
+.biggy-autocomplete {
+  background: black;
+  color: white;
+  border-radius: 4px;
+  padding: 0 20px;
+}
+
+.itemListTitle,
+.itemListPrefix,
+.itemListIcon,
+.itemListLinkTitle,
+.itemListSubItemLink,
+.tileListTitle,
+.tileListSeeMore {
+  color: white;
+}
+
+.itemListTitle,
+.tileListTitle {
+  font-size: 1.2rem;
+}
+
+.tileList {
+  border: none;
+}
+
+.itemList--suggestion,
+.tileListTitle,
+.itemListTitle,
+.itemListPrefix {
+  display: none;
+}
+
+.itemListItem .itemListLink:hover,
+.tileListItem:hover {
+  background: var(--primary-blue);
+}
+
+.itemListItem .itemListLink {
+  padding: 15px !important;
+  height: auto !important;
+  line-height: initial !important;
+  font-size: 1rem !important;
+  text-transform: capitalize;
+  border-bottom: 1px solid #444444;
+}
+
+.itemList--top-search {
+  margin: 20px 0;
+}
+
+.biggy-autocomplete :global(.vtex-product-summary-2-x-container) {
+  max-width: none !important;
+}
+
+.biggy-autocomplete :global(.vtex-product-summary-2-x-element) {
+  padding: 0;
+}
+
+.biggy-autocomplete :global(.vtex-product-summary-2-x-nameContainer) {
+  text-align: left;
+  justify-content: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #444444;
+}
+
+.biggy-autocomplete :global(.vtex-product-summary-2-x-clearLink) {
+  text-decoration: none;
+}
+
+.biggy-autocomplete
+  :global(.vtex-product-summary-2-x-nameContainer)
+  :global(.vtex-product-summary-2-x-productBrand) {
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .biggy-autocomplete {
+    padding: 0;
+    left: 20px;
+    right: 20px;
+    width: auto;
+    max-height: none !important;
+    opacity: 1 !important;
+  }
+}

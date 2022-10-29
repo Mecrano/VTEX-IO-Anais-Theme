@@ -1,0 +1,61 @@
+.openIconContainer--header_drawer {
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuIcon--header_drawer {
+  width: 24px;
+  height: 24px;
+}
+
+.drawer--header_drawer {
+  background-color: black;
+  color: white;
+}
+
+.closeIconContainer--header_drawer {
+  justify-content: flex-end;
+}
+
+.closeIconButton--header_drawer {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.closeIconButton--header_drawer::after {
+  content: "Cerrar";
+  display: block;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.childrenContainer--header_drawer
+  :global(.vtex-flex-layout-0-x-flexRow--header_menu-container) {
+  width: 100%;
+}
+
+.childrenContainer--header_drawer :global(.vtex-login-2-x-container) {
+  margin: 20px;
+  justify-content: center;
+}
+
+.childrenContainer--header_drawer
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-button) {
+  min-width: 200px;
+  background-color: var(--primary-red);
+  border-radius: 30px;
+}
+
+.childrenContainer--header_drawer
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-login-2-x-label),
+.childrenContainer--header_drawer
+  :global(.vtex-login-2-x-container)
+  :global(.vtex-login-2-x-profile) {
+  display: block;
+  color: white;
+}

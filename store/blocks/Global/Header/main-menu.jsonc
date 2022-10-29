@@ -114,9 +114,9 @@
     "props": {
       "width": "100%"
     },
-    "children": ["flex-layout.row#header_menu-content"]
+    "children": ["flex-layout.row#header-menu-content"]
   },
-  "flex-layout.row#header_menu-content": {
+  "flex-layout.row#header-menu-content": {
     "props": {
       "fullWidth": true,
       "horizontalAlign": "between",
@@ -124,14 +124,14 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#header_menu-content-menu-1",
+      "flex-layout.col#header-menu-content-menu-1",
       "flex-layout.col#header_menu-content-menu-2",
       "flex-layout.col#header_menu-content-menu-3",
       "flex-layout.col#header_menu-content-menu-4",
       "flex-layout.col#header_menu-content-menu-5"
     ]
   },
-  "flex-layout.col#header_menu-content-menu-1": {
+  "flex-layout.col#header-menu-content-menu-1": {
     "props": {
       "rowGap": 5
     },
