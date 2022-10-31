@@ -82,7 +82,7 @@
 }
 
 @media (max-width: 1000px) {
-  .flexRowContent--container-header .logoLink {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-header) .logoLink {
     padding: 0;
   }
 

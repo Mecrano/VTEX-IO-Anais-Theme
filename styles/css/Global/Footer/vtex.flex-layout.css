@@ -47,6 +47,14 @@
   width: 120px !important;
 }
 
+.flexRowContent--container-footer-2 .flexRowContent {
+  align-items: center;
+}
+
+.flexRow--footer-2-column-2, .flexRowContent--footer-2-column-2 {
+  height: 100% !important;
+}
+
 @media (max-width: 1024px) {
   .flexCol--container-footer-1-column-1 {
     padding: 0 20px;

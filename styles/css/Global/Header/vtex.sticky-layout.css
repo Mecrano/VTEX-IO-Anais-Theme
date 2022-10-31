@@ -26,4 +26,8 @@
   .container--sticky-header :global(.vtex-flex-layout-0-x-flexRow--container-header) {
     padding: 12px 0;
   }
+
+  .flexRowContent--container-header {
+    align-items: center;
+  }
 }
