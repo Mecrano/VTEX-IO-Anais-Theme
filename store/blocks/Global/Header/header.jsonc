@@ -25,7 +25,8 @@
       "flex-layout.col#header_logo",
       "menu#header_main-menu",
       "search-bar#desktop",
-      "flex-layout.col#header_cart-profile"
+      "flex-layout.col#header_cart-profile",
+      "custom-styles"
     ]
   },
 
@@ -96,7 +97,8 @@
   "flex-layout.row#mobile": {
     "children": [
       "flex-layout.col#header_logo",
-      "flex-layout.col#header_mobile-right"
+      "flex-layout.col#header_mobile-right",
+      "custom-styles"
     ],
     "props": {
       "blockClass": "container-header",
