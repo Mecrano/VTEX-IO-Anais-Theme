@@ -1,0 +1,112 @@
+:global(.vtex-my-account-1-x-menuLinks) :global(.vtex-account_menu-link),
+:global(.vtex-my-account-1-x-menuLink){
+    color: #000;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) div :global(.c-on-base){
+    color: #fff !important;
+    background-color: #000 !important;
+    border: none;
+    clip-path: polygon(90% 0%, 100% 22px, 100% 100%, 0 100%, 0 0);
+}
+
+:global(.vtex-account) > div {
+    max-width: unset;
+    background-color: #ededed;
+    padding: 0;
+}
+
+:global(.vtex-account__page),
+:global(.vtex-account) > div > div{
+    width: 78.8%;
+}
+
+:global(.vtex-pageHeader__container),
+:global(.vtex-account__page-body){
+    padding-inline: 3vw
+}
+
+:global(.vtex-input-prefix__group) input,
+:global(.vtex-my-authentication-1-x-box_container){
+    border: 2px solid #C5C5C5;
+}
+
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper){
+    margin-bottom: 1rem;
+}
+
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button){
+    color: #004793;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #004793;
+    background-color: #fff;
+    padding-block: 2px;
+    text-transform: none;
+}
+
+:global(.vtex-pageHeader-link__container) div{
+    color: #000;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button):hover{
+    background-color: transparent;
+    color: #004793;
+}
+
+:global(.vtex-address-form__addressQuery) :global(.vtex-address-form-4-x-input){
+    border: none;
+}
+
+:global(.vtex-my-authentication-1-x-authenticationScreen_container){
+    padding: 0;
+}
+
+:global(.vtex-my-authentication-1-x-box_footer){
+    padding-inline: 1.5rem;
+}
+
+:global(.vtex_my-authentication_box_content),
+:global(.vtex-my-authentication-1-x-box_footer){
+    background-color: #fff;
+}
+
+:global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button){
+    background: transparent;
+    border: 1px solid #004793;
+    color: #004793;
+    transition: all 0.3s;
+}
+
+:global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button):hover{
+    background: #004793;
+    border: 1px solid #004793;
+    color: #fff;
+}
+
+:global(.vtex-my-authentication-1-x-loginSessionsBox_title),
+:global(.vtex-my-authentication-1-x-maskedPassword_title){
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+:global(.pac-container){
+    border: none !important;
+    box-shadow: none !important;
+}
