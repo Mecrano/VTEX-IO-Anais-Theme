@@ -82,7 +82,7 @@
 }
 
 @media (max-width: 1000px) {
-  .logoLink {
+  .flexRowContent--container-header .logoLink {
     padding: 0;
   }
 

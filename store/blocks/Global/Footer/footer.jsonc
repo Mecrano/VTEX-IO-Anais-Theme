@@ -27,7 +27,7 @@
     ]
   },
   "flex-layout.col#footer-1-column-1a-headerLogo": {
-    "props": { "horizontalAlign": "right", "width": "20%" },
+    "props": {"blockClass":"footer-1-column-1a-headerLogo", "horizontalAlign": "right", "verticalAlign": "middle", "width": "20%" },
     "children": ["logo"]
   },
   "flex-layout.col#footer-1-column-1a-headerTitle": {
