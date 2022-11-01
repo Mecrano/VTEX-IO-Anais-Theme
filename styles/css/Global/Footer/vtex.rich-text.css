@@ -52,11 +52,23 @@
     font-size: 12px;
   }
 
-  .paragraph--payments-text-footer-2{
+  .paragraph--payments-text-footer-2 {
     font-size: 14px;
   }
 
-  .paragraph--footer-1-column-2a-headerTitle{
+  .paragraph--footer-1-column-2a-headerTitle {
     font-size: 20px;
+  }
+
+  .link--text-social-network-footer,
+  :global(.vtex-store-link-0-x-link--link-information-footer) {
+    padding-right: 15px !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .container--footer-1-column-1a-headerTitle .paragraph--footer-1-column-1a-headerTitle {
+    border-left: none;
+    padding-left: 0px;
   }
 }
