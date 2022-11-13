@@ -27,7 +27,7 @@
     ]
   },
   "flex-layout.col#footer-1-column-1a-headerLogo": {
-    "props": { "horizontalAlign": "right", "width": "20%" },
+    "props": {"blockClass":"footer-1-column-1a-headerLogo", "horizontalAlign": "right", "verticalAlign": "middle", "width": "20%" },
     "children": ["logo"]
   },
   "flex-layout.col#footer-1-column-1a-headerTitle": {
@@ -100,7 +100,7 @@
     ]
   },
   "flex-layout.row#footer-2-column-2": {
-    "props": { "colSizing": "auto", "horizontalAlign": "right" },
+    "props": {"blockClass":"footer-2-column-2", "colSizing": "auto", "horizontalAlign": "right" },
     "children": [
       "rich-text#title-text-footer-2-column1",
       "flex-layout.col#brands-footer-2"

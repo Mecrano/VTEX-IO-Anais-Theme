@@ -10,3 +10,13 @@
   font-size: 18px;
   text-decoration: none;
 }
+
+@media (max-width: 639px) {
+  .label--link-social-network-footer {
+    font-size: 18px;
+  }
+
+  .link--link-information-footer {
+    font-size: 14px;
+  }
+}

@@ -5,7 +5,8 @@
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
-    "store": "0.x"
+    "store": "0.x",
+    "react": "3.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
