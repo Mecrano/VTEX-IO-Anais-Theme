@@ -1,0 +1,73 @@
+div#shipping-data {
+  i.icon-home {
+    display: none;
+  }
+
+  .accordion-heading .accordion-toggle {
+    font-size: 0;
+
+    &::before {
+      content: '2.- Dirección de envío';
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #000000;
+    }
+  }
+
+  .vtex-omnishipping-1-x-deliveryChannelsToggle {
+    background: #004793;
+    border: solid 1px #004793;
+  }
+
+  .vtex-omnishipping-1-x-geolocation,
+  .vtex-omnishipping-1-x-addressForm {
+    p,
+    span:not(.vtex-omnishipping-1-x-unavailableIcon) {
+      width: 100% !important;
+    }
+
+    input {
+      width: 100%;
+      height: 35px;
+      border: 1px solid rgba(72, 84, 103, 0.6);
+      border-radius: 4px;
+    }
+  }
+
+  .shipping-summary-info {
+    font-size: 0;
+
+    &::before {
+      content: 'Falta llenar datos';
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  button#btn-go-to-payment {
+    width: 100%;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before {
+      content: 'Continuar';
+      font-size: 1.25rem;
+      font-weight: 500;
+      font-family: 'Rubik';
+    }
+  }
+
+  a#open-shipping {
+    background: black;
+    padding: 10px 20px;
+    width: 100%;
+    display: block;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+  }
+}

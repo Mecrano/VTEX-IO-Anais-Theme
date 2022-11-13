@@ -30,47 +30,60 @@ import {
 } from './modules/minicart-resume'
 
 $(document).ready(() => {
-  labelMarketingData()
-  initialLoadCart()
-  initialLoadEmail()
-  initialLoadProfile()
-  initialLoadShipping()
-  initialLoadPayments()
-  initialLoadResume()
+  try {
+    initialLoadCart()
+    initialLoadEmail()
+    initialLoadProfile()
+    initialLoadShipping()
+    initialLoadPayments()
+    initialLoadResume()
+  } catch (error) {
+    console.error(error)
+  }
 })
 
 $(window).on('orderFormUpdated.vtex', (_, orderForm) => {
-  if (orderForm) {
+  try {
+    if (!orderForm) {
+      return
+    }
+
     orderFormUpdateCart(orderForm)
     orderFormUpdateEmail(orderForm)
     orderFormUpdateProfile(orderForm)
     orderFormUpdateShipping(orderForm)
     orderFormUpdatePayments(orderForm)
     orderFormUpdateResume(orderForm)
+  } catch (error) {
+    console.error(error)
   }
 })
 
 $(window).on('load hashchange', () => {
-  if (window.location.hash === '#/cart') {
-    stepStartCart()
-  }
+  try {
+    if (window.location.hash === '#/cart') {
+      stepStartCart()
+    }
 
-  if (window.location.hash === '#/email') {
-    stepStartEmail()
-  }
+    if (window.location.hash === '#/email') {
+      stepStartEmail()
+    }
 
-  if (window.location.hash === '#/profile') {
-    stepStartProfile()
-    stepStartResume()
-  }
+    if (window.location.hash === '#/profile') {
+      stepStartProfile()
+      stepStartResume()
+    }
 
-  if (window.location.hash === '#/shipping') {
-    stepStartShipping()
-    stepStartResume()
-  }
+    if (window.location.hash === '#/shipping') {
+      stepStartShipping()
+      stepStartResume()
+    }
 
-  if (window.location.hash === '#/payment') {
-    stepStartPayments()
-    stepStartResume()
+    if (window.location.hash === '#/payment') {
+      stepStartPayments()
+      stepStartResume()
+    }
+  } catch (error) {
+    console.error(error)
   }
 })

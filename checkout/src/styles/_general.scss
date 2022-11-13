@@ -1,0 +1,237 @@
+body {
+  font-family: 'Rubik';
+  padding: 0 !important;
+  background: #ededed;
+
+  .container {
+    @media (max-width: 980px) {
+      width: 100%;
+    }
+  }
+}
+
+div#vtex-callcenter {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  .top-bar {
+    background: #000;
+    color: white;
+    padding: 15px;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      max-width: 1400px;
+
+      &::before,
+      &::after {
+        display: none;
+      }
+
+      .historyback {
+        color: white;
+
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+
+        @media (max-width: 600px) {
+          display: none;
+        }
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          max-height: 50px;
+          height: auto;
+          max-width: 200px;
+        }
+      }
+
+      .secyrity-images img {
+        max-height: 30px;
+      }
+    }
+  }
+}
+
+.main-footer {
+  background: #000;
+  color: white;
+  padding: 15px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
+  img {
+    height: 30px;
+    margin-right: 20px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  .payment-methods,
+  .payment-methods-images,
+  .payment-methods-names,
+  .copyright,
+  .copyright-images {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  @media (min-width: 1200px) {
+    .payment-methods,
+    .copyright {
+      & > * {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .payment-methods-names p {
+    max-width: 122px;
+    border-left: 1px solid #727272;
+    padding: 5px 10px;
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 1400px) {
+    .copyright-images {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+
+    .payment-methods,
+    .container {
+      display: block;
+    }
+
+    .payment-methods > p,
+    .copyright p {
+      text-align: center;
+      width: 100%;
+    }
+
+    .payment-methods-images {
+      justify-content: space-around;
+    }
+
+    .payment-methods-names {
+      justify-content: space-around;
+      border-top: 2px solid #2d2d2d;
+      border-bottom: 2px solid #2d2d2d;
+      padding-block: 10px;
+      margin-block: 10px;
+
+      p:first-child {
+        border: none;
+      }
+    }
+  }
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background: none;
+  background-color: #004793;
+  border-radius: 0;
+  text-shadow: none;
+  border: none;
+}
+
+.container-main {
+  margin-top: 60px;
+
+  @media (min-width: 1200px) {
+    width: 90%;
+    max-width: 1400px;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.orderform-template-holder {
+  .step,
+  .cart,
+  .totalizers,
+  .step.active,
+  .cart.active,
+  .totalizers.active {
+    border: none !important;
+    border-radius: 4px;
+    padding: 20px 16px;
+    background: white;
+  }
+
+  .accordion-inner {
+    padding: 0;
+  }
+
+  .accordion-heading .accordion-toggle {
+    padding: 0;
+  }
+
+  .accordion-toggle .link-box-edit {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    border-radius: 100% !important;
+    opacity: 1;
+    height: 30px;
+    padding: 0;
+    padding-left: 2px;
+  }
+}
+
+#vtexIdContainer {
+  position: fixed !important;
+}
+
+.vtexIdUI .modal-header .close {
+  position: initial !important;
+}

@@ -1,0 +1,84 @@
+h1#orderform-title {
+  display: none !important;
+}
+
+#client-profile-data form.form-page.client-pre-email {
+  .link.link-cart {
+    display: none;
+  }
+
+  fieldset.pre-email {
+    padding: 0 15px;
+  }
+
+  h3.client-pre-email-h label {
+    margin: 50px 0;
+
+    span {
+      font-size: 0;
+
+      &::before {
+        content: 'Ingresa tu correo electrónico para continuar con tu compra';
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000000;
+      }
+    }
+
+    small {
+      display: none;
+    }
+  }
+
+  .client-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    position: inherit;
+    float: none;
+  }
+
+  .btn-success {
+    position: inherit;
+    width: 100%;
+    margin-block: 15px;
+  }
+
+  .emailInfo {
+    background: none;
+    border: none;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+
+    &::before {
+      content: 'Identifica tu cuenta con el correo electrónico para continuar la compra.';
+      color: black;
+      font-family: 'Rubik';
+      font-weight: 500;
+      font-size: 1.25rem;
+      display: block;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    &::after {
+      content: 'Tu información en 100% segura y de uso exclusivo para fácilitar tus compras, notificarte acerca el envío, guardar tu historial de compras y brindarte beneficios en cada compra.';
+      color: #808080;
+      font-family: 'Rubik';
+      font-size: 1.15rem;
+      display: block;
+      text-align: center;
+    }
+
+    & > h3,
+    & > ul,
+    & > i {
+      display: none;
+    }
+  }
+}

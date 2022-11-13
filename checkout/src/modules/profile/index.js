@@ -7,5 +7,7 @@ export const orderFormUpdate = (orderForm) => {
 }
 
 export const stepStart = () => {
-  // This function is called when hash in URL match with this module
+  $('.header-breadcrumb > .breadcrumb-item').removeClass('active').removeClass('completed')
+  $('.header-breadcrumb > .breadcrumb-item:nth-child(1)').addClass('completed')
+  $('.header-breadcrumb > .breadcrumb-item:nth-child(2)').addClass('active')
 }

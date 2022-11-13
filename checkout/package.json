@@ -1,5 +1,5 @@
 {
-  "name": "eobando-checkout",
+  "name": "checkout",
   "version": "0.0.1",
   "description": "Checkout project",
   "main": "index.js",
