@@ -1,0 +1,55 @@
+div#payment-data {
+  i.icon-credit-card {
+    display: none;
+  }
+
+  .accordion-heading .accordion-toggle span:first-of-type {
+    font-size: 0;
+
+    &::before {
+      content: '3.-Pago';
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #000000;
+    }
+  }
+
+  fieldset.payment-group {
+    min-width: 180px;
+    width: 30%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .steps-view {
+    width: 70%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+
+  .required.payment-group-list-btn {
+    width: 100%;
+  }
+
+  p.notification {
+    font-size: 0;
+
+    &::before {
+      content: 'Falta llenar datos';
+      font-size: 1rem;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.iframe-credit-card-payment-group {
+  input {
+    height: 35px;
+    border: 1px solid rgba(72, 84, 103, 0.6);
+    border-radius: 4px;
+  }
+}

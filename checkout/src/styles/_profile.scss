@@ -1,0 +1,107 @@
+div#client-profile-data {
+  i.icon-user {
+    display: none;
+  }
+
+  .accordion-heading .accordion-toggle span {
+    font-size: 0;
+
+    &::before {
+      content: '1.-Información de contacto';
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #000000;
+    }
+  }
+
+  fieldset.box-client-info-pf,
+  fieldset.box-client-info-pj {
+    padding: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+
+    & > * {
+      width: 100%;
+      margin: 5px 0;
+    }
+
+    p,
+    span {
+      width: 100% !important;
+    }
+
+    input {
+      width: 100% !important;
+      height: 35px;
+      border: 1px solid rgba(72, 84, 103, 0.6);
+      border-radius: 4px;
+    }
+
+    p.client-phone {
+      width: 100%;
+    }
+  }
+
+  fieldset.box-client-info-pj {
+    h5.corporate-title.visible {
+      display: none;
+    }
+
+    a#not-corporate-client {
+      display: none !important;
+    }
+
+    a#is-corporate-client {
+      display: flex !important;
+      font-size: 0;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      outline: none;
+      text-decoration: none;
+
+      &::before {
+        content: 'Agregar datos de empresa';
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #000000;
+      }
+
+      &::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg);
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        display: block;
+      }
+    }
+  }
+
+  p.newsletter {
+    margin: 10px;
+    margin-top: 0;
+  }
+
+  p.submit.btn-submit-wrapper {
+    margin: 0;
+    margin-top: 20px;
+
+    button {
+      width: 100%;
+      font-size: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &::before {
+        content: 'Continuar';
+        font-size: 1.25rem;
+        font-weight: 500;
+        font-family: 'Rubik';
+      }
+    }
+  }
+}

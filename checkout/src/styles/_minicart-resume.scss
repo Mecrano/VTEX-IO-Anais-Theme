@@ -1,0 +1,97 @@
+.mini-cart {
+  h2 {
+    background: none;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 700;
+    color: #000000;
+    border: none;
+  }
+
+  .cart-fixed.cart-fixed-transition {
+    width: 100%;
+    border: none !important;
+    border-radius: 4px;
+    padding: 20px 12px;
+    background: white;
+    height: auto !important;
+  }
+
+  .product-name {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    font-family: 'Rubik';
+  }
+
+  .summary-template-holder {
+    margin-top: 20px;
+    background: none;
+    border: 1px solid rgba(72, 84, 103, 0.6);
+    border-radius: 4px;
+  }
+
+  table.table {
+    display: block;
+
+    .empty {
+      display: none;
+    }
+
+    tbody.totalizers-list {
+      display: block;
+      margin: 5px 10px;
+
+      tr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &.Shipping {
+          display: none;
+        }
+
+        td.info,
+        td.monetary {
+          font-family: 'Rubik';
+          color: #000000;
+          font-size: 1rem;
+          white-space: nowrap;
+          width: auto;
+        }
+      }
+    }
+
+    tfoot {
+      display: block;
+      padding-top: 5px;
+      border-top: 0.5px solid #8b8b8b;
+      margin: 10px;
+
+      tr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        td.info,
+        td.monetary {
+          font-family: 'Rubik';
+          color: #002f87;
+          font-size: 1.15rem;
+          white-space: nowrap;
+          width: auto;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  a#orderform-minicart-to-cart,
+  a#cart-link-note-add {
+    display: none;
+  }
+
+  .payment-confirmation-wrap {
+    border: none;
+  }
+}
