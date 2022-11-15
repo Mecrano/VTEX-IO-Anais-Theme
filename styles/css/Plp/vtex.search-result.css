@@ -79,7 +79,6 @@
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
-  line-height: 40px;
   color: #000000;
 }
 
@@ -91,17 +90,25 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
   color: #004793;
 }
 
 .orderByButton {
   background-color: transparent;
+  padding: 0;
 
 }
 
-/* @media screen and (min-width: 1400px) {
+.galleryTitle--layout {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px){
+.searchResultContainer {
+padding: 0;
+}
 
 }
- */
+

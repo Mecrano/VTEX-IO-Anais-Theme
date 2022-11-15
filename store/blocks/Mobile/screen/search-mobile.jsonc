@@ -3,7 +3,8 @@
     "title": "search mobile",
     "children": [
       "flex-layout.row#block-one-search",
-      "flex-layout.row#block-one-search"
+      "flex-layout.row#block-two-search-mobile",
+      "flex-layout.row#block-three-search-mobile"
     ],
     "props": {
       "pagination": "show-more",

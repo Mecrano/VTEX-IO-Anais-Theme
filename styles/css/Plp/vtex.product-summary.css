@@ -23,6 +23,8 @@
   height: 87px;
 }
 
+
+
 @media screen and (min-width: 1400px) {
   .nameContainer--name-global {
     padding-top: 0;
@@ -33,5 +35,11 @@
   .image--image-global {
     width: 300px;
     height: 280px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image--image-global {
+    width: 300px;
   }
 }

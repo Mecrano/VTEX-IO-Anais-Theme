@@ -52,14 +52,14 @@
     "props": {
       "preserveLayoutOnMobile": true,
       "fullWidth": true,
-      "blockClass": "logo"
+      "blockClass": ["logo", "adiddas"]
     }
   },
   "image#adidas": {
     "title": "logo",
     "props": {
       "src": "arquivos/adidas.png",
-      "blockClass": "logo"
+      "blockClass": "logo-adidas"
     }
   },
   /* logo balance */

@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#block-three-search-mobile": {
+    "title": "block three",
+    "children": [
+      "flex-layout.col#serch-colunm-right"
+    ],
+    "props": {
+      "blockClass": "block-three-search-mobile"
+    }
+  }
+}

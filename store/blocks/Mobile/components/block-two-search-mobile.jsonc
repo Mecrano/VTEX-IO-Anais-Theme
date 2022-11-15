@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#block-two-search-mobile": {
+    "title": "block two",
+    "children": [
+      "flex-layout.col#block-one-one-mobile",
+      "flex-layout.col#block-one-two"
+    ],
+    "props": {
+      "blockClass": "block-two-search"
+    }
+  },
+  "flex-layout.col#block-one-one-mobile": {
+    "title": "container",
+    "children": ["search-title.v2", "flex-layout.row#container-mobile"],
+    "props": {
+      "blockClass": "block-one-one-mobile"
+    }
+  },
+
+  "flex-layout.row#container-mobile": {
+    "title": "container filter - order",
+    "children": ["filter-navigator.v3", "order-by.v2"],
+    "props": {
+      "blockClass": "container-mobile"
+    }
+  }
+}
