@@ -1,0 +1,12 @@
+.sellingPrice--hasListPrice {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sellingPriceValue {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #000000;
+}

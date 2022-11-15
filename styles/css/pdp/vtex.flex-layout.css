@@ -1,0 +1,57 @@
+.flexRowContent--productName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexRowContent--product-prices {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.flexRowContent--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 100% !important;
+  padding-right: 0;
+}
+
+.flexRowContent--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 100% !important;
+}
+
+.flexRowContent--productName :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  width: 70% !important;
+}
+
+.flexRowContent--productName :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 30% !important;
+}
+
+.flexRowContent--product-prices :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+ width: 80% !important;
+}
+
+.flexRowContent--product-prices :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child  {
+  width: 20% !important;
+}
+
+.flexRowContent--slider-rich-plp  {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--slider-rich-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth)  {
+  width: 100% !important;
+}
+
+.flexRowContent--container-pdp-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

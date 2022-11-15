@@ -1,0 +1,28 @@
+.container--product-specification {
+background-color: #ffffff;
+}
+
+.listItem--product-specification :global(.vtex-button__label) {
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20spx;
+color: #000000;
+}
+
+.listItemActive--product-specification :global(.vtex-button) {
+  background-color: #000000;
+  border: #000000;
+}
+
+.listItemActive--product-specification :global(.vtex-button__label) {
+  color: #ffffff;
+}
+
+.listItem---product-specification :global(.vtex-button):hover {
+  background-color: transparent !important;
+}
+
+.listItemActive---product-specification :global(.vtex-button):hover {
+  background-color: #000000;
+}

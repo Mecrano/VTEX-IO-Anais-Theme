@@ -41,7 +41,11 @@
     "vtex.search-result": "3.x",
     "vtex.breadcrumb": "1.x",
     "vtex.responsive-layout": "0.x",
-    "vtex.info-card-list": "0.x"
+    "vtex.info-card-list": "0.x",
+    "vtex.condition-layout": "2.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.product-quantity": "1.x",
+    "vtex.tab-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
