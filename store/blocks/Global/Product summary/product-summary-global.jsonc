@@ -17,8 +17,7 @@
     "props": {"blockClass": "column-two"},
     "children": [
       "flex-layout.col#group-prices",
-      "product-summary-name#summary-global",
-      "product-summary-description#summary-global"
+      "product-summary-name#summary-global"
     ]
   },
   "product-summary-image#summary-global": {
@@ -38,10 +37,6 @@
   },
   "product-summary-name#summary-global": {
     "title": "name",
-    "props": {"blockClass": "name-global"}
-  },
-  "product-summary-description#summary-global": {
-    "title": "description",
     "props": {"blockClass": "name-global"}
   },
   "product-selling-price#summary-global": {

@@ -1,5 +1,6 @@
 .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-.flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+.flexRow--block-two-search :global(.vtex-store-components-3-x-container),
+.flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
   width: calc(1240px - 24px * 2);
   margin: 0 auto;
 }
@@ -8,8 +9,13 @@
   background-color: #FFFFFF;
 }
 
-.flexRow--block-two-search {
+.flexRow--block-two-search,
+.flexRow--block-three-search {
   background-color: #EDEDED;
+}
+
+.flexRow--block-three-search {
+  padding-bottom: 50px;
 }
 
 .flexRowContent--block-two-search {
@@ -18,7 +24,8 @@
 }
 
 .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-.flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+.flexRow--block-two-search :global(.vtex-store-components-3-x-container),
+.flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
   padding-left: 0;
   padding-right: 0;
 }
@@ -37,11 +44,11 @@
 }
 
 .flexRowContent--block-three-search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-  width: 20% !important;
+  width: 25% !important;
 }
 
 .flexRowContent--block-three-search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-  width: 80% !important;
+  width: 75% !important;
 }
 
 .flexRowContent--productsContainerSearch :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
@@ -54,9 +61,25 @@
   align-items: center;
 }
 
+.flexRowContent--fetchmore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .flexRowContent--column-two {
   display: flex;
   flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-top: -5px;
+}
+
+.flexRowContent--column-one {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #eceef0;
 }
 
 .flexRowContent--column-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
@@ -68,13 +91,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-@media screen and (min-width: 1400px) {
 
+@media screen and (min-width: 1400px) {
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
+  .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
     width: calc(1690px - 24px * 2);
     margin: 0 auto;
   }
