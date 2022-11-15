@@ -41,7 +41,7 @@
 }
 
 .flexRowContent--block-three-search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-  width: 60% !important;
+  width: 80% !important;
 }
 
 .flexRowContent--productsContainerSearch :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
@@ -52,6 +52,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flexRowContent--column-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--column-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--column-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 100% !important;
+}
+
+.flexCol--group-prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 1400px) {

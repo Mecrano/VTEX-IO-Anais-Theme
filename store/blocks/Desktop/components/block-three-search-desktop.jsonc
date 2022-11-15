@@ -30,8 +30,7 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "blockClass": "serch-colunm-right",
-      "width": "grow"
+      "blockClass": "serch-colunm-right"
     }
   },
   "flex-layout.row#fetchprevious": {
@@ -73,8 +72,8 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf",
-      "GridSummary": "product-summary.shelf"
+      "ListSummary": "product-summary.shelf#global",
+      "GridSummary": "product-summary.shelf#global"
     }
   },
   "flex-layout.row#fetchmore": {
