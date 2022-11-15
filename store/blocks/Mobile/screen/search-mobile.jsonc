@@ -1,0 +1,17 @@
+{
+  "search-result-layout.mobile": {
+    "title": "search mobile",
+    "children": [
+      "flex-layout.row#block-one-search",
+      "flex-layout.row#block-one-search"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  }
+}

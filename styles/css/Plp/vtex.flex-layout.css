@@ -1,0 +1,64 @@
+.flexRow--block-one-search :global(.vtex-store-components-3-x-container),
+.flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+  width: calc(1240px - 24px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--block-one-search {
+  background-color: #FFFFFF;
+}
+
+.flexRow--block-two-search {
+  background-color: #EDEDED;
+}
+
+.flexRowContent--block-two-search {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRow--block-one-search :global(.vtex-store-components-3-x-container),
+.flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.flexCol--block-one-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexRowContent--block-three-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexRowContent--block-three-search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 20% !important;
+}
+
+.flexRowContent--block-three-search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 60% !important;
+}
+
+.flexRowContent--productsContainerSearch :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 100% !important;
+}
+
+.flexCol--block-one-one .flexColChild--block-one-one:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1400px) {
+
+  .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
+  .flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+    width: calc(1690px - 24px * 2);
+    margin: 0 auto;
+  }
+}
