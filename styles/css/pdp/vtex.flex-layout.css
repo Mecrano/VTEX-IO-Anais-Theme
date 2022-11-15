@@ -1,3 +1,32 @@
+.flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+.flexRow--productMain :global(.vtex-store-components-3-x-container),
+.flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container){
+  width: calc(1240px - 24px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--flexBreadcrumb {
+ background-color: #ffffff;
+}
+
+.flexRow--productMain ,
+.flexRow--container-pdp-tab,
+.flexRow--slider-rich-plp,
+.flexRow--slider-rich-plp-two {
+  background-color: #EDEDED;
+}
+
+.flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+.flexRow--productMain :global(.vtex-store-components-3-x-container),
+.flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container){
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .flexRowContent--productName {
   display: flex;
   flex-direction: row;

@@ -5,7 +5,7 @@
       "rich-text#shelf-vitrina-pdp-two",
       "flex-layout.col#slider-two-two"
     ],
-    "props": {"blockClass": "slider-rich-plp"}
+    "props": {"blockClass": "slider-rich-plp-two"}
   },
   "rich-text#shelf-vitrina-pdp-two": {
     "title": "title slider",
