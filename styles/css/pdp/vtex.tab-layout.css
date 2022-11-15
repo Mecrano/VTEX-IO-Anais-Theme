@@ -1,21 +1,26 @@
 .container--product-specification {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-.listItem--product-specification :global(.vtex-button__label) {
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 20spx;
-color: #000000;
+.listItem--product-specification :global(.vtex-button__label),
+.listItem--product-description :global(.vtex-button__label) {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20spx;
+  color: #000000;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
-.listItemActive--product-specification :global(.vtex-button) {
+.listItemActive--product-specification :global(.vtex-button),
+.listItemActive--product-description :global(.vtex-button) {
   background-color: #000000;
   border: #000000;
 }
 
-.listItemActive--product-specification :global(.vtex-button__label) {
+.listItemActive--product-specification :global(.vtex-button__label),
+.listItemActive--product-description :global(.vtex-button__label) {
   color: #ffffff;
 }
 
@@ -23,6 +28,50 @@ color: #000000;
   background-color: transparent !important;
 }
 
+.listItem--product-description {
+  padding: 0;
+  margin: 0;
+}
+
+.listItem--product-description :global(.vtex-button):hover,
+.listItem--product-specification :global(.vtex-button):hover  {
+  background-color: transparent !important;
+}
+
 .listItemActive---product-specification :global(.vtex-button):hover {
   background-color: #000000;
+}
+
+.listContainer--product-specification {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.listItem--product-specification,
+.listItem--product-description {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+  margin: 0;
+}
+
+.listItemActive--product-description,
+.listItemActive--product-specification {
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.listItemActive--product-description {
+  border-radius: 4px 0px 0px 0px;
+}
+
+.contentContainer--product-specification {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #FFFFFF;
+  border-top: 0;
 }

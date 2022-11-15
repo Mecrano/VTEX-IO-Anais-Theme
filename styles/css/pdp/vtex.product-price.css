@@ -10,3 +10,16 @@ font-weight: 600;
 font-size: 20px;
 color: #000000;
 }
+
+.listPriceValue {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6A6A6A;
+}
+
+.listPrice {
+  display: flex;
+  justify-content: flex-end;
+}

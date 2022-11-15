@@ -1,0 +1,35 @@
+.homeIcon--breadcrumbPdp {
+  display: none;
+}
+
+.caretIcon--breadcrumbPdp {
+  display: none;
+}
+
+.arrow--breadcrumbPdp::before {
+  content: "|";
+  font-size: 1rem;
+  color: black;
+  width: 18px;
+  height: 18px;
+}
+
+.homeLink--breadcrumbPdp::after {
+  content: url(/arquivos/breadcrumb.png);
+  width: 18px;
+  height: 18px;
+}
+
+.link--breadcrumbPdp, .term--breadcrumbPdp{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.link--breadcrumbPdp:hover{
+  color: #000000;
+  outline: none;
+}

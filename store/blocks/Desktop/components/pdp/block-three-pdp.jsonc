@@ -1,7 +1,7 @@
 {
   "flex-layout.row#container-pdp-tab": {
     "title": "container tab product",
-    "children": ["flex-layout.row#tab-pdp"/* , "flex-layout.row#opiniones-pdp" */ ],
+    "children": ["flex-layout.row#tab-pdp"/* , "flex-layout.row#opiniones-pdp"  */],
     "props": {
       "blockClass": "container-pdp-tab"
     }
@@ -65,7 +65,7 @@
       "tabId": "tab1",
       "label": "Descripcion",
       "defaultActiveTab": true,
-      "blockClass": "product-specification"
+      "blockClass": "product-description"
     }
   },
   "tab-list.item#product-2": {

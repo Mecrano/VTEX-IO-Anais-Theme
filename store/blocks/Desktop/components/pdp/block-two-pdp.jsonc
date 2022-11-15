@@ -87,7 +87,8 @@
       "displayThumbnailsArrows": true,
       "showNavigationArrows": true,
       "showPaginationDots": false,
-      "thumbnailsOrientation": 2
+      "thumbnailsOrientation": "vertical",
+      "thumbnailVisibility": "visible"
     }
   },
 
@@ -120,8 +121,18 @@
   },
 
   "flex-layout.row#button-pdp": {
-    "children":["product-summary-quantity","add-to-cart-button"],
+    "children":["product-summary-quantity","add-to-cart-button#pdp"],
     "props":{"blockClass": "button-pdp"}
+  },
+
+  "add-to-cart-button#pdp": {
+    "props": {
+      "blockClass": "addToCartPdp",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button",
+      "unavailableText": "No disponible",
+      "onClickBehavior": "add-to-cart"
+    }
   },
 
   "flex-layout.row#product-name": {
