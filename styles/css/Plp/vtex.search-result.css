@@ -105,10 +105,116 @@
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px){
-.searchResultContainer {
-padding: 0;
+.caretIcon {
+  color: #004793;
 }
 
+.filter__container--selectedFilters {
+  display: none;
 }
 
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .filterPopupTitle--filter::before, .orderByText {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 50% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 40% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 60% !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 22% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 78% !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 18% !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 82% !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .searchResultContainer {
+    padding: 0;
+  }
+
+  .filterPopupButton {
+    display: flex;
+    align-items: center;
+  }
+
+  .filterPopupTitle--filter::before {
+    content: "Mostrar filtro";
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #004793;
+  }
+
+  .filterIcon--filter {
+    display: none;
+  }
+
+  .filterPopupArrowIcon--filter::after {
+    content: "+";
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #004793;
+  }
+
+  .filters--layout {
+    border: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+
+  .orderByDropdown {
+    margin-left: 0;
+  }
+
+  .orderBy--layout {
+    display: flex;
+    align-items: center;
+  }
+
+  .filtersWrapperMobile--filter {
+    justify-content: flex-start !important;
+  }
+
+  .orderByText {
+    display: flex !important;
+  }
+
+  .orderByButton {
+    justify-content: flex-start;
+  }
+}
