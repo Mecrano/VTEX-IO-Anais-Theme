@@ -207,8 +207,8 @@
   }
 
   .flexRowContent--button-pdp :global(.vtex-button__label) {
-    font-size: 12px;
-    padding-left: 4rem;
+    font-size: 15px;
+    padding-left: 6rem;
   }
 
   .flexRow--tab-pdp :global(.vtex-tab-layout-0-x-listItemActive--border-425) :global(.vtex-button__label) {
