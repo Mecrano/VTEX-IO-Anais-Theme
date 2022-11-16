@@ -180,7 +180,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
-
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -190,7 +189,6 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -200,7 +198,6 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -210,7 +207,6 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {

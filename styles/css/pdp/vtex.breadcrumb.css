@@ -33,3 +33,15 @@
   color: #000000;
   outline: none;
 }
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .link--breadcrumbPdp, .term--breadcrumbPdp{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .link--breadcrumbPdp, .term--breadcrumbPdp{
+    font-size: 0.8rem;
+  }
+}

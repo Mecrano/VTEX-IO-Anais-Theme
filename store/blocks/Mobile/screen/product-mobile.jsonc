@@ -7,7 +7,7 @@
       "flex-layout.row#container-pdp-tab",
       "flex-layout.row#slider-rich-pdp",
       "flex-layout.row#container-brands",
-      "flex-layout.row#marcas-pdp",
+      "flex-layout.row#brands-container-mobile",
       "flex-layout.row#slider-rich-pdp-two"
     ]
   }

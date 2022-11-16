@@ -73,7 +73,7 @@
     "props": {
       "tabId": "tab2",
       "label": "Caracteristicas",
-      "blockClass": "product-specification"
+      "blockClass": ["product-specification", "border-425"]
     }
   },
   "tab-list.item#product-3": {

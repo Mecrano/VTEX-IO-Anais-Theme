@@ -12,3 +12,15 @@
   font-size: 18px;
   color: #004793;
 }
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .label--show-brands {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .label--show-brands {
+    font-size: 14px;
+  }
+}

@@ -14,3 +14,16 @@
   color: #000000;
 }
 
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .paragraph--title-brands, .paragraph--title-slider--pdp {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .paragraph--title-brands, .paragraph--title-slider--pdp {
+    font-size: 17px;
+  }
+}
+
+
