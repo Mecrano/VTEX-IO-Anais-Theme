@@ -135,6 +135,7 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 50% !important;
   }
+
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -145,6 +146,7 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 60% !important;
   }
+
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -168,6 +170,10 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
+  .galleryItem {
+    padding: 5px !important;
+  }
+
   .searchResultContainer {
     padding: 0;
   }
