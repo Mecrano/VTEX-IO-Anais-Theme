@@ -113,6 +113,14 @@
   display: none;
 }
 
+.orderByOptionItem{
+  color: #065FBD;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .filterPopupTitle--filter::before, .orderByText {
     font-size: 14px !important;
@@ -217,4 +225,68 @@
   .orderByButton {
     justify-content: flex-start;
   }
+
+  .filterAccordionBreadcrumbs, .filterAccordionItemBox--filter, .filterAccordionItemBox {
+    border-color: #065FBD;
+  }
+
+  .accordionFilterContainer {
+    padding-left: 0;
+  }
+
+  .accordionFilterItemTitle--filter {
+    padding-left: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #065FBD;
+  }
+
+  .filterBreadcrumbsItemName--filter, .filterBreadcrumbsText--filter {
+    color: #065FBD;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .filterBreadcrumbsText--filter {
+    margin-right: 10px;
+  }
+
+  .accordionFilterOpen {
+    padding: 0;
+  }
+
+  .filterAccordionItemBox {
+    padding-left: 0.75rem;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__label) {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #065FBD;
+  }
+
+  .filterClearButtonWrapper--filter {
+    background-color: #000000;
+  }
+
+  .filterApplyButtonWrapper--filter :global(.vtex-button) {
+    background-color: #065FBD;
+    border-color: #065FBD;
+  }
+
+  .filterButtonsBox {
+    padding: 5px;
+  }
+
+  .accordionFilterItemOptions {
+    padding: 0;
+  }
 }
+
+
