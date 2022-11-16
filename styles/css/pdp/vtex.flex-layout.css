@@ -207,8 +207,8 @@
   }
 
   .flexRowContent--button-pdp :global(.vtex-button__label) {
-    margin-left: 35px;
     font-size: 12px;
+    padding-left: 4rem;
   }
 }
 
@@ -225,7 +225,8 @@
   }
 
   .flexRowContent--button-pdp :global(.vtex-button__label) {
-    margin-left: 30px;
+    padding-left: 3.5rem;
+    padding-right: 0;
   }
 }
 
@@ -314,6 +315,10 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
+  .flexRowContent--productMain {
+    margin-bottom: 0;
+  }
+
   .flexRowContent--mobile {
     display: flex;
     flex-direction: column;
@@ -349,3 +354,8 @@
   }
 }
 
+@media screen and (min-width: 1025px){
+  .flexRow--mobile {
+    display: none;
+  }
+}

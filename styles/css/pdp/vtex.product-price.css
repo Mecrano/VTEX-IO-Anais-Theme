@@ -23,3 +23,13 @@ color: #000000;
   display: flex;
   justify-content: flex-end;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .listPriceValue {
+    font-size: 11px;
+  }
+
+  .sellingPriceValue {
+  font-size: 16px;
+  }
+}

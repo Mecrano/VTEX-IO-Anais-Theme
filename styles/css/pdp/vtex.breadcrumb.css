@@ -34,6 +34,12 @@
   outline: none;
 }
 
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .link--breadcrumbPdp, .term--breadcrumbPdp{
+    font-size: 0.6rem;
+  }
+}
+
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .link--breadcrumbPdp, .term--breadcrumbPdp{
     font-size: 0.7rem;

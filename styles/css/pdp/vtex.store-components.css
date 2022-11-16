@@ -1,7 +1,13 @@
 .productBrand--productNamePdp  {
   font-family: 'Mulish';
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
   color: #000000;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .productBrand--productNamePdp  {
+    font-size: 16px;
+  }
 }

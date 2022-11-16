@@ -1,5 +1,6 @@
 .sliderTrackContainer--slider-pdp :global(.vtex-product-summary-2-x-container--global) {
-  margin-right: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .sliderArrows--slider-pdp {

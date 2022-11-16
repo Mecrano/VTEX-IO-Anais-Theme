@@ -5,3 +5,14 @@
   font-size: 16px;
   color: #6A6A6A;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .product-identifier--productReference {
+    font-size: 14px;
+    color: #000000;
+  }
+
+  .product-identifier__label, .product-identifier__separator {
+    font-weight: bold;
+  }
+}
