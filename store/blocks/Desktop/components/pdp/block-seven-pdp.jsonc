@@ -1,25 +1,25 @@
 {
-  "flex-layout.row#slider-rich-pdp": {
-    "title": "block four",
+  "flex-layout.row#slider-rich-pdp-two": {
+    "title": "block seven",
     "children":[
-      "flex-layout.col#container-text-pdp",
-      "flex-layout.col#slider-two"
+      "flex-layout.col#container-text",
+      "flex-layout.col#slider-two-two"
     ],
-    "props": {"blockClass": "slider-rich-plp"}
+    "props": {"blockClass": "slider-rich-plp-two"}
   },
-  "flex-layout.col#container-text-pdp": {
+  "flex-layout.col#container-text": {
     "title": "container text",
-    "children": ["rich-text#shelf-vitrina-pdp", "link#ver-mas-pdp"],
+    "children": ["rich-text#shelf-vitrina-pdp-two",  "link#ver-mas"],
     "props": {"blockClass": "container-text"}
   },
-  "rich-text#shelf-vitrina-pdp": {
+  "rich-text#shelf-vitrina-pdp-two": {
     "title": "title slider",
     "props": {
-      "text": "Combínalo con",
+      "text": "Productos relacionados",
       "blockClass": "title-slider--pdp"
     }
   },
-  "link#ver-mas-pdp": {
+  "link#ver-mas": {
     "title": "title ver-más",
     "props": {
       "href": "/",
@@ -27,15 +27,15 @@
       "blockClass": "show-brands"
     }
   },
-  "flex-layout.col#slider-two": {
+  "flex-layout.col#slider-two-two": {
     "title": "container slider",
-    "children": ["list-context.product-list#shelf-pdp"],
+    "children": ["list-context.product-list#shelf-pdp-two"],
     "props": {"blockClass": "container-slider--plp"}
   },
-  "list-context.product-list#shelf-pdp": {
+  "list-context.product-list#shelf-pdp-two": {
     "title": "list context shelf",
     "blocks": ["product-summary.shelf#global"],
-    "children": ["slider-layout#pdp"],
+    "children": ["slider-layout#pdp-two"],
     "props": {
       /* "category": "34185084", */
       "blockClass": "shelf-pdp",
@@ -44,7 +44,7 @@
       "orderBy": "OrderByReleaseDateDESC"
     }
   },
-  "slider-layout#pdp": {
+  "slider-layout#pdp-two": {
     "props": {
       "itemsPerPage": {
         "desktop": 5,

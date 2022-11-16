@@ -1,9 +1,15 @@
 .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
-.flexRow--productMain :global(.vtex-store-components-3-x-container),
+.flexRow--container-condiftional :global(.vtex-store-components-3-x-container),
 .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
 .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
-.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container) {
+.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+.flexRow--container-brand :global(.vtex-store-components-3-x-container) {
   width: calc(1240px - 24px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--marcas-pdp :global(.vtex-store-components-3-x-container) {
+  width: calc(1340px - 24px * 2);
   margin: 0 auto;
 }
 
@@ -11,18 +17,22 @@
   background-color: #ffffff;
 }
 
-/* .flexRow--productMain ,
-.flexRow--container-pdp-tab,
+.flexRow--container-brand,
 .flexRow--slider-rich-plp,
-.flexRow--slider-rich-plp-two {
+.flexRow--productMain,
+.flexRow--container-pdp-tab,
+.flexRow--container-condiftional {
   background-color: #EDEDED;
-} */
+}
 
 .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
 .flexRow--productMain :global(.vtex-store-components-3-x-container),
 .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
 .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
-.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container) {
+.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+.flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+.flexRow--container-brand :global(.vtex-store-components-3-x-container),
+.flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
   padding-left: 0;
   padding-right: 0;
 }
@@ -119,4 +129,65 @@
   font-size: 18px;
   color: #FFFFFF;
 
+}
+
+.flexRow--marcas-pdp,
+.flexRow--slider-rich-plp-two {
+  background-color: #ededed !important;
+  padding-bottom: 30px;
+}
+
+.flexRowContent--container-brand,
+.flexCol--container-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* container opinon */
+.flexRow--opiniones-pdp {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.flexRowContent--opiniones-pdp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--opiniones-pdp :global(.vtex-rich-text-0-x-container--opiniones),
+.flexRowContent--opiniones-pdp :global(.vtex-store-link-0-x-link--opiniones) {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--opiniones-pdp :global(.vtex-store-link-0-x-link--opiniones) {
+  text-decoration: none;
+  background-color: #004793;
+  height: 50px;
+  align-items: center;
+}
+
+.flexRowContent--opiniones-pdp :global(.vtex-store-link-0-x-label--opiniones) {
+  font-weight: 400;
+  color: #FFFFFF;
+}
+/* container opinon */
+
+@media screen and (min-width: 1400px) {
+
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--container-brand :global(.vtex-store-components-3-x-container),
+  .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+    width: calc(1690px - 24px * 2);
+    margin: 0 auto;
+  }
 }

@@ -1,7 +1,7 @@
 {
   "flex-layout.row#container-pdp-tab": {
-    "title": "container tab product",
-    "children": ["flex-layout.row#tab-pdp"/* , "flex-layout.row#opiniones-pdp"  */],
+    "title": "block three",
+    "children": ["flex-layout.row#tab-pdp", "flex-layout.row#opiniones-pdp" ],
     "props": {
       "blockClass": "container-pdp-tab"
     }
@@ -26,7 +26,8 @@
   "link#opiniones": {
     "props": {
       "href": "/",
-      "label": "Escribir opinión"
+      "label": "Escribir opinión",
+      "blockClass": "opiniones"
     }
   },
 
@@ -86,7 +87,7 @@
     "props": {
       "tabId": "tab4",
       "label": "Metodos de pago",
-      "blockClass": "product-specification"
+      "blockClass": ["product-specification", "border"]
     }
   },
   "tab-content#product-specification": {
@@ -120,14 +121,14 @@
     "children": ["rich-text#opiniones"],
     "props": {
       "tabId": "tab3",
-      "blockClass": "envios"
+      "blockClass": "product-specification"
     }
   },
   "tab-content.item#product4": {
     "children": ["rich-text#opiniones"],
     "props": {
       "tabId": "tab4",
-      "blockClass": "metodos"
+      "blockClass": "product-specification"
     }
   },
   "product-description#pdp": {

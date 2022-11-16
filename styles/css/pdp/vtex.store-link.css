@@ -1,0 +1,14 @@
+.link--show-brands {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+}
+
+.label--show-brands {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #004793;
+}

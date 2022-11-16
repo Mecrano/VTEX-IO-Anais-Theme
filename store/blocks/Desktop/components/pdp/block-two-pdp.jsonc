@@ -1,13 +1,13 @@
 {
+  "flex-layout.row#container-conditional": {
+    "props": {"blockClass": ["container-condiftional"]},
+    "children": ["condition-layout.product#availability"]
+  },
   "condition-layout.product#availability": {
-    "title": "condiction product",
+    "title": "block two",
     "props": {
       "blockClass": "container",
-      "conditions": [
-        {
-          "subject": "isProductAvailable"
-        }
-      ],
+      "conditions": [{"subject": "isProductAvailable"}],
       "Then": "flex-layout.row#product-main",
       "Else": "flex-layout.row#product-availability"
     }

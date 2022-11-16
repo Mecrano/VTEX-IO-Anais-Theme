@@ -1,0 +1,23 @@
+.sliderTrackContainer--slider-pdp :global(.vtex-product-summary-2-x-container--global) {
+  margin-right: 15px;
+}
+
+.sliderArrows--slider-pdp {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.sliderLeftArrow--slider-pdp {
+  margin-left: -40px;
+}
+
+.sliderRightArrow--slider-pdp {
+  margin-right: -25px;
+}
+
+.caretIcon--slider-pdp {
+  width: 18px;
+  height: 18px;
+}

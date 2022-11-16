@@ -7,16 +7,22 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
-  font-size: 20spx;
+  font-size: 16px;
   color: #000000;
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
+  padding-left: 0.59rem !important;
+  padding-right: 0.59rem !important;
 }
 
 .listItemActive--product-specification :global(.vtex-button),
 .listItemActive--product-description :global(.vtex-button) {
   background-color: #000000;
   border: #000000;
+}
+
+.listItem--border {
+  border-right: none !important;
 }
 
 .listItemActive--product-specification :global(.vtex-button__label),
@@ -75,3 +81,16 @@
   background: #FFFFFF;
   border-top: 0;
 }
+
+.contentItem--product-specification{
+   padding: 20px;
+}
+
+@media screen and (min-width: 1400px) {
+  .listItem--product-specification :global(.vtex-button__label),
+  .listItem--product-description :global(.vtex-button__label) {
+    padding-left: 1.9rem !important;
+    padding-right: 1.9rem !important;
+  }
+}
+
