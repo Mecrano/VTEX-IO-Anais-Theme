@@ -38,6 +38,10 @@
     font-family: Mulish;
 }
 
+.paragraph--home--brands--title{
+  margin-block: 45px !important;
+}
+
 .paragraph--home--shelf--title-1{
     margin-top: 60px;
     font-family: Mulish;
@@ -51,10 +55,6 @@
     font-weight: 400;
     text-decoration: none;
     color: #004793;
-}
-
-.container--home--brands--title{
-    background-color: #CBCBCB;
 }
 
 .paragraph--home--brands--see-more{
@@ -83,7 +83,6 @@
     font-family: Rubik;
     font-size: 20px;
     font-weight: 400;
-    line-height: 31.6px;
     text-align: left;
     margin: 0;
 }
@@ -137,6 +136,10 @@
 }
 
 @media (max-width: 1024px){
+  .paragraph--home--brands--title{
+    margin-block: 30px !important;
+  }
+
     .paragraph--home--benefits--title{
         margin-bottom: 16px;
     }
@@ -171,9 +174,17 @@
         font-size: 16px;
     }
 
+    .strong--home--newsletter--text {
+      font-size: 22px;
+    }
+
     .paragraph--home--ideal-products--title{
         font-size: 22px;
         margin-block: 36px;
+    }
+
+    .paragraph--home--brands--title{
+      margin-block: 30px !important;
     }
 
     .paragraph--home--shelf--title-1{
@@ -197,4 +208,14 @@
     .paragraph--home--info--content-more{
         margin: 0;
     }
+}
+
+@media (max-width: 320px){
+  .paragraph--home--ideal-products--title, .paragraph--home--shelf--title-1{
+    font-size: 17px;
+  }
+
+  .strong--home--newsletter--text {
+    font-size: 17px;
+  }
 }

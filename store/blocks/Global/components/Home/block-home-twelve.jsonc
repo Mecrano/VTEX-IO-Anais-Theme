@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#info-tittle": {
+    "title": "block twelve",
+    "children": ["rich-text#info-title"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "block-twelve-home"
+    }
+  },
+  "rich-text#info-title": {
+    "props": {
+      "text": "Información útil para tus compras",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home--ideal-products--title", "home--brands--title"]
+    }
+  }
+}

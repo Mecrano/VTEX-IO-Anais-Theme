@@ -3,7 +3,7 @@
     "blocks": [
       "list-context.image-list#first__banner",
       "flex-layout.row#benefits-container",
-      "rich-text#ideal-products-title",
+      "flex-layout.row#ideal-products-title",
       "flex-layout.row#ideal-products",
       "flex-layout.row#shelf-title-container",
       "flex-layout.row#slider-home-one",
@@ -12,7 +12,7 @@
       "flex-layout.row#shelf2-title-container",
       "flex-layout.row#slider-home-two",
       "flex-layout.row#newsletter",
-      "rich-text#info-title",
+      "flex-layout.row#info-tittle",
       "flex-layout.row#info-content"
     ]
   },
@@ -174,14 +174,7 @@
       "activeClassName": "vtex-bnf-icon vtex-icon-heart"
     }
   },
-  "rich-text#ideal-products-title": {
-    "props": {
-      "text": "Encuentra tus productos ideales",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": "home--ideal-products--title"
-    }
-  },
+
   "flex-layout.row#ideal-products": {
     "children": [
       "info-card#ideal-products-1",
@@ -261,7 +254,7 @@
     ],
     "props": {
       "preserveLayoutOnMobile": true,
-      "blockClass": "home--shelf--titles-container"
+      "blockClass":[ "home--shelf--titles-container", "mobile-text"]
     }
   },
   "rich-text#shelf-title": {
@@ -297,14 +290,6 @@
     }
   },
 
-  "rich-text#info-title": {
-    "props": {
-      "text": "Información útil para tus compras",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": ["home--ideal-products--title", "home--brands--title"]
-    }
-  },
   "flex-layout.row#brands-container": {
     "children": [
       "flex-layout.col#brand-1",

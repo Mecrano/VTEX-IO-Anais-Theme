@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#ideal-products-title": {
+    "title": "block three",
+    "children": ["rich-text#ideal-products-title"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "block-three-home"
+    }
+  },
+  "rich-text#ideal-products-title": {
+    "props": {
+      "text": "Encuentra tus productos ideales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home--ideal-products--title", "mobile"]
+    }
+  }
+}

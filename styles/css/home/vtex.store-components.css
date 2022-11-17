@@ -91,11 +91,6 @@
     width: 100%;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--home--newsletter--container) .container,
-:global(.vtex-flex-layout-0-x-flexRow--home--info--container) .container{
-    max-width: 92%;
-}
-
 @media (max-width: 1400px){
     .infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label){
         font-size: 17px;
