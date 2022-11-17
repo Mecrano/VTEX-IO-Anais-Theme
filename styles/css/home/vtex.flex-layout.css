@@ -189,6 +189,18 @@
   padding-top: 11px;
 }
 
+.flexRowContent--home--info--title-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRowContent--home--info--title-icon :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 80% !important;
+}
+
+.flexRowContent--home--info--title-icon :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 20% !important;
+}
 
 @media (max-width: 1400px) {
   .flexRowContent--home--newsletter--container .stretchChildrenWidth:first-child {
@@ -341,19 +353,21 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
+
   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
   .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container),
   .flexRow--block-five-home :global(.vtex-store-components-3-x-container),
   .flexRow--home--newsletter--container :global(.vtex-store-components-3-x-container),
   .flexRow--block-twelve-home :global(.vtex-store-components-3-x-container),
   .flexRow--home--info--container :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-home :global(.vtex-store-components-3-x-container)  {
+  .flexRow--block-three-home :global(.vtex-store-components-3-x-container) {
     width: calc(310px - 12px * 2);
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+
   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
   .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container),
   .flexRow--block-five-home :global(.vtex-store-components-3-x-container),
@@ -367,6 +381,7 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
+
   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
   .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container),
   .flexRow--block-five-home :global(.vtex-store-components-3-x-container),
@@ -380,6 +395,7 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
   .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container),
   .flexRow--block-five-home :global(.vtex-store-components-3-x-container),
@@ -393,6 +409,7 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
   .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container),
   .flexRow--block-five-home :global(.vtex-store-components-3-x-container),

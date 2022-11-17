@@ -163,6 +163,11 @@
     .link--home--info--content-more{
         font-size: 13px;
     }
+
+    .paragraph--home--info--content-text {
+      line-height: 22px;
+      margin-top: 10px;
+    }
 }
 
 @media (max-width: 768px){
@@ -208,6 +213,11 @@
     .paragraph--home--info--content-more{
         margin: 0;
     }
+
+    .paragraph--home--info--content-text {
+      line-height: 20px;
+      margin-top: 10px;
+    }
 }
 
 @media (max-width: 320px){
@@ -217,5 +227,15 @@
 
   .strong--home--newsletter--text {
     font-size: 17px;
+  }
+
+  .paragraph--home--info--content-title{
+    font-size: 13px;
+  }
+
+  .paragraph--home--info--content-text {
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
   }
 }
