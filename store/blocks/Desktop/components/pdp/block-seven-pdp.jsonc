@@ -39,7 +39,7 @@
     "props": {
       /* "category": "34185084", */
       "blockClass": "shelf-pdp",
-      "collection": "139",
+      "collection": "149",
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }

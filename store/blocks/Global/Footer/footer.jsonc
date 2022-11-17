@@ -184,7 +184,7 @@
   "rich-text#payments-text-footer-2": {
     "props": {
       "blockClass": "payments-text-footer-2",
-      "text": "Trajetas de crédito o débito"
+      "text": "Tarjetas de crédito o débito"
     }
   },
   /* +++++++++++++++++++ */

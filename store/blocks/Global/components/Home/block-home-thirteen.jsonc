@@ -139,7 +139,7 @@
   },
   "rich-text#title-catalog": {
     "props": {
-      "text": "Guía de tallas",
+      "text": "Catálogo",
       "textAlignment": "LEFT",
       "textPosition":"LEFT" ,
       "blockClass": "home--info--content-title"

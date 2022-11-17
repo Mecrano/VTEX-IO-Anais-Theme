@@ -132,36 +132,38 @@
     ]
   },
   "flex-layout.col#header-menu-content-menu-1": {
+    "title": "block 1",
     "props": {
       "rowGap": 5
     },
     "children": ["image-new#header_menu-content", "menu#header_content"]
   },
   "flex-layout.col#header_menu-content-menu-2": {
+    "title": "block 2",
     "props": {
       "rowGap": 5
     },
     "children": ["image-new#header_menu-content", "menu#header_content"]
   },
   "flex-layout.col#header_menu-content-menu-3": {
+    "title": "block 3",
     "props": {
       "rowGap": 5
     },
     "children": ["image-new#header_menu-content", "menu#header_content"]
   },
   "flex-layout.col#header_menu-content-menu-4": {
-    "props": {
-      "rowGap": 5
-    },
+    "title": "block 4",
+    "props": {"rowGap": 5},
     "children": ["image-new#header_menu-content", "menu#header_content"]
   },
   "flex-layout.col#header_menu-content-menu-5": {
-    "props": {
-      "rowGap": 5
-    },
+    "title": "block 5",
+    "props": {"rowGap": 5},
     "children": ["image-new#header_menu-content", "menu#header_content"]
   },
   "image-new#header_menu-content": {
+    "title": "image",
     "props": {
       "src": "assets/images/header/header_brand.jpg",
       "link": {
@@ -172,6 +174,7 @@
     }
   },
   "menu#header_content": {
+    "title": "submenu-content",
     "props": {
       "orientation": "vertical",
       "items": [
@@ -181,10 +184,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Tenis de hombre",
+            "text": "Tenis de hombre"
           }
         },
         {
@@ -195,8 +198,8 @@
             "type": "internal",
             "href": "/content",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Tenis de mujer",
+            "text": "Tenis de mujer"
           }
         },
         {
@@ -208,8 +211,8 @@
             "type": "internal",
             "href": "/content",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Tenis de niño",
+            "text": "Tenis de niño"
           }
         },
         {
@@ -221,8 +224,8 @@
             "type": "internal",
             "href": "/content",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Tenis de niña",
+            "text": "Tenis de niña"
           }
         },
         {
@@ -234,8 +237,8 @@
             "type": "internal",
             "href": "/content",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Ropa de hombre",
+            "text": "Ropa de hombre"
           }
         },
         {
@@ -247,8 +250,8 @@
             "type": "internal",
             "href": "/content",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Ropa de mujer",
+            "text": "Ropa de mujer"
           }
         },
         {
@@ -260,8 +263,8 @@
             "type": "internal",
             "href": "/content",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Ropa de niño",
+            "text": "Ropa de niño"
           }
         },
         {
@@ -273,8 +276,8 @@
             "type": "internal",
             "href": "/content",
             "noFollow": false,
-            "tagTitle": "Content",
-            "text": "Content"
+            "tagTitle": "Ropa de niña",
+            "text": "Ropa de niña"
           }
         }
       ]

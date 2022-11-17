@@ -15,6 +15,7 @@
     "children": ["flex-layout.row#desktop"]
   },
   "flex-layout.row#desktop": {
+    "title": "header desktop",
     "props": {
       "horizontalAlign": "between",
       "verticalAlign": "center",
@@ -64,6 +65,7 @@
     }
   },
   "menu#header_history": {
+    "title": "historial",
     "props": {
       "blockClass": "header_menu"
     },
@@ -95,6 +97,7 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
+    "title": "header mobile",
     "children": [
       "flex-layout.col#header_logo",
       "flex-layout.col#header_mobile-right",
