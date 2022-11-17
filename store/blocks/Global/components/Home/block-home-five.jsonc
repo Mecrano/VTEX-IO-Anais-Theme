@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#title-brands": {
+    "title": "block five",
+    "children": ["rich-text#brands-title"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "block-five-home"
+    }
+  },
+  "rich-text#brands-title": {
+    "props": {
+      "text": "Tus marcas favoritas en un solo lugar",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home--ideal-products--title", "home--brands--title"]
+    }
+  }
+}

@@ -78,10 +78,6 @@
     left: 7px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--home--shelf--titles-container) .container{
-    max-width: 87%;
-}
-
 :global(.vtex-flex-layout-0-x-flexRow--home--brands--content-container) .container{
     max-width: 98%;
 }

@@ -28,7 +28,7 @@
     font-size: 18px;
     font-family: Rubik;
     color: #B0E3FF;
-    
+
 }
 
 .paragraph--home--ideal-products--title{
@@ -39,8 +39,7 @@
 }
 
 .paragraph--home--shelf--title-1{
-    margin-top: 104px;
-    margin-bottom: 43px;
+    margin-top: 60px;
     font-family: Mulish;
     font-size: 32px;
     font-weight: 800;
@@ -153,11 +152,11 @@
     .paragraph--home--info--content-title{
         font-size: 16px;
     }
-    
+
     .paragraph--home--info--content-text{
         font-size: 16px;
     }
-    
+
     .link--home--info--content-more{
         font-size: 13px;
     }
@@ -182,7 +181,7 @@
         margin-top: 51px;
         margin-bottom: 32px;
     }
-    
+
     .link--home--shelf--title-1{
         font-size: 16px;
     }

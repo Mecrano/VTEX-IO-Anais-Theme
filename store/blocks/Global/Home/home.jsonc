@@ -6,11 +6,11 @@
       "rich-text#ideal-products-title",
       "flex-layout.row#ideal-products",
       "flex-layout.row#shelf-title-container",
-      // shelf
-      "rich-text#brands-title",
+      "flex-layout.row#slider-home-one",
+      "flex-layout.row#title-brands",
       "flex-layout.row#brands-container",
       "flex-layout.row#shelf2-title-container",
-      // shelf,
+      "flex-layout.row#slider-home-two",
       "flex-layout.row#newsletter",
       "rich-text#info-title",
       "flex-layout.row#info-content"
@@ -176,7 +176,7 @@
   },
   "rich-text#ideal-products-title": {
     "props": {
-      "text": "Encuentra tus porductos ideales",
+      "text": "Encuentra tus productos ideales",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home--ideal-products--title"
@@ -296,14 +296,7 @@
       "blockClass": "home--shelf--title-1"
     }
   },
-  "rich-text#brands-title": {
-    "props": {
-      "text": "Tus marcas favoritas en un solo lugar",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "blockClass": ["home--ideal-products--title", "home--brands--title"]
-    }
-  },
+
   "rich-text#info-title": {
     "props": {
       "text": "Información útil para tus compras",
