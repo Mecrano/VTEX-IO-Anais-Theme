@@ -1,6 +1,6 @@
 {
   "flex-layout.row#slider-home-one": {
-    "title": "container shelf one",
+    "title": "block six",
     "children": ["list-context.product-list#shelf-home-one"],
     "props": {"blockClass": "container-slider--home"}
   },

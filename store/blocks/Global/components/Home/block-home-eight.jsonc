@@ -1,0 +1,175 @@
+{
+  "flex-layout.row#brands-container": {
+    "title": "block eight",
+    "children": [
+      "flex-layout.col#brand-1",
+      "flex-layout.col#brand-2",
+      "flex-layout.col#brand-3",
+      "flex-layout.col#brand-4",
+      "flex-layout.col#brand-5",
+      "flex-layout.col#brand-6"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home--brands--content-container"
+    }
+  },
+  /* block 1 */
+  "flex-layout.col#brand-1": {
+    "title": "brand 1",
+    "children": [
+      "image#brand-1-image-1",
+      "image#brand-1-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-1-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-1-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-adidas.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  "rich-text#brand-see-more": {
+    "props": {
+      "text": "[Ver más](/adidas)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home--brands--see-more"
+    }
+  },
+  /* block 2 */
+  "flex-layout.col#brand-2": {
+    "title": "brand 2",
+    "children": [
+      "image#brand-2-image-1",
+      "image#brand-2-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-2-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-2-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-new-balance.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  /* block 3 */
+  "flex-layout.col#brand-3": {
+    "title": "brand 3",
+    "children": [
+      "image#brand-3-image-1",
+      "image#brand-3-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-3-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-3-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-nike.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  /* block 4 */
+  "flex-layout.col#brand-4": {
+    "title": "brand 4",
+    "children": [
+      "image#brand-4-image-1",
+      "image#brand-4-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-4-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-4-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-reebok.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  /* block 5 */
+  "flex-layout.col#brand-5": {
+    "title": "brand 5",
+    "children": [
+      "image#brand-5-image-1",
+      "image#brand-5-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-5-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-5-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-puma.jpg",
+      "blockClass": "home--brands--images"
+    }
+  },
+  /* block 6 */
+  "flex-layout.col#brand-6": {
+    "title": "brand 6",
+    "children": [
+      "image#brand-6-image-1",
+      "image#brand-6-image-2",
+      "rich-text#brand-see-more"
+    ],
+    "props": {
+      "blockClass": "home--brands--container-brand-1",
+      "width": "33%"
+    }
+  },
+  "image#brand-6-image-1": {
+    "props": {
+      "src": "assets/images/Home/adidas-baner.jpg",
+      "blockClass": "home--brands--banner"
+    }
+  },
+  "image#brand-6-image-2": {
+    "props": {
+      "src": "assets/images/Home/brand-skechers.jpg",
+      "blockClass": "home--brands--images"
+    }
+  }
+}

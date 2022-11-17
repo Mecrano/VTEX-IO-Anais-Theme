@@ -1,0 +1,23 @@
+{
+
+  "flex-layout.row#shelf2-title-container": {
+    "title": "block nine",
+    "children": [
+      "rich-text#shelf2-title",
+      "rich-text#more-products",
+      "rich-text#more-products-mobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass":[ "home--shelf--titles-container", "mobile-text"]
+    }
+  },
+  "rich-text#shelf2-title": {
+    "props": {
+      "text": "Lanzamientos exclusivos",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--shelf--title-1"
+    }
+  }
+}
