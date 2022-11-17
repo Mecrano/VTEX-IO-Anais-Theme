@@ -37,9 +37,9 @@
     "blocks": ["product-summary.shelf#global"],
     "children": ["slider-layout#pdp-two"],
     "props": {
-      /* "category": "34185084", */
+     /*  "category": "2/10", */
       "blockClass": "shelf-pdp",
-      "collection": "149",
+      "collection": "137",
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }

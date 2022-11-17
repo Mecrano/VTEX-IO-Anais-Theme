@@ -111,21 +111,21 @@
     }
   },
   "tab-content.item#product2": {
-    "children": ["rich-text#opiniones"],
+    "children": ["product-description#pdp"],
     "props": {
       "tabId": "tab2",
       "blockClass": "product-specification"
     }
   },
   "tab-content.item#product3": {
-    "children": ["rich-text#opiniones"],
+    "children": ["product-description#pdp"],
     "props": {
       "tabId": "tab3",
       "blockClass": "product-specification"
     }
   },
   "tab-content.item#product4": {
-    "children": ["rich-text#opiniones"],
+    "children": ["product-description#pdp"],
     "props": {
       "tabId": "tab4",
       "blockClass": "product-specification"

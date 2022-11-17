@@ -135,6 +135,36 @@
   width: 16% !important;
 }
 
+/* item - filter */
+.flexCol--item-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexColChild--serch-colunm-left {
+  height: auto !important;
+}
+
+.flexRowContent--item-filtros {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--item-filtros :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexCol--item-filter .flexColChild--item-filter:first-child {
+  width: 70% !important;
+}
+
+.flexCol--item-filter .flexColChild--item-filter:last-child {
+  width: 30% !important;
+}
+/* item filter */
+
 @media screen and (min-width: 1400px) {
 
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
