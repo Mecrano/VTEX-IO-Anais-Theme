@@ -100,9 +100,31 @@
     },
     "children": [
       "flex-layout.row#container-pdp",
+      "flex-layout.row#sku-selector",
       "flex-layout.row#container-pdp-mobile",
+      "flex-layout.row#sku-selector-mobile",
       "flex-layout.row#button-pdp"
     ]
+  },
+
+  "flex-layout.row#sku-selector": {
+    "children": ["sku-selector#pdp"],
+    "props": {"blockClass": "sku-mobile"}
+  },
+
+  "flex-layout.row#sku-selector-mobile": {
+    "children": ["sku-selector#pdp"],
+    "props": {"blockClass": ["sku-mobile", "mobile-pdp-sku"]}
+  },
+
+  "sku-selector#pdp": {
+    "props": {
+      "displayMode": 2,
+      "hideImpossibleCombinations": false,
+      "sortVariationsByLabel": true,
+      "showVariationsErrorMessage": true,
+      "blockClass": "sku-pdp"
+    }
   },
 /* mobile */
   "flex-layout.row#container-pdp-mobile": {

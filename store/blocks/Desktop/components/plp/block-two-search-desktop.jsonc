@@ -58,7 +58,7 @@
   "image#adidas": {
     "title": "logo",
     "props": {
-      "src": "arquivos/adidas.png",
+      "src": "/arquivos/adidas.png",
       "blockClass": "logo-adidas"
     }
   },
@@ -75,7 +75,7 @@
   "image#balance": {
     "title": "logo",
     "props": {
-      "src": "arquivos/balance.png",
+      "src": "/arquivos/balance.png",
       "blockClass": "logo"
     }
   },
@@ -92,7 +92,7 @@
   "image#nike": {
     "title": "logo",
     "props": {
-      "src": "arquivos/nike.png",
+      "src": "/arquivos/nike.png",
       "blockClass": "logo"
     }
   },
@@ -109,7 +109,7 @@
   "image#reebok": {
     "title": "logo",
     "props": {
-      "src": "arquivos/reebok.png",
+      "src": "/arquivos/reebok.png",
       "blockClass": "logo"
     }
   },
@@ -126,7 +126,7 @@
   "image#puma": {
     "title": "logo",
     "props": {
-      "src": "arquivos/puma.png",
+      "src": "/arquivos/puma.png",
       "blockClass": "logo"
     }
   },
@@ -143,7 +143,7 @@
   "image#skskecherse": {
     "title": "logo",
     "props": {
-      "src": "arquivos/ske.png",
+      "src": "/arquivos/ske.png",
       "blockClass": "logo"
     }
   }

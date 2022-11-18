@@ -135,12 +135,28 @@
   width: 16% !important;
 }
 
+.flexRowContent--container-slider--home :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRowContent--column-two) :global(.vtex-product-price-1-x-listPrice) {
+  display: none;
+ }
+
 /* item - filter */
 .flexCol--item-filter {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  opacity: 0.7;
+}
+
+.flexRowContent--item-filtros {
+  border-left: 1px solid #065FBD;
+  border-right: 1px solid #065FBD;
+  background-color: #FFFFFF;
+}
+
+.flexCol--item-filter {
+  border-top:  1px solid #065FBD;
+  padding: 1rem 1.5rem;
 }
 
 .flexColChild--serch-colunm-left {
@@ -152,17 +168,6 @@
   flex-direction: column;
 }
 
-.flexRowContent--item-filtros :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: 100% !important;
-}
-
-.flexCol--item-filter .flexColChild--item-filter:first-child {
-  width: 70% !important;
-}
-
-.flexCol--item-filter .flexColChild--item-filter:last-child {
-  width: 30% !important;
-}
 /* item filter */
 
 @media screen and (min-width: 1400px) {
@@ -172,6 +177,7 @@
   .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
     width: calc(1690px - 24px * 2);
     margin: 0 auto;
+    max-width: 100% !important;
   }
 }
 

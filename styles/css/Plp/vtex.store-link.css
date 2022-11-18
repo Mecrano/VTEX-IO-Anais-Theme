@@ -1,0 +1,12 @@
+.link--item-text {
+  text-decoration: none;
+}
+
+.label--item-text {
+  font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #065FBD;
+}

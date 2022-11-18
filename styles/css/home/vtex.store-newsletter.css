@@ -71,7 +71,7 @@
     .nameInputContainer,
     .emailInputContainer :global(.vtex-input-prefix__group),
     .nameInputContainer :global(.vtex-input-prefix__group){
-        height: 30px;
+        height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;

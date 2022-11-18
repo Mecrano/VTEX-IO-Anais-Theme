@@ -6,6 +6,47 @@
   color: #000000;
 }
 
+.skuSelectorName {
+  color: #000000;
+}
+
+.skuSelectorItem--sku-pdp, .frameAround--sku-pdp  {
+  border: none;
+}
+
+.skuSelectorInternalBox {
+  border-color: #065FBD;
+}
+
+.skuSelectorItem--sku-pdp:hover,
+.seeMoreButton :global(.vtex-button):hover  {
+  background-color: #065FBD;
+}
+
+.valueWrapper--sku-pdp {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+color: #065FBD;
+}
+
+.valueWrapper--sku-pdp:hover,
+.seeMoreButton :global(.vtex-button__label):hover {
+color: #ffffff;
+}
+
+.seeMoreButton :global(.vtex-button) {
+  border: 1px solid #065FBD;
+  padding-left: 5px 10px;
+}
+
+.seeMoreButton :global(.vtex-button__label) {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  color: #065FBD;
+}
+
 @media screen and (min-width: 300px) and (max-width: 1024px) {
   .productBrand--productNamePdp  {
     font-size: 16px;

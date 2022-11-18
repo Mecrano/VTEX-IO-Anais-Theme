@@ -11,12 +11,29 @@
   text-decoration: none;
 }
 
+.link--link-social-network-footer {
+
+  text-decoration: none;
+}
+
 @media (max-width: 639px) {
   .label--link-social-network-footer {
     font-size: 18px;
   }
 
   .link--link-information-footer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .label--link-social-network-footer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .label--link-social-network-footer {
     font-size: 14px;
   }
 }

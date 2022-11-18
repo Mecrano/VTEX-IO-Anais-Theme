@@ -29,28 +29,21 @@
 
   "flex-layout.col#item-filter-one": {
     "title": "block 1",
-    "children": ["rich-text#item-filter-one", "image#item-filter-one"],
+    "children": ["link#item-filter-one", "image#item-filter-one"],
     "props": {"blockClass": "item-filter"}
   },
 
-  /* "link#item-filter-one": {
+  "link#item-filter-one": {
     "props": {
       "href": "/",
       "label": "Hot Sales",
-      "blockClass": "item-text"
-    }
-  }, */
-
-  "rich-text#item-filter-one": {
-    "props": {
-      "text": "Hot Sales [help](https://)",
       "blockClass": "item-text"
     }
   },
 
   "image#item-filter-one": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "/arquivos/star.png",
       "maxHeight": 24
     }
   },
@@ -71,7 +64,7 @@
 
   "image#item-filter-two": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "/arquivos/icon2.png",
       "maxHeight": 24
     }
   },
@@ -92,7 +85,7 @@
 
   "image#item-filter-three": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "/arquivos/icon3.png",
       "maxHeight": 24
     }
   },
@@ -113,8 +106,8 @@
 
   "image#item-filter-four": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": 24
+      "src": "/arquivos/icon4.png",
+      "maxHeight": 8
     }
   },
 /* item filter */

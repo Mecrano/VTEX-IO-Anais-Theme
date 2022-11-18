@@ -1,3 +1,21 @@
 .logoLink--logo-social-network-footer{
   width: auto !important;
 }
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .logoImage--logoArrow-social-network-footer {
+    max-width: 40px !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .logoImage--logoArrow-social-network-footer {
+    max-width: 60px !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .logoImage--logoArrow-social-network-footer {
+    max-width: 40px !important;
+  }
+}
