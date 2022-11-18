@@ -194,6 +194,10 @@
   flex-direction: row;
 }
 
+.flexRow--mobile-pdp-sku {
+  display: none;
+}
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
   .flexRow--container-brand :global(.vtex-store-components-3-x-container),
@@ -329,10 +333,6 @@
 
   .flexRow--sku-mobile {
     display: none;
-  }
-
-  .flexRow--mobile-pdp-sku {
-    display: flex !important;
   }
 
   .flexRowContent--productMain {
