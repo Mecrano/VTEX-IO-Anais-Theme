@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#block-eight-search-departament": {
+    "title": "block eight",
+    "children": [
+      "flex-layout.col#eight-infocard-search-departament",
+      "flex-layout.col#eight-slider-search-departament"
+    ],
+    "props": {"blockClass": "block-eight-search-departament"}
+  },
+  "flex-layout.col#eight-infocard-search-departament": {
+    "title": "infocard",
+    "children": ["info-card#card-5-departament"],
+    "props": {
+      "blockClass": "eight-infocard-search-departament",
+      "width": "50%"
+    }
+  },
+  "info-card#card-5-departament": {
+    "props": {
+      "id": "info-card-05",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "arquivos/calzado-search.png",
+      "headline": "",
+      "callToActionText": "Calzados para estrenar",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-7",
+      "textAlignment": "right"
+    }
+  },
+  "flex-layout.col#eight-slider-search-departament": {
+    "title": "container slider",
+    "children": ["list-context.product-list#shelf-genero-three"],
+    "props": {
+      "blockClass": "eight-infocard-search-departament",
+      "width": "50%"
+    }
+  },
+  "list-context.product-list#shelf-genero-three": {
+    "title": "slider",
+    "blocks": ["product-summary.shelf#global"],
+    "children": ["slider-layout#genero-three"],
+    "props": {
+      /* "category": "82/85", */
+      "blockClass": "shelf-pdp",
+      "collection": "137",
+      "maxItems": 10,
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#genero-three": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "navigationStep": 1,
+      "blockClass": "slider-pdp",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+}

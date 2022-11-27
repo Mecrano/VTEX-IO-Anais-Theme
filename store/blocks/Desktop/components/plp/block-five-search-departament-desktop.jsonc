@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#block-five-search-departament": {
+    "title": "block five",
+    "children": [
+      "flex-layout.col#five-newsletter-search-departament",
+      "flex-layout.col#five-imagen-search-departament"
+    ],
+    "props": {"blockClass": "block-five-search-departament"}
+  },
+  "flex-layout.col#five-newsletter-search-departament": {
+    "title": "newsletter",
+    "children": ["newsletter-form"],
+    "props": {
+      "blockClass": "eight-infocard-search-departament",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#five-imagen-search-departament": {
+    "title": "container image",
+    "children": ["image#search-newsletter"],
+    "props": {
+      "blockClass": "eight-infocard-search-departament",
+      "width": "50%"
+    }
+  },
+  "image#search-newsletter": {
+    "title": "image",
+    "props": {
+      "src": "arquivos/Subtract.png",
+      "maxHeight": 656/* ,
+      "maxWidth": 1016 */
+    }
+  }
+}
