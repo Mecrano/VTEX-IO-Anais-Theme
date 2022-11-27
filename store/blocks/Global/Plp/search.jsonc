@@ -27,7 +27,7 @@
      }
   },
   "store.search#department": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#departament"],
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
@@ -43,6 +43,13 @@
             "simulationBehavior": "default"
         }
      }
+  },
+  "search-result-layout#departament": {
+    "blocks": [
+      "search-result-layout.desktop#departament",
+      "search-result-layout.mobile#departament",
+      "search-not-found-layout"
+    ]
   },
   "search-result-layout": {
     "blocks": [
