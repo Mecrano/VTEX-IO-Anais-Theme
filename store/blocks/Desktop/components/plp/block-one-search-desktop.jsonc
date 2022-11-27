@@ -10,7 +10,7 @@
     "title": "breadcrumb",
     "props": {
       "showOnMobile": true,
-      "blockClass": "breadcrumbPlp"
+      "blockClass": "breadcrumbPdp"
     }
   }
 }

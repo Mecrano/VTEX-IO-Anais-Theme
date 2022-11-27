@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer-1-social-network-column-1": {
+    "title": "container social",
     "children": ["flex-layout.col#footer-1-container-social-network"]
   },
   "flex-layout.col#footer-1-container-social-network": {
@@ -11,6 +12,7 @@
     ]
   },
   "flex-layout.row#footer-1-social-network-email": {
+    "title": "Email",
     "props": {
       "blockClass": "container-row-social-networl-footer",
       "preserveLayoutOnMobile": true
@@ -21,6 +23,7 @@
     ]
   },
   "flex-layout.row#footer-1-social-network-whatsapp": {
+    "title": "Whatsapp",
     "props": {
       "blockClass": "container-row-social-networl-footer",
       "preserveLayoutOnMobile": true
@@ -31,6 +34,7 @@
     ]
   },
   "flex-layout.row#footer-1-social-network-facebook": {
+    "title": "Facebook",
     "props": {
       "blockClass": "container-row-social-networl-footer",
       "preserveLayoutOnMobile": true
@@ -41,6 +45,7 @@
     ]
   },
   "flex-layout.row#footer-1-social-network-instagram": {
+    "title": "Instagram",
     "props": {
       "blockClass": "container-row-social-networl-footer",
       "preserveLayoutOnMobile": true

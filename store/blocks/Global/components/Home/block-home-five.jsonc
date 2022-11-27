@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#shelf-title-container": {
+    "title": "block five",
+    "children": [
+      "rich-text#shelf-title",
+      "rich-text#more-products",
+      "rich-text#more-products-mobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home--shelf--titles-container"
+    }
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Lo más vendido",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#more-products": {
+    "props": {
+      "text": "[Ver más productos](/tenis)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#more-products-mobile": {
+    "props": {
+      "text": "[Ver más](/tenis)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--shelf--title-1"
+    }
+  }
+}

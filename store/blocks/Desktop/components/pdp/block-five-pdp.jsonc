@@ -1,49 +1,22 @@
 {
-  "flex-layout.row#slider-rich-pdp-two": {
-    "title": "container slider 2",
-    "children":[
-      "rich-text#shelf-vitrina-pdp-two",
-      "flex-layout.col#slider-two-two"
-    ],
-    "props": {"blockClass": "slider-rich-plp"}
+  "flex-layout.row#container-brands": {
+    "title": "block five",
+    "children":["rich-text#title-pdp-marcas", "link#title-ver-mas-marcas"],
+    "props": {"blockClass": "container-brand"}
   },
-  "rich-text#shelf-vitrina-pdp-two": {
-    "title": "title slider",
+  "rich-text#title-pdp-marcas": {
+    "title": "title",
     "props": {
-      "text": "Productos relacionados",
-      "blockClass": "title-slider--pdp"
+      "text": "Explora nuestras marcas",
+      "blockClass": "title-brands"
     }
   },
-  "flex-layout.col#slider-two-two": {
-    "title": "container slider",
-    "children": ["list-context.product-list#shelf-pdp-two"],
-    "props": {"blockClass": "container-slider--plp"}
-  },
-  "list-context.product-list#shelf-pdp-two": {
-    "title": "list context shelf",
-    "blocks": ["product-summary.shelf#global"],
-    "children": ["slider-layout#pdp-two"],
+  "link#title-ver-mas-marcas": {
+    "title": "title ver mas",
     "props": {
-      /* "category": "34185084", */
-      "blockClass": "shelf-pdp",
-      "collection": "139",
-      "maxItems": 10,
-      "orderBy": "OrderByReleaseDateDESC"
-    }
-  },
-  "slider-layout#pdp-two": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 4,
-        "phone": 2
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "navigationStep": 1,
-      "blockClass": "slider-pdp",
-      "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "href": "/",
+      "label": "Ver más productos",
+      "blockClass": "show-brands"
     }
   }
 }

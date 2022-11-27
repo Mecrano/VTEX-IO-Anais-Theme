@@ -1,0 +1,60 @@
+{
+  "flex-layout.row#newsletter": {
+    "title": "block eleven",
+    "children": [
+      "flex-layout.col#newsletter",
+      "image#newsletter"
+    ],
+    "props": {"blockClass": "home--newsletter--container"}
+  },
+  "image#newsletter": {
+    "props": {
+      "src": "assets/images/Home/newsletter.png",
+      "blockClass": "home--newsletter--image"
+    }
+  },
+  "flex-layout.col#newsletter": {
+    "children": [
+      "rich-text#newsletter-title",
+      "newsletter-form"
+    ],
+    "props": {}
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "text": "**Newsletter** \n\n Regístrate para disfrutar de beneficios exclusivos en tu siguente compra y recibe las útimas noticas acerca de nuestros productos.",
+      "blockClass": "home--newsletter--text",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT"
+
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-checkbox-confirmation",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email":{
+    "props": {
+      "placeholderText": "Dirección de email"
+    }
+  },
+  "newsletter-input-name":{
+    "props": {
+      "placeholderText": "Nombre"
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props": {
+      "checkboxLabel": "Estoy de acuerdo en compartir mis datos personales solicitados, he leído la Política de privacidad al igual que los Términos y condiciones"
+    }
+  },
+  "newsletter-submit":{
+    "props": {
+      "submitButtonLabel": "Suscribirme"
+    }
+  }
+}

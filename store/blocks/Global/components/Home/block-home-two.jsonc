@@ -1,0 +1,130 @@
+{
+  "flex-layout.row#benefits-container": {
+    "title": "block two",
+    "children": ["rich-text#benefits-title", "flex-layout.row#benefits"],
+    "props": {"blockClass": "home--benefits--container"}
+  },
+  "rich-text#benefits-title": {
+    "props": {
+      "text": "Beneficios a suscriptores",
+      "blockClass": "home--benefits--title",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.row#benefits": {
+    "children": [
+      "flex-layout.row#benefit-1",
+      "flex-layout.row#benefit-2",
+      "flex-layout.row#benefit-3",
+      "flex-layout.row#benefit-4"
+    ],
+    "props": {
+      "blockClass": "home--benefits--content",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  /* 1 benefit */
+  "flex-layout.row#benefit-1": {
+    "children": [
+      "icon#benefit-1",
+      "rich-text#benefit-1"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-1"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-1": {
+    "props": {
+      "id": "bnf-truck",
+      "activeClassName": "vtex-bnf-icon vtex-icon-truck"
+    }
+  },
+  "rich-text#benefit-1": {
+    "props": {
+      "text": "Envío gratis en productos desde Q300",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit1"]
+    }
+  },
+
+  /* 2 benefit */
+  "flex-layout.row#benefit-2": {
+    "children": [
+      "icon#benefit-2",
+      "rich-text#benefit-2"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-2"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-2": {
+    "props": {
+      "id": "bnf-diamond",
+      "activeClassName": "vtex-bnf-icon vtex-icon-diamond"
+    }
+  },
+  "rich-text#benefit-2": {
+    "props": {
+      "text": "Promosiones solo para suscriptores",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit2"]
+    }
+  },
+
+  /* 3 benefit */
+  "flex-layout.row#benefit-3": {
+    "children": [
+      "icon#benefit-3",
+      "rich-text#benefit-3"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-3"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-3": {
+    "props": {
+      "id": "bnf-check",
+      "activeClassName": "vtex-bnf-icon vtex-icon-check"
+    }
+  },
+  "rich-text#benefit-3": {
+    "props": {
+      "text": "Tus compras siempre seguras",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit3"]
+    }
+  },
+
+  /* 4 benefit */
+  "flex-layout.row#benefit-4": {
+    "children": [
+      "icon#benefit-4",
+      "rich-text#benefit-4"
+    ],
+    "props": {
+      "blockClass": ["home--icon-benefit--container", "home--icon-benefit--container-4"],
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "icon#benefit-4": {
+    "props": {
+      "id": "bnf-heart",
+      "activeClassName": "vtex-bnf-icon vtex-icon-heart"
+    }
+  },
+  "rich-text#benefit-4": {
+    "props": {
+      "text": "los mejores precios y marcas siempre",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": ["home--benefits-benefit", "home--benefits-benefit4"]
+    }
+  }
+}

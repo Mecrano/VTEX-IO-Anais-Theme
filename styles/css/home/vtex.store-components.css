@@ -78,10 +78,6 @@
     left: 7px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--home--shelf--titles-container) .container{
-    max-width: 87%;
-}
-
 :global(.vtex-flex-layout-0-x-flexRow--home--brands--content-container) .container{
     max-width: 98%;
 }
@@ -93,11 +89,6 @@
 
 .infoCardImage--home--ideal-products--infocard{
     width: 100%;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--home--newsletter--container) .container,
-:global(.vtex-flex-layout-0-x-flexRow--home--info--container) .container{
-    max-width: 92%;
 }
 
 @media (max-width: 1400px){

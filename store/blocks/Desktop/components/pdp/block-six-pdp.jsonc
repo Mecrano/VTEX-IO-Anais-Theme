@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#marcas-pdp": {
+    "title": "block six",
+    "children": [
+      "flex-layout.col#brand-1",
+      "flex-layout.col#brand-2",
+      "flex-layout.col#brand-3",
+      "flex-layout.col#brand-4",
+      "flex-layout.col#brand-5",
+      "flex-layout.col#brand-6"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["home--brands--content-container", "marcas-pdp"]
+    }
+  }
+}

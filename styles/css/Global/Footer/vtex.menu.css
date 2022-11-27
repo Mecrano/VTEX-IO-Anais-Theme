@@ -12,11 +12,28 @@
   color: #fff;
 }
 
+.styledLinkContent--root-footer {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
 @media (max-width: 1024px) {
   .menuContainer--footer_menu {
     flex-wrap: wrap;
     justify-content: start;
     gap: 15px;
     margin-bottom: 15px;
+  }
+
+  .styledLinkContent--root-footer {
+    font-size: 12px;
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .styledLinkContent--root-footer {
+    font-size: 14px;
+    margin-right: 0;
   }
 }

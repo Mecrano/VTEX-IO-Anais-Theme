@@ -1,0 +1,76 @@
+.paragraph--one {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* font-family: 'Mukta'; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 323.5%;
+  color: #000000;
+}
+
+.container--preguntas {
+  width: 30% !important;
+  background-color: #f1f3f9;
+  margin-left: -54px;
+}
+
+.paragraph--preguntas {
+  border-bottom: 1px solid #CBCBCB;
+  margin-left: 50px;
+  /* font-family: 'Titillium Web'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 55px;
+  color: #000000;
+}
+
+.paragraph--texto-prueba {
+ margin-top: 0;
+ margin-bottom: 0;
+ color: #000000;
+ font-size: 18px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .paragraph--one {
+    font-size: 16px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .paragraph--preguntas  {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .container--preguntas  {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .container--preguntas  {
+    width: 100% !important;
+    margin-left: 0;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container--preguntas  {
+    width: 40% !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container--preguntas  {
+    margin-left: -252px;
+    width: 44.1% !important;
+    padding-left: 200px;
+  }
+}

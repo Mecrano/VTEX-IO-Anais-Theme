@@ -1,17 +1,30 @@
 {
   "flex-layout.row#slider-rich-pdp": {
-    "title": "container slider pdp",
+    "title": "block four",
     "children":[
-      "rich-text#shelf-vitrina-pdp",
+      "flex-layout.col#container-text-pdp",
       "flex-layout.col#slider-two"
     ],
     "props": {"blockClass": "slider-rich-plp"}
+  },
+  "flex-layout.col#container-text-pdp": {
+    "title": "container text",
+    "children": ["rich-text#shelf-vitrina-pdp", "link#ver-mas-pdp"],
+    "props": {"blockClass": "container-text"}
   },
   "rich-text#shelf-vitrina-pdp": {
     "title": "title slider",
     "props": {
       "text": "Combínalo con",
       "blockClass": "title-slider--pdp"
+    }
+  },
+  "link#ver-mas-pdp": {
+    "title": "title ver-más",
+    "props": {
+      "href": "/",
+      "label": "Ver más",
+      "blockClass": "show-brands"
     }
   },
   "flex-layout.col#slider-two": {
@@ -26,7 +39,7 @@
     "props": {
       /* "category": "34185084", */
       "blockClass": "shelf-pdp",
-      "collection": "139",
+      "collection": "137",
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }

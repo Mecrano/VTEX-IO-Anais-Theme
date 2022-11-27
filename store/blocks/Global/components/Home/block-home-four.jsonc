@@ -1,0 +1,67 @@
+{
+  "flex-layout.row#ideal-products": {
+    "title": "block four",
+    "children": [
+      "info-card#ideal-products-1",
+      "info-card#ideal-products-2",
+      "info-card#ideal-products-3",
+      "info-card#ideal-products-4"
+    ],
+    "props": {
+      "blockClass": "home--ideal-products--content-container",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  /* info 1 */
+  "info-card#ideal-products-1": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/Running.jpg",
+      "headline": "",
+      "callToActionText": "Running",
+      "callToActionUrl": "/running",
+      "blockClass": ["home--ideal-products--infocard-4", "home--ideal-products--infocard"]
+    }
+  },
+  /* info 2 */
+  "info-card#ideal-products-2": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/training.jpg",
+      "headline": "",
+      "callToActionText": "Training",
+      "callToActionUrl": "/training",
+      "blockClass": ["home--ideal-products--infocard-1", "home--ideal-products--infocard"]
+    }
+  },
+  /* info 3 */
+  "info-card#ideal-products-3": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/futbol.jpg",
+      "headline": "",
+      "callToActionText": "Fútbol",
+      "callToActionUrl": "/running",
+      "blockClass": ["home--ideal-products--infocard-2", "home--ideal-products--infocard"]
+    }
+  },
+  /* info 4 */
+  "info-card#ideal-products-4": {
+    "props": {
+      "id": "info-card",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/images/Home/casual.jpg",
+      "headline": "",
+      "callToActionText": "Casual",
+      "callToActionUrl": "/casual",
+      "blockClass": ["home--ideal-products--infocard-3", "home--ideal-products--infocard"]
+    }
+  }
+}

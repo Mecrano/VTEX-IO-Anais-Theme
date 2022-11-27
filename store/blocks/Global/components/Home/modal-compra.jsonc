@@ -1,0 +1,108 @@
+{
+  "modal-trigger#quickview-compra": {
+    "children": [
+      "flex-layout.col#compra-rapida",
+      "modal-layout#quickview"
+    ],
+    "props": {"blockClass": "quickview"}
+  },
+
+  "flex-layout.col#compra-rapida": {
+    "children": ["rich-text#compra"],
+    "props": {
+      "blockClass": "text-compra"
+    }
+  },
+
+  "rich-text#compra": {
+    "props": {
+      "text": "Compra rápida",
+      "blockClass": "compra-rapida"
+    }
+  },
+
+  "modal-layout#quickview": {
+    "children": [
+      "modal-header#quickview",
+      "flex-layout.row#quickview-main-row"
+    ],
+    "props": {"blockClass": "quickview"}
+  },
+
+  "modal-header#quickview": {
+    "props": {"blockClass": "quickview"}
+  },
+
+  "flex-layout.row#quickview-main-row": {
+    "children": [
+      "flex-layout.col#quickview-images",
+      "flex-layout.col#quickview-product-details"
+    ],
+    "props": {"blockClass": "quickviewMainRow"}
+  },
+
+  "flex-layout.col#quickview-images": {
+    "children": ["product-images#modal"],
+    "props":{
+      "blockClass": "images-modal"
+    }
+  },
+
+  "product-images#modal": {
+    "props": {
+      "blockClass": "imagePdp-modal",
+      "displayThumbnailsArrows": true,
+      "showNavigationArrows": true
+    }
+  },
+
+  "flex-layout.col#quickview-product-details": {
+    "children": [
+      "modal-content#quickview",
+      "modal-actions#quickview"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "quickviewDetails"
+    }
+  },
+  "modal-content#quickview": {
+    "children": [
+      "flex-layout.row#container-pdp",
+      "flex-layout.row#sku-selector",
+      "flex-layout.row#container-pdp-mobile",
+      "flex-layout.row#sku-selector-mobile"
+    ],
+    "props": {"blockClass": "quickviewContent"}
+  },
+
+  "modal-actions#quickview": {
+    "props": {"blockClass": "quickview"},
+    "children": [
+      "flex-layout.row#quickview-actions-1",
+      "flex-layout.row#quickview-actions-2"
+    ]
+  },
+
+  "flex-layout.row#quickview-actions-1": {
+    "children": ["flex-layout.row#button-pdp"],
+    "props": {
+      "colSizing": "auto",
+      "colGap": 6,
+      "blockClass": "addToCartRow"
+    }
+  },
+
+  "flex-layout.row#quickview-actions-2": {
+    "children": ["link.product#button-pdp"],
+    "props": {"blockClass": "link-button-pdp"}
+  },
+
+  "link.product#button-pdp": {
+    "props": {
+      "blockClass": "link-pdp-modal",
+      "label": "Ver más detalles del product",
+      "href": "/{slug}/p"
+    }
+  }
+}

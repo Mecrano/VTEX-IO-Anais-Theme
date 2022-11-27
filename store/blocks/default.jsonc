@@ -16,6 +16,11 @@
 
   "login-content#default": {
     "props": {
+      "optionsTitle": "Otras opciones",
+      "emailAndPasswordTitle": "Ingresa con tu mail y contraseña",
+      "accessCodeTitle": "Ingresa tu mail",
+      "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Contraseña",
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true

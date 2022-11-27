@@ -1,7 +1,54 @@
+.flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+.flexRow--container-condiftional :global(.vtex-store-components-3-x-container),
+.flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+.flexRow--container-brand :global(.vtex-store-components-3-x-container) {
+  width: calc(1240px - 24px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--marcas-pdp :global(.vtex-store-components-3-x-container) {
+  width: calc(1340px - 24px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--flexBreadcrumb {
+  background-color: #ffffff;
+}
+
+.flexRow--container-brand,
+.flexRow--slider-rich-plp,
+.flexRow--productMain,
+.flexRow--container-pdp-tab,
+.flexRow--container-condiftional {
+  background-color: #EDEDED;
+}
+
+.flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+.flexRow--productMain :global(.vtex-store-components-3-x-container),
+.flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+.flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+.flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+.flexRow--container-brand :global(.vtex-store-components-3-x-container),
+.flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .flexRowContent--productName {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 15px;
+}
+
+.flexRow--productName {
+  padding-top: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #C7C7C7;
 }
 
 .flexRowContent--product-prices {
@@ -9,9 +56,11 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
-.flexRowContent--container {
+.flexRowContent--container,
+.flexRowContent--slider-rich-plp-two {
   display: flex;
   flex-direction: column;
 }
@@ -25,7 +74,7 @@
   width: 100% !important;
 }
 
-.flexRowContent--productName :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+.flexRowContent--productName :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
   width: 70% !important;
 }
 
@@ -34,19 +83,20 @@
 }
 
 .flexRowContent--product-prices :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
- width: 80% !important;
+  width: 80% !important;
 }
 
-.flexRowContent--product-prices :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child  {
+.flexRowContent--product-prices :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   width: 20% !important;
 }
 
-.flexRowContent--slider-rich-plp  {
+.flexRowContent--slider-rich-plp {
   display: flex;
   flex-direction: column;
 }
 
-.flexRowContent--slider-rich-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth)  {
+.flexRowContent--slider-rich-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--slider-rich-plp-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
 
@@ -54,4 +104,278 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.flexRowContent--button-pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 28% !important;
+  padding-right: 0;
+}
+
+.flexRowContent--button-pdp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 72% !important;
+}
+
+.flexRowContent--button-pdp :global(.vtex-button) {
+  background-color: #004793;
+  height: 70px;
+}
+
+.flexRowContent--button-pdp :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--addToCartPdp) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--button-pdp :global(.vtex-button__label) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.flexRow--marcas-pdp,
+.flexRow--slider-rich-plp-two {
+  background-color: #ededed !important;
+  padding-bottom: 30px;
+}
+
+.flexRowContent--container-brand,
+.flexCol--container-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* container opinon */
+.flexRow--opiniones-pdp {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.flexRowContent--opiniones-pdp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--opiniones-pdp :global(.vtex-rich-text-0-x-container--opiniones),
+.flexRowContent--opiniones-pdp :global(.vtex-store-link-0-x-link--opiniones) {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--opiniones-pdp :global(.vtex-store-link-0-x-link--opiniones) {
+  text-decoration: none;
+  background-color: #004793;
+  height: 50px;
+  align-items: center;
+}
+
+.flexRowContent--opiniones-pdp :global(.vtex-store-link-0-x-label--opiniones) {
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+/* container opinon */
+
+.flexRow--color {
+  background-color: #EDEDED !important;
+}
+
+.flexRowContent--button-pdp {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRow--mobile-pdp-sku {
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--container-brand :global(.vtex-store-components-3-x-container),
+  .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+    width: calc(310px - 12px * 2);
+    margin: 0 auto;
+  }
+
+  .flexRowContent--button-pdp :global(.vtex-button__label) {
+    font-size: 15px;
+    padding-left: 6rem;
+  }
+
+  .flexRow--tab-pdp :global(.vtex-tab-layout-0-x-listItemActive--border-425) :global(.vtex-button__label) {
+    padding-left: 1.5rem !important;
+    padding-right: 1.7rem !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--container-brand :global(.vtex-store-components-3-x-container),
+  .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--container-condiftional :global(.vtex-store-components-3-x-container){
+    width: calc(375px - 12px * 2);
+    margin: 0 auto;
+  }
+
+  .flexRowContent--button-pdp :global(.vtex-button__label) {
+    padding-left: 3.5rem;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .flexRowContent--container-pdp-tab {
+    flex-direction: column;
+  }
+
+  .flexRow--opiniones-pdp {
+    margin-left: 0 !important;
+    margin-top: 20px;
+  }
+
+  .flexRowContent--container-brand :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 60% !important;
+  }
+
+  .flexRowContent--container-brand :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 40% !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--container-brand :global(.vtex-store-components-3-x-container),
+  .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+    width: calc(430px - 12px * 2);
+    margin: 0 auto;
+  }
+
+  .flexRow--tab-pdp :global(.vtex-tab-layout-0-x-listItemActive--border-425) :global(.vtex-button__label) {
+    padding-left: 1.8rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--container-brand :global(.vtex-store-components-3-x-container),
+  .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+    width: calc(730px - 12px * 2);
+    margin: 0 auto;
+  }
+
+  .flexRowContent--product-prices :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 68% !important;
+  }
+
+  .flexRowContent--product-prices :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 32% !important;
+  }
+
+  .flexRowContent--button-pdp :global(.vtex-button__label) {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--container-brand :global(.vtex-store-components-3-x-container),
+  .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+    width: calc(999px - 12px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--container-brand :global(.vtex-store-components-3-x-container),
+  .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
+  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+    width: calc(1690px - 24px * 2);
+    margin: 0 auto;
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+
+  .flexRow--sku-mobile {
+    display: none;
+  }
+
+  .flexRowContent--productMain {
+    margin-bottom: 0;
+  }
+
+  .flexRowContent--mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+
+  .flexCol--mobile-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .flexCol--mobile-two .flexColChild--mobile-two {
+    width: 100% !important;
+  }
+
+  .flexRow--container {
+    display: none;
+  }
+
+  .flexCol--mobile-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .flexCol--mobile-one .flexColChild--mobile-one:last-child {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1025px){
+  .flexRow--mobile {
+    display: none;
+  }
 }

@@ -20,10 +20,21 @@
 .nameContainer--name-global {
   padding-top: 0;
   padding-bottom: 0;
-  height: 87px;
+  height: 60px;
 }
 
+.nameWrapper--name-global {
+  margin-top: 10px;
+ }
 
+ .description--descripcion-global  {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 12px;
+ }
 
 @media screen and (min-width: 1400px) {
   .nameContainer--name-global {
@@ -43,3 +54,16 @@
     width: 300px;
   }
 }
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .nameContainer--name-global {
+    height: 80px !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .nameContainer--name-global {
+    height: 80px !important;
+  }
+}
+

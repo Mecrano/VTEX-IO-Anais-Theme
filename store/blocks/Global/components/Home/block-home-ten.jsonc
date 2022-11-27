@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#slider-home-two": {
+    "title": "block ten",
+    "children": ["list-context.product-list#shelf-home-two"],
+    "props": {"blockClass": "container-slider--home"}
+  },
+  "list-context.product-list#shelf-home-two": {
+    "title": "shelf home",
+    "blocks": ["product-summary.shelf#global"],
+    "children": ["slider-layout#home-two"],
+    "props": {
+      "category": "1/3",
+      "blockClass": "shelf-pdp",
+     /*  "collection": "137", */
+      "maxItems": 10,
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#home-two": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "navigationStep": 1,
+      "blockClass": "slider-pdp",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+}

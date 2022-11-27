@@ -1,0 +1,81 @@
+.flexRowContent--column-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--column-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--column-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 100% !important;
+}
+
+.flexColChild--text-compra {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ededed;
+}
+
+.flexColChild--images-modal :global(.vtex-store-components-3-x-carouselGaleryThumbs--imagePdp-modal) {
+  display: none;
+}
+
+.flexColChild--images-modal  :global(.vtex-store-components-3-x-carouselContainer--imagePdp-modal) {
+  justify-content: center;
+}
+
+.flexRowContent--quickviewMainRow :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) {
+  padding-left: 0;
+}
+
+.flexColChild--quickviewDetails :global(.vtex-add-to-cart-button-0-x-buttonText--addToCartPdp) {
+  margin-left: 30px;
+}
+
+.flexColChild--quickviewDetails :global(.vtex-store-link-0-x-link--link-pdp-modal) {
+ display: flex;
+ justify-content: center;
+}
+
+.flexColChild--quickviewDetails :global(.vtex-store-link-0-x-link--label-pdp-modal) {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.flexColChild--quickviewDetails .flexRowContent--addToCartRow .stretchChildrenWidth:first-child {
+  width: 30% !important;
+}
+
+.flexColChild--quickviewDetails .flexRowContent--addToCartRow .stretchChildrenWidth:last-child {
+  width: 95% !important;
+}
+
+.flexColChild--quickviewDetails {
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  /* .flexColChild--quickviewDetails .flexRow--mobile {
+    display: none;
+  }
+
+  .flexColChild--quickviewDetails .flexRow--container {
+    display: flex;
+  } */
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+
+  /* .flexColChild--quickviewDetails .flexRow--container,
+  .flexColChild--quickviewDetails .flexRow--sku-mobile {
+    display: none;
+  } */
+  .flexRowContent--quickviewMainRow :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) {
+    padding-left: 20px;
+  }
+
+  :global(.vtex-modal-layout-0-x-actionsContentWrapper--quickview) .flexRowContent--addToCartRow :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding-left: 10px;
+  }
+}

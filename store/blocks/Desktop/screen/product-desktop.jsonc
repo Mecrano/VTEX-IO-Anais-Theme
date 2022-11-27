@@ -3,10 +3,11 @@
     "title": "product page desktop",
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "condition-layout.product#availability",
+      "flex-layout.row#container-conditional",
       "flex-layout.row#container-pdp-tab",
       "flex-layout.row#slider-rich-pdp",
-      "flex-layout.row#brands-container",
+      "flex-layout.row#container-brands",
+      "flex-layout.row#marcas-pdp",
       "flex-layout.row#slider-rich-pdp-two"
     ]
   }

@@ -1,0 +1,26 @@
+.link--show-brands {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+}
+
+.label--show-brands {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #004793;
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .label--show-brands {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .label--show-brands {
+    font-size: 14px;
+  }
+}

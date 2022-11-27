@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer-1-categories-column-1": {
+    "title": "container mapa",
     "props": { "blockClass": "footer-1-categories" },
     "children": ["flex-layout.col#footer-1-categories-column-1"]
   },
@@ -7,7 +8,10 @@
     "children": [
       "flex-layout.row#footer-1-title-categories-column-1",
       "flex-layout.row#footer-1-brands-categories-column-1"
-    ]
+    ],
+    "props":{
+      "blockClass": "mobile-footer"
+    }
   },
   "flex-layout.row#footer-1-title-categories-column-1": {
     "children": ["rich-text#footer-1-title-categories-column-1"]

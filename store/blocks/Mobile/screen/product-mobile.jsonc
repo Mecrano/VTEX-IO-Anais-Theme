@@ -2,11 +2,13 @@
   "responsive-layout.mobile#pdp": {
     "title": "product page mobile",
     "children": [
-      "flex-layout.row#product-breadcrumb"/* ,
-      "condition-layout.product#availability",
-      "flex-layout.row#tab-pdp",
-      "flex-layout.row#specification-mobile-pdp",
-      "flex-layout.row#slider-rich-pdp" */
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#container-conditional",
+      "flex-layout.row#container-pdp-tab",
+      "flex-layout.row#slider-rich-pdp",
+      "flex-layout.row#container-brands",
+      "flex-layout.row#brands-container-mobile",
+      "flex-layout.row#slider-rich-pdp-two"
     ]
   }
 }

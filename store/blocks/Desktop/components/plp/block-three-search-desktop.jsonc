@@ -11,11 +11,107 @@
   },
   "flex-layout.col#serch-colunm-left": {
     "title": "container filtros",
-    "children": ["filter-navigator.v3"],
+    "children": ["flex-layout.row#item-filtros", "filter-navigator.v3"],
     "props": {
       "blockClass": "serch-colunm-left"
     }
   },
+  /* item filter  */
+  "flex-layout.row#item-filtros": {
+    "children": [
+      "flex-layout.col#item-filter-one",
+      "flex-layout.col#item-filter-two",
+      "flex-layout.col#item-filter-three",
+      "flex-layout.col#item-filter-four"
+    ],
+    "props": {"blockClass": "item-filtros"}
+  },
+
+  "flex-layout.col#item-filter-one": {
+    "title": "block 1",
+    "children": ["link#item-filter-one", "image#item-filter-one"],
+    "props": {"blockClass": "item-filter"}
+  },
+
+  "link#item-filter-one": {
+    "props": {
+      "href": "/",
+      "label": "Hot Sales",
+      "blockClass": "item-text"
+    }
+  },
+
+  "image#item-filter-one": {
+    "props": {
+      "src": "/arquivos/star.png",
+      "maxHeight": 24
+    }
+  },
+
+  "flex-layout.col#item-filter-two": {
+    "title": "block 1",
+    "children": ["link#item-filter-two", "image#item-filter-two"],
+    "props": {"blockClass": "item-filter"}
+  },
+
+  "link#item-filter-two": {
+    "props": {
+      "href": "/",
+      "label": "Lo más vendido",
+      "blockClass": "item-text"
+    }
+  },
+
+  "image#item-filter-two": {
+    "props": {
+      "src": "/arquivos/icon2.png",
+      "maxHeight": 24
+    }
+  },
+
+  "flex-layout.col#item-filter-three": {
+    "title": "block 1",
+    "children": ["link#item-filter-three", "image#item-filter-three"],
+    "props": {"blockClass": "item-filter"}
+  },
+
+  "link#item-filter-three": {
+    "props": {
+      "href": "/",
+      "label": "Próximos lanzamientos",
+      "blockClass": "item-text"
+    }
+  },
+
+  "image#item-filter-three": {
+    "props": {
+      "src": "/arquivos/icon3.png",
+      "maxHeight": 24
+    }
+  },
+
+  "flex-layout.col#item-filter-four": {
+    "title": "block 1",
+    "children": ["link#item-filter-four", "image#item-filter-four"],
+    "props": {"blockClass": "item-filter"}
+  },
+
+  "link#item-filter-four": {
+    "props": {
+      "href": "/",
+      "label": "Marcas",
+      "blockClass": "item-text"
+    }
+  },
+
+  "image#item-filter-four": {
+    "props": {
+      "src": "/arquivos/icon4.png",
+      "maxHeight": 8
+    }
+  },
+/* item filter */
+
   "filter-navigator.v3": {
     "props":{
       "blockClass": "filter",
@@ -62,7 +158,7 @@
           "itemsPerRow": {
             "(min-width:1400px)": 4,
             "desktop": 4,
-            "tablet": 2,
+            "tablet": 3,
             "phone": 2
           }
         },

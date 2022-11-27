@@ -1,0 +1,53 @@
+.homeIcon--breadcrumbPdp {
+  display: none;
+}
+
+.caretIcon--breadcrumbPdp {
+  display: none;
+}
+
+.arrow--breadcrumbPdp::before {
+  content: "|";
+  font-size: 1rem;
+  color: black;
+  width: 18px;
+  height: 18px;
+}
+
+.homeLink--breadcrumbPdp::after {
+  content: url(/arquivos/breadcrumb.png);
+  width: 18px;
+  height: 18px;
+}
+
+.link--breadcrumbPdp, .term--breadcrumbPdp{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.link--breadcrumbPdp:hover{
+  color: #000000;
+  outline: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .link--breadcrumbPdp, .term--breadcrumbPdp{
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .link--breadcrumbPdp, .term--breadcrumbPdp{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .link--breadcrumbPdp, .term--breadcrumbPdp{
+    font-size: 0.8rem;
+  }
+}

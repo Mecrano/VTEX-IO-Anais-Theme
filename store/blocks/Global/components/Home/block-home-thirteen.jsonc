@@ -1,0 +1,170 @@
+{
+  "flex-layout.row#info-content": {
+    "title": "block thirteen",
+    "children": [
+      "flex-layout.col#info-content-envios",
+      "flex-layout.col#info-content-tallas",
+      "flex-layout.col#info-content-catalogo"
+    ],
+    "props": {
+      "blockClass": "home--info--container",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  /* block 1 */
+  "flex-layout.col#info-content-envios": {
+    "children": [
+      "flex-layout.row#title-icon1",
+      "rich-text#envios-paragraph",
+      "rich-text#envios-mas"
+    ],
+    "props": {
+      "blockClass": ["home--info--content", "home--info--envios"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#title-icon1": {
+    "children": [
+      "rich-text#title-envios",
+      "icon#envios"
+    ],
+    "props": {
+      "blockClass": "home--info--title-icon",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#title-envios": {
+    "props": {
+      "text": "Envíos y devoluciones",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-title"
+    }
+  },
+  "icon#envios": {
+    "props": {
+      "id": "info-box",
+      "activeClassName": "vtex-bnf-icon vtex-icon-box"
+    }
+  },
+  "rich-text#envios-paragraph": {
+    "props": {
+      "text": "Conoce los tiempos de entregas, costos de envios y horarios de entregas.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-text"
+    }
+  },
+  "rich-text#envios-mas": {
+    "props": {
+      "text": "[Leer más](/envios-y-devoluciones)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--info--content-more"
+    }
+  },
+  /* block 2 */
+  "flex-layout.col#info-content-tallas": {
+    "children": [
+      "flex-layout.row#title-icon2",
+      "rich-text#tallas-paragraph",
+      "rich-text#tallas-mas"
+    ],
+    "props": {
+      "blockClass": ["home--info--content", "home--info--tallas"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#title-icon2": {
+    "children": [
+      "rich-text#title-tallas",
+      "icon#tallas"
+    ],
+    "props": {
+      "blockClass": "home--info--title-icon",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#title-tallas": {
+    "props": {
+      "text": "Guía de tallas",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-title"
+    }
+  },
+  "icon#tallas": {
+    "props": {
+      "id": "info-rule",
+      "activeClassName": "vtex-bnf-icon vtex-icon-rule"
+    }
+  },
+  "rich-text#tallas-paragraph": {
+    "props": {
+      "text": "Obtén una guía por marcas para pedir tus productos en la medida correcta.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-text"
+    }
+  },
+  "rich-text#tallas-mas": {
+    "props": {
+      "text": "[Leer más](/guia-de-tallas)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--info--content-more"
+    }
+  },
+  /* block 3 */
+  "flex-layout.col#info-content-catalogo": {
+    "children": [
+      "flex-layout.row#title-icon3",
+      "rich-text#catalog-paragraph",
+      "rich-text#catalog-mas"
+    ],
+    "props": {
+      "blockClass": ["home--info--content", "home--info--catalog"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#title-icon3": {
+    "children": [
+      "rich-text#title-catalog",
+      "icon#catalog"
+    ],
+    "props": {
+      "blockClass": "home--info--title-icon",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#title-catalog": {
+    "props": {
+      "text": "Catálogo",
+      "textAlignment": "LEFT",
+      "textPosition":"LEFT" ,
+      "blockClass": "home--info--content-title"
+    }
+  },
+  "icon#catalog": {
+    "props": {
+      "id": "info-shoe",
+      "activeClassName": "vtex-bnf-icon vtex-icon-shoe"
+    }
+  },
+  "rich-text#catalog-paragraph": {
+    "props": {
+      "text": "Consigue nuestro catálogo de productos y explora nuestra variedad en marcas y artículos.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--info--content-text"
+    }
+  },
+  "rich-text#catalog-mas": {
+    "props": {
+      "text": "[Leer más](/catalogo)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--info--content-more"
+    }
+  }
+}

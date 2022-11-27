@@ -1,13 +1,13 @@
 {
+  "flex-layout.row#container-conditional": {
+    "props": {"blockClass": ["container-condiftional"]},
+    "children": ["condition-layout.product#availability"]
+  },
   "condition-layout.product#availability": {
-    "title": "condiction product",
+    "title": "block two",
     "props": {
       "blockClass": "container",
-      "conditions": [
-        {
-          "subject": "isProductAvailable"
-        }
-      ],
+      "conditions": [{"subject": "isProductAvailable"}],
       "Then": "flex-layout.row#product-main",
       "Else": "flex-layout.row#product-availability"
     }
@@ -87,7 +87,8 @@
       "displayThumbnailsArrows": true,
       "showNavigationArrows": true,
       "showPaginationDots": false,
-      "thumbnailsOrientation": 2
+      "thumbnailsOrientation": "vertical",
+      "thumbnailVisibility": "visible"
     }
   },
 
@@ -99,9 +100,57 @@
     },
     "children": [
       "flex-layout.row#container-pdp",
+      "flex-layout.row#sku-selector",
+      "flex-layout.row#container-pdp-mobile",
+      "flex-layout.row#sku-selector-mobile",
       "flex-layout.row#button-pdp"
     ]
   },
+
+  "flex-layout.row#sku-selector": {
+    "children": ["sku-selector#pdp"],
+    "props": {"blockClass": "sku-mobile"}
+  },
+
+  "flex-layout.row#sku-selector-mobile": {
+    "children": ["sku-selector#pdp"],
+    "props": {"blockClass": ["sku-mobile", "mobile-pdp-sku"]}
+  },
+
+  "sku-selector#pdp": {
+    "props": {
+      "displayMode": 2,
+      "hideImpossibleCombinations": false,
+      "sortVariationsByLabel": true,
+      "showVariationsErrorMessage": true,
+      "blockClass": "sku-pdp"
+    }
+  },
+/* mobile */
+  "flex-layout.row#container-pdp-mobile": {
+    "children": [
+      "flex-layout.col#mobile-one",
+      "flex-layout.col#mobile-two"
+    ],
+    "props": {"blockClass": "mobile"}
+  },
+
+  "flex-layout.col#mobile-one": {
+    "props": {"blockClass": "mobile-one"},
+    "children": [
+      "product-selling-price",
+      "product-list-price"
+    ]
+  },
+
+  "flex-layout.col#mobile-two": {
+    "props": {"blockClass": "mobile-two"},
+    "children": [
+      "vtex.store-components:product-name#pdp",
+      "product-identifier.product"
+    ]
+  },
+/* mobile */
 
   "flex-layout.row#container-pdp": {
     "children": [
@@ -120,8 +169,18 @@
   },
 
   "flex-layout.row#button-pdp": {
-    "children":["product-summary-quantity","add-to-cart-button"],
+    "children":["product-summary-quantity","add-to-cart-button#pdp"],
     "props":{"blockClass": "button-pdp"}
+  },
+
+  "add-to-cart-button#pdp": {
+    "props": {
+      "blockClass": "addToCartPdp",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button",
+      "unavailableText": "No disponible",
+      "onClickBehavior": "add-to-cart"
+    }
   },
 
   "flex-layout.row#product-name": {
