@@ -167,8 +167,31 @@
   display: flex;
   flex-direction: column;
 }
-
 /* item filter */
+/* genero */
+.flexRowContent--block-three-search-departament {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--block-one-three-departament,
+.flexCol--four-title-slider-search-departament {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexCol--three-title-search-departament {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexRowContent--block-four-search-departament {
+  display: flex;
+  flex-direction: column;
+}
+/* genero */
 
 @media screen and (min-width: 1400px) {
 

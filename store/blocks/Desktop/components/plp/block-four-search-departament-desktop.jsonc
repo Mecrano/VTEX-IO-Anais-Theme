@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#block-four-search-departament": {
+    "title": "block four",
+    "children": [
+      "flex-layout.col#four-title-slider-search-departament",
+      "flex-layout.col#four-content-slider-search-departament"
+    ],
+    "props": {"blockClass": "block-four-search-departament"}
+  },
+  "flex-layout.col#four-title-slider-search-departament": {
+    "title": "container text",
+    "children": [
+      "rich-text#title-1-slider",
+      "rich-text#title-2-slider"
+    ],
+    "props": {
+      "blockClass": "four-title-slider-search-departament",
+      "width": "100%"
+    }
+  },
+  "rich-text#title-1-slider": {
+    "title": "title 1",
+    "props": {
+      "text": "Top en ventas",
+      "blockClass": "title-1-departament"
+    }
+  },
+  "rich-text#title-2-slider": {
+    "title": "title 2",
+    "props": {
+      "text": "Ver más productos",
+      "blockClass": "title-2-departament"
+    }
+  },
+  "flex-layout.col#four-content-slider-search-departament": {
+    "title": "container text",
+    "children": [
+      "list-context.product-list#shelf-genero-one"
+    ],
+    "props": {
+      "blockClass": "four-content-slider-search-departament",
+      "width": "100%"
+    }
+  },
+  "list-context.product-list#shelf-genero-one": {
+    "title": "slider",
+    "blocks": ["product-summary.shelf#global"],
+    "children": ["slider-layout#genero-one"],
+    "props": {
+      /* "category": "82/85", */
+      "blockClass": "shelf-pdp",
+      "collection": "137",
+      "maxItems": 10,
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#genero-one": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "navigationStep": 1,
+      "blockClass": "slider-pdp",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+}

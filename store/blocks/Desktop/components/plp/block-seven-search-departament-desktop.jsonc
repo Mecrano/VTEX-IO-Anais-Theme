@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#block-seven-search-departament": {
+    "title": "block seven",
+    "children": [
+      "flex-layout.col#seven-title-slider-search-departament",
+      "flex-layout.col#seven-content-slider-search-departament"
+    ],
+    "props": {"blockClass": "block-four-search-departament"}
+  },
+  "flex-layout.col#seven-title-slider-search-departament": {
+    "title": "container text",
+    "children": [
+      "rich-text#title-1-7-slider",
+      "rich-text#title-2-7-slider"
+    ],
+    "props": {
+      "blockClass": "four-title-slider-search-departament",
+      "width": "100%"
+    }
+  },
+  "rich-text#title-1-7-slider": {
+    "title": "title 1",
+    "props": {
+      "text": "Calzados exclusivos",
+      "blockClass": "title-1-departament"
+    }
+  },
+  "rich-text#title-2-7-slider": {
+    "title": "title 2",
+    "props": {
+      "text": "Ver más productos",
+      "blockClass": "title-2-departament"
+    }
+  },
+  "flex-layout.col#seven-content-slider-search-departament": {
+    "title": "container text",
+    "children": ["list-context.product-list#shelf-genero-two"],
+    "props": {
+      "blockClass": "four-content-slider-search-departament",
+      "width": "100%"
+    }
+  },
+  "list-context.product-list#shelf-genero-two": {
+    "title": "slider",
+    "blocks": ["product-summary.shelf#global"],
+    "children": ["slider-layout#genero-two"],
+    "props": {
+      /* "category": "82/85", */
+      "blockClass": "shelf-pdp",
+      "collection": "137",
+      "maxItems": 10,
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#genero-two": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "navigationStep": 1,
+      "blockClass": "slider-pdp",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+}

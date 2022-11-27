@@ -1,0 +1,78 @@
+{
+  "flex-layout.row#block-two-search-departament": {
+    "title": "block two",
+    "children": [
+      "responsive-layout.desktop#departament",
+      "responsive-layout.tablet#departament",
+      "responsive-layout.phone#departament"
+    ],
+    "props": {
+      "blockClass": "block-two-search-departament",
+      "preventHorizontalStretch": true
+    }
+  },
+  "responsive-layout.desktop#departament": {
+    "title": "banner desktop",
+    "children": ["list-context.image-list#search-departamente-desktop"]
+  },
+  "responsive-layout.tablet#departament": {
+    "title": "banner tablet",
+    "children": ["list-context.image-list#search-departamente-tablet"]
+  },
+  "responsive-layout.phone#departament": {
+    "title": "banner mobile",
+    "children": ["list-context.image-list#search-departamente-mobile"]
+  },
+  "list-context.image-list#search-departamente-desktop": {
+    "children": ["slider-layout#search-departament"],
+    "props": {
+      "preload": true,
+      "height": 358,
+      "width": 1440,
+      "images": [
+        {
+          "image": "arquivos/banner-search.png",
+          "description": "banner"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#search-departamente-tablet": {
+    "children": ["slider-layout#search-departament"],
+    "props": {
+      "preload": true,
+      "height": 358,
+      "width": 1440,
+      "images": [
+        {
+          "image": "arquivos/bannerTablet-departament.png",
+          "description": "banner"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#search-departamente-mobile": {
+    "children": ["slider-layout#search-departament"],
+    "props": {
+      "preload": true,
+      "height": 550,
+      "width": 428,
+      "images": [
+        {
+          "image": "arquivos/bannermobile.png",
+          "description": "banner"
+        }
+      ]
+    }
+  },
+  "slider-layout#search-departament": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}

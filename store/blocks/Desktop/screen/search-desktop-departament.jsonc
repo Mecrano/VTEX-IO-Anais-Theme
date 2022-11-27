@@ -2,7 +2,11 @@
   "search-result-layout.desktop#departament": {
     "title": "search desktop",
     "children": [
-      "flex-layout.row#block-one-search"
+      "flex-layout.row#block-one-search",
+      "flex-layout.row#block-two-search-departament",
+      "flex-layout.row#block-three-search-departament",
+      "flex-layout.row#block-four-search-departament",
+      "flex-layout.row#block-seven-search-departament"
     ],
     "props": {
       "pagination": "show-more",
