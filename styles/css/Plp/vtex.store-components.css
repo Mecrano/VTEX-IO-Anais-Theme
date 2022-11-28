@@ -45,12 +45,43 @@ padding-right: 1rem;
 
 .infoCardCallActionContainer--info-card-1 {
   position: absolute;
-  bottom: -24px;
+  bottom: 0px;
+  margin-bottom: 0;
   right: 0;
 }
 
 .imageElement--newsletter-search {
   height: 500px;
+}
+
+.infoCardContainer--info-card-7 {
+  height: 640px;
+  position: relative;
+}
+
+.infoCardTextContainer--info-card-7 {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+}
+
+.infoCardCallActionContainer--info-card-7 :global(.vtex-button__label) {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.infoCardCallActionContainer--info-card-7 :global(.vtex-button) {
+  padding: 32px 70px;
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  width: 360px;
+  height: 88px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {

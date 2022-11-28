@@ -19,7 +19,7 @@
     "props": {
       "id": "info-card-05",
       "isFullModeStyle": true,
-      "textPosition": "left",
+      "textPosition": "right",
       "imageUrl": "arquivos/calzado-search.png",
       "headline": "",
       "callToActionText": "Calzados para estrenar",

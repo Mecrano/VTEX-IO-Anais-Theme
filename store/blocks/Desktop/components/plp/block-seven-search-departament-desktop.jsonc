@@ -62,7 +62,7 @@
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass": ["slider-pdp", "slide-mobile"],
       "showPaginationDots": "never",
       "showNavigationArrows": "desktopOnly"
     }
