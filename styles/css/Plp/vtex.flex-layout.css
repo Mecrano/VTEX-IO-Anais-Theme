@@ -137,7 +137,7 @@
 
 .flexRowContent--container-slider--home :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRowContent--column-two) :global(.vtex-product-price-1-x-listPrice) {
   display: none;
- }
+}
 
 /* item - filter */
 .flexCol--item-filter {
@@ -155,7 +155,7 @@
 }
 
 .flexCol--item-filter {
-  border-top:  1px solid #065FBD;
+  border-top: 1px solid #065FBD;
   padding: 1rem 1.5rem;
 }
 
@@ -167,6 +167,7 @@
   display: flex;
   flex-direction: column;
 }
+
 /* item filter */
 /* genero */
 .flexRowContent--block-three-search-departament {
@@ -211,7 +212,9 @@
   align-items: center;
 }
 
-.flexRow--block-three-search-departament {
+.flexRow--block-three-search-departament,
+.flexRow--block-four-search-departament,
+.flexRow--block-five-search-departament {
   background-color: #EDEDED;
 }
 
@@ -221,10 +224,77 @@
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
+.flexRow--block-five-search-departament  :global(.vtex-store-components-3-x-container) {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
+  padding-left: 107px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.flexCol--eight-infocard-search-departament {
+  background-color: #FFFFFF;
+}
+
+.flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament:first-child {
+  padding-left: 40px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+.flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament:last-child {
+  background-color: #EDEDED;
+  padding: 0;
+}
+
+.flexRowContent--block-five-search-departament {
+  clip-path: polygon(50% 0%, 94% 0, 100% 15%, 100% 100%, 6% 100%, 0 87%, 0 0);
+}
+
 /* genero */
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container),
+  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container)  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .flexCol--three-title-search-departament,
+  .flexCol--four-title-slider-search-departament {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .flexRowContent--block-five-search-departament {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flexRowContent--block-five-search-departament {
+    clip-path: polygon(92% 0, 100% 6%, 100% 60%, 100% 100%, 6% 100%, 0 95%, 0 0);
+  }
+
+  .flexColChild--eight-infocard-search-departament{
+    padding: 0 !important;
+  }
+
+  .flexRowContent--block-five-search-departament .stretchChildrenWidth {
+    margin-top: -4px;
+  }
+}
 
 @media screen and (min-width: 1400px) {
-
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
@@ -235,9 +305,9 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
-.flexRow--block-two-search {
-  padding-bottom: 30px;
-}
+  .flexRow--block-two-search {
+    padding-bottom: 30px;
+  }
 
   .flexRowContent--block-two-search {
     flex-direction: column !important;
@@ -289,6 +359,7 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
+
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -304,6 +375,16 @@
     width: calc(730px - 12px * 2);
     margin: 0 auto;
   }
+
+  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -312,5 +393,16 @@
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
     width: calc(999px - 12px * 2);
     margin: 0 auto;
+  }
+
+  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 66px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .flexCol--block-one-three-departament {
+    overflow-y: auto;
   }
 }

@@ -58,13 +58,13 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 5,
         "phone": 2
       },
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass": ["slider-pdp", "slide-mobile"],
       "showPaginationDots": "never",
       "showNavigationArrows": "desktopOnly"
     }

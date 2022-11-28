@@ -1,0 +1,14 @@
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .newsletterForm {
+  margin-top: -10px;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .newsletterForm {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

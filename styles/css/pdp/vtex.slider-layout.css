@@ -22,3 +22,9 @@
   width: 18px;
   height: 18px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+.sliderTrack--slide-mobile {
+  width: 990% !important;
+}
+}
