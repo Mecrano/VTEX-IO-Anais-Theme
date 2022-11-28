@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#block-one-search-departament": {
+    "title": "block one",
+    "children": ["breadcrumb.search"],
+    "props": {"blockClass": "block-one-search-departament"}
+  }
+}

@@ -1,0 +1,49 @@
+.infoCardContainer--info-card-1 {
+  height: 428px;
+  width: 300px !important;
+  margin-right: 10px;
+  position: relative;
+}
+
+.infoCardHeadline--info-card-1 {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+height: 65px;
+width: auto;
+background-color: #000000;
+padding: 16px 24px;
+position: absolute;
+left: 0;
+top: -24px;
+}
+
+.infoCardCallActionContainer--info-card-1 :global(.vtex-button__label) {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
+height: 81.5px;
+background-color: #EDEDED;
+border-color: #EDEDED;
+clip-path: polygon(38% 0, 100% 0%, 100% 100%, 0 100%, 0 84%);
+padding-left: 3rem;
+padding-right: 1rem;
+}
+
+.infoCardCallActionContainer--info-card-1 {
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+}

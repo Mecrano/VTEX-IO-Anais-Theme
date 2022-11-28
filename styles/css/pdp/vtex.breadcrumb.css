@@ -15,7 +15,7 @@
 }
 
 .homeLink--breadcrumbPdp::after {
-  content: url(/arquivos/breadcrumb.png);
+  content: url(assets/images/Home/breadcrumb.png);
   width: 18px;
   height: 18px;
 }

@@ -1,4 +1,4 @@
-.paragraph--title-brands{
+.paragraph--title-brands {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 800;
@@ -14,16 +14,40 @@
   color: #000000;
 }
 
+.paragraph--title-1-departament {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraph--title-2-departament {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #004793;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 376px) and (max-width: 425px) {
-  .paragraph--title-brands, .paragraph--title-slider--pdp {
+
+  .paragraph--title-brands,
+  .paragraph--title-slider--pdp {
     font-size: 19px;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
-  .paragraph--title-brands, .paragraph--title-slider--pdp {
+
+  .paragraph--title-brands,
+  .paragraph--title-slider--pdp {
     font-size: 17px;
   }
 }
-
-

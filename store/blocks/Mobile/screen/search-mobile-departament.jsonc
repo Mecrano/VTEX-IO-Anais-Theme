@@ -2,8 +2,9 @@
   "search-result-layout.mobile#departament": {
     "title": "search mobile",
     "children": [
-      "flex-layout.row#block-one-search",
-      "flex-layout.row#block-two-search-departament"
+      "flex-layout.row#block-one-search-departament",
+      "flex-layout.row#block-two-search-departament",
+      "flex-layout.row#block-three-search-departament"
     ],
     "props": {
       "blockClass": "searchMobile-departament",

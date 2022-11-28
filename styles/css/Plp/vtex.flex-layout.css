@@ -191,6 +191,36 @@
   display: flex;
   flex-direction: column;
 }
+
+.flexCol--three-title-search-departament {
+  padding-bottom: 20px;
+}
+
+.flexRow--block-one-search-departament {
+  background-color: #FFFFFF;
+}
+
+.flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.flexCol--three-title-search-departament {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRow--block-three-search-departament {
+  background-color: #EDEDED;
+}
+
+.flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 /* genero */
 
 @media screen and (min-width: 1400px) {

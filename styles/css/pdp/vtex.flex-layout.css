@@ -32,7 +32,8 @@
 .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
 .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
 .flexRow--container-brand :global(.vtex-store-components-3-x-container),
-.flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
+.flexRow--container-condiftional :global(.vtex-store-components-3-x-container),
+.flexRow--block-two-search-departament :global(.vtex-store-components-3-x-container) {
   padding-left: 0;
   padding-right: 0;
 }
@@ -300,6 +301,10 @@
     font-size: 12px;
     margin-left: 30px;
   }
+
+  .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 30px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -312,6 +317,10 @@
   .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
     width: calc(999px - 12px * 2);
     margin: 0 auto;
+  }
+
+  .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 40px;
   }
 }
 
@@ -330,7 +339,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
-
   .flexRow--sku-mobile {
     display: none;
   }
@@ -376,6 +384,12 @@
 
 @media screen and (min-width: 1025px){
   .flexRow--mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .flexRow--block-one-search-departament {
     display: none;
   }
 }

@@ -21,7 +21,7 @@
   "rich-text#title-1": {
     "title": "title 1",
     "props": {
-      "text": "Colleciones",
+      "text": "Colecciones",
       "blockClass": "title-1-departament"
     }
   },
