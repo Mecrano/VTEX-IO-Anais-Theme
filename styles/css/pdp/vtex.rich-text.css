@@ -36,7 +36,24 @@
   margin-bottom: 0;
 }
 
+.paragraph--title-1-marcas-search {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.container--title-1-marcas-search {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 376px) and (max-width: 425px) {
+
   .paragraph--title-brands,
   .paragraph--title-slider--pdp {
     font-size: 19px;
@@ -44,6 +61,7 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
+
   .paragraph--title-brands,
   .paragraph--title-slider--pdp {
     font-size: 17px;
@@ -51,16 +69,26 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-.paragraph--title-1-departament {
-  font-size: 24px;
-}
+  .paragraph--title-1-departament {
+    font-size: 24px;
+  }
 
-.paragraph--title-2-departament {
-  font-size: 16px;
-}
+  .paragraph--title-2-departament {
+    font-size: 16px;
+  }
+
+  .paragraph--title-1-marcas-search {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 1.1rem;
+    margin-top: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
+  .container--title-1-marcas-search {
+    display: none;
+  }
   .paragraph--title-1-departament {
     font-size: 22px;
   }

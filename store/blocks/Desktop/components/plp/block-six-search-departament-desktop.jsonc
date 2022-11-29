@@ -158,7 +158,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 5,
         "phone": 2
       },
       "infinite": true,
@@ -185,7 +185,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 5,
         "phone": 2
       },
       "infinite": true,
@@ -212,7 +212,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 5,
         "phone": 2
       },
       "infinite": true,
@@ -239,7 +239,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 5,
         "phone": 2
       },
       "infinite": true,
@@ -266,7 +266,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 5,
         "phone": 2
       },
       "infinite": true,
@@ -293,7 +293,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 5,
         "phone": 2
       },
       "infinite": true,
