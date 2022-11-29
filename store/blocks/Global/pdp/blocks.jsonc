@@ -1,0 +1,318 @@
+{
+  "product-images#product--images": {
+    "props": {
+      "blockClass": ["product--images"],
+      "displayThumbnailsArrows": true,
+      "showPaginationDots": false,
+      "showNavigationArrows": false,
+      "thumbnailAspectRatio": "1:1"
+    }
+  },
+  "product-selling-price#priduct--price--selling": {
+    "props": {
+      "blockClass": ["product--price--selling"]
+    }
+  },
+  "product-list-price#priduct--price--list": {
+    "props": {
+      "blockClass": ["product--price--list"]
+    }
+  },
+  "sku-selector#product": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "blockClass": "product--sku-selector"
+    }
+  },
+  "product-quantity#product--quantity-selector": {
+    "props": {
+      "showUnit": false,
+      "showLabel": false
+    }
+  },
+  // "product-availability#product--stock": {
+  //   "props": {
+  //     "blockClass": "product--stock",
+  //     "lowStockMessage": "{quantity} en Stock!",
+  //           "highStockMessage": "{quantity} en Stock!",
+  //           "showAvailability": "stock",
+  //           "showAvailabilityMessage": "{quantity} en Stock!"
+  //   }
+  // },
+  "disclosure-layout-group#product--disclosure-group": {
+    "children": [
+      "disclosure-layout#product--description--disclosure",
+      "disclosure-layout#product--info--disclosure",
+      "disclosure-layout#product--warranty--disclosure",
+      "disclosure-layout#product--careful--disclosure",
+      "disclosure-layout#product--payment-methods--disclosure"
+    ],
+    "props": {
+      "blockClass": ["description-disclosure"]
+    }
+  },
+
+  "disclosure-layout#product--description--disclosure": {
+    "children": [
+      "disclosure-trigger#description",
+      "disclosure-content#description"
+    ],
+    "props": {
+      "blockClass": ["description-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#description": {
+    "children": ["rich-text#product--disclosures--description-title"],
+    "props": {
+      "blockClass": ["description-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#description": {
+    "children": ["product-description"],
+    "props": {
+      "blockClass": ["description-disclosure", "product--disclosure--content"]
+    }
+  },
+  "rich-text#product--disclosures--description-title": {
+    "props": {
+      "text": "Descripción"
+    }
+  },
+  "product-description": {
+    "props": {
+      "showTitle": false,
+      "blockClass": "product--disclosures--description-content"
+    }
+  },
+  "disclosure-layout#product--info--disclosure": {
+    "children": ["disclosure-trigger#info", "disclosure-content#info"],
+    "props": {
+      "blockClass": ["info-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#info": {
+    "children": ["rich-text#product--disclosures--info-title"],
+    "props": {
+      "blockClass": ["info-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#info": {
+    "children": ["rich-text#product--disclosures--info-title"],
+    "props": {
+      "blockClass": [
+        "product--disclosures--info",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "rich-text#product--disclosures--info-title": {
+    "props": {
+      "text": "Información de producto"
+    }
+  },
+  "disclosure-layout#product--warranty--disclosure": {
+    "children": ["disclosure-trigger#warranty", "disclosure-content#warranty"],
+    "props": {
+      "blockClass": ["warranty-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#warranty": {
+    "children": ["rich-text#product--disclosures--warranty-title"],
+    "props": {
+      "blockClass": ["warranty-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#warranty": {
+    "children": ["rich-text#product--disclosures--warranty-title"],
+    "props": {
+      "blockClass": [
+        "product--disclosures--warranty",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "rich-text#product--disclosures--warranty-title": {
+    "props": {
+      "text": "Garantía"
+    }
+  },
+  "disclosure-layout#product--payment-methods--disclosure": {
+    "children": [
+      "disclosure-trigger#payment-methods",
+      "disclosure-content#payment-methods"
+    ],
+    "props": {
+      "blockClass": ["payment-methods-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#payment-methods": {
+    "children": ["rich-text#product--disclosures--payment-methods-title"],
+    "props": {
+      "blockClass": ["payment-methods-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#payment-methods": {
+    "children": ["list-context.image-list#product--payment-method--content"],
+    "props": {
+      "blockClass": [
+        "product--disclosures--payment-methods",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "list-context.image-list#product--payment-method--content": {
+    "children": ["slider-layout#first__banner"],
+    "props": {
+      "images": [
+        {
+          // "image": "assets/images/product/payment-methods.jpg",
+          "description": "Métodos de Pago",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#first__banner": {
+    "title": "Banner",
+    "props": {
+      "blockClass": ["carousel__home", "carousel__home-1", "product--payment--images"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never"
+    }
+  },
+  "rich-text#product--disclosures--payment-methods-title": {
+    "props": {
+      "text": "Métodos de pago"
+    }
+  },
+  "disclosure-layout#product--careful--disclosure": {
+    "children": ["disclosure-trigger#careful", "disclosure-content#careful"],
+    "props": {
+      "blockClass": ["careful-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#careful": {
+    "children": ["rich-text#product--disclosures--careful-title"],
+    "props": {
+      "blockClass": ["careful-disclosure-title", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#careful": {
+    "children": ["rich-text#product--disclosures--careful-title"],
+    "props": {
+      "blockClass": [
+        "careful-disclosure-content",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "rich-text#product--disclosures--careful-title": {
+    "props": {
+      "text": "Cuidados"
+    }
+  },
+  "add-to-cart-button#product--add-to-cart": {
+    "props": {
+      "text": "Añadir al carrito"
+    }
+  },
+  /* "add-to-list-btn#product--favorites": {
+    "props": {
+      "blockClass": "product--favorites"
+    }
+  }, */
+  "image#newsletter-image": {
+    "props": {
+      // "src": "assets/images/product/product-newsletter.jpg"
+    }
+  },
+  "rich-text#product--shelf-1--title": {
+    "props": {
+            "text": "Acompañalo con ",
+      "blockClass": "product--shelf--titles"
+    }
+  },
+  "rich-text#product--shelf--more": {
+    "props": {
+      "text": "[Ver más ➜](#)",
+      "blockClass": "product--shelf--titles-ver-mas"
+    }
+  },
+  "rich-text#product--shelf-2--title": {
+    "props": {
+      "text": "productos relacionados",
+      "blockClass": "product--shelf--titles"
+    }
+  },
+    "breadcrumb#product--bradcrumb": {
+    "props": {
+      "showOnMobile": true,
+            "blockclass": "breadcrumb--plp"
+    }
+  },
+    "product-identifier.product":{
+        "props": {
+            "blockClass": ["product--identifier"],
+            "idField": "skuReferenceId",
+            "label": "custom",
+            "customLabel": "SKU"
+        }
+    },
+  "rich-text#product--size-guide--content": {
+    "props": {
+      "text": "[Guia de Tallas](/size-guide)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "product--size-guide--text"
+    }
+  },
+  "product-price-savings#pdp":{
+    "title": "Descuento",
+    "props": {
+        "blockClass": ["discountpdp", "discountpdp2"],
+        "message": "Descuento {savingsPercentage}"
+    }
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "Prueba",
+      "blockClass": "Prueba"
+      
+    }
+  },
+  "product-specification-group": {
+    "children": ["product-specification-text#group", "product-specification"]
+  },
+  "product-specification": {
+    "children": [
+      "product-specification-text#specification",
+      "product-specification-values"
+    ]
+  },
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  }
+  }
+  

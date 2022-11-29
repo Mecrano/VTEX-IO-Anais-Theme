@@ -55,3 +55,113 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.flexCol--product--details--container-col{
+  padding-left: 50px;
+}
+
+.flexRowContent--home--brands--content-container{
+  justify-content: center;
+}
+
+.flexRow--product--main--container{
+  background-color: #cbcbcb;
+}
+
+.flexCol--product--details--container-col .flexColChild--product--details--container-col:first-child{
+  height: 40px !important;
+  margin-top: 6px;
+}
+
+.flexCol--product-main{
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.flexRow--product--details--container{
+  padding-block: 20px;
+  border-bottom: 1px solid #8f8e8e;
+}
+
+:global(.vtex-numeric-stepper__minus-button-container){
+  border: 1px solid black;
+  border-right: none;
+  border-radius: 4px;
+  height: 52px;
+  position: relative;
+  left: 2px;
+}
+
+:global(.vtex-numeric-stepper__minus-button){
+  border-radius: 4px 0 0 4px;
+  border: none;
+  background: #fff;
+  height: 50px;
+}
+
+:global(.vtex-numeric-stepper__minus-button__text){
+  color: #000;
+}
+
+:global(.vtex-numeric-stepper__plus-button-container){
+  border: 1px solid black;
+  border-left: none;
+  border-radius: 4px;
+  height: 52px;
+  position: relative;
+  right: 2px;
+}
+
+:global(.vtex-numeric-stepper__plus-button){
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  background: #fff;
+  height: 50px;
+}
+
+:global(.vtex-numeric-stepper__plus-button__text){
+  color: #000;
+}
+
+:global(.vtex-numeric-stepper__input){
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+:global(.vtex-numeric-stepper__input){
+  height: 52px;
+}
+
+.flexRowContent--product--quantity-size-guide--container .stretchChildrenWidth:first-child,
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer),
+:global(.vtex-numeric-stepper-wrapper),
+:global(.vtex-product-quantity-1-x-quantitySelectorStepper){
+  width: max-content !important;
+  margin: 0;
+}
+
+.flexRowContent--product--quantity-size-guide--container .stretchChildrenWidth:last-child{
+  width: calc(100% - 170px) !important;
+}
+
+.flexRowContent--product--quantity-size-guide--container .stretchChildrenWidth :global(.vtex-button){
+  min-height: unset;
+  height: 52px;
+}
+
+.flexRowContent--product--quantity-size-guide--container .stretchChildrenWidth :global(.vtex-button__label){
+  font-family: Rubik;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.flexRowContent--product--comments-tabs{
+  padding-top: 50px;
+}
+
+@media (min-width: 1025px){
+  .flexCol--product--images--container .flexColChild--product--images--container:first-child{
+    display: none;
+  }
+}

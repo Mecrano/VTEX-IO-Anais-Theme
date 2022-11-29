@@ -60,7 +60,8 @@
 
   "login#desktop": {
     "props": {
-      "showIconProfile": true
+      "showIconProfile": true,
+      "logInButtonBehavior": "link"
     }
   },
   "menu#header_history": {
@@ -148,7 +149,7 @@
   "login#mobile": {
     "props": {
       "iconLabel": "Iniciar sesión",
-      "logInButtonBehavior": "popover"
+      "logInButtonBehavior": "link"
     }
   }
 }

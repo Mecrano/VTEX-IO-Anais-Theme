@@ -1,12 +1,27 @@
-.sellingPrice--hasListPrice {
+.sellingPrice--hasListPrice,
+.listPrice--product--price--list {
   display: flex;
   justify-content: flex-end;
 }
 
-.sellingPriceValue {
+.sellingPriceValue--product--price--selling {
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.savings--discountpdp2{
+  background-color: #fff;
+  border-left: 2px solid #F32820;
+  padding: 8px 20px;
+  color: #F3281FFF;
+  font-size: 15px;
+  font-family: Rubik;
+}
+
+.listPrice--product--price--list{
+  font-size: 15px;
+  color: #6A6A6A;
+  font-family: Rubik;
 }

@@ -1,0 +1,16 @@
+.paragraph--product--shelf--titles{
+    font-size: 20px;
+    color: #000;
+    font-family: Mulish;
+    font-weight: bold;
+}
+
+.container--product--shelf--titles-ver-mas{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link--product--shelf--titles-ver-mas{
+    color: #004793;
+    text-decoration: none;
+}
