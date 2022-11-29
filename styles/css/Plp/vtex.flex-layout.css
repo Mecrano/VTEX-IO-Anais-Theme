@@ -376,6 +376,13 @@
     margin: 0 auto;
     max-width: 100% !important;
   }
+
+  .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {

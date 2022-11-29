@@ -128,6 +128,11 @@
 .searchResultContainer--searchLayout-departament {
   padding: 0;
 }
+@media screen and (min-width: 1400px) {
+.searchResultContainer--searchLayout-departament {
+  max-width: 120rem !important;
+}
+}
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .filterPopupTitle--filter::before, .orderByText {

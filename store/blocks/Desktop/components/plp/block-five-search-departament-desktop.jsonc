@@ -18,14 +18,14 @@
       "width": "50%"
     }
   },
-  "rich-text#newsletter-title": {
+ /*  "rich-text#newsletter-title2": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "",
       "blockClass": "newsletter-title"
     }
-  },
+  }, */
   "flex-layout.col#five-imagen-search-departament": {
     "title": "container image",
     "children": ["image#search-newsletter"],

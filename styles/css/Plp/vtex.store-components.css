@@ -83,6 +83,12 @@
   width: 360px;
   height: 88px;
 }
+@media screen and (min-width: 1400px) {
+:global(.vtex-flex-layout-0-x-flexRowContent--block-two-search-departament) .imageElement {
+  width: 1903px !important;
+}
+}
+
 
 @media screen and (min-width: 300px) and (max-width: 769px) {
   .infoCardTextContainer--info-card-7 {
