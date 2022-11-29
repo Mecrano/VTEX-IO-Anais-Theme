@@ -40,48 +40,50 @@
        "tab-list.item#marcas4",
        "tab-list.item#marcas5",
        "tab-list.item#marcas6"
-     ]
+     ],
+     "props": {"blockClass": "tab-marcas"}
    },
    "tab-list.item#marcas1": {
      "props": {
        "tabId": "marca1",
-       "label": "Adidas",
-       "defaultActiveTab": true
+       "label": "adidas",
+       "defaultActiveTab": true,
+       "blockClass": "tab-marcas1"
      }
    },
    "tab-list.item#marcas2": {
     "props": {
       "tabId": "marca2",
       "label": "new balance",
-      "defaultActiveTab": true
+      "blockClass": "tab-marcas2"
     }
   },
   "tab-list.item#marcas3": {
     "props": {
       "tabId": "marca3",
       "label": "Nike",
-      "defaultActiveTab": true
+      "blockClass": "tab-marcas3"
     }
   },
   "tab-list.item#marcas4": {
     "props": {
       "tabId": "marca4",
       "label": "Reebok",
-      "defaultActiveTab": true
+      "blockClass": "tab-marcas4"
     }
   },
   "tab-list.item#marcas5": {
     "props": {
       "tabId": "marca5",
       "label": "Puma",
-      "defaultActiveTab": true
+      "blockClass": "tab-marcas5"
     }
   },
   "tab-list.item#marcas6": {
     "props": {
       "tabId": "marca6",
       "label": "Skechers",
-      "defaultActiveTab": true
+      "blockClass": "tab-marcas6"
     }
   },
   "tab-content#marcas-search": {
@@ -93,42 +95,51 @@
        "tab-content.item#marca-4",
        "tab-content.item#marca-5",
        "tab-content.item#marca-6"
-     ]
+     ],
+     "props":{
+      "blockClass": "tab-marcas"
+     }
    },
    "tab-content.item#marca-1": {
      "children": ["list-context.product-list#marca-one"],
      "props": {
-       "tabId": "marca1"
+       "tabId": "marca1",
+       "blockClass": "tab-marcas"
      }
    },
    "tab-content.item#marca-2": {
     "children": ["list-context.product-list#marca-two"],
     "props": {
-      "tabId": "marca2"
+      "tabId": "marca2",
+      "blockClass": "tab-marcas"
     }
   },
   "tab-content.item#marca-3": {
     "children": ["list-context.product-list#marca-three"],
     "props": {
-      "tabId": "marca3"
+      "tabId": "marca3",
+      "blockClass": "tab-marcas"
     }
   },
   "tab-content.item#marca-4": {
     "children": ["list-context.product-list#marca-four"],
     "props": {
-      "tabId": "marca4"
+      "tabId": "marca4",
+      "blockClass": "tab-marcas"
     }
   },
   "tab-content.item#marca-5": {
     "children": ["list-context.product-list#marca-five"],
     "props": {
-      "tabId": "marca5"
+      "tabId": "marca5",
+      "blockClass": "tab-marcas"
     }
   },
   "tab-content.item#marca-6": {
     "children": ["list-context.product-list#marca-six"],
     "props": {
-      "tabId": "marca6"
+      "tabId": "marca6",
+      "blockClass": "tab-marcas"
     }
   },
   "list-context.product-list#marca-one": {
@@ -155,7 +166,7 @@
       "navigationStep": 1,
       "blockClass": "slider-pdp",
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "never"
     }
   },
   "list-context.product-list#marca-two": {
@@ -182,7 +193,7 @@
       "navigationStep": 1,
       "blockClass": "slider-pdp",
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "never"
     }
   },
   "list-context.product-list#marca-three": {
@@ -209,7 +220,7 @@
       "navigationStep": 1,
       "blockClass": "slider-pdp",
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "never"
     }
   },
   "list-context.product-list#marca-four": {
@@ -236,7 +247,7 @@
       "navigationStep": 1,
       "blockClass": "slider-pdp",
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "never"
     }
   },
   "list-context.product-list#marca-five": {
@@ -263,7 +274,7 @@
       "navigationStep": 1,
       "blockClass": "slider-pdp",
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "never"
     }
   },
   "list-context.product-list#marca-six": {
@@ -290,7 +301,7 @@
       "navigationStep": 1,
       "blockClass": "slider-pdp",
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "never"
     }
   }
 }

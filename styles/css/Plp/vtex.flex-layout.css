@@ -215,7 +215,8 @@
 .flexRow--block-three-search-departament,
 .flexRow--block-four-search-departament,
 .flexRow--block-five-search-departament,
-.flexRow--block-eight-search-departament {
+.flexRow--block-eight-search-departament,
+.flexRow--block-six-search-departament {
   background-color: #EDEDED;
 }
 
@@ -280,6 +281,27 @@
 
 .flexCol--eight-infocard-search-departament:last-child  {
   margin-left: 20px;
+}
+
+.flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container)  {
+padding-left: 70px;
+padding-right: 70px;
+}
+
+.flexRowContent--marcas-search-departament {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--marcas-search-departament .stretchChildrenWidth:first-child {
+  width: 25% !important;
+  background-color: #FFFFFF;
+}
+
+.flexRowContent--marcas-search-departament .stretchChildrenWidth:last-child {
+  width: 75% !important;
+  background-color: #EDEDED;
 }
 
 /* genero */
