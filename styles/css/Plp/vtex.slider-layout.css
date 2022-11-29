@@ -19,19 +19,22 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-  .sliderTrack--infocard {
+  .sliderTrack--infocard,
+  .sliderTrack--tab {
     width: 950% !important;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  .sliderTrack--infocard {
+  .sliderTrack--infocard,
+  .sliderTrack--tab {
     width: 970% !important;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
-  .sliderTrack--infocard {
+  .sliderTrack--infocard,
+  .sliderTrack--tab {
     width: 950% !important;
   }
 }

@@ -164,7 +164,7 @@
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass": ["slider-pdp", "tab"],
       "showPaginationDots": "never",
       "showNavigationArrows": "never"
     }
@@ -191,7 +191,7 @@
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass": ["slider-pdp", "tab"],
       "showPaginationDots": "never",
       "showNavigationArrows": "never"
     }
@@ -218,7 +218,7 @@
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass":["slider-pdp", "tab"],
       "showPaginationDots": "never",
       "showNavigationArrows": "never"
     }
@@ -245,7 +245,7 @@
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass": ["slider-pdp", "tab"],
       "showPaginationDots": "never",
       "showNavigationArrows": "never"
     }
@@ -272,7 +272,7 @@
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass": ["slider-pdp", "tab"],
       "showPaginationDots": "never",
       "showNavigationArrows": "never"
     }
@@ -299,7 +299,7 @@
       "infinite": true,
       "fullWidth": true,
       "navigationStep": 1,
-      "blockClass": "slider-pdp",
+      "blockClass": ["slider-pdp", "tab"],
       "showPaginationDots": "never",
       "showNavigationArrows": "never"
     }
