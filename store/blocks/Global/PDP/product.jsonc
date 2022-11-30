@@ -234,16 +234,6 @@
       "preserveLayoutOnMobile": true
     }
   },
-  "responsive-layout.desktop#size-guide-desktop":{
-    "children":[
-      "rich-text#product--size-guide--content"
-    ]
-  },
-  "responsive-layout.tablet#size-guide-tablet":{
-    "children":[
-      "rich-text#product--size-guide--content"
-    ]
-  },
   // "flex-layout.row#product--addto-cart-and-list--container": {
   //   "children": [
   //     "add-to-cart-button#product--add-to-cart",

@@ -39,18 +39,6 @@
   //           "showAvailabilityMessage": "{quantity} en Stock!"
   //   }
   // },
-  "disclosure-layout-group#product--disclosure-group": {
-    "children": [
-      "disclosure-layout#product--description--disclosure",
-      "disclosure-layout#product--info--disclosure",
-      "disclosure-layout#product--warranty--disclosure",
-      "disclosure-layout#product--careful--disclosure",
-      "disclosure-layout#product--payment-methods--disclosure"
-    ],
-    "props": {
-      "blockClass": ["description-disclosure"]
-    }
-  },
 
   "disclosure-layout#product--description--disclosure": {
     "children": [
@@ -228,11 +216,6 @@
       "blockClass": "product--favorites"
     }
   }, */
-  "image#newsletter-image": {
-    "props": {
-      // "src": "assets/images/product/product-newsletter.jpg"
-    }
-  },
   "rich-text#product--shelf-1--title": {
     "props": {
             "text": "Acompañalo con ",
