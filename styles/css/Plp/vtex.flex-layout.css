@@ -378,11 +378,23 @@
   }
 
   .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
-    padding-left: 90px;
-    padding-right: 90px;
+    max-width: 115rem !important;
 }
 
+.flexRow--block-two-search-departament :global(.vtex-store-components-3-x-container),
+.flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container),
+.flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container),
+.flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container)  {
+  max-width: 120rem !important;
+}
 
+.flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container) {
+  max-width: 118rem !important;
+}
+
+.flexRow--block-eight-search-departament :global(.vtex-store-components-3-x-container) {
+  max-width: 120rem !important;
+}
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {

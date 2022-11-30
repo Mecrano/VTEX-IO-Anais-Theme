@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "vendor": "eobando",
+=======
+  "vendor": "anaisgt",
+>>>>>>> 4b56730f67ed706f3f1887065f10bf9415f21721
   "name": "eobando-theme",
   "version": "1.1.2",
   "builders": {

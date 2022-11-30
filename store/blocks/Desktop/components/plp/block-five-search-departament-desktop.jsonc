@@ -37,7 +37,7 @@
   "image#search-newsletter": {
     "title": "image",
     "props": {
-      "src": "arquivos/Subtract.png",
+      "src": "assets/images/genero/Subtract.png",
       "blockClass": "newsletter-search",
       "maxHeight": 656/* ,
       "maxWidth": 1016 */
