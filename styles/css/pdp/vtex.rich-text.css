@@ -1,124 +1,16 @@
-.paragraph--title-brands {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  color: #000000;
-}
-
-.paragraph--title-slider--pdp {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  color: #000000;
-}
-
-.paragraph--title-1-departament {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 40px;
-  color: #000000;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.paragraph--title-2-departament {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  color: #004793;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.paragraph--title-1-marcas-search {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 40px;
-  color: #000000;
-  margin-bottom: 0.8rem;
-  margin-top: 0.8rem;
-}
-
-.container--title-1-marcas-search {
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
-
-  .paragraph--title-brands,
-  .paragraph--title-slider--pdp {
-    font-size: 19px;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 375px) {
-
-  .paragraph--title-brands,
-  .paragraph--title-slider--pdp {
-    font-size: 17px;
-  }
-}
-
-@media screen and (min-width: 426px) and (max-width: 1024px) {
-  .paragraph--title-1-departament {
-    font-size: 24px;
-  }
-
-  .paragraph--title-2-departament {
-    font-size: 16px;
-  }
-
-  .paragraph--title-1-marcas-search {
-    font-size: 24px;
-    line-height: 31px;
-    margin-bottom: 1.1rem;
-    margin-top: 1.1rem;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 425px) {
-  .container--title-1-marcas-search {
-    display: none;
-  }
-  .paragraph--title-1-departament {
-    font-size: 22px;
-  }
-
-  .paragraph--title-2-departament {
-    font-size: 16px;
-  }
-
-  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .paragraph--title-1-departament {
+.paragraph--product--shelf--titles{
     font-size: 20px;
-  }
-
-  .paragraph--title-2-departament {
-    font-size: 14px;
-  }
+    color: #000;
+    font-family: Mulish;
+    font-weight: bold;
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
-  .paragraph--title-1-departament {
-    font-size: 16px;
-  }
+.container--product--shelf--titles-ver-mas{
+    display: flex;
+    justify-content: flex-end;
+}
 
-  .paragraph--title-2-departament {
-    font-size: 12px;
-  }
+.link--product--shelf--titles-ver-mas{
+    color: #004793;
+    text-decoration: none;
 }

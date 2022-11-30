@@ -1,241 +1,57 @@
-.container--product-specification {
-  background-color: #ffffff;
+.listItem--product-tab :global(.vtex-button){
+  background-color: #fff;
+  border-color: #ededed;
 }
 
-.listItem--product-specification :global(.vtex-button__label),
-.listItem--product-description :global(.vtex-button__label) {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 500;
+.listItemActive--product-tab :global(.vtex-button){
+  background-color: #000;
+  border-color: #000;
+}
+
+.listItem--product-tab :global(.vtex-button):hover{
+  background-color: transparent;
+}
+
+.listItemActive--product-tab :global(.vtex-button):hover{
+  background-color: #000;
+}
+
+.listItem--product-tab :global(.vtex-button__label){
   font-size: 16px;
-  color: #000000;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-  padding-left: 0.59rem !important;
-  padding-right: 0.59rem !important;
+  color: #000;
+  padding-block: 18px !important; 
 }
 
-.listItemActive--product-specification :global(.vtex-button),
-.listItemActive--product-description :global(.vtex-button) {
-  background-color: #000000;
-  border: #000000;
+.listItemActive--product-tab :global(.vtex-button__label){
+  color: #fff;
 }
 
-.listItem--border {
-  border-right: none !important;
-}
-
-.listItemActive--product-specification :global(.vtex-button__label),
-.listItemActive--product-description :global(.vtex-button__label) {
-  color: #ffffff;
-}
-
-.listItem---product-specification :global(.vtex-button):hover {
-  background-color: transparent !important;
-}
-
-.listItem--product-description {
-  padding: 0;
+.listItem--product-tab{
   margin: 0;
-}
-
-.listItem--product-description :global(.vtex-button):hover,
-.listItem--product-specification :global(.vtex-button):hover  {
-  background-color: transparent !important;
-}
-
-.listItemActive---product-specification :global(.vtex-button):hover {
-  background-color: #000000;
-}
-
-.listContainer--product-specification {
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 4px 4px 0px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   padding: 0;
 }
 
-.listItem--product-specification,
-.listItem--product-description {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 0;
-  margin: 0;
+.contentItem--tab-content{
+  border-top: 2px solid #cbcbcb;
 }
 
-.listItemActive--product-description,
-.listItemActive--product-specification {
-  background-color: #000000;
-  padding: 0;
-  margin: 0;
+.contentContainer--pdp--tabs--content-container{
+  background-color: #fff;
 }
 
-.listItemActive--product-description {
-  border-radius: 4px 0px 0px 0px;
-}
 
-.contentContainer--product-specification {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  background: #FFFFFF;
-  border-top: 0;
-}
 
-.contentItem--product-specification{
-   padding: 20px;
-}
-
-@media screen and (min-width: 300px) and (max-width: 320px) {
-  .listItem--product-specification :global(.vtex-button__label),
-  .listItem--product-description :global(.vtex-button__label) {
-    font-size: 12px;
+@media (max-width: 1500px){
+  .listItem--product-tab{
+    width: 50%;
   }
 
-  .listItemActive--product-description :global(.vtex-button__label) {
-    padding-left: 2.3rem !important;
-    padding-right: 2.47rem !important;
+  .listItem--product-tab :global(.vtex-button){
+    width: 100%;
+    height: 100%;
   }
 
-  .listItemActive--product-specification :global(.vtex-button__label) {
-    padding-left: 0.8rem !important;
-    padding-right: 0.7rem !important;
-  }
-
-  .listItemActive--border :global(.vtex-button__label) {
-    padding-left: 1.5rem !important;
-    padding-right: 1.1rem !important;
-  }
-
-  .listItem--border-425 :global(.vtex-button__label) {
-    padding-left: 1.5rem !important;
-    padding-right: 1.4rem !important;
-  }
-
-  .listItem--border-425 {
-    border-right: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  }
-
-  .listItem--product-description :global(.vtex-button__label) {
-    padding-left: 1.9rem !important;
-    padding-right: 2.47rem !important;
-  }
-
-  .listItem--product-description {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .listItem--product-description :global(.vtex-button__label) {
-    padding-left: 2.28rem !important;
-    padding-right: 2.47rem !important;
-    font-size: 18px;
-  }
-
-  .listItemActive--product-specification :global(.vtex-button__label) {
-    padding-left: 0.7rem !important;
-    padding-right: 0.7rem !important;
-  }
-
-  .listItem--border-425 :global(.vtex-button__label) {
-    padding-left: 1.7rem !important;
-    padding-right: 0.8rem !important;
-  }
-
-  .listItemActive--border-425 :global(.vtex-button__label) {
-    padding-left: 2.1rem !important;
-    padding-right: 0.7rem !important;
-  }
-
-  .listItemActive--border :global(.vtex-button__label) {
-    padding-left: 1.4rem !important;
-    padding-right: 0.7rem !important;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-  }
-
-  .listItemActive--product-description :global(.vtex-button__label) {
-    padding-left: 2.47rem !important;
-    padding-right: 2.47rem !important;
-  }
-
-  .listItem--border-425 {
-    border-right: none !important;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    padding-right: 0 !important;
-  }
-
-  .listItem--product-description {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
-  .listItem--product-specification :global(.vtex-button__label) {
-    padding-left: 1.01rem !important;
-    padding-right: 1rem !important;
-    font-size: 18px;
-  }
-
-  .listItem--border-425 :global(.vtex-button__label) {
-    padding-left: 1.7rem !important;
-    padding-right: 0.8rem !important;
-  }
-
-  .listItem--product-description :global(.vtex-button__label) {
-    padding-left: 3.5rem !important;
-    padding-right: 3.3rem !important;
-    font-size: 18px;
-  }
-
-  .listItemActive--product-specification :global(.vtex-button__label) {
-    padding-left: 1.3rem !important;
-    padding-right: 1rem !important;
-  }
-
-  .listItemActive--product-description :global(.vtex-button__label) {
-    padding-left: 3.52rem !important;
-    padding-right: 3.52rem !important;
-    font-size: 18px;
-  }
-
-  .listItem--product-description {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  }
-
-  .listItem--border-425 {
-    border-right: none !important;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    padding-right: 0.5rem !important;
-  }
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .listItem--product-specification :global(.vtex-button__label),
-  .listItem--product-description :global(.vtex-button__label) {
-    padding-left: 0.3rem !important;
-    padding-right: 0.3rem !important;
-    font-size: 9.4px;
-    padding-top: 0.3rem !important;
-    padding-bottom: 0.3rem !important;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .listItem--product-specification :global(.vtex-button__label),
-  .listItem--product-description :global(.vtex-button__label) {
-    padding-left: 0.48rem !important;
-    padding-right: 0.48rem !important;
+  .listItem--product-tab :global(.vtex-button__label){
     font-size: 13px;
   }
 }
-
-@media screen and (min-width: 1400px) {
-  .listItem--product-specification :global(.vtex-button__label),
-  .listItem--product-description :global(.vtex-button__label) {
-    padding-left: 1.9rem !important;
-    padding-right: 1.9rem !important;
-  }
-}
-

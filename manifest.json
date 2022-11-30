@@ -1,5 +1,5 @@
 {
-  "vendor": "davidleal",
+  "vendor": "eobando",
   "name": "eobando-theme",
   "version": "1.1.2",
   "builders": {
@@ -47,7 +47,11 @@
     "vtex.product-quantity": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.product-specifications": "1.x"
+  },
+  "peerDependencies": {
+    "vtex.availability-notify": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

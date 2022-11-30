@@ -1,8 +1,8 @@
 {
-  "store.product": {
-    "children": [
-      "responsive-layout.desktop#pdp",
-      "responsive-layout.mobile#pdp"
-    ]
-  }
+  // "store.product": {
+  //   "children": [
+  //     "responsive-layout.desktop#pdp",
+  //     "responsive-layout.mobile#pdp"
+  //   ]
+  // }
 }
