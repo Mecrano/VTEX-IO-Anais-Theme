@@ -1,54 +1,59 @@
-.productBrand--productNamePdp  {
+.productNameContainer  {
   font-family: 'Mulish';
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   color: #000000;
 }
 
-.skuSelectorName {
+.skuSelectorSubcontainer--size{
+  margin-top: 20px;
+}
+
+.skuSelectorName{
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
   color: #000000;
 }
 
-.skuSelectorItem--sku-pdp, .frameAround--sku-pdp  {
+.skuSelectorItem{
+  width: 36px;
+}
+
+.frameAround--product--sku-selector{
+  border-radius: 50px;
+}
+
+.skuSelectorItemTextValue--product--sku-selector{
+  padding: 0;
+}
+
+.skuSelectorInternalBox--product--sku-selector{
   border: none;
 }
 
-.skuSelectorInternalBox {
-  border-color: #065FBD;
+.skuSelectorItem--product--sku-selector--selected .frameAround--product--sku-selector{
+  border-color: #4AA358;
 }
 
-.skuSelectorItem--sku-pdp:hover,
-.seeMoreButton :global(.vtex-button):hover  {
-  background-color: #065FBD;
+.productDescriptionText--product--disclosures--description-content{
+  width: 90%;
+  margin: 0 auto;
 }
 
-.valueWrapper--sku-pdp {
-  font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-color: #065FBD;
+.content--product--disclosures--description-content{
+  color: #000000;
+  font-family: Rubik;
+  font-size: 16px;
 }
 
-.valueWrapper--sku-pdp:hover,
-.seeMoreButton :global(.vtex-button__label):hover {
-color: #ffffff;
+.showMoreButton--product--disclosures--description-content{
+  font-size: 14px;
+  background-color: #000000;
 }
 
-.seeMoreButton :global(.vtex-button) {
-  border: 1px solid #065FBD;
-  padding-left: 5px 10px;
-}
-
-.seeMoreButton :global(.vtex-button__label) {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 500;
-  color: #065FBD;
-}
-
-@media screen and (min-width: 300px) and (max-width: 1024px) {
-  .productBrand--productNamePdp  {
-    font-size: 16px;
+@media (max-width: 768px)  {
+  .productNameContainer{
+    margin-bottom: 7px;
   }
 }

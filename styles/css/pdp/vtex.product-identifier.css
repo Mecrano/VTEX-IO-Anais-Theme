@@ -1,18 +1,17 @@
-.product-identifier--productReference {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #6A6A6A;
+.product-identifier--skuReferenceId{
+    font-size: 15px;
+    color: #6A6A6A;
+    font-family: Rubik;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
-  .product-identifier--productReference {
-    font-size: 14px;
-    color: #000000;
-  }
+@media (max-width: 768px){
+    .product-identifier--skuReferenceId{
+        color: #000;
+        margin-bottom: 30px;
+    }
 
-  .product-identifier__label, .product-identifier__separator {
-    font-weight: bold;
-  }
+    .product-identifier__separator,
+    .product-identifier__label{
+        font-weight: bold;
+    }
 }
