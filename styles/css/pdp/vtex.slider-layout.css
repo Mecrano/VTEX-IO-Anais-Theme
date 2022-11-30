@@ -27,4 +27,8 @@
 .sliderTrack--slide-mobile {
   width: 990% !important;
 }
+
+.sliderTrack--slider-pdp {
+  width: 950% !important;
+}
 }
