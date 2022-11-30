@@ -234,8 +234,8 @@
 @media screen and (min-width: 1400px) {
   .listItem--product-specification :global(.vtex-button__label),
   .listItem--product-description :global(.vtex-button__label) {
-    padding-left: 1.9rem !important;
-    padding-right: 1.9rem !important;
+    padding-left: 1.8rem !important;
+    padding-right: 1.8rem !important;
   }
 }
 

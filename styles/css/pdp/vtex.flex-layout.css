@@ -333,16 +333,26 @@
 }
 
 @media screen and (min-width: 1400px) {
-  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container),
+  .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container) {
+    max-width: 109rem !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .flexRow--container-brand :global(.vtex-store-components-3-x-container),
   .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container),
   .flexRow--slider-rich-plp :global(.vtex-store-components-3-x-container),
-  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container),
-  .flexRow--marcas-pdp :global(.vtex-store-components-3-x-container),
+  .flexRow--slider-rich-plp-two :global(.vtex-store-components-3-x-container){
+    max-width: 110rem !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .flexRow--container-condiftional :global(.vtex-store-components-3-x-container) {
-    width: calc(1690px - 24px * 2);
-    margin: 0 auto;
-    max-width: 100% !important;
+    background-color: red;
+    max-width: 110rem !important;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
