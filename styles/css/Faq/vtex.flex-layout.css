@@ -1,7 +1,7 @@
 .flexRow--faq-container :global(.vtex-store-components-3-x-container),
 .flexRow--preguntas :global(.vtex-store-components-3-x-container) {
-  width: calc(1280px - 15px * 2);
-  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .flexRow--faq-container, .flexRow--preguntas {
@@ -13,61 +13,27 @@
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
   .flexRow--faq-container :global(.vtex-store-components-3-x-container),
   .flexRow--preguntas :global(.vtex-store-components-3-x-container)  {
-    width: calc(330px - 5px * 2);
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .flexRow--faq-container :global(.vtex-store-components-3-x-container),
-  .flexRow--preguntas :global(.vtex-store-components-3-x-container)  {
-    width: calc(385px - 5px * 2);
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
-
-  .flexRow--faq-container :global(.vtex-store-components-3-x-container),
-  .flexRow--preguntas :global(.vtex-store-components-3-x-container) {
-    width: calc(435px - 5px * 2);
-    margin: 0 auto;
-  }
-}
-
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .flexRow--faq-container :global(.vtex-store-components-3-x-container),
-  .flexRow--preguntas :global(.vtex-store-components-3-x-container) {
-    width: calc(779px - 5px * 2);
-    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .flexRow--faq-container :global(.vtex-store-components-3-x-container),
+   .flexRow--faq-container :global(.vtex-store-components-3-x-container),
   .flexRow--preguntas :global(.vtex-store-components-3-x-container) {
-    width: calc(999px - 40px * 2);
-    margin: 0 auto;
-  }
-}
-
-
-@media screen and (min-width: 300px) and (max-width: 1024px) {
-  .flexRow--faq-container :global(.vtex-store-components-3-x-container),
-  .flexRow--preguntas :global(.vtex-store-components-3-x-container)  {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .flexRow--faq-container :global(.vtex-store-components-3-x-container),
   .flexRow--preguntas :global(.vtex-store-components-3-x-container)  {
-    width: calc(1480px - 36px * 2);
-    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 112rem;
   }
 }

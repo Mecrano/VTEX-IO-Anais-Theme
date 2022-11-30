@@ -9,16 +9,12 @@
 
   "flex-layout.row#faq-container": {
     "children": ["tab-layout#faq"],
-    "props": {
-      "blockClass": "faq-container"
-    }
+    "props": {"blockClass": "faq-container"}
   },
 
   "flex-layout.row#faq-box--one": {
     "children": ["rich-text#preguntas"],
-    "props": {
-      "blockClass": "preguntas"
-    }
+    "props": {"blockClass": "preguntas"}
   },
 
   "rich-text#preguntas": {
@@ -47,9 +43,7 @@
       "tab-list.item#tab4",
       "tab-list.item#tab5"
     ],
-    "props": {
-     "blockClass": "faq-tab--list"
-    }
+    "props": {"blockClass": "faq-tab--list"}
   },
 
   "tab-list.item#tab1": {
@@ -101,9 +95,7 @@
       "tab-content.item#tab4",
       "tab-content.item#tab5"
     ],
-    "props":{
-      "blockClass": "faq-content"
-    }
+    "props":{"blockClass": "faq-content"}
   },
 
   "tab-content.item#tab1": {
@@ -154,9 +146,7 @@
       "disclosure-layout#four" ,
       "disclosure-layout#five"
     ],
-    "props":{
-      "blockClass": "content-faq"
-    }
+    "props":{"blockClass": "content-faq"}
   },
 
   /* primero */
@@ -177,9 +167,7 @@
   },
   "disclosure-content#one": {
     "children": ["rich-text#texto"],
-    "props": {
-      "blockClass": "content-one"
-    }
+    "props": {"blockClass": "content-one"}
   },
 
   "rich-text#one": {
@@ -208,9 +196,7 @@
 /* segundo */
   "disclosure-layout#two": {
     "children": ["disclosure-trigger#two", "disclosure-content#two"],
-    "props": {
-      "blockClass": "disclosure-layout-one"
-    }
+    "props": {"blockClass": "disclosure-layout-one"}
   },
 
   "disclosure-trigger#two": {
@@ -222,9 +208,7 @@
   },
   "disclosure-content#two": {
     "children": ["rich-text#texto"],
-    "props": {
-      "blockClass": "content-two"
-    }
+    "props": {"blockClass": "content-two"}
   },
 
   "rich-text#two": {
@@ -237,9 +221,7 @@
 /* tercero */
   "disclosure-layout#three": {
     "children": ["disclosure-trigger#three", "disclosure-content#three"],
-    "props": {
-      "blockClass": "disclosure-layout-one"
-    }
+    "props": {"blockClass": "disclosure-layout-one"}
   },
 
   "disclosure-trigger#three": {
