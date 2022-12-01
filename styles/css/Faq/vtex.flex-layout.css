@@ -32,7 +32,16 @@
 @media screen and (min-width: 1400px) {
   .flexRow--faq-container :global(.vtex-store-components-3-x-container),
   .flexRow--preguntas :global(.vtex-store-components-3-x-container)  {
-    padding-left: 0;
+     padding-left: 0;
+    padding-right: 0;
+    max-width: 85rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .flexRow--faq-container :global(.vtex-store-components-3-x-container),
+  .flexRow--preguntas :global(.vtex-store-components-3-x-container)  {
+     padding-left: 0;
     padding-right: 0;
     max-width: 112rem;
   }

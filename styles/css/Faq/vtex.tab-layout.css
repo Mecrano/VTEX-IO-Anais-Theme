@@ -50,6 +50,11 @@
 
 .listItemActive--tab-list :global(.vtex-button):hover {
   background: #000000 !important;
+  height: 59px;
+}
+
+.listItem--tab-list :global(.vtex-button):hover {
+  height: 59px;
 }
 
 .listItemActive--tab-list :global(.vtex-button__label),
