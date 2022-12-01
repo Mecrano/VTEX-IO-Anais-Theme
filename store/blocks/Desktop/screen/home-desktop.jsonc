@@ -2,17 +2,17 @@
   "responsive-layout.desktop#home": {
     "title": "home desktop",
     "children": [
-      "list-context.image-list#first__banner",
+     "list-context.image-list#first__banner",
       "flex-layout.row#benefits-container",
       "flex-layout.row#ideal-products-title",
       "flex-layout.row#ideal-products",
       "flex-layout.row#shelf-title-container",
       "flex-layout.row#slider-home-one",
-      "flex-layout.row#title-brands",
+       "flex-layout.row#title-brands",
       "flex-layout.row#brands-container",
       "flex-layout.row#shelf2-title-container",
       "flex-layout.row#slider-home-two",
-      "flex-layout.row#newsletter",
+       "flex-layout.row#newsletter",
       "flex-layout.row#info-tittle",
       "flex-layout.row#info-content"
     ]

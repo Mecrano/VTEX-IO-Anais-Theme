@@ -418,14 +418,26 @@
 }
 
 @media screen and (min-width: 1400px) {
-  .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
-  .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container),
   .flexRow--block-five-home :global(.vtex-store-components-3-x-container),
   .flexRow--home--newsletter--container :global(.vtex-store-components-3-x-container),
-  .flexRow--block-twelve-home :global(.vtex-store-components-3-x-container),
   .flexRow--home--info--container :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-home :global(.vtex-store-components-3-x-container) {
     width: calc(1690px - 24px * 2);
     max-width: 100% !important;
   }
+
+   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
+   .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container),
+   .flexRow--block-twelve-home :global(.vtex-store-components-3-x-container) {
+    width: 84rem !important;
+   }
+
+   .flexRow--home--info--container :global(.vtex-store-components-3-x-container){
+    width: 87rem !important;
+   }
+
+   .flexRow--home--brands--content-container :global(.vtex-store-components-3-x-container),
+   .flexRow--home--newsletter--container :global(.vtex-store-components-3-x-container){
+    width: 85rem !important;
+   }
 }

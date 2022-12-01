@@ -369,6 +369,11 @@
 }
 
 @media screen and (min-width: 1400px) {
+  :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .flexRow--mobile,
+  :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .flexRow--mobile-pdp-sku {
+    display: none;
+  }
+
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {

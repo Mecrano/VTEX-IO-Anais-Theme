@@ -14,3 +14,45 @@
     color: #004793;
     text-decoration: none;
 }
+
+/* page genero */
+.paragraph--title-1-departament {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.paragraph--title-2-departament {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+color: #004793;
+}
+
+.container--title-1-marcas-search {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--title-1-marcas-search {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 24.6613px;
+display: flex;
+align-items: center;
+color: #000000;
+margin-top: 0.87rem;
+margin-bottom: 0.85rem;
+}
+
+/*  */
