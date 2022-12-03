@@ -1,0 +1,28 @@
+.paper--quickview {
+  background-color: transparent;
+}
+
+.closeButton--quickview {
+  align-items: end;
+  display: flex;
+}
+
+.closeButton--quickview::after {
+  content: "Cerrar";
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.94px;
+  color: #000000;
+  margin-right: 30px;
+}
+
+.closeIcon--quickview {
+  width: 28px;
+  height: 28px;
+}
+
+.closeButtonContainer--quickview {
+  background-color: #ededed ;
+  clip-path: polygon(0 0, 84% 0, 100% 60%, 100% 100%, 0 100%, 0% 50%);
+}
