@@ -230,8 +230,8 @@
 .flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container) {
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
@@ -250,12 +250,6 @@
 
 .flexCol--eight-infocard-search-departament {
   background-color: #FFFFFF;
-}
-
-.flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament:first-child {
-  padding-left: 40px;
-  padding-right: 80px;
-  padding-top: 20px;
 }
 
 .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament:last-child {
@@ -277,10 +271,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.flexCol--eight-infocard-search-departament:last-child {
-  margin-left: 20px;
 }
 
 .flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container) {
@@ -306,6 +296,19 @@
 .flexRowContent--marcas-search-departament .stretchChildrenWidth:last-child {
   width: 60% !important;
   background-color: #EDEDED;
+}
+
+.flexColChild--eight-infocard-search-departament {
+  height: auto !important;
+}
+
+/* .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament {
+  background-image: url(assets/images/genero/Group-newsletter.svg);
+ background-repeat: no-repeat;
+} */
+
+:global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--height-auto {
+  height: auto !important;
 }
 
 /* genero */
@@ -369,6 +372,11 @@
 }
 
 @media screen and (min-width: 1400px) {
+
+  .flexColChild--eight-infocard-search-departament {
+    height: 100% !important;
+  }
+
   :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .flexRow--mobile,
   :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .flexRow--mobile-pdp-sku {
     display: none;
@@ -497,8 +505,8 @@
     clip-path: polygon(93% 0, 100% 9%, 100% 60%, 100% 100%, 10% 100%, 0 92%, 0 0);
   }
 
-  .flexCol--eight-infocard-search-departament:last-child {
-    margin-left: 20px;
+  .flexColChild--eight-infocard-search-departament {
+    height: 100% !important;
   }
 }
 
@@ -514,6 +522,10 @@
     padding-left: 66px;
     padding-right: 60px;
   }
+
+  .flexColChild--eight-infocard-search-departament {
+    height: 100% !important;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
@@ -528,3 +540,4 @@
   padding-right: 10px;
 }
 }
+
