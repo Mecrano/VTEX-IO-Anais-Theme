@@ -298,10 +298,16 @@
   background-color: #EDEDED;
 }
 
-/* .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament {
-  background-image: url(assets/images/genero/Group-newsletter.svg);
- background-repeat: no-repeat;
-} */
+.flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament{
+  position: relative;
+}
+
+.flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
+  content: url(assets/images/genero/Group-newsletter.svg);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 :global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--height-auto {
   height: auto !important;
@@ -314,6 +320,10 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
+  .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
+    max-width: 55%;
+  }
+
   .flexRowContent--marcas-search-departament {
     flex-direction: column;
   }
