@@ -83,6 +83,12 @@
   width: 360px;
   height: 88px;
 }
+
+.productImage--imagePdp-modal .productImageTag--imagePdp-modal {
+  width: 793px !important;
+  height: 671px !important;
+}
+
 @media screen and (min-width: 1400px) {
 :global(.vtex-flex-layout-0-x-flexRowContent--block-two-search-departament) .imageElement {
   width: 1903px !important;
@@ -210,4 +216,10 @@
   .infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
     height: 60.9px;
   }
+}
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+.productImage--imagePdp-modal .productImageTag--imagePdp-modal {
+  width: 100%!important;
+  height: 100% !important;
+}
 }
