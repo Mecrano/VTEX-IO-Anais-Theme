@@ -298,10 +298,6 @@
   background-color: #EDEDED;
 }
 
-.flexColChild--eight-infocard-search-departament {
-  height: auto !important;
-}
-
 /* .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament {
   background-image: url(assets/images/genero/Group-newsletter.svg);
  background-repeat: no-repeat;
@@ -310,8 +306,12 @@
 :global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--height-auto {
   height: auto !important;
 }
-
 /* genero */
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+:global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--eight-infocard-search-departament {
+  height: 100%  !important;
+}
+}
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
   .flexRowContent--marcas-search-departament {
@@ -484,6 +484,15 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  .flexRowContent--block-five-search-departament {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flexRowContent--block-five-search-departament .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {

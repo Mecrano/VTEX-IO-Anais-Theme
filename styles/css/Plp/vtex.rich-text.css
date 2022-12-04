@@ -11,6 +11,18 @@
 :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .paragraph--home--newsletter--text {
   font-size: 16px;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-top: 2%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+padding-top: 10px;
+padding-bottom: 15px;
+  }
+}
 
 @media screen and (min-width: 1920px) {
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
