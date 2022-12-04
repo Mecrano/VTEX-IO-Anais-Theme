@@ -2,8 +2,8 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400 !important;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 19px;
   display: flex;
   align-items: center;
   color: #000000;
@@ -20,4 +20,22 @@
   text-decoration-line: line-through;
   color: #ABABAB;
   margin-left: 10px;
+}
+
+@media screen and (min-width: 1920px) {
+  .sellingPriceValue--name-global {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .sellingPriceValue--name-global {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .sellingPriceValue--name-global {
+    font-size: 12px;
+  }
 }

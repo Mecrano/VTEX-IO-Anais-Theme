@@ -16,6 +16,11 @@
   .sliderTrack--infocard {
     width: 670% !important;
   }
+
+  .sliderTrackContainer--slider-pdp :global(.vtex-product-summary-2-x-container--global) {
+    margin-right: 5px;
+    margin-left: 3px;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {

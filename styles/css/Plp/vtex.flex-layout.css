@@ -220,23 +220,28 @@
   background-color: #EDEDED;
 }
 
+.flexRow--block-two-search-departament :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
 .flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container) {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 90px;
   padding-bottom: 60px;
 }
 
 .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
-  padding-left: 107px;
-  padding-right: 70px;
+  padding-left: 90px;
+  padding-right: 80px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -298,7 +303,7 @@
   background-color: #EDEDED;
 }
 
-.flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament{
+.flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament {
   position: relative;
 }
 
@@ -312,11 +317,21 @@
 :global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--height-auto {
   height: auto !important;
 }
+
+.flexCol--three-title-search-departament {
+  padding-right: 10px;
+}
+
+.flexCol--four-title-slider-search-departament {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* genero */
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-:global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--eight-infocard-search-departament {
-  height: 100%  !important;
-}
+  :global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--eight-infocard-search-departament {
+    height: 100% !important;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
@@ -381,7 +396,26 @@
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .flexRow--block-two-search-departament :global(.vtex-store-components-3-x-container) {
+    max-width: 100vw !important;
+  }
+
+  .flexRowContent--block-two-search-departament :global(.vtex-slider-layout-0-x-slideChildrenContainer) :global(.vtex-slider-layout-0-x-imageElement) {
+    width: 100vw !important;
+  }
+
+  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
+
 @media screen and (min-width: 1400px) {
+  .flexCol--four-title-slider-search-departament {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .flexColChild--eight-infocard-search-departament {
     height: 100% !important;
@@ -402,22 +436,38 @@
 
   .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
     max-width: 115rem !important;
-}
+  }
 
-.flexRow--block-two-search-departament :global(.vtex-store-components-3-x-container),
-.flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container),
-.flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container),
-.flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container)  {
-  max-width: 120rem !important;
-}
+  .flexRow--block-two-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-.flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container) {
-  max-width: 118rem !important;
-}
+  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 100%;
+  }
 
-.flexRow--block-eight-search-departament :global(.vtex-store-components-3-x-container) {
-  max-width: 120rem !important;
-}
+  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 100%;
+    background-color: #EDEDED;
+  }
+
+  .flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+    background-color: #EDEDED;
+  }
+
+  .flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container) {
+    max-width: 118rem !important;
+  }
+
+  .flexRow--block-eight-search-departament :global(.vtex-store-components-3-x-container) {
+    max-width: 120rem !important;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
@@ -464,9 +514,16 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container),
+  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
+
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -476,6 +533,7 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -485,6 +543,7 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
+
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -510,16 +569,6 @@
     margin: 0 auto;
   }
 
-  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
-  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
   .flexRowContent--block-five-search-departament {
     clip-path: polygon(93% 0, 100% 9%, 100% 60%, 100% 100%, 10% 100%, 0 92%, 0 0);
   }
@@ -537,11 +586,6 @@
     margin: 0 auto;
   }
 
-  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
-    padding-left: 66px;
-    padding-right: 60px;
-  }
-
   .flexColChild--eight-infocard-search-departament {
     height: 100% !important;
   }
@@ -554,9 +598,8 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-.flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container) {
-  padding-left: 10px;
-  padding-right: 10px;
+  .flexRow--block-five-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
-}
-

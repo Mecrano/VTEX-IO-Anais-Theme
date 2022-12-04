@@ -31,10 +31,12 @@ padding-bottom: 15px;
     padding-top: 12% !important;
   }
 
+  .paragraph--title-1-departament,
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .strong--home--newsletter--text {
     font-size: 32px !important;
   }
 
+  .paragraph--title-2-departament,
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .paragraph--home--newsletter--text {
     font-size: 20px !important;
   }
@@ -53,5 +55,11 @@ padding-bottom: 15px;
 
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .paragraph--home--newsletter--text {
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paragraph--compra-rapida {
+    font-size: 12px !important;
   }
 }

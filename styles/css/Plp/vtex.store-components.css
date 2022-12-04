@@ -9,14 +9,14 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 33px;
   text-align: center;
   color: #FFFFFF;
-  height: 65px;
+  height: 47.91px;
   width: auto;
   background-color: #000000;
-  padding: 16px 24px;
+  padding: 11.9564px 17.9346px;
   position: absolute;
   left: 0;
   top: 0;
@@ -27,7 +27,7 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   color: #000000;
   padding-left: 0;
@@ -35,7 +35,7 @@
 }
 
 .infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
-  height: 81.5px;
+  height: 60.9px;
   background-color: #EDEDED;
   border-color: #EDEDED;
   clip-path: polygon(38% 0, 100% 0%, 100% 100%, 0 100%, 0 84%);
@@ -214,3 +214,35 @@
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .infoCardContainer--info-card-1 {
+    height: 600px;
+    width: 427px !important;
+  }
+
+  .infoCardHeadline--info-card-1 {
+    font-size: 28px;
+    height: 65px;
+    padding: 16px 24px;
+  }
+
+
+  .infoCardCallActionContainer--info-card-1 :global(.vtex-button__label) {
+    font-size: 18px;
+  }
+
+  .infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
+    height: 81.5px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .infoCardContainer--info-card-1 {
+    height: 448.37px;
+    width: 319.83px !important;
+  }
+
+  .infoCardHeadline--info-card-1 {
+    font-size: 20px;
+  }
+}
