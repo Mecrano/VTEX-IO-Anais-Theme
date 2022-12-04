@@ -115,7 +115,7 @@
   }
 
   .nameContainer--name-global {
-    height: 60px;
+    height: 50px;
   }
 
   .image--image-global {
@@ -125,5 +125,35 @@
 
   .nameWrapper--name-global {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .description--descripcion-global {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description--descripcion-global {
+    font-size: 14px;
+  }
+
+  .brandName--name-global {
+    font-size: 16px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    width: 315px !important;
+    height: 496px;
+  }
+
+  .element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
+    display: flex !important;
+  }
+
+  .image--image-global {
+    width: 315px;
+    height: 315px;
   }
 }

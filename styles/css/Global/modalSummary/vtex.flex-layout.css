@@ -58,22 +58,7 @@
   padding-bottom: 20px;
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
-  /* .flexColChild--quickviewDetails .flexRow--mobile {
-    display: none;
-  }
-
-  .flexColChild--quickviewDetails .flexRow--container {
-    display: flex;
-  } */
-}
-
 @media screen and (min-width: 300px) and (max-width: 425px) {
-
-  /* .flexColChild--quickviewDetails .flexRow--container,
-  .flexColChild--quickviewDetails .flexRow--sku-mobile {
-    display: none;
-  } */
   .flexRowContent--quickviewMainRow :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) {
     padding-left: 20px;
   }

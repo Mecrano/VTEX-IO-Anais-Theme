@@ -89,8 +89,6 @@
 }
 
 .flexRowContent--column-one {
-  /* padding-left: 10px;
-  padding-right: 10px; */
   background-color: #eceef0;
 }
 
@@ -247,10 +245,10 @@
 }
 
 .flexRow--block-eight-search-departament :global(.vtex-store-components-3-x-container) {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 .flexCol--eight-infocard-search-departament {
@@ -279,10 +277,10 @@
 }
 
 .flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container) {
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .flexRowContent--marcas-search-departament {
@@ -335,10 +333,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
-  .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
-    max-width: 55%;
-  }
-
   .flexRowContent--marcas-search-departament {
     flex-direction: column;
   }
@@ -461,12 +455,9 @@
     background-color: #EDEDED;
   }
 
+  .flexRow--block-eight-search-departament :global(.vtex-store-components-3-x-container),
   .flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container) {
-    max-width: 118rem !important;
-  }
-
-  .flexRow--block-eight-search-departament :global(.vtex-store-components-3-x-container) {
-    max-width: 120rem !important;
+    max-width: 100% !important;
   }
 }
 
@@ -514,12 +505,6 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-
-  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container),
-  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container) {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
@@ -533,7 +518,6 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-
   .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
@@ -602,4 +586,19 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container),
+  .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container)  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+.flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container),
+.flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container)  {
+  padding-left: 0;
+  padding-right: 0;
+}
 }

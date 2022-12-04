@@ -39,3 +39,9 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .sellingPriceValue--name-global  {
+    font-size: 16px;
+  }
+}
