@@ -12,10 +12,6 @@
     "props": {"blockClass": "column-one"},
     "children": ["product-summary-image#summary-global", "modal-trigger#quickview-compra"]
   },
-
-
-
-
   "flex-layout.row#column-two": {
     "title": "block two",
     "props": {"blockClass": "column-two"},
