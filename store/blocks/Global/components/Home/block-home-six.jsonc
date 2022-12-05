@@ -11,7 +11,7 @@
     "props": {
       /* "category": "82/85", */
       "blockClass": "shelf-pdp",
-      "collection": "137",
+      "collection": "139",
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }
@@ -28,7 +28,7 @@
       "navigationStep": 1,
       "blockClass": "slider-pdp",
       "showPaginationDots": "never",
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "always"
     }
   }
 }

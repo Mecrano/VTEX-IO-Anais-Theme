@@ -242,13 +242,15 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
 
   .paragraph--home--ideal-products--title,
   .paragraph--home--shelf--title-1 {
     font-size: 17px;
   }
+}
 
+@media (max-width: 320px) {
   .strong--home--newsletter--text {
     font-size: 17px;
   }
