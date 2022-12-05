@@ -49,8 +49,8 @@
 }
 
 .infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label){
-    font-family: Rubik;
-    font-size: 28px;
+    font-family: "Rubik";
+    font-size: 20px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0em;
@@ -89,6 +89,11 @@
 
 .infoCardImage--home--ideal-products--infocard{
     width: 100%;
+}
+@media (min-width: 1920px){
+.infoCardCallActionContainer--home--ideal-products--infocard :global(.vtex-button__label){
+  font-size: 28px;
+}
 }
 
 @media (max-width: 1400px){

@@ -12,7 +12,8 @@
       "flex-layout.row#brands-container",
       "flex-layout.row#shelf2-title-container",
       "flex-layout.row#slider-home-two",
-       "flex-layout.row#newsletter",
+       /* "flex-layout.row#newsletter", */
+       "flex-layout.row#block-five-search-departament",
       "flex-layout.row#info-tittle",
       "flex-layout.row#info-content"
     ]

@@ -422,22 +422,31 @@
     max-width: 100% !important;
   }
 
-   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container),
+   .flexRow--container-slider--home :global(.vtex-store-components-3-x-container) {
+    padding-left: 85px;
+    padding-right: 85px;
+    max-width: 100% !important;
+   }
+
    .flexRow--block-twelve-home :global(.vtex-store-components-3-x-container) {
     max-width: 100% !important;
    }
 
    .flexRow--home--shelf--titles-container :global(.vtex-store-components-3-x-container) {
     max-width: 100% !important;
+    padding-left: 90px;
+    padding-right: 70px;
    }
 
    .flexRow--home--info--container :global(.vtex-store-components-3-x-container){
     max-width: 100% !important;
+    padding-left: 35px;
+    padding-right: 35px;
    }
 
-   .flexRow--home--newsletter--container :global(.vtex-store-components-3-x-container){
+   /* .flexRow--home--newsletter--container :global(.vtex-store-components-3-x-container){
     max-width: 100% !important;
     padding-left: 40px;
     padding-right: 40px;
-   }
+   } */
 }
