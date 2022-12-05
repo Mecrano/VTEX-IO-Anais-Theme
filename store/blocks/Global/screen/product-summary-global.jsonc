@@ -3,9 +3,35 @@
     "title": "container shelf",
     "children": [
       "flex-layout.row#column-one",
-      "flex-layout.row#column-two"
+      "flex-layout.row#column-two",
+      "vtex.product-highlights@2.x:product-highlights#nuevo"
     ],
     "props": {"blockClass": "global"}
+  },
+  "vtex.product-highlights@2.x:product-highlights#nuevo": {
+    "children": ["product-highlight-wrapper#nuevo"],
+    "props": {
+      "type": "collection",
+      "blockClass": "nuevo",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["prueba home"]
+      }
+    }
+  },
+  "product-highlight-wrapper#nuevo": {
+    "props": {
+      "blockClass": "cyber-col-highlights"
+    },
+    "children": [
+      "product-highlight-text#nuevo"
+    ]
+  },
+  "product-highlight-text#nuevo": {
+    "props": {
+      "message": "Nuevo",
+      "blockClass": "nuevo"
+    }
   },
   "flex-layout.row#column-one": {
     "title": "block one",

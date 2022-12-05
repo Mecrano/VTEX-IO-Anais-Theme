@@ -465,3 +465,10 @@
     padding-right: 110px;
    }
 }
+
+@media screen and (min-width: 1530px) and (max-width: 1536px) {
+  .flexRowContent--container-slider--home :global(.vtex-product-summary-2-x-image) {
+    width: 315px !important;
+  }
+}
+
