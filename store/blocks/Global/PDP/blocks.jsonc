@@ -208,7 +208,7 @@
   },
   "add-to-cart-button#product--add-to-cart": {
     "props": {
-      "text": "Añadir al carrito"
+      "text": "Agregar a carrito"
     }
   },
   /* "add-to-list-btn#product--favorites": {
@@ -267,7 +267,7 @@
     "props": {
       "text": "Prueba",
       "blockClass": "Prueba"
-      
+
     }
   },
   "product-specification-group": {
@@ -298,4 +298,3 @@
     }
   }
   }
-  

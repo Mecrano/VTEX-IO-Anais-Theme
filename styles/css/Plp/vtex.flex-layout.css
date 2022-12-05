@@ -310,6 +310,35 @@
 
 /* genero */
 
+/* compra rapida */
+.flexRow--quickviewMainRow {
+  background-color: #FFFFFF;
+  clip-path: polygon(0 0, 98% 0, 100% 6%, 100% 100%, 0 100%, 0% 50%);
+}
+
+.flexRowContent--quickviewMainRow {
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+.flexRowContent--quickviewMainRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow--quickviewMainRow {
+  background-color: #ededed;
+  clip-path: polygon(0 0, 92% 0, 100% 3%, 100% 100%, 0 100%, 0% 50%);
+}
+
+.flexRowContent--quickviewMainRow {
+  background-color: #ededed;
+  margin-top: 25px;
+}
+}
+/* compra rapida */
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
   .flexRowContent--marcas-search-departament {
     flex-direction: column;
