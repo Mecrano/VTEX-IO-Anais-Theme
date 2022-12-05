@@ -12,10 +12,6 @@
     "props": {"blockClass": "column-one"},
     "children": ["product-summary-image#summary-global", "modal-trigger#quickview-compra"]
   },
-
-
-
-
   "flex-layout.row#column-two": {
     "title": "block two",
     "props": {"blockClass": "column-two"},
@@ -41,8 +37,7 @@
     "title": "container prices",
     "props": {"blockClass": "group-prices"},
     "children": [
-      "product-selling-price#summary-global",
-      "product-list-price#summary-global"
+      "product-selling-price#summary-global"
     ]
   },
   "product-summary-name#summary-global": {
@@ -51,10 +46,6 @@
   },
   "product-selling-price#summary-global": {
     "title": "price",
-    "props": {"blockClass": "name-global"}
-  },
-  "product-list-price#summary-global": {
-    "title": "list-price",
     "props": {"blockClass": "name-global"}
   }
 }

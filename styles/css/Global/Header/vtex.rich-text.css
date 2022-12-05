@@ -1,0 +1,40 @@
+.paragraph--minicart-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container--minicart-title {
+  background: #FFE700;
+  width: 100%;
+  padding-left: 23px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0;
+}
+
+@media (min-width: 1920px) {
+  .paragraph--minicart-title {
+    font-size: 13px;
+  }
+
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .container--minicart-title {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .paragraph--minicart-title {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+

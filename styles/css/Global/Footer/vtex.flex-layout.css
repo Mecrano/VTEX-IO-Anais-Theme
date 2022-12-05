@@ -76,6 +76,12 @@
   width: 10% !important;
 }
 
+.flexCol--container-footer-1-column-2 {
+ background-image: url(assets/images/footer/footer-images.svg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+
 @media (max-width: 1024px) {
 
   .flexColChild--footer-1-column-1a-headerLogo :global(.vtex-store-components-3-x-logoImage) {
@@ -122,9 +128,7 @@
 
 @media (min-width: 1400px) {
   .flexCol--container-footer-1-column-1 {
-
     padding: 65px 165px;
-
   }
 }
 
@@ -141,4 +145,16 @@
   .flexCol--container-footer-1-column-2  {
     justify-content: flex-start;
   }
+}
+
+@media screen and (min-width: 1920px) {
+.flexCol--container-footer-1-column-2 {
+  background-size: cover;
+ }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px){
+  .flexCol--container-footer-1-column-2 {
+    background-size: cover;
+   }
 }

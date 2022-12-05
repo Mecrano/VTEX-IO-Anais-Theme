@@ -1,0 +1,108 @@
+.paper--quickview {
+  background-color: transparent;
+}
+
+.closeButton--quickview {
+  align-items: end;
+  display: flex;
+}
+
+.closeButton--quickview::after {
+  content: "Cerrar";
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.94px;
+  color: #000000;
+  margin-right: 30px;
+}
+
+.closeIcon--quickview {
+  width: 28px;
+  height: 28px;
+}
+
+.closeButtonContainer--quickview {
+  background-color: #ededed;
+  clip-path: polygon(0 0, 84% 0, 100% 60%, 100% 100%, 0 100%, 0% 50%);
+}
+
+.contentContainer--quickviewContent :global(.vtex-flex-layout-0-x-flexRow--product--details1--container) {
+  margin-top: 30px;
+}
+
+.contentContainer--quickviewContent :global(.vtex-flex-layout-0-x-flexRow--product--details1--container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 70% !important;
+}
+
+.actionsContentWrapper--quickview {
+  border: none;
+  padding-top: 0;
+}
+
+.actionsContainer--quickview {
+  padding: 0;
+  box-shadow: none !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .contentContainer--quickviewContent {
+    padding-left: 0 !important;
+  }
+
+  .closeButton--quickview::after {
+    margin-right: 10px;
+  }
+
+  .contentContainer--quickviewContent  :global(.vtex-flex-layout-0-x-flexRowContent--product--quantity-size-guide--container) :global(.vtex-button__label) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paper--quickview {
+    width: 700px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contentContainer--quickviewContent :global(.vtex-product-price-1-x-sellingPrice--product--price--selling),
+  .contentContainer--quickviewContent :global(.vtex-product-price-1-x-listPrice--product--price--list) {
+  justify-content: flex-start;
+}
+
+.contentContainer--quickviewContent :global(.vtex-flex-layout-0-x-flexRowContent--product--mobile-prices--container) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 13% !important;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .contentContainer--quickviewContent :global(.vtex-store-components-3-x-productNameContainer) {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .closeButtonContainer--quickview {
+    clip-path: polygon(0 0, 90% 0, 100% 60%, 100% 100%, 0 100%, 0% 50%);
+  }
+
+  .contentContainer--quickviewContent :global(.vtex-product-price-1-x-currencyContainer--product--price--selling) {
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  .contentContainer--quickviewContent :global(.vtex-product-price-1-x-currencyContainer--product--price--list) {
+    font-size: 12px;
+    color: #E1342D;
+  }
+
+  .contentContainer--quickviewContent :global(.vtex-product-price-1-x-listPriceValue--product--price--list) {
+    text-decoration-color: #E1342D;
+  }
+
+  .contentContainer--quickviewContent :global(.vtex-flex-layout-0-x-flexRowContent--product--mobile-prices--container){
+    align-items: baseline;
+  }
+}

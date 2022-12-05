@@ -14,24 +14,17 @@
       "newsletter-form"
     ],
     "props": {
-      "blockClass": "eight-infocard-search-departament",
-      "width": "50%"
+      "blockClass": ["eight-infocard-search-departament", "height-auto"],
+      "width": "45%"
     }
   },
- /*  "rich-text#newsletter-title2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "",
-      "blockClass": "newsletter-title"
-    }
-  }, */
+
   "flex-layout.col#five-imagen-search-departament": {
     "title": "container image",
     "children": ["image#search-newsletter"],
     "props": {
-      "blockClass": "eight-infocard-search-departament",
-      "width": "50%"
+      "blockClass": ["eight-infocard-search-departament", "height-auto"],
+      "width": "55%"
     }
   },
   "image#search-newsletter": {
@@ -39,8 +32,7 @@
     "props": {
       "src": "assets/images/genero/Subtract.png",
       "blockClass": "newsletter-search",
-      "maxHeight": 656/* ,
-      "maxWidth": 1016 */
+      "maxHeight": 656
     }
   }
 }
