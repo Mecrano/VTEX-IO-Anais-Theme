@@ -4,16 +4,16 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   color: #FFFFFF;
 }
 
 .container--compra-rapida {
   background: #CF0E2D;
   display: flex;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 5px;
-  margin-top: -5px;
+  height: 31.83px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {

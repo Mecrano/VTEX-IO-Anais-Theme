@@ -2,7 +2,7 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000;
 }
 
@@ -20,32 +20,44 @@
 .nameContainer--name-global {
   padding-top: 0;
   padding-bottom: 0;
-  height: 60px;
+  height: 55px;
 }
 
 .nameWrapper--name-global {
   margin-top: 10px;
- }
+}
 
- .description--descripcion-global  {
+.description--descripcion-global {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  text-align: left;
+  font-size: 16px;
+  text-align: justify;
   margin-top: 12px;
- }
+  height: 80px;
+}
+
+.element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+}
+
+.element--global  :global(.vtex-flex-layout-0-x-flexRowContent--column-one) {
+  position: relative;
+}
 
 @media screen and (min-width: 1400px) {
   .nameContainer--name-global {
     padding-top: 0;
     padding-bottom: 0;
-    height: 75px;
   }
 
   .image--image-global {
-    width: 300px;
-    height: 280px;
+    width: 232.85px;
+    height: 232.85px;
   }
 }
 
@@ -61,9 +73,87 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .nameContainer--name-global {
-    height: 80px !important;
+@media screen and (min-width: 1440px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    max-width: 232.85px !important;
   }
 }
 
+@media screen and (min-width: 1920px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    max-width: 315px !important;
+  }
+
+  .image--image-global {
+    width: 315px;
+    height: 315px;
+  }
+
+  .description--descripcion-global, .brandName--name-global {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .description--descripcion-global, .brandName--name-global {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    width: 232.85px !important;
+    height: 386.87px;
+  }
+
+  .brandName--name-global {
+    font-size: 12px;
+  }
+
+  .description--descripcion-global {
+    font-size: 10px;
+  }
+
+  .nameContainer--name-global {
+    height: 50px;
+  }
+
+  .image--image-global {
+    width: 232.85px;
+    height: 232.85px;
+  }
+
+  .nameWrapper--name-global {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .description--descripcion-global {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description--descripcion-global {
+    font-size: 14px;
+  }
+
+  .brandName--name-global {
+    font-size: 16px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    width: 315px !important;
+    height: 496px;
+  }
+
+  .element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
+    display: flex !important;
+  }
+
+  .image--image-global {
+    width: 315px;
+    height: 315px;
+  }
+}

@@ -1,0 +1,85 @@
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
+  padding-left: 7%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .strong--home--newsletter--text {
+  font-size: 24px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .paragraph--home--newsletter--text {
+  font-size: 16px;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-top: 2%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+padding-top: 10px;
+padding-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
+    padding-right: 42% !important;
+    padding-left: 12% !important;
+    padding-top: 12% !important;
+  }
+
+  .paragraph--title-1-departament,
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .strong--home--newsletter--text {
+    font-size: 32px !important;
+  }
+
+  .paragraph--title-2-departament,
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .paragraph--home--newsletter--text {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-top: 7%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .strong--home--newsletter--text {
+    font-size: 24px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .paragraph--home--newsletter--text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paragraph--compra-rapida {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+.paragraph--title-1-departament {
+font-size: 20px !important;
+}
+
+.paragraph--title-2-departament {
+font-size: 16px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .paragraph--title-1-departament {
+  font-size: 18px !important;
+  }
+
+  .paragraph--title-2-departament {
+  font-size: 14px !important;
+  }
+}

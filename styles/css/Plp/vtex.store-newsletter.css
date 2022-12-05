@@ -6,6 +6,66 @@
   background-color: #FFFFFF;
 }
 
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .nameInputContainer {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 1920px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .newsletterForm {
+    padding-left: 10%;
+    padding-right: 27%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .formSubmitContainer {
+    padding-left: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .confirmationCheckboxContainer :global(.vtex-checkbox__label) {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .confirmationCheckboxContainer :global(.vtex-checkbox__label) {
+    font-size: 11px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .nameInputContainer {
+    padding-right: 17%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder,
+  :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .nameInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .emailInputContainer {
+  padding-right: 40%;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .formSubmitContainer :global(.vtex-button) {
+  height: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .formSubmitContainer{
+  padding-bottom: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .nameInputContainer {
+  padding-right: 35%;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .confirmationCheckboxContainer {
+  padding-right: 20%;
+}
+}
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .newsletterForm {
     padding-left: 10px;

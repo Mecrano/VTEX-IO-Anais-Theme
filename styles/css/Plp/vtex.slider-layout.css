@@ -1,9 +1,9 @@
 .sliderLeftArrow--infocard {
-  margin-left: -20px !important;
+  margin-left: 0 !important;
 }
 
 .sliderTrack--infocard {
-  width: 650%;
+  width: 550% !important;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -16,9 +16,15 @@
   .sliderTrack--infocard {
     width: 670% !important;
   }
+
+  .sliderTrackContainer--slider-pdp :global(.vtex-product-summary-2-x-container--global) {
+    margin-right: 5px;
+    margin-left: 3px;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
+
   .sliderTrack--infocard,
   .sliderTrack--tab {
     width: 950% !important;
@@ -26,6 +32,7 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+
   .sliderTrack--infocard,
   .sliderTrack--tab {
     width: 970% !important;
@@ -33,8 +40,44 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
+
   .sliderTrack--infocard,
   .sliderTrack--tab {
     width: 950% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sliderTrackContainer--slider-pdp :global(.vtex-product-summary-2-x-container--global) {
+    margin-left: 0 !important;
+    margin-right: 10px !important;
+  }
+
+  .sliderTrackContainer--infocard {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .sliderTrackContainer--infocard {
+    margin-left: 30px;
+  }
+
+  .sliderTrack--infocard {
+    width: 690% !important;
+  }
+
+  .slideChildrenContainer--infocard :global(.vtex-product-summary-2-x-image--image-global) {
+    width: 260px !important;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .sliderTrackContainer--infocard {
+    margin-left: 30px;
+  }
+
+  .sliderTrack--infocard {
+    width: 600% !important;
   }
 }
