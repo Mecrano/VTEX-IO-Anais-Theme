@@ -415,6 +415,10 @@
 }
 
 @media screen and (min-width: 1400px) {
+  .flexRowContent--container-slider--home :global(.vtex-product-summary-2-x-image) {
+    width: 240px !important;
+  }
+
   .flexRow--block-five-home :global(.vtex-store-components-3-x-container),
   .flexRow--home--newsletter--container :global(.vtex-store-components-3-x-container),
   .flexRow--home--info--container :global(.vtex-store-components-3-x-container),
@@ -449,4 +453,10 @@
     padding-left: 40px;
     padding-right: 40px;
    } */
+}
+
+@media screen and (min-width: 1920px) {
+  .flexRowContent--container-slider--home :global(.vtex-product-summary-2-x-image) {
+    width: 315px !important;
+  }
 }
