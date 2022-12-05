@@ -9,8 +9,8 @@
 }
 
 .flexColChild--text-compra {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .flexColChild--images-modal :global(.vtex-store-components-3-x-carouselGaleryThumbs--imagePdp-modal) {
@@ -65,5 +65,12 @@
 
   :global(.vtex-modal-layout-0-x-actionsContentWrapper--quickview) .flexRowContent--addToCartRow :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .flexColChild--text-compra {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

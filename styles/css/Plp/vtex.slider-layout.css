@@ -19,7 +19,9 @@
 
   .sliderTrackContainer--slider-pdp :global(.vtex-product-summary-2-x-container--global) {
     margin-right: 5px;
-    margin-left: 3px;
+    margin-left: 0 !important;
+    width: 232.85px;
+    height: 386.87px;
   }
 }
 

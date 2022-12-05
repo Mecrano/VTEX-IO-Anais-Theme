@@ -34,9 +34,9 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 1024px) {
   .sellingPriceValue--name-global {
-    font-size: 12px;
+    margin-bottom: 10px;
   }
 }
 

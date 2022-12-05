@@ -20,7 +20,9 @@
 .nameContainer--name-global {
   padding-top: 0;
   padding-bottom: 0;
-  height: 55px;
+  height: 49px;
+  overflow: hidden;
+
 }
 
 .nameWrapper--name-global {
@@ -32,16 +34,18 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  text-align: justify;
+  text-align: left;
   margin-top: 12px;
-  height: 80px;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
   opacity: 1;
   position: absolute;
   bottom: 0;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   background-color: #FFFFFF;
 }
 
@@ -69,7 +73,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .nameContainer--name-global {
-    height: 80px !important;
+    height: 50px !important;
   }
 }
 
@@ -95,7 +99,7 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
-  .description--descripcion-global, .brandName--name-global {
+  .brandName--name-global {
     font-size: 18px;
   }
 }
@@ -106,16 +110,12 @@
     height: 386.87px;
   }
 
-  .brandName--name-global {
-    font-size: 12px;
-  }
-
   .description--descripcion-global {
-    font-size: 10px;
+    height: 38px;
   }
 
   .nameContainer--name-global {
-    height: 50px;
+    height: 36px;
   }
 
   .image--image-global {
@@ -128,19 +128,10 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .description--descripcion-global {
-    height: 130px;
-  }
-}
-
 @media screen and (max-width: 450px) {
   .description--descripcion-global {
-    font-size: 14px;
-  }
-
-  .brandName--name-global {
     font-size: 16px;
+    height: 34px;
   }
 
   :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
