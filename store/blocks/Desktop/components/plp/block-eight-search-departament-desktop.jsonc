@@ -41,9 +41,9 @@
     "blocks": ["product-summary.shelf#global"],
     "children": ["slider-layout#genero-three"],
     "props": {
-      /* "category": "82/85", */
+      "category": "82/85",
       "blockClass": "shelf-pdp",
-      "collection": "137",
+      /* "collection": "137", */
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }

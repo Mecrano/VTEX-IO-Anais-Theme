@@ -15,17 +15,13 @@
       "blockClass": "nuevo",
       "filter": {
         "type": "show",
-        "highlightNames": ["prueba home"]
+        "highlightNames": ["Pop up Accesorios"]
       }
     }
   },
   "product-highlight-wrapper#nuevo": {
-    "props": {
-      "blockClass": "cyber-col-highlights"
-    },
-    "children": [
-      "product-highlight-text#nuevo"
-    ]
+    "props": {"blockClass": "nuevo"},
+    "children": ["product-highlight-text#nuevo"]
   },
   "product-highlight-text#nuevo": {
     "props": {
