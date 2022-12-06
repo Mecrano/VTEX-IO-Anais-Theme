@@ -1,5 +1,5 @@
 .contentContainer {
-  background-color: #234793;
+  background-color: #004793;
   padding: 20px;
 }
 
@@ -387,7 +387,7 @@
 
   .listItem--tab-marcas5 :global(.vtex-button) {
     padding-left: 4rem !important;
-    padding-right: 4rem !important;
+    padding-right: 3.8rem !important;
   }
 
   .listItem--tab-marcas6 :global(.vtex-button) {

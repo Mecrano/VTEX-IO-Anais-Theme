@@ -71,7 +71,10 @@
     "children": [
       "flex-layout.row#list-row.mobile",
       "flex-layout.row#list-row-selectors.mobile"
-    ]
+    ],
+    "props":{
+      "blockClass": "minicart-product-info-mobile"
+    }
   },
   "flex-layout.row#list-row.mobile": {
     "children": [
@@ -81,7 +84,8 @@
     "props": {
       "fullWidth": true,
       "colSizing": "auto",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": "true",
+      "blockClass": "list-row-mobile"
     }
   },
   "flex-layout.col#image-custom.mobile": {
@@ -99,7 +103,8 @@
   },
   "flex-layout.col#main-container-custom.mobile": {
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass": "main-container-custom-mobile"
     },
     "children": [
       "flex-layout.row#minicart-item-name",

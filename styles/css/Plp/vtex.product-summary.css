@@ -148,3 +148,10 @@
     height: 315px;
   }
 }
+
+
+@media screen and (min-width: 1366px) and (max-width: 1380px) {
+  .description--descripcion-global {
+height: 38px;
+  }
+}

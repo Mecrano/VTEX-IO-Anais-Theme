@@ -186,7 +186,6 @@ width: 10px;
 height: 10px;
 
 }
-
 @media screen and (min-width: 300px) and (max-width: 375px) {
   .closeIconButton {
     top: 45px;
