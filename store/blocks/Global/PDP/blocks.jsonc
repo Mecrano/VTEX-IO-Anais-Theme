@@ -149,7 +149,7 @@
     }
   },
   "list-context.image-list#product--payment-method--content": {
-    "children": ["slider-layout#first__banner"],
+    "children": ["slider-layout#first__banner-pdp"],
     "props": {
       "images": [
         {
@@ -162,7 +162,7 @@
       ]
     }
   },
-  "slider-layout#first__banner": {
+  "slider-layout#first__banner-pdp": {
     "title": "Banner",
     "props": {
       "blockClass": ["carousel__home", "carousel__home-1", "product--payment--images"],

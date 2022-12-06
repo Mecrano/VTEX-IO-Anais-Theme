@@ -28,10 +28,10 @@
   flex-direction: row;
 }
 
-.flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
+/* .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
   padding-left: 0;
   padding-right: 0;
-}
+} */
 
 .flexCol--block-one-one {
   display: flex;
@@ -504,6 +504,23 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
+  .flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .flexRowContent--block-one-search {
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  .flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+    background-color: #FFFFFF;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
   .flexRow--block-six-search-departament :global(.vtex-store-components-3-x-container) {
     padding-left: 20px;
     padding-right: 20px;
@@ -511,6 +528,8 @@
 
   .flexRow--block-two-search {
     padding-bottom: 30px;
+    padding-top: 0;
+    background-color: #FFFFFF;
   }
 
   .flexRowContent--block-two-search {
@@ -519,7 +538,7 @@
 
   .flexRow--block-three-search-mobile {
     padding-bottom: 50px;
-    background-color: #EDEDED;
+    background-color: #FFFFFF;
   }
 
   .flexRowContent--container-mobile {
@@ -549,35 +568,6 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
-
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(310px - 12px * 2);
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(375px - 12px * 2);
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
-
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(430px - 12px * 2);
-    margin: 0 auto;
-  }
-}
-
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .flexRowContent--block-five-search-departament {
     display: flex;
@@ -586,13 +576,6 @@
 
   .flexRowContent--block-five-search-departament .stretchChildrenWidth {
     width: 100% !important;
-  }
-
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(730px - 12px * 2);
-    margin: 0 auto;
   }
 
   .flexRowContent--block-five-search-departament {
@@ -605,13 +588,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(999px - 12px * 2);
-    margin: 0 auto;
-  }
-
   .flexColChild--eight-infocard-search-departament {
     height: 100% !important;
   }
@@ -642,5 +618,23 @@
 .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container)  {
   padding-left: 0;
   padding-right: 0;
+}
+
+.flexRow--group-logos {
+  overflow-y: auto;
+}
+
+.flexRowContent--group-logos {
+  width: 800px;
+}
+
+.flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.flexRow--block-two-search :global(.vtex-store-components-3-x-container) {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 }

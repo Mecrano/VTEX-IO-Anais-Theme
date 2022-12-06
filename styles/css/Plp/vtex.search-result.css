@@ -158,15 +158,15 @@
 }
 
 .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
-font-size: 0;
+  font-size: 0;
 }
 
 .buttonShowMore :global(.vtex-button) :global(.vtex-button__label)::after {
   content: "Cargar más";
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -175,13 +175,13 @@ font-size: 20px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+/* @media screen and (min-width: 300px) and (max-width: 320px) {
 
   .filterPopupTitle--filter::before,
   .orderByText {
     font-size: 14px !important;
   }
-}
+} */
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
@@ -226,17 +226,37 @@ font-size: 20px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
+  .buttonShowMore--layout {
+    margin-top: 30px;
+  }
+
+  .gallery--grid {
+    background-color: #F2F7FA;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .galleryItem {
-    padding: 5px !important;
+    padding: 0;
+  }
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-element--global) {
+    padding-top: 0;
   }
 
   .searchResultContainer {
     padding: 0;
   }
 
+  .filterPopupArrowIcon--filter,
+  .filterPopupArrowIcon {
+    padding-top: 0;
+  }
+
   .filterPopupButton {
     display: flex;
     align-items: center;
+    padding-left: 0;
   }
 
   .filterPopupTitle--filter::before {
@@ -365,5 +385,74 @@ font-size: 20px;
 
   .filterTitleSpan--filter {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .galleryTitle--layout {
+    font-size: 22px;
+  }
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-container--global) {
+    width: 201px;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+  }
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-element--global) {
+    padding: 0 2px;
+  }
+
+  .galleryItem--grid :global(.vtex-rich-text-0-x-paragraph--compra-rapida) {
+    font-size: 16px;
+    color: #000000;
+  }
+
+  .galleryItem--grid :global(.vtex-rich-text-0-x-container--compra-rapida) {
+    background: #FFFFFF;
+    border: 1px solid #ededed;
+  }
+
+  .galleryItem--grid :global(.vtex-product-price-1-x-currencyContainer--name-global),
+  .galleryItem--grid :global(.vtex-product-summary-2-x-productBrand--name-global),
+  .galleryItem--grid :global(.vtex-product-highlights-2-x-productHighlightWrapper--nuevo),
+  .galleryItem--grid :global(.vtex-product-summary-2-x-description--descripcion-global) {
+    font-size: 14.2079px;
+  }
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-image--image-global) {
+    width: 201px;
+    height: 201px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .galleryItem--grid :global(.vtex-product-summary-2-x-container--global) {
+    width: 177px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .galleryItem--grid :global(.vtex-product-price-1-x-currencyContainer--name-global),
+  .galleryItem--grid :global(.vtex-product-summary-2-x-productBrand--name-global),
+  .galleryItem--grid :global(.vtex-product-highlights-2-x-productHighlightWrapper--nuevo),
+  .galleryItem--grid :global(.vtex-product-summary-2-x-description--descripcion-global),
+  .galleryItem--grid :global(.vtex-rich-text-0-x-paragraph--compra-rapida) {
+    font-size: 12px;
+  }
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-description--descripcion-global) {
+   height: 28px;
+  }
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-image--image-global) {
+    width: 180px;
+    height: 180px;
+  }
+
+  .galleryItem--grid :global(.vtex-product-summary-2-x-container--global) {
+    width: 153px;
   }
 }
