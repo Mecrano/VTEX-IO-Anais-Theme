@@ -1,11 +1,10 @@
 .paragraph--one {
   margin-top: 0;
   margin-bottom: 0;
-  /* font-family: 'Mukta'; */
+  font-family: 'Mulish';
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 323.5%;
+  font-weight: 800;
+  font-size: 16px;
   color: #000000;
 }
 
@@ -16,27 +15,35 @@
 }
 
 .paragraph--preguntas {
-  border-bottom: 1px solid #CBCBCB;
   margin-left: 50px;
-  /* font-family: 'Titillium Web'; */
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 55px;
   color: #000000;
 }
 
 .paragraph--texto-prueba {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
  margin-top: 0;
  margin-bottom: 0;
  color: #000000;
- font-size: 18px;
+ font-size: 16px;
+ text-align: left;
+}
+@media screen and (max-width: 450px) {
+.paragraph--preguntas {
+  margin-bottom: 0;
+}
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .paragraph--one {
-    font-size: 16px;
-    line-height: 50px;
+    font-size: 12px;
+    line-height: 15px;
   }
 }
 
@@ -67,10 +74,36 @@
   }
 }
 
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+  .paragraph--one {
+    font-size: 15px;
+  }
+
+  .paragraph--texto-prueba {
+    font-size: 14px;
+  }
+
+}
+
 @media screen and (min-width: 1400px) {
   .container--preguntas  {
     margin-left: -252px;
     width: 44.1% !important;
     padding-left: 200px;
   }
+}
+
+@media screen and (min-width: 1920px) {
+  .paragraph--preguntas {
+    font-size: 32px;
+  }
+
+  .paragraph--one {
+    font-size: 20px;
+  }
+
+  .paragraph--texto-prueba {
+   font-size: 19px;
+  }
+
 }

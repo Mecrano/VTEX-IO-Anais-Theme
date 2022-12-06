@@ -1,14 +1,13 @@
 .productHighlightWrapper--nuevo {
   background-color: #ffffff;
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-display: flex;
-align-items: left;
-color: #4AA358;
-padding-left: 10px;
-padding-bottom: 10px;
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: left;
+  color: #4AA358;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }

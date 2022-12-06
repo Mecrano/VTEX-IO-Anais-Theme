@@ -176,7 +176,7 @@
     }
   },
   "disclosure-content#one": {
-    "children": ["rich-text#texto"],
+    "children": ["rich-text#text2"],
     "props": {
       "blockClass": "content-one"
     }
@@ -324,6 +324,12 @@
   "rich-text#texto": {
     "props": {
       "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "blockClass": "texto-prueba"
+    }
+  },
+  "rich-text#text2": {
+    "props": {
+      "text": "En www.anaisonline.com puedes pagar con tarjeta débito a través tarjetas de crédito de las franquicias MasterCard, Visa, American Express y DinersClub. Controlamos todos los pedidos realizados con el objetivo de evitar prácticas abusivas y compras fraudulentas. Nos reservamos el derecho a no efectuar una entrega o de procesar el pedido de un cliente que no hubiera abonado total o parcialmente un pedido anterior o en el que exista algún litigio con el titular de la Tarjeta de Crédito o Tarjeta Débito. Adicionalmente tenemos el servicio de Deposito a cuenta o transferencia electrónica y Pago contra Entrega habilitado para algunas ciudades, podrás pagar en efectivo, tarjeta débito y tarjetas de crédito de las franquicias MasterCard, Visa y American Express.",
       "blockClass": "texto-prueba"
     }
   }
