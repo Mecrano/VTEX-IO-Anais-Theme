@@ -35,6 +35,7 @@
 
 .filter__container--filter {
   border-color: #065FBD !important;
+  padding: 5px 0;
 }
 
 .filter--filter {
@@ -78,7 +79,7 @@
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 24px;
   color: #000000;
 }
 
@@ -113,12 +114,12 @@
   display: none;
 }
 
-.orderByOptionItem{
+.orderByOptionItem {
   color: #065FBD;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .container--layout--searchLayout-desk :global(.vtex-flex-layout-0-x-flexRowContent--item-filtros) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -128,14 +129,56 @@
 .searchResultContainer--searchLayout-departament {
   padding: 0;
 }
-@media screen and (min-width: 1400px) {
-.searchResultContainer--searchLayout-departament {
-  max-width: 120rem !important;
+
+.filter__container--talla .filterContent--filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.filter__container--talla .filterContent--filter .filterItem--filter {
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__label) {
+  border: 0.758652px solid #065FBD;
+  text-align: center;
+  border-radius: 3.03461px;
+}
+
+.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__label):hover {
+  color: #FFFFFF;
+  background-color: #065FBD;
+}
+
+.buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
+font-size: 0;
+}
+
+.buttonShowMore :global(.vtex-button) :global(.vtex-button__label)::after {
+  content: "Cargar más";
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+@media screen and (min-width: 1400px) {
+  .searchResultContainer--searchLayout-departament {
+    max-width: 120rem !important;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
-  .filterPopupTitle--filter::before, .orderByText {
+
+  .filterPopupTitle--filter::before,
+  .orderByText {
     font-size: 14px !important;
   }
 }
@@ -245,7 +288,9 @@
     justify-content: flex-start;
   }
 
-  .filterAccordionBreadcrumbs, .filterAccordionItemBox--filter, .filterAccordionItemBox {
+  .filterAccordionBreadcrumbs,
+  .filterAccordionItemBox--filter,
+  .filterAccordionItemBox {
     border-color: #065FBD;
   }
 
@@ -262,7 +307,8 @@
     color: #065FBD;
   }
 
-  .filterBreadcrumbsItemName--filter, .filterBreadcrumbsText--filter {
+  .filterBreadcrumbsItemName--filter,
+  .filterBreadcrumbsText--filter {
     color: #065FBD;
     font-family: 'Rubik';
     font-style: normal;
@@ -308,4 +354,16 @@
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .galleryTitle--layout {
+    font-size: 32px;
+  }
 
+  .orderByText {
+    font-size: 24px;
+  }
+
+  .filterTitleSpan--filter {
+    font-size: 24px;
+  }
+}

@@ -4,23 +4,30 @@
 
 .label--item-text {
   font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #065FBD;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #065FBD;
 }
 
 .link--link-pdp-modal {
-color: #000000;
-margin-top: 10px;
+  color: #000000;
+  margin-top: 10px;
 }
 
 .label--link-pdp-modal {
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 165.5%;
-color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165.5%;
+  color: #000000;
+}
+
+@media screen and (min-width: 1920px) {
+  .label--item-text {
+    font-size: 24px;
+  }
+
 }

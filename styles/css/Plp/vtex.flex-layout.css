@@ -1,8 +1,11 @@
-.flexRow--block-one-search :global(.vtex-store-components-3-x-container),
+.flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
+  padding-left: 120px;
+}
+
 .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
 .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
-  width: calc(1240px - 24px * 2);
-  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .flexRow--block-one-search {
@@ -16,7 +19,7 @@
 }
 
 .flexRow--block-three-search {
-  padding-bottom: 50px;
+  padding-bottom: 12%;
   background-color: #EDEDED;
 }
 
@@ -25,9 +28,6 @@
   flex-direction: row;
 }
 
-.flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-.flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-.flexRow--block-three-search :global(.vtex-store-components-3-x-container),
 .flexRow--block-three-search-mobile :global(.vtex-store-components-3-x-container) {
   padding-left: 0;
   padding-right: 0;
@@ -144,17 +144,15 @@
   align-items: center;
   justify-content: space-between;
   opacity: 0.7;
+  border-top: 1px solid #065FBD;
+  padding: 1.5rem 1.5rem;
+  background-color: #FAFAFA;
 }
 
 .flexRowContent--item-filtros {
   border-left: 1px solid #065FBD;
   border-right: 1px solid #065FBD;
   background-color: #FFFFFF;
-}
-
-.flexCol--item-filter {
-  border-top: 1px solid #065FBD;
-  padding: 1rem 1.5rem;
 }
 
 .flexColChild--serch-colunm-left {
@@ -326,6 +324,7 @@
 }
 
 /* genero */
+
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   :global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--eight-infocard-search-departament {
     height: 100% !important;
@@ -432,12 +431,34 @@
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
+
+  .flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
+    padding-left: 90px;
+  }
+
+  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
+  .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+  }
 }
 
 @media screen and (min-width: 1400px) {
   .flexCol--four-title-slider-search-departament {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
+  .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
+    padding-left: 4%;
+    padding-right: 4%;
+    max-width: 100%;
+  }
+
+  .flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
+    padding-left: 95px;
+    max-width: 100%;
   }
 
   .flexColChild--eight-infocard-search-departament {
@@ -447,14 +468,6 @@
   :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .flexRow--mobile,
   :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) .flexRow--mobile-pdp-sku {
     display: none;
-  }
-
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
-    width: calc(1690px - 24px * 2);
-    margin: 0 auto;
-    max-width: 100% !important;
   }
 
   .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
