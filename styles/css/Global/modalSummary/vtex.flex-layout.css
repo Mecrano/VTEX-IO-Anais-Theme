@@ -13,6 +13,10 @@
   padding-right: 25px;
 }
 
+.flexRow--quickviewMainRow {
+  position: relative;
+}
+
 .flexColChild--images-modal :global(.vtex-store-components-3-x-carouselGaleryThumbs--imagePdp-modal) {
   display: none;
 }

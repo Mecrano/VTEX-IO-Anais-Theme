@@ -9,9 +9,9 @@
     "blocks": ["product-summary.shelf#global"],
     "children": ["slider-layout#home-one"],
     "props": {
-      /* "category": "82/85", */
+      "category": "82",
       "blockClass": "shelf-pdp",
-      "collection": "139",
+      /* "collection": "139", */
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }
