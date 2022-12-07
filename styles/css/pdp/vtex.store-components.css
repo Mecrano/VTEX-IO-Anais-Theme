@@ -101,6 +101,19 @@
   line-height: 182.5%;
 }
 
+.seeMoreButton :global(.vtex-button__label) {
+  color: #065FBD;
+}
+
+.seeMoreButton :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+
+.seeMoreButton {
+  padding-top: 5px;
+}
+
 @media (max-width: 768px) {
   .productNameContainer {
     margin-bottom: 7px;

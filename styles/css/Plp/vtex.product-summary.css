@@ -20,13 +20,19 @@
 .nameContainer--name-global {
   padding-top: 0;
   padding-bottom: 0;
-  height: 49px;
-  overflow: hidden;
+  height: 55px;
+ /*  overflow: hidden; */
 
 }
 
 .nameWrapper--name-global {
   margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
 }
 
 .description--descripcion-global {
@@ -35,10 +41,14 @@
   font-weight: 400;
   font-size: 16px;
   text-align: left;
-  margin-top: 12px;
-  height: 40px;
-  overflow: hidden;
+/*   margin-top: 12px; */
+  height: 38px;
   text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
 }
 
 .element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
@@ -82,9 +92,9 @@
     max-width: 232.85px !important;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRow--column-two) .description--descripcion-global {
+  /* :global(.vtex-flex-layout-0-x-flexRow--column-two) .description--descripcion-global {
     height: 39px;
-  }
+  } */
 
 
 }
@@ -121,7 +131,7 @@
   }
 
   .nameContainer--name-global {
-    height: 36px;
+    height: 45px;
   }
 
   .image--image-global {
