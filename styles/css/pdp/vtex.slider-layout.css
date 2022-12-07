@@ -23,6 +23,22 @@
   height: 18px;
 }
 
+
+@media screen and (min-width: 1536px) and (max-width: 1570px) {
+  .sliderLayoutContainer--slider-pdp :global(.vtex-product-summary-2-x-image--image-global) {
+    width: 255px !important;
+  }
+
+  .sliderLayoutContainer--slider-pdp :global(.vtex-product-summary-2-x-nameContainer--name-global ) {
+    height: 47px;
+  }
+
+  .sliderLayoutContainer--slider-pdp :global(.vtex-product-summary-2-x-description--descripcion-global){
+    height: 38px;
+  }
+}
+
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
 .sliderTrack--slide-mobile {
   width: 990% !important;
