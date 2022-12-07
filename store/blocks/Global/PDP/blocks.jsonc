@@ -216,30 +216,14 @@
       "blockClass": "product--favorites"
     }
   }, */
-  "rich-text#product--shelf-1--title": {
-    "props": {
-            "text": "Acompañalo con ",
-      "blockClass": "product--shelf--titles"
-    }
-  },
-  "rich-text#product--shelf--more": {
-    "props": {
-      "text": "[Ver más ➜](#)",
-      "blockClass": "product--shelf--titles-ver-mas"
-    }
-  },
-  "rich-text#product--shelf-2--title": {
+
+  /* "rich-text#product--shelf-2--title": {
     "props": {
       "text": "productos relacionados",
       "blockClass": "product--shelf--titles"
     }
-  },
-    "breadcrumb#product--bradcrumb": {
-    "props": {
-      "showOnMobile": true,
-            "blockclass": "breadcrumb--plp"
-    }
-  },
+  }, */
+
     "product-identifier.product#new":{
         "props": {
             "blockClass": ["product--identifier"],

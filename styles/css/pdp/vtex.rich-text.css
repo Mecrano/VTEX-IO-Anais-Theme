@@ -1,41 +1,51 @@
-.paragraph--product--shelf--titles{
-    font-size: 20px;
-    color: #000;
-    font-family: Mulish;
-    font-weight: bold;
+.paragraph--product--shelf--titles {
+  font-size: 20px;
+  color: #000;
+  font-family: Mulish;
+  font-weight: bold;
 }
 
-.container--product--shelf--titles-ver-mas{
-    display: flex;
-    justify-content: flex-end;
+.container--product--shelf--titles-ver-mas {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.link--product--shelf--titles-ver-mas{
-    color: #004793;
-    text-decoration: none;
+.link--product--shelf--titles-ver-mas {
+  color: #004793;
+  text-decoration: none;
+}
+
+.paragraph--title-slider--pdp,
+.paragraph--title-brands {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
 }
 
 /* page genero */
 .paragraph--title-1-departament {
   font-family: 'Mulish';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 30px;
-display: flex;
-align-items: center;
-color: #000000;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
 
 .paragraph--title-2-departament {
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-display: flex;
-align-items: center;
-color: #004793;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #004793;
 }
 
 .container--title-1-marcas-search {
@@ -45,14 +55,77 @@ color: #004793;
 
 .paragraph--title-1-marcas-search {
   font-family: 'Mulish';
-font-style: normal;
-font-weight: 800;
-font-size: 24.6613px;
-display: flex;
-align-items: center;
-color: #000000;
-margin-top: 0.87rem;
-margin-bottom: 0.85rem;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24.6613px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: 0.87rem;
+  margin-bottom: 0.85rem;
 }
 
 /*  */
+
+.paragraph--title-envios-devoluciones {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 182.5%;
+  color: #000000;
+}
+
+.paragraph--content-envios-devoluciones {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 182.5%;
+  color: #000000;
+}
+
+@media screen and (min-width: 1920px) {
+
+  .paragraph--title-slider--pdp,
+  .paragraph--title-brands {
+    font-size: 32px;
+  }
+
+  .paragraph--title-envios-devoluciones {
+    font-size: 24px;
+  }
+
+  .paragraph--content-envios-devoluciones {
+
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .paragraph--title-envios-devoluciones,
+  .paragraph--content-envios-devoluciones {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  .paragraph--title-slider--pdp,
+  .paragraph--title-brands {
+    font-size: 22px;
+  }
+
+  .container--title-brands {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .paragraph--title-slider--pdp,
+  .paragraph--title-brands {
+    font-size: 20px;
+  }
+}

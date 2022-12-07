@@ -250,3 +250,11 @@
     height: 493px;
   }
 }
+
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .productImage--imagePdp-modal .productImageTag--imagePdp-modal {
+    height: auto !important;
+    width: 100%;
+  }
+}

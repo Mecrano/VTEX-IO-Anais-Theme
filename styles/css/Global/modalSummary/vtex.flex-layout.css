@@ -79,6 +79,20 @@
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px) {
+.flexColChild--quickviewDetails {
+  padding-bottom: 0;
+}
+:global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) {
+  padding-bottom: 0;
+}
+
+:global(.vtex-modal-layout-0-x-actionsContainer--quickview) {
+  margin-top: -10px;
+}
+
+}
+
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
   .flexColChild--images-modal {
     width: 793px;

@@ -1,42 +1,28 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#new-product-main"
+      "responsive-layout.desktop#pdp",
+      "responsive-layout.mobile#pdp"
     ]
   },
   "flex-layout.row#new-product-main": {
-    "children": [
-      "flex-layout.col#product-main"
-    ],
-    "props": {
-      "blockClass": "product--main--container"
-    }
+    "children": ["flex-layout.col#product-main"],
+    "props": {"blockClass": "product--main--container"}
   },
   "flex-layout.col#product-main": {
-    "children": [
-      "breadcrumb#product--bradcrumb",
-      "flex-layout.row#product--image-details--container",
-      "flex-layout.row#product--comments-tabs",
-      "flex-layout.row#product--shelf-1--titles",
-      // "flex-layout.row#shelf1",
-      "flex-layout.row#brands-container",
-      "flex-layout.row#product--shelf-2--titles"
-      // "flex-layout.row#product--shelf-2"
-    ],
-    "props": {
-      "blockClass":["product-main"]
-    }
+    "children": ["flex-layout.row#product--image-details--container"],
+    "props": {"blockClass":["product-main"]}
   },
   "flex-layout.row#product--comments-tabs": {
     "children": [
-      "tab-layout#product-details",
+      /* "tab-layout#product-details" */
       "product-reviews"
     ],
     "props": {
       "blockClass": "product--comments-tabs"
     }
   },
-  "tab-layout#product-details": {
+  /* "tab-layout#product-details": {
     "children": [
       "tab-list#product-details",
       "tab-content#product"
@@ -96,18 +82,14 @@
     }
   },
   "tab-content.item#product1": {
-    "children": [
-      "product-description"
-    ],
+    "children": ["product-description"],
     "props": {
       "tabId": "product1",
       "blockClass":["tab-content", "tab-content-description"]
     }
   },
   "tab-content.item#product2": {
-    "children": [
-      "product-specification-group"
-    ],
+    "children": ["product-specification-group"],
     "props": {
       "tabId": "product2",
       "blockClass":["tab-content", "tab-content-caracteristicas"]
@@ -130,7 +112,7 @@
       "tabId": "product4",
       "blockClass":["tab-content", "tab-content-pago"]
     }
-  },
+  }, */
   "flex-layout.row#product--image-details--container": {
     "children": [
       "flex-layout.col#product--images--container",
@@ -179,7 +161,7 @@
       // "product-availability#product--stock",
       "availability-notify"
       // "flex-layout.row#product--addto-cart-and-list--container",
-      
+
     ],
     "props": {
       "blockClass": ["product--details--container-col"],
@@ -197,7 +179,7 @@
       "flex-layout.row#product--name-ratings--container",
       "flex-layout.row#product--reference-prices--container"
     ]
-  }, 
+  },
   "responsive-layout.phone#details-phone":{
     "children":[
       "flex-layout.row#product--mobile-prices--container",
@@ -233,7 +215,7 @@
       "preventVerticalStretch": true,
       "preserveLayoutOnMobile": true
     }
-  },
+  }
   // "flex-layout.row#product--addto-cart-and-list--container": {
   //   "children": [
   //     "add-to-cart-button#product--add-to-cart",
@@ -243,31 +225,4 @@
   //     "blockClass": "product--addto-cart-and-list--container"
   //   }
   // },
-  "flex-layout.row#product--shelf-1--titles": {
-    "children": [
-      "rich-text#product--shelf-1--title",
-      "rich-text#product--shelf--more"
-    ],
-    "props": {
-      "blockClass": ["product--shelf-1--titles", "product--shelf--titles"],
-      "preserveLayoutOnMobile": true
-    }
-  },  
-  "flex-layout.row#product--shelf-2--titles": {
-    "children": [
-      "rich-text#product--shelf-2--title",
-      "rich-text#product--shelf--more"
-    ],
-    "props": {
-      "blockClass": ["product--shelf-1--titles", "product--shelf--titles"],
-      "preserveLayoutOnMobile": true
-    }
-  }/* ,
-  "flex-layout.row#product--shelf-2": {
-    "title": "contenido vitrina",
-    "children": ["list-context.product-list#productSlider"],
-    "props": {
-      "blockClass": "shelfComplete"
-    }
-  } */
 }

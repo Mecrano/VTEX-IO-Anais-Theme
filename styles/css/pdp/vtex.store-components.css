@@ -1,59 +1,152 @@
-.productNameContainer  {
+.productNameContainer {
   font-family: 'Mulish';
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   color: #000000;
 }
 
-.skuSelectorSubcontainer--size{
+.skuSelectorSubcontainer--size {
   margin-top: 20px;
 }
 
-.skuSelectorName{
-  font-family: Rubik;
-  font-size: 15px;
+.skuSelectorName {
+  font-family: "Rubik";
+  font-size: 18px;
   font-weight: 500;
   color: #000000;
 }
 
-.skuSelectorItem{
+.skuSelectorNameContainer {
+  padding-top: 25px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product--details--container-col) .skuSelectorOptionsList {
+  display: flex;
+  justify-content: flex-start;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
+  align-items: center;
+}
+
+.skuSelectorItem--product--sku-selector {
+  width: 60px !important;
+}
+
+.skuSelectorItem {
   width: 36px;
 }
 
-.frameAround--product--sku-selector{
-  border-radius: 50px;
+.frameAround--product--sku-selector {
+  border-radius: 3.28929px;
 }
 
-.skuSelectorItemTextValue--product--sku-selector{
+.skuSelectorItemTextValue--product--sku-selector {
   padding: 0;
 }
 
-.skuSelectorInternalBox--product--sku-selector{
+.skuSelectorInternalBox--product--sku-selector {
   border: none;
 }
 
-.skuSelectorItem--product--sku-selector--selected .frameAround--product--sku-selector{
-  border-color: #4AA358;
+.skuSelectorItem--product--sku-selector--selected .frameAround--product--sku-selector {
+  background: #065FBD;
 }
 
-.productDescriptionText--product--disclosures--description-content{
+.skuSelectorItem--product--sku-selector--selected .skuSelectorItemTextValue--product--sku-selector {
+  color: #ffffff !important;
+}
+
+.skuSelectorInternalBox--product--sku-selector {
+  border: 1px solid #065FBD;
+  align-items: center;
+}
+
+.skuSelectorInternalBox--product--sku-selector .skuSelectorItemTextValue--product--sku-selector {
+  color: #065FBD;
+}
+
+.diagonalCross--product--sku-selector {
+  border: 2px solid #ABABAB;
+}
+
+.valueWrapper--product--sku-selector--unavailable {
+  color: #ABABAB !important;
+}
+
+:global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button),
+:global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button) {
+  align-items: center;
+}
+
+.productDescriptionText--product--disclosures--description-content {
   width: 90%;
   margin: 0 auto;
 }
 
-.content--product--disclosures--description-content{
+.content--product--disclosures--description-content {
   color: #000000;
-  font-family: Rubik;
+  font-family: "Rubik";
   font-size: 16px;
 }
 
-.showMoreButton--product--disclosures--description-content{
+.showMoreButton--product--disclosures--description-content {
   font-size: 14px;
   background-color: #000000;
 }
 
-@media (max-width: 768px)  {
-  .productNameContainer{
+.productDescriptionText--description-pdp {
+  font-size: 18px;
+  color: #000000;
+  line-height: 182.5%;
+}
+
+@media (max-width: 768px) {
+  .productNameContainer {
     margin-bottom: 7px;
   }
+}
+
+
+@media (min-width: 1920px) {
+  .productNameContainer {
+    font-size: 32px;
+  }
+
+  .skuSelectorName {
+    font-size: 20px;
+  }
+
+  .skuSelectorInternalBox--product--sku-selector .skuSelectorItemTextValue--product--sku-selector {
+    font-size: 27.4107px;
+  }
+
+  .skuSelectorItem--product--sku-selector {
+    width: 87px !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--product--details--container-col) .skuSelectorOptionsList {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .productDescriptionText--description-pdp {
+    font-size: 24px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .productNameContainer {
+    font-size: 22px;
+  }
+
+  .skuSelectorName {
+    font-size: 16px;
+  }
+
+  .productDescriptionText--description-pdp {
+    font-size: 16px;
+  }
+
 }

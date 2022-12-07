@@ -23,7 +23,7 @@
     "title": "title ver-más",
     "props": {
       "href": "/",
-      "label": "Ver más",
+      "label": "Ver todo",
       "blockClass": "show-brands"
     }
   },
@@ -37,9 +37,9 @@
     "blocks": ["product-summary.shelf#global"],
     "children": ["slider-layout#pdp"],
     "props": {
-      /* "category": "34185084", */
+      "category": "82",
       "blockClass": "shelf-pdp",
-      "collection": "137",
+      /* "collection": "137", */
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }

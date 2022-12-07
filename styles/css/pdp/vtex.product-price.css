@@ -7,7 +7,7 @@
 .sellingPriceValue--product--price--selling {
   font-family: 'Rubik';
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   color: #000000;
 }
 
@@ -16,14 +16,14 @@
   border-left: 2px solid #F32820;
   padding: 8px 20px;
   color: #F3281FFF;
-  font-size: 15px;
-  font-family: Rubik;
+  font-size: 13.5px;
+  font-family: "Rubik";
 }
 
 .listPrice--product--price--list{
-  font-size: 15px;
+  font-size: 16px;
   color: #6A6A6A;
-  font-family: Rubik;
+  font-family: "Rubik";
 }
 
 @media (max-width: 768px){
@@ -43,5 +43,30 @@
     font-weight: 400;
     letter-spacing: 2px;
     margin-right: 10px;
+  }
+}
+
+
+@media (min-width: 1920px){
+  .savings--discountpdp2{
+    font-size: 18px;
+  }
+
+  .sellingPriceValue--product--price--selling {
+    font-size: 32px;
+  }
+
+  .listPrice--product--price--list{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sellingPriceValue--product--price--selling {
+    font-size: 22px;
+  }
+
+  .listPrice--product--price--list{
+    font-size: 18px;
   }
 }

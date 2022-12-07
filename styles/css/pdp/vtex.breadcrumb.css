@@ -58,3 +58,9 @@
     font-size: 13.6297px;
   }
 }
+
+@media screen and (min-width: 1920px)  {
+  .link--breadcrumbPdp, .term--breadcrumbPdp{
+    font-size: 20px;
+  }
+}
