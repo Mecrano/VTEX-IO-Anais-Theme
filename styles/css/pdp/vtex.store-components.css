@@ -109,7 +109,6 @@
   background-color: transparent;
 }
 
-
 .seeMoreButton {
   padding-top: 5px;
 }
@@ -165,13 +164,13 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .skuSelectorInternalBox--product--sku-selector .skuSelectorItemTextValue--product--sku-selector {
-    font-size: 27.4107px;
+    font-size: 1.4rem;
   }
 
   .skuSelectorItem--product--sku-selector {
-    width: 90px !important;
+    width: 80px !important;
   }
 
 }

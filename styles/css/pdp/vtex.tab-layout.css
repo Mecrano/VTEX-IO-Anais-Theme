@@ -343,11 +343,6 @@
     padding-left: 1.4rem !important;
     padding-right: 1.4rem !important;
   }
-
-  /* .listItemActive--border :global(.vtex-button__label) {
-    padding-left: 1.15rem !important;
-    padding-right: 1.5rem !important;
-  } */
 }
 
 @media screen and (min-width: 1920px) {
