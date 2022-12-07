@@ -35,17 +35,9 @@
   outline: none;
 }
 
-/* @media screen and (min-width: 300px) and (max-width: 375px) {
-  .link--breadcrumbPdp, .term--breadcrumbPdp{
-    font-size: 0.6rem;
-  }
-} */
-
-/* @media screen and (min-width: 376px) and (max-width: 425px) {
-  .link--breadcrumbPdp, .term--breadcrumbPdp{
-    font-size: 0.7rem;
-  }
-} */
+.term--breadcrumbPdp, .termArrow--breadcrumbPdp {
+  display: none;
+}
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .link--breadcrumbPdp, .term--breadcrumbPdp{
@@ -62,5 +54,16 @@
 @media screen and (min-width: 1920px)  {
   .link--breadcrumbPdp, .term--breadcrumbPdp{
     font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  .homeLink--breadcrumbPdp::after {
+    margin-right: 0;
+  }
+
+  .link--breadcrumbPdp{
+    font-size: 10.9px;
   }
 }

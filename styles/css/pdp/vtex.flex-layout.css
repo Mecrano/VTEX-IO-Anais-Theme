@@ -287,6 +287,7 @@
   }
   .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container) {
     padding-left: 10px;
+    padding-right: 10px;
   }
 
   .flexRow--product--main--container :global(.vtex-store-components-3-x-container) {
@@ -322,6 +323,7 @@
 @media screen and (min-width: 426px) and (max-width: 1024px){
   .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container) {
     padding-left: 20px;
+    padding-right: 20px;
   }
 
   .flexRow--product--main--container :global(.vtex-store-components-3-x-container) {
