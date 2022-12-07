@@ -70,7 +70,7 @@
   }
 
   .slideChildrenContainer--infocard :global(.vtex-product-summary-2-x-image--image-global) {
-    width: 260px !important;
+   /*  width: 260px !important; */
   }
 }
 

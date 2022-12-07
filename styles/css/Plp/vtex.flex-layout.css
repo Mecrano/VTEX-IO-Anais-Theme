@@ -1,9 +1,6 @@
-.flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
-  padding-left: 120px;
-}
-
 .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-.flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
+.flexRow--block-three-search :global(.vtex-store-components-3-x-container),
+.flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -431,16 +428,6 @@
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
-
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
-    padding-left: 90px;
-  }
-
-  .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
-    padding-left: 4.5%;
-    padding-right: 4.5%;
-  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -450,14 +437,10 @@
   }
 
   .flexRow--block-two-search :global(.vtex-store-components-3-x-container),
-  .flexRow--block-three-search :global(.vtex-store-components-3-x-container) {
+  .flexRow--block-three-search :global(.vtex-store-components-3-x-container),
+  .flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
     padding-left: 4%;
     padding-right: 4%;
-    max-width: 100%;
-  }
-
-  .flexRow--block-one-search :global(.vtex-store-components-3-x-container) {
-    padding-left: 95px;
     max-width: 100%;
   }
 

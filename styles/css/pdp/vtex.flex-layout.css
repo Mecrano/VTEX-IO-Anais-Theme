@@ -165,17 +165,18 @@
   background-color: #ffffff;
 }
 
-.flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container) {
-  padding-left: 90px;
-}
-
 .flexRow--product--main--container {
   padding-top: 30px;
 }
 
-.flexRow--product--main--container :global(.vtex-store-components-3-x-container) {
+.flexRow--product--main--container :global(.vtex-store-components-3-x-container){
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container) {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container) {
@@ -351,7 +352,6 @@
 
 @media (min-width: 1920px) {
   .flexRow--flexBreadcrumb :global(.vtex-store-components-3-x-container) {
-    padding-left: 90px;
     max-width: 100%;
   }
 

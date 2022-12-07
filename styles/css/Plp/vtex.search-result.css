@@ -429,8 +429,8 @@
   }
 
   .galleryItem--grid :global(.vtex-product-summary-2-x-image--image-global) {
-    width: 201px;
-    height: 201px;
+    /* width: 201px; */
+    /* height: 201px; */
   }
 }
 
@@ -456,8 +456,8 @@
   }
 
   .galleryItem--grid :global(.vtex-product-summary-2-x-image--image-global) {
-    width: 180px;
-    height: 180px;
+   /*  width: 180px; */
+   /*  height: 180px; */
   }
 
   .galleryItem--grid :global(.vtex-product-summary-2-x-container--global) {
