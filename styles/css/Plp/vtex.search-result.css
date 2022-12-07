@@ -169,19 +169,27 @@
   font-size: 20px;
 }
 
+.galleryItem :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRow--column-two) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  height: 30px;
+}
+
 @media screen and (min-width: 1400px) {
   .searchResultContainer--searchLayout-departament {
     max-width: 120rem !important;
   }
-}
 
-/* @media screen and (min-width: 300px) and (max-width: 320px) {
-
-  .filterPopupTitle--filter::before,
-  .orderByText {
-    font-size: 14px !important;
+  .galleryItem :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRow--column-two) :global(.vtex-product-summary-2-x-nameContainer--name-global) {
+    height: 47px;
   }
-} */
+
+  .galleryItem :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRow--column-two) :global(.vtex-product-summary-2-x-description--descripcion-global) {
+    height: 38px;
+  }
+
+  .galleryItem :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRow--column-two) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    height: 30px;
+  }
+}
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {

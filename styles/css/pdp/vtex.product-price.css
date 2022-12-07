@@ -36,12 +36,12 @@
     display: flex;
     align-items: center;
     font-size: 14px;
-    letter-spacing: 2px;
+/*     letter-spacing: 2px; */
   }
 
   .sellingPriceValue--product--price--selling{
     font-weight: 400;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     margin-right: 10px;
   }
 }

@@ -81,6 +81,12 @@
   :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
     max-width: 232.85px !important;
   }
+
+  :global(.vtex-flex-layout-0-x-flexRow--column-two) .description--descripcion-global {
+    height: 39px;
+  }
+
+
 }
 
 @media screen and (min-width: 1920px) {

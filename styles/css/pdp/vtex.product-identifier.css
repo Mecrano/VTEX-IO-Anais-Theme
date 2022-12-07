@@ -21,3 +21,9 @@
     font-size: 20px;
 }
 }
+
+@media (max-width: 1024px){
+.product-identifier--skuReferenceId{
+  font-size: 18px;
+}
+}

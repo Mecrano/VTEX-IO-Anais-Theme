@@ -139,6 +139,7 @@
 @media (max-width: 1024px) {
   .productNameContainer {
     font-size: 22px;
+    font-weight: 900;
   }
 
   .skuSelectorName {
@@ -147,6 +148,17 @@
 
   .productDescriptionText--description-pdp {
     font-size: 16px;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .skuSelectorInternalBox--product--sku-selector .skuSelectorItemTextValue--product--sku-selector {
+    font-size: 27.4107px;
+  }
+
+  .skuSelectorItem--product--sku-selector {
+    width: 90px !important;
   }
 
 }
