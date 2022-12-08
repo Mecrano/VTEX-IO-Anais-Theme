@@ -47,7 +47,7 @@
   padding-left: 10px;
 }
 
-.container--text-social-network-footer  {
+.container--text-social-network-footer {
   display: flex;
   justify-content: flex-end;
   margin-right: 5px;
@@ -86,8 +86,9 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+
   .wrapper--text-social-network-footer .link,
-  .paragraph--text-social-network-footer  {
+  .paragraph--text-social-network-footer {
     font-size: 12px;
   }
 
@@ -100,15 +101,75 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
+
   .wrapper--text-social-network-footer .link,
-  .paragraph--text-social-network-footer  {
-    font-size: 10px;
+  .paragraph--text-social-network-footer {
+    font-size: 10px !important;
   }
 }
 
 @media (min-width: 1440px) {
   .paragraph--text-footer2 {
-padding-right: 20px;
+    padding-right: 20px;
   }
 }
 
+@media (max-width: 450px) {
+  .paragraph--footer-1-column-1a-headerTitle {
+    font-size: 16px !important;
+  }
+
+  .container--footer-1-column-1a-headerTitle {
+    width: 90%;
+  }
+
+  .link--text-social-network-footer {
+    font-size: 14.63px !important;
+  }
+
+  .paragraph--footer-1-column-2a-headerTitle {
+    font-weight: 400 !important;
+  }
+
+  .paragraph--footer-1-column-2b-headerTitle {
+    font-weight: 300 !important;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .paragraph--footer-1-title-categories-column-1 {
+    font-weight: 400 !important;
+    font-size: 19.5067px !important;
+    margin-top: 0;
+  }
+
+  .paragraph--sinborde {
+    border-left: none;
+  }
+
+  .paragraph--text-footer2 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .paragraph--payments-text-footer-2 {
+    font-weight: 300 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--footer-2-column-2) .paragraph--text-footer2 {
+    font-weight: 300;
+    font-size: 12.5547px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container--footer-1-column-1a-headerTitle {
+    width: 95% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .container--footer-1-column-1a-headerTitle {
+    width: 100% !important;
+  }
+}

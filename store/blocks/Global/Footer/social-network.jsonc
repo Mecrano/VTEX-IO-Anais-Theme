@@ -1,7 +1,10 @@
 {
   "flex-layout.row#footer-1-social-network-column-1": {
     "title": "container social",
-    "children": ["flex-layout.col#footer-1-container-social-network"]
+    "children": ["flex-layout.col#footer-1-container-social-network"],
+    "props":{
+      "blockClass": "footer-1-social"
+    }
   },
   "flex-layout.col#footer-1-container-social-network": {
     "children": [

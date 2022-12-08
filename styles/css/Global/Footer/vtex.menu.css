@@ -37,3 +37,20 @@
     margin-right: 0;
   }
 }
+
+
+@media (max-width: 450px) {
+  .styledLinkContent--root-footer {
+    font-size: 16px;
+  }
+
+  .menuContainer--footer_menu {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .menuContainer--footer_menu {
+    width: 100% !important;
+  }
+}
