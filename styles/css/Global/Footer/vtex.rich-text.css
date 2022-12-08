@@ -101,7 +101,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
-
   .wrapper--text-social-network-footer .link,
   .paragraph--text-social-network-footer {
     font-size: 10px !important;
@@ -171,5 +170,16 @@
 @media (max-width: 320px) {
   .container--footer-1-column-1a-headerTitle {
     width: 100% !important;
+  }
+}
+
+
+@media screen and (min-width: 449px) and (max-width: 1024px) {
+  .paragraph--text-footer2 {
+    font-size: 20px !important;
+  }
+
+  .paragraph--payments-text-footer-2 {
+    font-size: 13px !important;
   }
 }
