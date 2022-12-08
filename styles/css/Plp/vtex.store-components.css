@@ -223,6 +223,10 @@
     padding: 16px 24px;
   }
 
+.imageElement--newsletter-search {
+  max-width: 1016px !important;
+  max-height: 656px !important;
+}
 
   .infoCardCallActionContainer--info-card-1 :global(.vtex-button__label) {
     font-size: 18px;

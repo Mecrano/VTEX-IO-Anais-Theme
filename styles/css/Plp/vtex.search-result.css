@@ -434,3 +434,9 @@
     width: 153px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+.searchResultContainer--searchLayout-departament {
+  max-width: 100%;
+}
+}

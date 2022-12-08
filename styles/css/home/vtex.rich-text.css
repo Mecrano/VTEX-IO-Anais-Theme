@@ -283,6 +283,11 @@
   .paragraph--home--benefits-benefit4 {
     margin-left: 0;
   }
+
+  .wrapper--home--newsletter--text .paragraph--home--newsletter--text:last-child {
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
 }
 
 

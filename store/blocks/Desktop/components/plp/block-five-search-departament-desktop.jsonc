@@ -15,7 +15,7 @@
     ],
     "props": {
       "blockClass": ["eight-infocard-search-departament", "height-auto"],
-      "width": "45%"
+      "width": "49%"
     }
   },
 
@@ -24,7 +24,7 @@
     "children": ["image#search-newsletter"],
     "props": {
       "blockClass": ["eight-infocard-search-departament", "height-auto"],
-      "width": "55%"
+      "width": "51%"
     }
   },
   "image#search-newsletter": {
@@ -32,7 +32,8 @@
     "props": {
       "src": "assets/images/genero/Subtract.png",
       "blockClass": "newsletter-search",
-      "maxHeight": 656
+      "maxHeight": 504.56,
+      "maxWidth": 781.45
     }
   }
 }

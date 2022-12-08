@@ -33,9 +33,8 @@ padding-bottom: 15px;
 
 @media screen and (min-width: 1920px) {
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
-    padding-right: 42% !important;
-    padding-left: 12% !important;
-    padding-top: 12% !important;
+    padding-left: 9% !important;
+    padding-top: 7% !important;
   }
 
   .paragraph--title-1-departament,
@@ -51,9 +50,9 @@ padding-bottom: 15px;
 
 @media screen and (min-width: 1440px) {
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
-    padding-left: 10%;
-    padding-right: 30%;
-    padding-top: 7%;
+    padding-left: 9%;
+    padding-right: 0;
+    padding-top: 5%;
   }
 
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .strong--home--newsletter--text {

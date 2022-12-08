@@ -424,6 +424,11 @@
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
+
+  .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -450,8 +455,8 @@
   }
 
   .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
     max-width: 100% !important;
   }
 
