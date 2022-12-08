@@ -296,8 +296,8 @@
   }
 
   .flexRow--container-pdp-tab :global(.vtex-store-components-3-x-container) {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 7px;
   }
 
   .flexRowContent--container-pdp-tab {

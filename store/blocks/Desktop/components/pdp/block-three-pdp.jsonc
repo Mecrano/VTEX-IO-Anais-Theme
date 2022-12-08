@@ -153,7 +153,7 @@
   "rich-text#content-envios-devoluciones": {
     "title": "content",
     "props": {
-      "text": "Debido a las medidas actuales para proteger la seguridad de los empleados de nuestro centro de distribución con motivo del COVID-19, las entregas pueden presentar un retraso. Puedes consultar el estatus de tu pedido aquí. <br/> Envíos y devoluciones gratis para miembros de anai's",
+      "text": "Debido a las medidas actuales para proteger la seguridad de los empleados de nuestro centro de distribución con motivo del COVID-19, las entregas pueden presentar un retraso. Puedes [consultar el estatus de tu pedido]() aquí. <br/> Envíos y devoluciones gratis para miembros de anai's",
       "blockClass": "content-envios-devoluciones"
     }
   }

@@ -97,13 +97,11 @@
   }
 
   .paragraph--content-envios-devoluciones {
-
     font-size: 24px;
   }
 }
 
-@media screen and (min-width: 1024px) {
-
+@media screen and (max-width: 1024px) {
   .paragraph--title-envios-devoluciones,
   .paragraph--content-envios-devoluciones {
     font-size: 16px;
@@ -111,7 +109,6 @@
 }
 
 @media screen and (max-width: 425px) {
-
   .paragraph--title-slider--pdp,
   .paragraph--title-brands {
     font-size: 22px;
