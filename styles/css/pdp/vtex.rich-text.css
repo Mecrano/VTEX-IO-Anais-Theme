@@ -85,6 +85,10 @@
   color: #000000;
 }
 
+.link--content-envios-devoluciones {
+  color: #065FBD
+}
+
 @media screen and (min-width: 1920px) {
 
   .paragraph--title-slider--pdp,

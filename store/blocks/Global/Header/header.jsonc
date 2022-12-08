@@ -42,8 +42,10 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/logo.png",
-      "width": 116,
-      "mobileWidth": 75
+      "width": 78,
+      "height": 42,
+      "mobileWidth": 75.73,
+      "mobileHeight": 34
     }
   },
 
@@ -107,7 +109,6 @@
       "blockClass": "container-header",
       "horizontalAlign": "between",
       "verticalAlign": "center",
-     /*  "preventHorizontalStretch": true, */
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
