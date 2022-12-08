@@ -54,3 +54,16 @@
     width: 100% !important;
   }
 }
+
+@media (min-width: 1440px) {
+  .styledLinkContent--root-footer {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .styledLinkContent--root-footer {
+    font-size: 18px;
+  }
+}

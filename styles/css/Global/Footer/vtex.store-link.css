@@ -1,13 +1,16 @@
 .label--link-social-network-footer {
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
+}
+
+.label--link-information-footer {
+  font-size: 16px;
 }
 
 .link--link-information-footer {
   color: #fff;
   font-weight: 300;
-  font-size: 18px;
   text-decoration: none;
 }
 
@@ -48,4 +51,14 @@ font-size: 18px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
+}
+
+@media (min-width: 1920px) {
+  .label--link-social-network-footer {
+    font-size: 24px !important;
+  }
+
+  .label--link-information-footer {
+    font-size: 18px !important;
+  }
 }

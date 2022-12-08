@@ -15,12 +15,22 @@
   "flex-layout.row#footer-1": {
     "title": "block 1",
     "props": {
-      "blockClass": ["container-footer-1", "tablet-footer-container"],
+      "blockClass": [
+        "container-footer-1",
+        "tablet-footer-container"
+      ],
       "fullWidth": true
     },
     "children": [
+      "responsive-layout.desktop#footer-1",
       "responsive-layout.tablet#footer-1",
       "responsive-layout.phone#footer-1"
+    ]
+  },
+  "responsive-layout.desktop#footer-1": {
+    "children": [
+      "flex-layout.col#footer-1-column-1",
+      "flex-layout.col#footer-1-column-2"
     ]
   },
   "responsive-layout.tablet#footer-1": {
@@ -37,12 +47,23 @@
   "flex-layout.col#footer-1-column-1": {
     "title": "block logo",
     "props": {
-      "blockClass": ["container-footer-1-column-1", "tablet-footer-col"],
+      "blockClass": [
+        "container-footer-1-column-1",
+        "tablet-footer-col"
+      ],
       "width": "50%"
     },
     "children": [
+      "responsive-layout.desktop#footer",
       "responsive-layout.tablet#footer",
       "responsive-layout.phone#footer"
+    ]
+  },
+  "responsive-layout.desktop#footer": {
+    "children": [
+      "flex-layout.row#footer-1-header-column-1",
+      "flex-layout.row#footer-1-social-network-column-1",
+      "flex-layout.row#footer-1-categories-column-1"
     ]
   },
   "responsive-layout.tablet#footer": {
@@ -294,7 +315,10 @@
   },
   "rich-text#payments-text-footer-1": {
     "props": {
-      "blockClass": ["payments-text-footer-2", "sinborde"],
+      "blockClass": [
+        "payments-text-footer-2",
+        "sinborde"
+      ],
       "text": "Tarjetas de crédito o débito"
     }
   },
