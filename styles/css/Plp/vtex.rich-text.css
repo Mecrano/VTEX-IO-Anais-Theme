@@ -11,6 +11,13 @@
 :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .paragraph--home--newsletter--text {
   font-size: 16px;
 }
+.container--title-1-marcas-search {
+  height: 110.98px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
   :global(.vtex-flex-layout-0-x-flexColChild--eight-infocard-search-departament) .container--home--newsletter--text {
     padding-left: 2%;

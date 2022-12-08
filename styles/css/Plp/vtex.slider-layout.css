@@ -21,7 +21,6 @@
     margin-right: 5px;
     margin-left: 0 !important;
     width: 232.85px;
-    height: 386.87px;
   }
 }
 
@@ -67,10 +66,6 @@
 
   .sliderTrack--infocard {
     width: 690% !important;
-  }
-
-  .slideChildrenContainer--infocard :global(.vtex-product-summary-2-x-image--image-global) {
-   /*  width: 260px !important; */
   }
 }
 

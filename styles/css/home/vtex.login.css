@@ -21,17 +21,9 @@
   fill: #FFFFFF !important;
 }
 
-/* .facebookOptionBtn  :global(.vtex-button) :global(.vtex-button__label) svg path:hover {
-  fill: #435995 !important;
-} */
-
 .googleOptionBtn :global(.vtex-button) :global(.vtex-button__label):hover {
   color: #004793;
 }
-
-/* .facebookOptionBtn  :global(.vtex-button) :global(.vtex-button__label):hover {
-  color: #435995;
-} */
 
 .googleOptionBtn :global(.vtex-button):hover {
   background-color: #FFFFFF !important;

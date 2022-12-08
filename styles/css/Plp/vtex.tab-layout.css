@@ -1,6 +1,6 @@
 .contentContainer {
   background-color: #004793;
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 .listContainer--tab-marcas {
@@ -10,31 +10,32 @@
   align-items: center;
 }
 
-.listItem--tab-marcas1 :global(.vtex-button)::after {
-  content: url(assets/images/genero/adidas.png);
+.listItem--tab-marcas1,
+.listItem--tab-marcas2,
+.listItem--tab-marcas3,
+.listItem--tab-marcas4,
+.listItem--tab-marcas5 {
+  padding: 0;
+  margin: 0;
+  width: 16.66%;
+  height: 100%;
+  border-right: 1px solid #004793;
 }
 
-.listItem--tab-marcas1 :global(.vtex-button) {
-  height: 65px;
+.listItem--tab-marcas6 {
+  padding: 0;
+  margin: 0;
+  width: 16.66%;
 }
 
-.listItem--tab-marcas2 :global(.vtex-button),
-.listItem--tab-marcas3 :global(.vtex-button),
-.listItem--tab-marcas4 :global(.vtex-button),
-.listItem--tab-marcas5 :global(.vtex-button),
-.listItem--tab-marcas6 :global(.vtex-button) {
-  height: 65px;
-  width: 100%;
-}
-
-.listItemActive--tab-marcas1,
-.listItemActive--tab-marcas2,
-.listItemActive--tab-marcas3,
-.listItemActive--tab-marcas4,
-.listItemActive--tab-marcas5,
-.listItemActive--tab-marcas6 {
-  padding-bottom: 0;
-  padding-top: 0;
+.listItem--tab-marcas1,
+.listItem--tab-marcas2,
+.listItem--tab-marcas3,
+.listItem--tab-marcas4,
+.listItem--tab-marcas5,
+.listItem--tab-marcas6 {
+  max-width: 100%;
+  height: 110.98px;
 }
 
 .listItemActive--tab-marcas1 :global(.vtex-button):hover,
@@ -46,24 +47,50 @@
   background-color: #004793 !important;
 }
 
+.listItem--tab-marcas1,
+.listItem--tab-marcas2,
+.listItem--tab-marcas3,
+.listItem--tab-marcas4,
+.listItem--tab-marcas5,
+.listItem--tab-marcas6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem--tab-marcas2 :global(.vtex-button),
+.listItem--tab-marcas3 :global(.vtex-button),
+.listItem--tab-marcas4 :global(.vtex-button),
+.listItem--tab-marcas5 :global(.vtex-button),
+.listItem--tab-marcas6 :global(.vtex-button),
+.listItem--tab-marcas1 :global(.vtex-button){
+  width: 100%;
+  height: 100%;
+}
+
+
+.listItem--tab-marcas1 :global(.vtex-button)::after {
+  content: url(assets/images/genero/adidas.svg);
+}
+
 .listItem--tab-marcas2 :global(.vtex-button)::after {
-  content: url(assets/images/genero/new.png);
+  content: url(assets/images/genero/new.svg);
 }
 
 .listItem--tab-marcas3 :global(.vtex-button)::after {
-  content: url(assets/images/genero/nike.png);
+  content: url(assets/images/genero/nike.svg);
 }
 
 .listItem--tab-marcas4 :global(.vtex-button)::after {
-  content: url(assets/images/genero/reebok.png);
+  content: url(assets/images/genero/reebok.svg);
 }
 
 .listItem--tab-marcas5 :global(.vtex-button)::after {
-  content: url(assets/images/genero/puma.png);
+  content: url(assets/images/genero/puma.svg);
 }
 
 .listItem--tab-marcas6 :global(.vtex-button)::after {
-  content: url(assets/images/genero/ske.png);
+  content: url(assets/images/genero/ske.svg);
 }
 
 .listItem--tab-marcas1 :global(.vtex-button__label),
@@ -75,20 +102,6 @@
   display: none;
 }
 
-.listItem--tab-marcas2 :global(.vtex-button),
-.listItem--tab-marcas3 :global(.vtex-button),
-.listItem--tab-marcas4 :global(.vtex-button),
-.listItem--tab-marcas5 :global(.vtex-button) {
-  border-width: 0px 1px 0px 0px;
-  border-style: solid;
-  border-color: #004793;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  padding-left: 1.8rem;
-  padding-right: 1.8rem;
-}
-
 .listItem--tab-marcas2 :global(.vtex-button):hover,
 .listItem--tab-marcas3 :global(.vtex-button):hover,
 .listItem--tab-marcas4 :global(.vtex-button):hover,
@@ -98,23 +111,13 @@
   background-color: transparent;
 }
 
-.listItem--tab-marcas6 :global(.vtex-button) {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  padding-left: 1.31rem;
-  padding-right: 1.6rem;
-}
-
-.listItem--tab-marcas1 :global(.vtex-button) {
-  border-width: 0px 1px 0px 0px;
-  border-style: solid;
-  border-color: #004793;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  padding-left: 1rem;
-  padding-right: 1rem;
+.listItemActive--tab-marcas1,
+.listItemActive--tab-marcas2,
+.listItemActive--tab-marcas3,
+.listItemActive--tab-marcas4,
+.listItemActive--tab-marcas5,
+.listItemActive--tab-marcas6 {
+  background-color: #004793;
 }
 
 .listContainer--tab-marcas {
@@ -123,275 +126,59 @@
   border-color: #004793;
 }
 
-.listItem--tab-marcas2,
-.listItem--tab-marcas3,
-.listItem--tab-marcas4,
-.listItem--tab-marcas5,
-.listItem--tab-marcas6,
-.listItem--tab-marcas1 {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .listItem--tab-marcas1 :global(.vtex-button)::after {
+    content: url(assets/images/genero/adidasmobile.svg);
+  }
+
+  .listItem--tab-marcas2 :global(.vtex-button)::after {
+    content: url(assets/images/genero/newmobile.svg);
+  }
+
+  .listItem--tab-marcas3 :global(.vtex-button)::after {
+    content: url(assets/images/genero/nikemobile.svg);
+  }
+
+  .listItem--tab-marcas4 :global(.vtex-button)::after {
+    content: url(assets/images/genero/reebokmobile.svg);
+  }
+
+  .listItem--tab-marcas5 :global(.vtex-button)::after {
+    content: url(assets/images/genero/pumamobile.svg);
+  }
+
+  .listItem--tab-marcas6 :global(.vtex-button)::after {
+    content: url(assets/images/genero/skemobile.svg);
+  }
 }
 
-.listItem--tab-marcas1 {
-  margin-left: 0;
-  padding-left: 0;
-  margin-right: 0;
-  padding-right: 0;
-}
 
+@media screen and (max-width: 768px) {
+.listItem--tab-marcas1,
 .listItem--tab-marcas2,
 .listItem--tab-marcas3,
 .listItem--tab-marcas4,
 .listItem--tab-marcas5,
 .listItem--tab-marcas6 {
-  padding-left: 0;
-  margin-left: 0;
-  margin-right: 0;
-  padding-right: 0;
+  width: 33.32%;
+  border-color: #000;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .listItem--tab-marcas2 :global(.vtex-button),
-  .listItem--tab-marcas3 :global(.vtex-button),
-  .listItem--tab-marcas4 :global(.vtex-button),
-  .listItem--tab-marcas5 :global(.vtex-button) {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-  }
-
-  .listItem--tab-marcas6 :global(.vtex-button) {
-    padding-left:  0.5rem;
-    padding-right:  0.6rem;
-  }
-
-  .listItem--tab-marcas1 :global(.vtex-button) {
-    padding-left:  0.5rem;
-    padding-right:  0.5rem;
-  }
-
-  .listItem--tab-marcas1 {
-    margin-left: 0;
-    padding-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-  }
-
-  .listItem--tab-marcas2,
-  .listItem--tab-marcas3,
-  .listItem--tab-marcas4,
-  .listItem--tab-marcas5,
-  .listItem--tab-marcas6 {
-    padding-left: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-  }
+.listItem--tab-marcas1,
+.listItem--tab-marcas2,
+.listItem--tab-marcas3 {
+  border-bottom: 1px solid #000;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .listItem--tab-marcas2 :global(.vtex-button),
-  .listItem--tab-marcas3 :global(.vtex-button),
-  .listItem--tab-marcas4 :global(.vtex-button),
-  .listItem--tab-marcas5 :global(.vtex-button) {
-    padding-left: 0.15rem;
-    padding-right: 0.15rem;
-  }
-
-  .listItem--tab-marcas6 :global(.vtex-button) {
-    padding-left:  0;
-    padding-right:  0.1rem;
-  }
-
-  .listItem--tab-marcas1 :global(.vtex-button) {
-    padding-left:  0;
-    padding-right:  0;
-  }
-
-  .listItem--tab-marcas1,
-  .listItem--tab-marcas2,
-  .listItem--tab-marcas3,
-  .listItem--tab-marcas4,
-  .listItem--tab-marcas5,
-  .listItem--tab-marcas6  {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
+.listContainer--tab-marcas {
+  border-color: #000;
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
-  .listItem--tab-marcas1 :global(.vtex-button) {
-    padding-left:  1.2rem;
-    padding-right:  1.2rem;
-    border-width: 0px 1px 1px 0px;
-  }
-
-  .listItem--tab-marcas2 :global(.vtex-button) {
-    padding-left: 2.1rem;
-    padding-right: 2.1rem;
-    border-width: 0px 1px 1px 0px;
-  }
-
-  .listItem--tab-marcas3 :global(.vtex-button) {
-    padding-left: 1.7rem;
-    padding-right: 2.05rem;
-    border-width: 0px 0px 1px 0px;
-  }
-
-  .listItem--tab-marcas4 :global(.vtex-button) {
-    padding-left: 2.72rem;
-    padding-right: 2.5rem;
-  }
-
-  .listItem--tab-marcas5 :global(.vtex-button) {
-    padding-left: 2.2rem;
-    padding-right: 2.2rem;
-  }
-
-  .listItem--tab-marcas6 :global(.vtex-button) {
-    padding-left:  1rem;
-    padding-right:  1.05rem;
-  }
+.listContainer--tab-marcas {
+  border-top: 1px solid #004793;
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .listItem--tab-marcas1 :global(.vtex-button) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-width: 0px 1px 1px 0px;
-  }
-
-  .listItem--tab-marcas2 :global(.vtex-button) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-width: 0px 1px 1px 0px;
-  }
-
-  .listItem--tab-marcas3 :global(.vtex-button) {
-    padding-left: 2.15rem;
-    padding-right: 1.1rem;
-    border-width: 0px 0px 1px 0px;
-  }
-
-  .listItem--tab-marcas4 :global(.vtex-button) {
-    padding-left: 2.4rem;
-    padding-right: 2.5rem;
-  }
-
-  .listItem--tab-marcas5 :global(.vtex-button) {
-    padding-left: 1rem;
-    padding-right: 1.1rem;
-  }
-
-  .listItem--tab-marcas6 :global(.vtex-button) {
-    padding-left: 0.8rem;
-    padding-right: 0.75rem;
-  }
+.listItemActive--tab-marcas1 {
+  border-color: #004793;
 }
-
-@media screen and (min-width: 300px) and (max-width: 320px) {
-  .listItem--tab-marcas1 :global(.vtex-button) {
-    padding-left: 0rem;
-    padding-right: 0rem;
-    border-width: 0px 1px 1px 0px;
-  }
-
-  .listItem--tab-marcas2 :global(.vtex-button) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-width: 0px 1px 1px 0px;
-  }
-
-  .listItem--tab-marcas3 :global(.vtex-button) {
-    padding-left: 0.8rem;
-    padding-right: 0.99rem;
-    border-width: 0px 0px 1px 0px;
-  }
-
-  .listItem--tab-marcas4 :global(.vtex-button) {
-    padding-left: 1.5rem;
-    padding-right: 1.4rem;
-  }
-
-  .listItem--tab-marcas5 :global(.vtex-button) {
-    padding-left: 1rem;
-    padding-right: 1.1rem;
-  }
-
-  .listItem--tab-marcas6 :global(.vtex-button) {
-    padding-left: 0rem;
-    padding-right: 0.1rem;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 425px) {
-.container--tab-marcas {
-  display: flex;
-  flex-direction: column-reverse;
-}
-}
-
-@media screen and (min-width: 1400px) {
-  .listItem--tab-marcas2 :global(.vtex-button) {
-    padding-left: 2.3rem !important;
-    padding-right: 2.3rem !important;
-  }
-
-  .listItem--tab-marcas3 :global(.vtex-button) {
-    padding-left: 2.3rem !important;
-    padding-right: 2.3rem !important;
-  }
-
-  .listItem--tab-marcas4 :global(.vtex-button) {
-    padding-left: 2.3rem !important;
-    padding-right: 2.3rem !important;
-  }
-
-  .listItem--tab-marcas5 :global(.vtex-button) {
-    padding-left: 2.3rem !important;
-    padding-right: 2.3rem !important;
-  }
-
-  .listItem--tab-marcas6 :global(.vtex-button) {
-    padding-left: 2.5rem !important;
-    padding-right: 2rem !important;
-  }
-}
-
-
-@media screen and (min-width: 1920px) {
-
-  .listItem--tab-marcas1 :global(.vtex-button) {
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
-  }
-
-  .listItem--tab-marcas2 :global(.vtex-button) {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-  }
-
-  .listItem--tab-marcas3 :global(.vtex-button) {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-  }
-
-  .listItem--tab-marcas4 :global(.vtex-button) {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-  }
-
-  .listItem--tab-marcas5 :global(.vtex-button) {
-    padding-left: 4rem !important;
-    padding-right: 3.8rem !important;
-  }
-
-  .listItem--tab-marcas6 :global(.vtex-button) {
-    padding-left: 2.5rem !important;
-    padding-right: 2rem !important;
-  }
 }

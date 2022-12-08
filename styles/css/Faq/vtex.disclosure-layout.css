@@ -28,7 +28,6 @@
 .trigger--trigger-one::after, .trigger--trigger-one {
   -webkit-clip-path: polygon(0 0,98% 0,100% 35%,100% 100%,0 100%,0% 50%);
   clip-path: polygon(0 0,98% 0,100% 35%,100% 100%,0 100%,0% 50%);
-  /* box-shadow: -2px -4px 4px rgba(0,0,0,.2); */
 }
 
 
