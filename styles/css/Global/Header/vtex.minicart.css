@@ -174,18 +174,18 @@
 
 .minicartQuantityBadge {
   background: #FF0C00;
-border-radius: 26px;
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 10px;
-color: #FFFFFF;
-top: -0.1rem;
-right: 5px;
-width: 10px;
-height: 10px;
-
+  border-radius: 26px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  color: #FFFFFF;
+  top: -0.1rem;
+  right: 5px;
+  width: 10px;
+  height: 10px;
 }
+
 @media screen and (min-width: 300px) and (max-width: 375px) {
   .closeIconButton {
     top: 45px;
@@ -216,5 +216,17 @@ height: 10px;
   .minicartContainer :global(.vtex-button__label) {
     padding: 0;
     padding-right: 5px;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1400px) {
+  .minicartSideBarContentWrapper {
+    height: 600px !important;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .minicartSideBarContentWrapper {
+    height: 890px !important;
   }
 }
