@@ -107,19 +107,23 @@
       "blockClass": "container-header",
       "horizontalAlign": "between",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
+     /*  "preventHorizontalStretch": true, */
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
   "flex-layout.col#header_mobile-right": {
-    "children": ["flex-layout.row#header_mobile-right"]
+    "children": ["flex-layout.row#header_mobile-right"],
+    "props":{
+      "blockClass": "header-content"
+    }
   },
   "flex-layout.row#header_mobile-right": {
     "props": {
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": "content-header-row"
     },
     "children": [
       "drawer#header_search-mobile",

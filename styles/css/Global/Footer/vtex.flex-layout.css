@@ -195,6 +195,20 @@
   .flexCol--container-footer-1-column-2 {
     background-size: cover;
   }
+
+  .flexRowContent--container-header .stretchChildrenWidth:last-child {
+    display:none;
+  }
+
+  .flexRowContent--content-header-row {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .flexRowContent--container-header {
+    align-items: center;
+    padding-top: 20px;
+  }
 }
 
 @media screen and (min-width: 449px) and (max-width: 1024px) {

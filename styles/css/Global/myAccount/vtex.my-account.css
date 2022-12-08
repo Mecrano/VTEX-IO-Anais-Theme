@@ -77,3 +77,7 @@
     text-align: center;
 }
 
+/* :global(.vtex-flex-layout-0-x-flexRowContent--container-header) div:last-child {
+  width: 0% !important;
+} */
+
