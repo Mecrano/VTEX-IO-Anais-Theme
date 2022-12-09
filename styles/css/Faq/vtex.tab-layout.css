@@ -162,6 +162,14 @@
     height: 50px !important;
   }
 
+  .contentItem--tab5,
+  .contentItem--tab4,
+  .contentItem--tab3,
+  .contentItem--tab2,
+  .contentItem--tab1   {
+    padding-top: 20px;
+  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
