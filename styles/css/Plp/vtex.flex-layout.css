@@ -291,10 +291,12 @@
   background-color: #EDEDED;
 }
 
+.flexRowContent--home--newsletter--container .stretchChildrenWidth:last-child,
 .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament {
-  position: relative;
+  position: relative !important;
 }
 
+.flexRowContent--home--newsletter--container .stretchChildrenWidth:last-child::after,
 .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
   content: url(assets/images/genero/Group-newsletter.svg);
   position: absolute;
