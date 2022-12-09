@@ -352,6 +352,7 @@
     margin-top: 25px;
   }
 
+  .flexRowContent--home--newsletter--container .stretchChildrenWidth:last-child::after,
   .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
     transform: scale(0.5);
   transform-origin: right bottom;
@@ -669,7 +670,7 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-
+  .flexRowContent--home--newsletter--container .stretchChildrenWidth:last-child::after,
   .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
     transform: scale(0.9);
   transform-origin: right bottom;
@@ -677,6 +678,11 @@
 }
 
 @media screen and (max-width: 425px) {
+  .flexRow--home--newsletter--container :global(.vtex-store-components-3-x-container) {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+
   .flexRow--block-four-search-departament :global(.vtex-store-components-3-x-container),
   .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
     padding-left: 0;
