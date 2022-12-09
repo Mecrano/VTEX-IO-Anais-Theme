@@ -615,6 +615,14 @@
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  .flexRow--flexBreadcrumb {
+    background-color: #EDEDED !important;
+  }
+
+  .flexRowContent--flexBreadcrumb {
+    border-bottom: 1px solid #C7C7C7;
+  }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
