@@ -3,7 +3,7 @@
     "title": "home mobile",
     "children": [
       "list-context.image-list#first__banner",
-      "flex-layout.row#benefits-container",
+      "flex-layout.row#benefits-container" ,
       "flex-layout.row#ideal-products-title",
       "flex-layout.row#ideal-products",
       "flex-layout.row#shelf-title-container",

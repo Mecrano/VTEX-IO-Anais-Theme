@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#block-six-search-departament-mobile": {
+        "title": "block six mobile",
+        "children": [
+            "flex-layout.row#tab-mobile-departament",
+            "tab-layout#marcas-tab-search-departament-mobile"
+        ],
+        "props": {
+            "blockClass": [
+                "block-six-search-departament",
+                "mobile-tab"
+            ]
+        }
+    },
+    "tab-layout#marcas-tab-search-departament-mobile": {
+        "children": [
+            "tab-content#marcas-search",
+            "tab-list#marcas-search"
+        ],
+        "props": {
+            "blockClass": "tab-marcas",
+            "defaultActiveTabId": "marca1"
+        }
+    },
+    "flex-layout.row#tab-mobile-departament": {
+        "title": "titles",
+        "children": [
+            "rich-text#title1-departament",
+            "link#title-ver-mas-tab"
+        ],
+        "props": {"blockClass": "tab-titles-mobile"}
+    },
+    "rich-text#title1-departament": {
+        "title": "title 1",
+        "props": {
+            "text": "Populares por marcas",
+            "blockClass": "title-1-departament"
+        }
+    },
+    "link#title-ver-mas-tab": {
+        "title": "title 2",
+        "props": {
+            "href": "/",
+            "label": "Ver más",
+            "blockClass": "show-brands"
+        }
+    }
+}
