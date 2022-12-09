@@ -123,3 +123,15 @@
     width: 100% !important;
   }
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .flexRowContent--block-eight-search-departament :global(.vtex-slider-layout-0-x-sliderTrack--infocard){
+    width: 1050% !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .flexRowContent--block-eight-search-departament :global(.vtex-slider-layout-0-x-sliderTrack--infocard){
+    width: 990% !important;
+  }
+}

@@ -349,6 +349,11 @@
     background-color: #ededed;
     margin-top: 25px;
   }
+
+  .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
+    transform: scale(0.5);
+  transform-origin: right bottom;
+  }
 }
 
 /* compra rapida */
@@ -374,6 +379,7 @@
   .flexRow--block-eight-search-departament :global(.vtex-store-components-3-x-container) {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    padding-bottom: 10px;
   }
 
   .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container),
@@ -652,6 +658,11 @@
   .flexRow--block-three-search-departament :global(.vtex-store-components-3-x-container) {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .flexRowContent--block-five-search-departament .stretchChildrenWidth:last-child .flexCol--eight-infocard-search-departament .flexColChild--eight-infocard-search-departament::after {
+    transform: scale(0.9);
+  transform-origin: right bottom;
   }
 }
 

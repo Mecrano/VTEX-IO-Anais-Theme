@@ -131,3 +131,9 @@
 height: 38px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .image--image-global {
+height: 100% !important;
+  }
+}
