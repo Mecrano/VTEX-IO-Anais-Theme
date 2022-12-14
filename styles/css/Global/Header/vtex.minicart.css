@@ -152,15 +152,15 @@
   position: relative;
 }
 
-.closeIconButton {
+/* .closeIconButton {
   position: absolute;
   top: 27px;
   left: 5px;
-}
+} */
 
-.minicartContentContainer {
+/* .minicartContentContainer {
   margin-top: 60px;
-}
+} */
 
 .drawer :global(.vtex-product-list-0-x-productImage) {
   width: 96px;
@@ -187,14 +187,14 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
-  .closeIconButton {
+  /* .closeIconButton {
     top: 45px;
     left: 0;
-  }
+  } */
 
-  .minicartContentContainer {
+  /* .minicartContentContainer {
     margin-top: 80px;
-  }
+  } */
 }
 
 @media (max-width: 1500px) {

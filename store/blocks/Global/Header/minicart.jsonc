@@ -5,7 +5,7 @@
       "maxDrawerWidth": 410
     },
     "children": [
-      "rich-text#minicart-title",
+      /* "rich-text#minicart-title", */
       "minicart-base-content"
     ]
   },
