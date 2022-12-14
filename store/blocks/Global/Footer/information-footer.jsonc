@@ -28,7 +28,14 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
     },
-    "children": ["link#information-footer", "logo#arrow-information-footer"]
+    "children": ["link#information-footer-Envíos", "logo#arrow-information-footer"]
+  },
+  "link#information-footer-Envíos": {
+    "props": {
+      "blockClass": "link-information-footer",
+      "href": "/",
+      "label": "Envíos y devoluciones"
+    }
   },
   "flex-layout.row#footer-1-information-terms-conditions": {
     "props": {
@@ -37,7 +44,14 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
     },
-    "children": ["link#information-footer", "logo#arrow-information-footer"]
+    "children": ["link#information-footer-terminos", "logo#arrow-information-footer"]
+  },
+  "link#information-footer-terminos": {
+    "props": {
+      "blockClass": "link-information-footer",
+      "href": "/",
+      "label": "Términos y condiciones"
+    }
   },
   "flex-layout.row#footer-1-information-privacy-policies": {
     "props": {
@@ -46,7 +60,14 @@
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true
     },
-    "children": ["link#information-footer", "logo#arrow-information-footer"]
+    "children": ["link#information-footer-politica", "logo#arrow-information-footer"]
+  },
+  "link#information-footer-politica": {
+    "props": {
+      "blockClass": "link-information-footer",
+      "href": "/",
+      "label": "Política de privacidad"
+    }
   },
   "link#information-footer": {
     "props": {

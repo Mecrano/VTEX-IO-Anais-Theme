@@ -207,9 +207,15 @@
       "horizontalAlign": "right"
     },
     "children": [
-      "rich-text#title-text-footer-2-column1",
-      "flex-layout.col#brands-footer-2"
+      "rich-text#title-text-footer-2-column2",
+      "flex-layout.col#brands-footer-2-2"
     ]
+  },
+  "rich-text#title-text-footer-2-column2": {
+    "props": {
+      "text": "Todos los derechos reservados 2022 © ANAIS",
+      "blockClass": "text-footer2"
+    }
   },
   "rich-text#title-text-footer-2-column1": {
     "props": {
@@ -251,7 +257,7 @@
       "blockClass": "logo-brand-footer-2",
       "title": "Logo Brand",
       "href": "/",
-      "url": "assets/images/footer/footer_brand.png",
+      "url": "assets/images/footer/american.svg",
       "width": 70,
       "mobileWidth": 70
     }
@@ -261,7 +267,7 @@
       "blockClass": "logo-brand-footer-2",
       "title": "Logo Brand",
       "href": "/",
-      "url": "assets/images/footer/footer_brand.png",
+      "url": "assets/images/footer/mastercard.svg",
       "width": 70,
       "mobileWidth": 70
     }
@@ -304,13 +310,19 @@
       "blockClass": "col-payments-texts-footer"
     },
     "children": [
-      "rich-text#payments-text-footer-2"
+      "rich-text#payments-text-footer-3"
     ]
+  },
+  "rich-text#payments-text-footer-3": {
+    "props": {
+      "blockClass": "payments-text-footer-2",
+      "text": "Depósitos o transferencia"
+    }
   },
   "rich-text#payments-text-footer-2": {
     "props": {
       "blockClass": "payments-text-footer-2",
-      "text": "Tarjetas de crédito o débito"
+      "text": "Pagos contra entrega"
     }
   },
   "rich-text#payments-text-footer-1": {
@@ -329,5 +341,54 @@
       "flex-layout.row#footer-1",
       "flex-layout.row#footer-2"
     ]
+  },
+  "flex-layout.col#brands-footer-2-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#brands-footer-2-2"
+    ]
+  },
+  "flex-layout.row#brands-footer-2-2": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "logo#brand-1-footer-2-1",
+      "logo#brand-2-footer-2-2",
+      "logo#brand-3-footer-2-3"
+    ]
+  },
+  "logo#brand-1-footer-2-1": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/vtex.svg",
+      "width": 70,
+      "mobileWidth": 70
+    }
+  },
+  "logo#brand-2-footer-2-2": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/seguro.svg",
+      "width": 70,
+      "mobileWidth": 70
+    }
+  },
+  "logo#brand-3-footer-2-3": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/sello.svg",
+      "width": 70,
+      "mobileWidth": 70
+    }
   }
 }
