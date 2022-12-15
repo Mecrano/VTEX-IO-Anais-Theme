@@ -21,8 +21,8 @@
     "children": [
       "flex-layout.col#item-filter-one",
       "flex-layout.col#item-filter-two",
-      "flex-layout.col#item-filter-three",
-      "flex-layout.col#item-filter-four"
+      "flex-layout.col#item-filter-three"/* ,
+      "flex-layout.col#item-filter-four" */
     ],
     "props": {"blockClass": "item-filtros"}
   },
@@ -35,7 +35,7 @@
 
   "link#item-filter-one": {
     "props": {
-      "href": "/",
+      "href": "/hot-sales",
       "label": "Hot Sales",
       "blockClass": "item-text"
     }
@@ -56,7 +56,7 @@
 
   "link#item-filter-two": {
     "props": {
-      "href": "/",
+      "href": "/lo-mas-vendido",
       "label": "Lo más vendido",
       "blockClass": "item-text"
     }
@@ -77,7 +77,7 @@
 
   "link#item-filter-three": {
     "props": {
-      "href": "/",
+      "href": "/proximos-lanzamientos",
       "label": "Próximos lanzamientos",
       "blockClass": "item-text"
     }
