@@ -80,7 +80,7 @@
 
 .flexRow--product--details--container {
   padding-block: 20px;
-  border-bottom: 1px solid #8f8e8e;
+  border-bottom: 1px solid #c7c7c7;
 }
 
 :global(.vtex-numeric-stepper__minus-button-container) {
@@ -225,11 +225,11 @@
 }
 
 .flexRowContent--product--details1--container .stretchChildrenWidth:first-child {
-  width: 75% !important;
+  width: 65% !important;
 }
 
 .flexRowContent--product--details1--container .stretchChildrenWidth:last-child {
-  width: 25% !important;
+  width: 35% !important;
 }
 
 .flexRowContent--envios {

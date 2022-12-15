@@ -71,7 +71,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--quickviewDetails) :global(.vtex-store-components-3-x-frameAround--product--sku-selector) {
-  border-radius: 0 !important;
+ /*  border-radius: 0 !important; */
   border-color: #065FBD !important;
 }
 
@@ -81,7 +81,7 @@ justify-content: flex-end;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--quickviewDetails) :global(.vtex-store-components-3-x-frameAround--product--sku-selector):hover {
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
   border-color: #065FBD !important;
 }
 

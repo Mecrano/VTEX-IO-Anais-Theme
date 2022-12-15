@@ -49,6 +49,8 @@
 
 .skuSelectorItem--product--sku-selector {
   width: 60px !important;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .skuSelectorItem {
@@ -71,6 +73,7 @@
 .skuSelectorInternalBox--product--sku-selector {
   border: 1px solid #065FBD;
   align-items: center;
+  border-radius: 3.28929px;
 }
 
 .skuSelectorInternalBox--product--sku-selector .skuSelectorItemTextValue--product--sku-selector {
