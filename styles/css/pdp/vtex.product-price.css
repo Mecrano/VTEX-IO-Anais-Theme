@@ -11,6 +11,10 @@
   color: #000000;
 }
 
+.sellingPrice--product--price--selling {
+  text-align: end;
+}
+
 .savings--discountpdp2{
   background-color: #fff;
   border-left: 2px solid #F32820;
