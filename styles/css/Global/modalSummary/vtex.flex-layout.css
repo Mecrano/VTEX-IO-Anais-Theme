@@ -58,6 +58,10 @@
   padding-bottom: 20px;
 }
 
+.flexRowContent--quickviewMainRow{
+  align-items: center;
+}
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
   .flexRowContent--quickviewMainRow :global(.vtex-modal-layout-0-x-contentContainer--quickviewContent) {
     padding-left: 20px;
