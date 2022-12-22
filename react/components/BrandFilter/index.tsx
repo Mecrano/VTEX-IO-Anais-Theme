@@ -47,10 +47,9 @@ const BrandFilter = () => {
   )
 
   return (
-    <div className="flex items-center justify-end">
-      {filters
-        .find(({ title }: any) => title === 'Marca')
-        ?.facets?.map((facet: any) => {
+    <div className={`${styles.mainBrandContainer} flex items-center overflow-x-auto`}>
+      {filters?.find(({ title }: any) => title === 'Marca')
+        ?.facets?.slice(0,5)?.map((facet: any) => {
           return (
             <div
               className={`${styles.brandContainer} ${
