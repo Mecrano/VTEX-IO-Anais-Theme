@@ -3,8 +3,9 @@
     "title": "product page desktop",
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#container-conditional",
-      "flex-layout.row#container-pdp-tab",
+      "flex-layout.row#new-product-main",
+      /* "flex-layout.row#container-conditional", */
+     "flex-layout.row#container-pdp-tab",
       "flex-layout.row#slider-rich-pdp",
       "flex-layout.row#container-brands",
       "flex-layout.row#marcas-pdp",

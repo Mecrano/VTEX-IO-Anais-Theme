@@ -45,7 +45,7 @@
       "width": 1440,
       "images": [
         {
-          "image": "arquivos/bannerTablet-departament.png",
+          "image": "assets/images/genero/bannerTablet-departament.png",
           "description": "banner"
         }
       ]
@@ -59,7 +59,7 @@
       "width": 428,
       "images": [
         {
-          "image": "arquivos/bannermobile.png",
+          "image": "assets/images/genero/bannermobile.png",
           "description": "banner"
         }
       ]

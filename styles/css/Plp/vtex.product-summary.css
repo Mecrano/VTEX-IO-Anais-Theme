@@ -2,7 +2,7 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000;
 }
 
@@ -12,58 +12,128 @@
   justify-content: flex-start !important;
 }
 
-.image--image-global {
-  width: 250px;
-  height: 200px;
-}
-
 .nameContainer--name-global {
   padding-top: 0;
   padding-bottom: 0;
-  height: 60px;
+  height: 55px;
 }
 
 .nameWrapper--name-global {
   margin-top: 10px;
- }
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
 
- .description--descripcion-global  {
+.description--descripcion-global {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
-  margin-top: 12px;
- }
+  height: 38px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 15px;
+  background-color: #FFFFFF;
+}
+
+.element--global  :global(.vtex-flex-layout-0-x-flexRowContent--column-one) {
+  position: relative;
+}
 
 @media screen and (min-width: 1400px) {
   .nameContainer--name-global {
     padding-top: 0;
     padding-bottom: 0;
-    height: 75px;
-  }
-
-  .image--image-global {
-    width: 300px;
-    height: 280px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .image--image-global {
-    width: 300px;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .nameContainer--name-global {
-    height: 80px !important;
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    max-width: 232.85px !important;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    max-width: 315px !important;
+  }
+
+  .description--descripcion-global, .brandName--name-global {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .brandName--name-global {
+    font-size: 18px;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    width: 232.85px !important;
+  }
+
+  .description--descripcion-global {
+    height: 38px;
+  }
+
   .nameContainer--name-global {
-    height: 80px !important;
+    height: 45px;
+  }
+
+  .nameWrapper--name-global {
+    margin-top: 0;
   }
 }
 
+@media screen and (max-width: 450px) {
+  .description--descripcion-global {
+    font-size: 16px;
+    height: 34px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--four-content-slider-search-departament) .container--global {
+    width: 315px !important;
+  }
+
+  .element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
+    display: flex !important;
+  }
+
+}
+
+
+@media screen and (min-width: 1366px) and (max-width: 1380px) {
+  .description--descripcion-global {
+height: 38px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .image--image-global {
+height: 100% !important;
+  }
+}

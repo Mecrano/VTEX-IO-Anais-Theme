@@ -47,7 +47,7 @@
       "imageUrl": "assets/images/Home/futbol.jpg",
       "headline": "",
       "callToActionText": "Fútbol",
-      "callToActionUrl": "/running",
+      "callToActionUrl": "/futbol",
       "blockClass": ["home--ideal-products--infocard-2", "home--ideal-products--infocard"]
     }
   },

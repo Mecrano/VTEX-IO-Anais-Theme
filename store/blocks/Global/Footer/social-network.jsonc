@@ -1,7 +1,10 @@
 {
   "flex-layout.row#footer-1-social-network-column-1": {
     "title": "container social",
-    "children": ["flex-layout.col#footer-1-container-social-network"]
+    "children": ["flex-layout.col#footer-1-container-social-network"],
+    "props":{
+      "blockClass": "footer-1-social"
+    }
   },
   "flex-layout.col#footer-1-container-social-network": {
     "children": [
@@ -29,8 +32,8 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "flex-layout.col#footer-1-social-network-column-1",
-      "flex-layout.col#footer-1-social-network-column-2"
+      "flex-layout.col#footer-1-social-network-column-1-whatsapp",
+      "flex-layout.col#footer-1-social-network-column-2-whatsapp"
     ]
   },
   "flex-layout.row#footer-1-social-network-facebook": {
@@ -40,8 +43,8 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "flex-layout.col#footer-1-social-network-column-1",
-      "flex-layout.col#footer-1-social-network-column-2"
+      "flex-layout.col#footer-1-social-network-column-1-facebook",
+      "flex-layout.col#footer-1-social-network-column-2-facebook"
     ]
   },
   "flex-layout.row#footer-1-social-network-instagram": {
@@ -51,10 +54,11 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "flex-layout.col#footer-1-social-network-column-1",
-      "flex-layout.col#footer-1-social-network-column-2"
+      "flex-layout.col#footer-1-social-network-column-1-instagram",
+      "flex-layout.col#footer-1-social-network-column-2-instagram"
     ]
   },
+  /*  */
   "flex-layout.col#footer-1-social-network-column-1": {
     "props": { "verticalAlign": "middle" },
     "children": ["flex-layout.row#footer-1-social-network-row1"]
@@ -79,6 +83,7 @@
       "logo#arrow-social-network-footer"
     ]
   },
+
   "logo#social-network-footer": {
     "props": {
       "blockClass": "logo-social-network-footer",
@@ -110,6 +115,151 @@
       "url": "assets/images/footer/footer_social_network_arrow.png",
       "width": 32,
       "mobileWidth": 17
+    }
+  },
+  /* whatsapp */
+  "flex-layout.col#footer-1-social-network-column-1-whatsapp": {
+    "props": { "verticalAlign": "middle" },
+    "children": ["flex-layout.row#footer-1-social-network-row1-whatsapp"]
+  },
+  "flex-layout.row#footer-1-social-network-row1-whatsapp": {
+    "props": {
+      "blockClass": "footer-1-social-network-row1",
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["logo#social-network-footer-whatsapp", "link#social-network-footer-whatsapp"]
+  },
+  "link#social-network-footer-whatsapp": {
+    "props": {
+      "blockClass": "link-social-network-footer",
+      "href": "/",
+      "label": "Whatsapp"
+    }
+  },
+  "logo#social-network-footer-whatsapp": {
+    "props": {
+      "blockClass": "logo-social-network-footer",
+      "title": "Logo SocialNetwork",
+      "href": "/",
+      "url": "assets/images/footer/whatsapp.svg",
+      "width": 22,
+      "mobileWidth": 17
+    }
+  },
+  "flex-layout.col#footer-1-social-network-column-2-whatsapp": {
+    "children": ["flex-layout.row#footer-1-social-network-row2-whatsapp"]
+  },
+  "flex-layout.row#footer-1-social-network-row2-whatsapp": {
+    "props": {
+      "blockClass": "footer-1-social-network-row2",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "rich-text#text-social-network-footer-whatsapp",
+      "logo#arrow-social-network-footer"
+    ]
+  },
+  "rich-text#text-social-network-footer-whatsapp": {
+    "props": {
+      "blockClass": "text-social-network-footer",
+      "text": "4796 - 3586"
+    }
+  },
+  /* facebook */
+  "flex-layout.col#footer-1-social-network-column-1-facebook": {
+    "props": { "verticalAlign": "middle" },
+    "children": ["flex-layout.row#footer-1-social-network-row1-facebook"]
+  },
+  "flex-layout.row#footer-1-social-network-row1-facebook": {
+    "props": {
+      "blockClass": "footer-1-social-network-row1",
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["logo#social-network-footer-facebook", "link#social-network-footer-facebook"]
+  },
+  "link#social-network-footer-facebook": {
+    "props": {
+      "blockClass": "link-social-network-footer",
+      "href": "/",
+      "label": "Facebook"
+    }
+  },
+  "logo#social-network-footer-facebook": {
+    "props": {
+      "blockClass": "logo-social-network-footer",
+      "title": "Logo SocialNetwork",
+      "href": "/",
+      "url": "assets/images/footer/facebook.svg",
+      "width": 22,
+      "height": 22,
+      "mobileWidth": 17
+    }
+  },
+  "flex-layout.col#footer-1-social-network-column-2-facebook": {
+    "children": ["flex-layout.row#footer-1-social-network-row2-facebook"]
+  },
+  "flex-layout.row#footer-1-social-network-row2-facebook": {
+    "props": {
+      "blockClass": "footer-1-social-network-row2",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "rich-text#text-social-network-footer-facebook",
+      "logo#arrow-social-network-footer"
+    ]
+  },
+  "rich-text#text-social-network-footer-facebook": {
+    "props": {
+      "blockClass": "text-social-network-footer",
+      "text": "/TiendasAnais"
+    }
+  },
+  /* instagram */
+  "flex-layout.col#footer-1-social-network-column-1-instagram": {
+    "props": { "verticalAlign": "middle" },
+    "children": ["flex-layout.row#footer-1-social-network-row1-instagram"]
+  },
+  "flex-layout.row#footer-1-social-network-row1-instagram": {
+    "props": {
+      "blockClass": "footer-1-social-network-row1",
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["logo#social-network-footer-instagram", "link#social-network-footer-instagram"]
+  },
+  "link#social-network-footer-instagram": {
+    "props": {
+      "blockClass": "link-social-network-footer",
+      "href": "/",
+      "label": "Instagram"
+    }
+  },
+  "logo#social-network-footer-instagram": {
+    "props": {
+      "blockClass": "logo-social-network-footer",
+      "title": "Logo SocialNetwork",
+      "href": "/",
+      "url": "assets/images/footer/instagram.svg",
+      "width": 22,
+      "mobileWidth": 17
+    }
+  },
+  "flex-layout.col#footer-1-social-network-column-2-instagram": {
+    "children": ["flex-layout.row#footer-1-social-network-row2-instagram"]
+  },
+  "flex-layout.row#footer-1-social-network-row2-instagram": {
+    "props": {
+      "blockClass": "footer-1-social-network-row2",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "rich-text#text-social-network-footer-instagram",
+      "logo#arrow-social-network-footer"
+    ]
+  },
+  "rich-text#text-social-network-footer-instagram": {
+    "props": {
+      "blockClass": "text-social-network-footer",
+      "text": "tiendasanaisgt"
     }
   }
 }

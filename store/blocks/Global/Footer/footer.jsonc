@@ -1,25 +1,93 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "title": "footer dektop",
-    "children": ["flex-layout.row#footer-1", "flex-layout.row#footer-2"]
+    "children": [
+      "flex-layout.row#footer-1",
+      "flex-layout.row#footer-2"
+    ]
   },
   "flex-layout.row#footer-1": {
     "title": "block 1",
-    "props": { "blockClass": "container-footer-1", "fullWidth": true },
+    "props": {
+      "blockClass": [
+        "container-footer-1",
+        "tablet-footer-container"
+      ],
+      "fullWidth": true
+    },
+    "children": [
+      "responsive-layout.desktop#footer-1",
+      "responsive-layout.tablet#footer-1",
+      "responsive-layout.phone#footer-1"
+    ]
+  },
+  "responsive-layout.desktop#footer-1": {
     "children": [
       "flex-layout.col#footer-1-column-1",
       "flex-layout.col#footer-1-column-2"
     ]
   },
+  "responsive-layout.tablet#footer-1": {
+    "children": [
+      "flex-layout.col#footer-1-column-1",
+      "flex-layout.col#footer-1-column-2"
+    ]
+  },
+  "responsive-layout.phone#footer-1": {
+    "children": [
+      "flex-layout.col#footer-1-column-1"
+    ]
+  },
   "flex-layout.col#footer-1-column-1": {
     "title": "block logo",
-    "props": { "blockClass": "container-footer-1-column-1", "width": "50%" },
+    "props": {
+      "blockClass": [
+        "container-footer-1-column-1",
+        "tablet-footer-col"
+      ],
+      "width": "50%"
+    },
+    "children": [
+      "responsive-layout.desktop#footer",
+      "responsive-layout.tablet#footer",
+      "responsive-layout.phone#footer"
+    ]
+  },
+  "responsive-layout.desktop#footer": {
     "children": [
       "flex-layout.row#footer-1-header-column-1",
       "flex-layout.row#footer-1-social-network-column-1",
+      "flex-layout.row#footer-1-categories-column-1"
+    ]
+  },
+  "responsive-layout.tablet#footer": {
+    "children": [
+      "flex-layout.row#footer-1-header-column-1",
+      "flex-layout.row#footer-1-social-network-column-1",
+      "flex-layout.row#footer-1-categories-column-1"
+    ]
+  },
+  "responsive-layout.phone#footer": {
+    "children": [
+      "flex-layout.row#footer-1-header-column-1",
+      "flex-layout.row#footer-1-social-network-column-1",
+      "flex-layout.row#footer-1-column-2-phone"
+    ]
+  },
+  "flex-layout.row#footer-1-column-2-phone": {
+    "title": "block horarios phone",
+    "props": {
+      "blockClass": "container-footer-1-column-2"
+    },
+    "children": [
+      "flex-layout.row#footer-1-header-column-2",
+      "flex-layout.row#footer-1-information-column-2",
       "flex-layout.row#footer-1-categories-column-1"
     ]
   },
@@ -29,17 +97,26 @@
       "flex-layout.col#footer-1-column-1a-headerLogo",
       "flex-layout.col#footer-1-column-1a-headerTitle"
     ],
-   "props":{
-    "blockClass": "footer-mobile"
-   }
+    "props": {
+      "blockClass": "footer-mobile"
+    }
   },
   "flex-layout.col#footer-1-column-1a-headerLogo": {
-    "props": {"blockClass":"footer-1-column-1a-headerLogo", "horizontalAlign": "right", "verticalAlign": "middle", "width": "20%" },
-    "children": ["logo"]
+    "props": {
+      "blockClass": "footer-1-column-1a-headerLogo",
+      "horizontalAlign": "right",
+      "verticalAlign": "middle",
+      "width": "20%"
+    },
+    "children": [
+      "logo"
+    ]
   },
   "flex-layout.col#footer-1-column-1a-headerTitle": {
     "title": "title",
-    "children": ["rich-text#footer-1-column-1a-headerTitle"]
+    "children": [
+      "rich-text#footer-1-column-1a-headerTitle"
+    ]
   },
   "rich-text#footer-1-column-1a-headerTitle": {
     "props": {
@@ -47,7 +124,6 @@
       "blockClass": "footer-1-column-1a-headerTitle"
     }
   },
-
   /* ********Colum 2*********** */
   "flex-layout.col#footer-1-column-2": {
     "title": "block horarios",
@@ -62,9 +138,13 @@
       "flex-layout.row#footer-1-information-column-2"
     ]
   },
-
   "flex-layout.row#footer-1-header-column-2": {
-    "children": ["flex-layout.col#footer-1-column-2-headerTitle"]
+    "children": [
+      "flex-layout.col#footer-1-column-2-headerTitle"
+    ],
+    "props": {
+      "blockClass": "horarios"
+    }
   },
   "flex-layout.col#footer-1-column-2-headerTitle": {
     "children": [
@@ -85,24 +165,35 @@
     }
   },
   /* ************Footer row 2******************** */
-
   "flex-layout.row#footer-2": {
     "title": "block 2",
-    "props": { "blockClass": "container-footer-2", "fullWidth": true },
+    "props": {
+      "blockClass": "container-footer-2",
+      "fullWidth": true
+    },
     "children": [
       "flex-layout.col#footer-2-column-1",
       "flex-layout.col#footer-2-column-2"
     ]
   },
   "flex-layout.col#footer-2-column-1": {
-    "children": ["flex-layout.row#footer-2-column-1"]
+    "children": [
+      "flex-layout.row#footer-2-column-1"
+    ]
   },
   "flex-layout.col#footer-2-column-2": {
-    "props": { "horizontalAlign": "rigth" },
-    "children": ["flex-layout.row#footer-2-column-2"]
+    "props": {
+      "horizontalAlign": "rigth"
+    },
+    "children": [
+      "flex-layout.row#footer-2-column-2"
+    ]
   },
   "flex-layout.row#footer-2-column-1": {
-    "props": { "colSizing": "auto", "horizontalAlign": "left" },
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    },
     "children": [
       "rich-text#title-text-footer-2-column1",
       "flex-layout.col#brands-footer-2",
@@ -110,11 +201,21 @@
     ]
   },
   "flex-layout.row#footer-2-column-2": {
-    "props": {"blockClass":"footer-2-column-2", "colSizing": "auto", "horizontalAlign": "right" },
+    "props": {
+      "blockClass": "footer-2-column-2",
+      "colSizing": "auto",
+      "horizontalAlign": "right"
+    },
     "children": [
-      "rich-text#title-text-footer-2-column1",
-      "flex-layout.col#brands-footer-2"
+      "rich-text#title-text-footer-2-column2",
+      "flex-layout.col#brands-footer-2-2"
     ]
+  },
+  "rich-text#title-text-footer-2-column2": {
+    "props": {
+      "text": "Todos los derechos reservados 2022 © ANAIS",
+      "blockClass": "text-footer2"
+    }
   },
   "rich-text#title-text-footer-2-column1": {
     "props": {
@@ -123,11 +224,18 @@
     }
   },
   "flex-layout.col#brands-footer-2": {
-    "props": { "horizontalAlign": "center", "verticalAlign": "middle" },
-    "children": ["flex-layout.row#brands-footer-2"]
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#brands-footer-2"
+    ]
   },
   "flex-layout.row#brands-footer-2": {
-    "props": { "preserveLayoutOnMobile": true },
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
     "children": [
       "logo#brand-1-footer-2",
       "logo#brand-2-footer-2",
@@ -149,7 +257,7 @@
       "blockClass": "logo-brand-footer-2",
       "title": "Logo Brand",
       "href": "/",
-      "url": "assets/images/footer/footer_brand.png",
+      "url": "assets/images/footer/american.svg",
       "width": 70,
       "mobileWidth": 70
     }
@@ -159,13 +267,15 @@
       "blockClass": "logo-brand-footer-2",
       "title": "Logo Brand",
       "href": "/",
-      "url": "assets/images/footer/footer_brand.png",
+      "url": "assets/images/footer/mastercard.svg",
       "width": 70,
       "mobileWidth": 70
     }
   },
   "flex-layout.col#payments-footer-2": {
-    "children": ["flex-layout.row#payments-texts-footer-2"]
+    "children": [
+      "flex-layout.row#payments-texts-footer-2"
+    ]
   },
   "flex-layout.row#payments-texts-footer-2": {
     "props": {
@@ -180,26 +290,105 @@
     ]
   },
   "flex-layout.col#payments-texts-1-footer-2": {
-    "props": { "blockClass": "col-payments-texts-footer" },
-    "children": ["rich-text#payments-text-footer-2"]
+    "props": {
+      "blockClass": "col-payments-texts-footer"
+    },
+    "children": [
+      "rich-text#payments-text-footer-1"
+    ]
   },
   "flex-layout.col#payments-texts-2-footer-2": {
-    "props": { "blockClass": "col-payments-texts-footer" },
-    "children": ["rich-text#payments-text-footer-2"]
+    "props": {
+      "blockClass": "col-payments-texts-footer"
+    },
+    "children": [
+      "rich-text#payments-text-footer-2"
+    ]
   },
   "flex-layout.col#payments-texts-3-footer-2": {
-    "props": { "blockClass": "col-payments-texts-footer" },
-    "children": ["rich-text#payments-text-footer-2"]
+    "props": {
+      "blockClass": "col-payments-texts-footer"
+    },
+    "children": [
+      "rich-text#payments-text-footer-3"
+    ]
+  },
+  "rich-text#payments-text-footer-3": {
+    "props": {
+      "blockClass": "payments-text-footer-2",
+      "text": "Depósitos o transferencia"
+    }
   },
   "rich-text#payments-text-footer-2": {
     "props": {
       "blockClass": "payments-text-footer-2",
+      "text": "Pagos contra entrega"
+    }
+  },
+  "rich-text#payments-text-footer-1": {
+    "props": {
+      "blockClass": [
+        "payments-text-footer-2",
+        "sinborde"
+      ],
       "text": "Tarjetas de crédito o débito"
     }
   },
   /* +++++++++++++++++++ */
   "footer-layout.mobile": {
     "title": "footer mobile",
-    "children": ["flex-layout.row#footer-1", "flex-layout.row#footer-2"]
+    "children": [
+      "flex-layout.row#footer-1",
+      "flex-layout.row#footer-2"
+    ]
+  },
+  "flex-layout.col#brands-footer-2-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#brands-footer-2-2"
+    ]
+  },
+  "flex-layout.row#brands-footer-2-2": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "logo#brand-1-footer-2-1",
+      "logo#brand-2-footer-2-2",
+      "logo#brand-3-footer-2-3"
+    ]
+  },
+  "logo#brand-1-footer-2-1": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/vtex.svg",
+      "width": 70,
+      "mobileWidth": 70
+    }
+  },
+  "logo#brand-2-footer-2-2": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/seguro.svg",
+      "width": 70,
+      "mobileWidth": 70
+    }
+  },
+  "logo#brand-3-footer-2-3": {
+    "props": {
+      "blockClass": "logo-brand-footer-2",
+      "title": "Logo Brand",
+      "href": "/",
+      "url": "assets/images/footer/sello.svg",
+      "width": 70,
+      "mobileWidth": 70
+    }
   }
 }

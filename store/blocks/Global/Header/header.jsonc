@@ -41,9 +41,11 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo.png",
-      "width": 116,
-      "mobileWidth": 75
+      "url": "assets/logo.png"/* ,
+      "width": 78,
+      "height": 42,
+      "mobileWidth": 75.73,
+      "mobileHeight": 34 */
     }
   },
 
@@ -107,19 +109,22 @@
       "blockClass": "container-header",
       "horizontalAlign": "between",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
   "flex-layout.col#header_mobile-right": {
-    "children": ["flex-layout.row#header_mobile-right"]
+    "children": ["flex-layout.row#header_mobile-right"],
+    "props":{
+      "blockClass": "header-content"
+    }
   },
   "flex-layout.row#header_mobile-right": {
     "props": {
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": "content-header-row"
     },
     "children": [
       "drawer#header_search-mobile",

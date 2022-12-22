@@ -4,18 +4,18 @@
 }
 
 .sliderArrows--slider-pdp {
-  width: 60px;
-  height: 60px;
+  width: 59px;
+  height: 59px;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .sliderLeftArrow--slider-pdp {
-  margin-left: -40px;
+  margin-left: -49px;
 }
 
 .sliderRightArrow--slider-pdp {
-  margin-right: -25px;
+  margin-right: -45px;
 }
 
 .caretIcon--slider-pdp {
@@ -23,8 +23,32 @@
   height: 18px;
 }
 
+
+@media screen and (min-width: 1536px) and (max-width: 1570px) {
+  .sliderLayoutContainer--slider-pdp :global(.vtex-product-summary-2-x-image--image-global) {
+    /* width: 255px !important; */
+  }
+
+  .sliderLayoutContainer--slider-pdp :global(.vtex-product-summary-2-x-nameContainer--name-global ) {
+    height: 55px;
+  }
+
+  .sliderLayoutContainer--slider-pdp :global(.vtex-product-summary-2-x-description--descripcion-global){
+    height: 38px;
+  }
+}
+
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
 .sliderTrack--slide-mobile {
   width: 990% !important;
+}
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+.sliderArrows--slider-pdp {
+  width: 49px;
+  height: 49px;
 }
 }

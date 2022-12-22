@@ -9,14 +9,14 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 33px;
   text-align: center;
   color: #FFFFFF;
-  height: 65px;
+  height: 47.91px;
   width: auto;
   background-color: #000000;
-  padding: 16px 24px;
+  padding: 11.9564px 17.9346px;
   position: absolute;
   left: 0;
   top: 0;
@@ -27,7 +27,7 @@
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   color: #000000;
   padding-left: 0;
@@ -35,7 +35,7 @@
 }
 
 .infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
-  height: 81.5px;
+  height: 60.9px;
   background-color: #EDEDED;
   border-color: #EDEDED;
   clip-path: polygon(38% 0, 100% 0%, 100% 100%, 0 100%, 0 84%);
@@ -51,11 +51,12 @@
 }
 
 .imageElement--newsletter-search {
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .infoCardContainer--info-card-7 {
-  height: 640px;
+  height: 493px;
   position: relative;
 }
 
@@ -83,10 +84,16 @@
   width: 360px;
   height: 88px;
 }
-@media screen and (min-width: 1400px) {
-:global(.vtex-flex-layout-0-x-flexRowContent--block-two-search-departament) .imageElement {
-  width: 1903px !important;
+
+.productImage--imagePdp-modal .productImageTag--imagePdp-modal {
+  width: 793px !important;
+  height: 671px !important;
 }
+
+@media screen and (min-width: 1400px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--block-two-search-departament) .imageElement {
+    width: 1903px !important;
+  }
 }
 
 
@@ -134,28 +141,20 @@
   }
 
   .imageElement--newsletter-search {
-    width: 403px;
+   /*  width: 403px; */
     height: 260.2px;
   }
 
   .infoCardContainer--info-card-7 {
     height: 433px;
   }
-}
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
   .infoCardContainer--info-card-1 {
-    height: 473px;
-    width: 260px !important;
+    height: 473.21px;
+    width: 337.56px !important;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
-  .infoCardContainer--info-card-1 {
-    height: 473px;
-    width: 300px !important;
-  }
-}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .infoCardContainer--info-card-1 {
@@ -180,7 +179,7 @@
   }
 
   .infoCardContainer--info-card-7 {
-    height: 540px;
+    height: 493px;
   }
 
   .infoCardTextContainer--info-card-7 {
@@ -209,5 +208,57 @@
 
   .infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
     height: 60.9px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .infoCardContainer--info-card-1 {
+    height: 600px;
+    width: 427px !important;
+  }
+
+  .infoCardHeadline--info-card-1 {
+    font-size: 28px;
+    height: 65px;
+    padding: 16px 24px;
+  }
+
+.imageElement--newsletter-search {
+  max-width: 1016px !important;
+  max-height: 656px !important;
+}
+
+  .infoCardCallActionContainer--info-card-1 :global(.vtex-button__label) {
+    font-size: 18px;
+  }
+
+  .infoCardCallActionContainer--info-card-1 :global(.vtex-button) {
+    height: 81.5px;
+  }
+  .infoCardContainer--info-card-7 {
+    height: 640px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .infoCardContainer--info-card-1 {
+    height: 448.37px;
+    width: 319.83px !important;
+  }
+
+  .infoCardHeadline--info-card-1 {
+    font-size: 20px;
+  }
+
+  .infoCardContainer--info-card-7 {
+    height: 493px;
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .productImage--imagePdp-modal .productImageTag--imagePdp-modal {
+    height: auto !important;
+    width: 100%;
   }
 }

@@ -11,9 +11,10 @@
   flex-direction: column;
   justify-content: start;
   width: 30%;
-  background-color: #f1f3f9;
+  background-color: #ededed;
   margin-left: -54px;
   padding-left: 50px;
+  padding-bottom: 70px;
 }
 
 .contentContainer--faq-content {
@@ -37,33 +38,51 @@
 }
 
 .listItemActive--tab-list :global(.vtex-button) {
-  background: #FFFFFF;
+  background: #000000;
   border-radius: 4px;
   border: #FFFFFF;
   width: 280px;
-  height: 82px;
+  height: 44.68px;
   display: flex;
   justify-content: flex-start;
+  clip-path: polygon(0 0, 91% 0, 100% 35%, 100% 100%, 0 100%, 0% 50%);
+}
+
+.listItemActive--tab-list :global(.vtex-button):hover {
+  background: #000000 !important;
+}
+
+.listItemActive--tab-list :global(.vtex-button__label),
+.listItemActive--tab-list :global(.vtex-button__label):hover {
+  color: #FFFFFF !important;
 }
 
 .listItem--tab-list :global(.vtex-button):hover {
-  background: #FFFFFF;
-  border: #FFFFFF;
-  width: 280px;
-  height: 82px;
-  display: flex;
-  justify-content: flex-start;
+  background: transparent;
 }
 
 .listItem--tab-list :global(.vtex-button) :global(.vtex-button__label) {
-  /* font-family: 'Titillium Web'; */
+  font-family: 'Mulish';
   font-style: normal;
-  font-weight: 700;
-  font-size: 20.5px;
+  font-weight: 800;
+  font-size: 16px;
   color: #000000;
   text-transform: capitalize;
 }
 
+.contentContainer--faq-content {
+  background-color: #FFFFFF !important;
+  padding: 0 !important;
+  margin-top: -50px !important;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .listContainer--faq-tab--list {
+
+    padding-bottom: 0;
+    margin-bottom: 50px;
+  }
+}
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .contentContainer--faq-content {
@@ -85,6 +104,16 @@
     margin-left: -252px;
     width: 44.1% !important;
     padding-left: 245px;
+  }
+
+  .container--faq {
+    height: 500px;
+  }
+
+  .contentContainer--faq-content {
+    width: calc(850px - 15px * 2);
+    margin: 0 auto;
+    height: 100%;
   }
 
 }
@@ -133,18 +162,56 @@
     height: 50px !important;
   }
 
+  .contentItem--tab5,
+  .contentItem--tab4,
+  .contentItem--tab3,
+  .contentItem--tab2,
+  .contentItem--tab1   {
+    padding-top: 20px;
+  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .contentContainer--faq-content {
-    width: calc(500px - 40px * 2);
+    width: calc(650px - 40px * 2);
     margin: 0 auto;
+    margin-top: -50px;
   }
 
   .listContainer--faq-tab--list {
     width: 40%;
   }
+}
 
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .listItem--tab-list :global(.vtex-button) :global(.vtex-button__label) {
+    font-size: 16px;
+  }
+
+  .listItemActive--tab-list :global(.vtex-button) {
+    height: 44px;
+    width: 252px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .listItem--tab-list :global(.vtex-button) :global(.vtex-button__label) {
+    font-size: 20px;
+  }
+
+  .listItemActive--tab-list :global(.vtex-button) {
+    height: 59px;
+  }
+
+  .contentContainer--faq-content {
+    width: calc(1050px - 15px * 2);
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
   .listItem--tab-list :global(.vtex-button) :global(.vtex-button__label) {
     font-size: 20px;
   }

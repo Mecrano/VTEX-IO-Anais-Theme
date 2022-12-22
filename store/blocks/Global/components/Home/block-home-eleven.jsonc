@@ -22,9 +22,9 @@
   },
   "rich-text#newsletter-title": {
     "props": {
-      "text": "**Newsletter** \n\n Regístrate para disfrutar de beneficios exclusivos en tu siguente compra y recibe las útimas noticas acerca de nuestros productos.",
+      "text": "**Newsletter** \n\n Regístrate para disfrutar de beneficios <br/> exclusivos en tu siguente compra y recibe las <br/> útimas noticas acerca de nuestros productos.",
       "blockClass": "home--newsletter--text",
-      "textPosition": "CENTER",
+      "textPosition": "LEFT",
       "textAlignment": "LEFT"
 
     }

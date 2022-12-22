@@ -9,7 +9,7 @@
 /* opiniones */
   "flex-layout.row#opiniones-pdp": {
     "title": "container opiniones",
-    "children": ["rich-text#opiniones", "link#opiniones"],
+    "children": [/* "rich-text#opiniones", "link#opiniones" */],
     "props": {
       "blockClass": "opiniones-pdp"
     }
@@ -52,90 +52,109 @@
   },
   "tab-list#product-specification": {
     "children": [
-      // "tab-list.item#product-1",
-      // "tab-list.item#product-2",
-      // "tab-list.item#product-3",
-      // "tab-list.item#product-4"
+       "tab-list.item#product-1",
+       "tab-list.item#product-2",
+       "tab-list.item#product-3",
+       "tab-list.item#product-4"
     ],
     "props": {
       "blockClass": "product-specification"
     }
   },
-  // "tab-list.item#product-1": {
-  //   "props": {
-  //     "tabId": "tab1",
-  //     "label": "Descripcion",
-  //     "defaultActiveTab": true,
-  //     "blockClass": "product-description"
-  //   }
-  // },
-  // "tab-list.item#product-2": {
-  //   "props": {
-  //     "tabId": "tab2",
-  //     "label": "Caracteristicas",
-  //     "blockClass": ["product-specification", "border-425"]
-  //   }
-  // },
-  // "tab-list.item#product-3": {
-  //   "props": {
-  //     "tabId": "tab3",
-  //     "label": "Envio y devoluciones",
-  //     "blockClass": "product-specification"
-  //   }
-  // },
-  // "tab-list.item#product-4": {
-  //   "props": {
-  //     "tabId": "tab4",
-  //     "label": "Metodos de pago",
-  //     "blockClass": ["product-specification", "border"]
-  //   }
-  // },
+   "tab-list.item#product-1": {
+     "props": {
+       "tabId": "tab1",
+       "label": "Descripcion",
+       "defaultActiveTab": true,
+       "blockClass": "product-description"
+     }
+   },
+   "tab-list.item#product-2": {
+     "props": {
+     "tabId": "tab2",
+     "label": "Caracteristicas",
+     "blockClass": ["product-specification", "border-425"]
+   }
+ },
+ "tab-list.item#product-3": {
+   "props": {
+     "tabId": "tab3",
+     "label": "Envio y devoluciones",
+     "blockClass": "product-specification"
+   }
+ },
+ "tab-list.item#product-4": {
+   "props": {
+     "tabId": "tab4",
+     "label": "Metodos de pago",
+     "blockClass": ["product-specification", "border"]
+   }
+ },
   "tab-content#product-specification": {
     "children": [
-      // "tab-content.item#product1",
-      // "tab-content.item#product2",
-      // "tab-content.item#product3",
-      // "tab-content.item#product4"
+       "tab-content.item#product1",
+       "tab-content.item#product2",
+       "tab-content.item#product3",
+       "tab-content.item#product4"
     ],
     "props": {
       "blockClass": "product-specification"
     }
   },
-  // "tab-content.item#product1": {
-  //   "children": [
-  //     "product-description#pdp"
-  //   ],
-  //   "props": {
-  //     "tabId": "tab1",
-  //     "blockClass": "product-specification"
-  //   }
-  // },
-  // "tab-content.item#product2": {
-  //   "children": ["product-description#pdp"],
-  //   "props": {
-  //     "tabId": "tab2",
-  //     "blockClass": "product-specification"
-  //   }
-  // },
-  // "tab-content.item#product3": {
-  //   "children": ["product-description#pdp"],
-  //   "props": {
-  //     "tabId": "tab3",
-  //     "blockClass": "product-specification"
-  //   }
-  // },
-  // "tab-content.item#product4": {
-  //   "children": ["product-description#pdp"],
-  //   "props": {
-  //     "tabId": "tab4",
-  //     "blockClass": "product-specification"
-  //   }
-  // },
+   "tab-content.item#product1": {
+     "children": [
+       "product-description#pdp"
+     ],
+     "props": {
+       "tabId": "tab1",
+       "blockClass": "product-specification"
+   }
+   },
+   "tab-content.item#product2": {
+     "children": ["product-description#pdp"],
+     "props": {
+       "tabId": "tab2",
+       "blockClass": "product-specification"
+     }
+   },
+   "tab-content.item#product3": {
+     "children": ["flex-layout.row#envios"],
+     "props": {
+       "tabId": "tab3",
+       "blockClass": "product-specification"
+     }
+   },
+   "tab-content.item#product4": {
+     "children": ["product-description#pdp"],
+     "props": {
+       "tabId": "tab4",
+       "blockClass": "product-specification"
+     }
+   },
   "product-description#pdp": {
     "props": {
       "showTitle": false,
       "blockClass": "description-pdp",
       "collapseContent": false
+    }
+  },
+  "flex-layout.row#envios": {
+    "title": "container texto envios",
+    "children": ["rich-text#title-envios-devoluciones",  "rich-text#content-envios-devoluciones"],
+    "props": {"blockClass": "envios"}
+  },
+  "rich-text#title-envios-devoluciones": {
+    "title": "title",
+    "props": {
+      "text": "Envíos gratuitos en compras superiores a Q999.",
+      "blockClass": "title-envios-devoluciones"
+    }
+  },
+  "rich-text#content-envios-devoluciones": {
+    "title": "content",
+    "props": {
+      "text": "Debido a las medidas actuales para proteger la seguridad de los empleados de nuestro centro de distribución con motivo del COVID-19, las entregas pueden presentar un retraso. Puedes [consultar el estatus de tu pedido]() aquí. <br/> Envíos y devoluciones gratis para miembros de anai's",
+      "blockClass": "content-envios-devoluciones"
     }
   }
 }

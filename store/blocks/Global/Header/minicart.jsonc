@@ -4,29 +4,57 @@
       "quantityDisplay": "always",
       "maxDrawerWidth": 410
     },
-    "children": ["minicart-base-content"]
+    "children": [
+      /* "rich-text#minicart-title", */
+      "minicart-base-content"
+    ]
   },
   "minicart-base-content": {
-    "blocks": ["minicart-empty-state"],
-    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+    "blocks": [
+      "minicart-empty-state"
+    ],
+    "children": [
+      "minicart-product-list",
+      "flex-layout.row#minicart-footer"
+    ]
+  },
+  "rich-text#minicart-title": {
+    "title": "title minicart",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Meses sin intereses al pagar con tarjetas de crédito",
+      "blockClass": "minicart-title"
+    }
   },
   "flex-layout.row#minicart-footer": {
     "props": {
       "blockClass": "minicart-footer"
     },
-    "children": ["flex-layout.col#minicart-footer"]
+    "children": [
+      "flex-layout.col#minicart-footer"
+    ]
   },
   "flex-layout.col#minicart-footer": {
-    "children": ["minicart-summary", "minicart-checkout-button"]
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button"
+    ]
   },
   "minicart-product-list": {
-    "blocks": ["product-list#minicart"]
+    "blocks": [
+      "product-list#minicart"
+    ]
   },
   "product-list#minicart": {
-    "blocks": ["product-list-content-mobile"]
+    "blocks": [
+      "product-list-content-mobile"
+    ]
   },
   "product-list-content-mobile": {
-    "children": ["flex-layout.row#minicart-product-info.mobile"]
+    "children": [
+      "flex-layout.row#minicart-product-info.mobile"
+    ]
   },
   "flex-layout.row#minicart-product-info.mobile": {
     "props": {
@@ -35,13 +63,18 @@
       "marginTop": 4,
       "marginBottom": 4
     },
-    "children": ["flex-layout.col#minicart-product-info.mobile"]
+    "children": [
+      "flex-layout.col#minicart-product-info.mobile"
+    ]
   },
   "flex-layout.col#minicart-product-info.mobile": {
     "children": [
       "flex-layout.row#list-row.mobile",
       "flex-layout.row#list-row-selectors.mobile"
-    ]
+    ],
+    "props":{
+      "blockClass": "minicart-product-info-mobile"
+    }
   },
   "flex-layout.row#list-row.mobile": {
     "children": [
@@ -51,14 +84,17 @@
     "props": {
       "fullWidth": true,
       "colSizing": "auto",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": "true",
+      "blockClass": "list-row-mobile"
     }
   },
   "flex-layout.col#image-custom.mobile": {
     "props": {
       "marginRight": "5"
     },
-    "children": ["product-list-image#square"]
+    "children": [
+      "product-list-image#square"
+    ]
   },
   "product-list-image#square": {
     "props": {
@@ -67,7 +103,8 @@
   },
   "flex-layout.col#main-container-custom.mobile": {
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass": "main-container-custom-mobile"
     },
     "children": [
       "flex-layout.row#minicart-item-name",
@@ -98,13 +135,17 @@
     "props": {
       "verticalAlign": "top"
     },
-    "children": ["vtex.product-list:product-name"]
+    "children": [
+      "vtex.product-list:product-name"
+    ]
   },
   "flex-layout.col#minicart-item-price": {
     "props": {
       "verticalAlign": "top"
     },
-    "children": ["price#mobile-custom"]
+    "children": [
+      "price#mobile-custom"
+    ]
   },
   "price#mobile-custom": {
     "props": {
@@ -115,7 +156,9 @@
     "props": {
       "marginTop": 5
     },
-    "children": ["remove-button"]
+    "children": [
+      "remove-button"
+    ]
   },
   "flex-layout.row#list-row-selectors.mobile": {
     "props": {
@@ -125,7 +168,10 @@
       "blockClass": "selectores",
       "horizontalAlign": "left"
     },
-    "children": ["quantity-selector", "product-variations"]
+    "children": [
+      "quantity-selector",
+      "product-variations"
+    ]
   },
   "quantity-selector": {
     "props": {
@@ -133,18 +179,24 @@
     }
   },
   "minicart-summary": {
-    "blocks": ["checkout-summary.compact#minicart"]
+    "blocks": [
+      "checkout-summary.compact#minicart"
+    ]
   },
   "minicart-checkout-button": {
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform"
     }
   },
-
   "checkout-summary.compact#minicart": {
-    "children": ["summary-totalizers#minicart"],
+    "children": [
+      "summary-totalizers#minicart"
+    ],
     "props": {
-      "totalizersToShow": ["Items", "Discounts"]
+      "totalizersToShow": [
+        "Items",
+        "Discounts"
+      ]
     }
   },
   "summary-totalizers#minicart": {
@@ -153,10 +205,14 @@
     }
   },
   "minicart-empty-state": {
-    "children": ["flex-layout.row#empty-state"]
+    "children": [
+      "flex-layout.row#empty-state"
+    ]
   },
   "flex-layout.row#empty-state": {
-    "children": ["flex-layout.col#empty-state"]
+    "children": [
+      "flex-layout.col#empty-state"
+    ]
   },
   "flex-layout.col#empty-state": {
     "children": [

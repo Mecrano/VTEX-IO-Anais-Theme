@@ -5,7 +5,7 @@
       "flex-layout.col#container-text",
       "flex-layout.col#slider-two-two"
     ],
-    "props": {"blockClass": "slider-rich-plp-two"}
+    "props": {"blockClass": ["slider-rich-plp", "slider-padding"]}
   },
   "flex-layout.col#container-text": {
     "title": "container text",
@@ -23,7 +23,7 @@
     "title": "title ver-más",
     "props": {
       "href": "/",
-      "label": "Ver más",
+      "label": "Ver todo",
       "blockClass": "show-brands"
     }
   },
@@ -37,9 +37,9 @@
     "blocks": ["product-summary.shelf#global"],
     "children": ["slider-layout#pdp-two"],
     "props": {
-     /*  "category": "2/10", */
+      "category": "5",
       "blockClass": "shelf-pdp",
-      "collection": "137",
+      /* "collection": "137", */
       "maxItems": 10,
       "orderBy": "OrderByReleaseDateDESC"
     }

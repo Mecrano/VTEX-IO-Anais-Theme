@@ -1,7 +1,7 @@
 .wrapper--home--benefits--title {
   color: #fff;
-  font-family: Mulish;
-  font-size: 25px;
+  font-family: "Mulish";
+  font-size: 24px;
   line-height: 40.16px;
 }
 
@@ -25,15 +25,15 @@
 
 .paragraph--home--benefits-benefit {
   line-height: 21.33px;
-  font-size: 18px;
-  font-family: Rubik;
+  font-size: 16px;
+  font-family: "Rubik";
   color: #B0E3FF;
 
 }
 
 .paragraph--home--ideal-products--title {
   margin-block: 75px;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 800;
   font-family: Mulish;
 }
@@ -44,14 +44,14 @@
 
 .paragraph--home--shelf--title-1 {
   margin-top: 60px;
-  font-family: Mulish;
-  font-size: 32px;
+  font-family: "Mulish";
+  font-size: 24px;
   font-weight: bold;
 }
 
 .link--home--shelf--title-1 {
-  font-family: Rubik;
-  font-size: 20px;
+  font-family: "Rubik";
+  font-size: 16px;
   font-weight: 400;
   text-decoration: none;
   color: #004793;
@@ -62,8 +62,8 @@
 }
 
 .link--home--brands--see-more {
-  font-family: Rubik;
-  font-size: 24px;
+  font-family: "Rubik";
+  font-size: 18px;
   font-weight: 400;
   text-decoration: none;
   color: #848484;
@@ -93,8 +93,8 @@
 }
 
 .paragraph--home--info--content-title {
-  font-family: Mulish;
-  font-size: 24px;
+  font-family: "Mulish";
+  font-size: 18px;
   font-weight: bold;
   line-height: 30px;
   text-align: left;
@@ -104,8 +104,8 @@
 
 .paragraph--home--info--content-text {
   margin-top: 10px !important;
-  font-family: Rubik;
-  font-size: 20px;
+  font-family: "Rubik";
+  font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   text-align: left;
@@ -115,8 +115,8 @@
 }
 
 .link--home--info--content-more {
-  font-family: Rubik;
-  font-size: 20px;
+  font-family: "Rubik";
+  font-size: 16x;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
@@ -242,13 +242,14 @@
   }
 }
 
-@media (max-width: 320px) {
-
+@media (max-width: 375px) {
   .paragraph--home--ideal-products--title,
   .paragraph--home--shelf--title-1 {
     font-size: 17px;
   }
+}
 
+@media (max-width: 320px) {
   .strong--home--newsletter--text {
     font-size: 17px;
   }
@@ -281,7 +282,52 @@
   .paragraph--home--benefits-benefit3,
   .paragraph--home--benefits-benefit4 {
     margin-left: 0;
-    font-size: 18px !important;
+  }
+
+  .wrapper--home--newsletter--text .paragraph--home--newsletter--text:last-child {
+    margin-top: 5px;
+    margin-bottom: 40px;
   }
 }
 
+
+@media screen and (min-width: 1920px){
+.paragraph--home--benefits-benefit1,
+.paragraph--home--benefits-benefit2,
+.paragraph--home--benefits-benefit3,
+.paragraph--home--benefits-benefit4 {
+  font-size: 18px !important;
+}
+
+.paragraph--home--shelf--title-1 {
+  font-size: 32px;
+}
+
+.link--home--shelf--title-1 {
+  font-size: 20px;
+}
+
+.paragraph--home--ideal-products--title {
+  font-size: 32px;
+}
+
+.paragraph--home--info--content-title {
+  font-size: 24px;
+}
+
+.paragraph--home--info--content-text {
+  font-size: 20px;
+}
+
+.link--home--info--content-more {
+  font-size: 20px;
+}
+
+.link--home--brands--see-more {
+  font-size: 24px;
+}
+
+.wrapper--home--benefits--title {
+  font-size: 32px;
+}
+}
