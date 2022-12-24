@@ -8,5 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 // VTEX Store Theme by Growth Hacking Team 
 
 ## [Unreleased]
+
+## [1.1.3] - 2022-12-24
 ## Added
 - Basic configuration
