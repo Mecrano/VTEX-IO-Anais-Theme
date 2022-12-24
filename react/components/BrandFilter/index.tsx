@@ -58,7 +58,7 @@ const BrandFilter = () => {
               onClick={() => navigateToFacet(facet, false)}
             >
               <Image
-                src={`/arquivos/brand-${facet?.name?.toLowerCase()}.png`}
+                src={`/arquivos/brand-${facet?.name?.toLowerCase().replace(" ", "-")}.png`}
                 alt={facet?.name}
                 title={facet?.title}
               />

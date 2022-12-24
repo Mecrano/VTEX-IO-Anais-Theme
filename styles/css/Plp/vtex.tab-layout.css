@@ -68,6 +68,9 @@
   height: 100%;
 }
 
+.listItemActive :global(.vtex-button)::after{
+  filter: invert();
+}
 
 .listItem--tab-marcas1 :global(.vtex-button)::after {
   content: url(assets/images/genero/adidas.svg);

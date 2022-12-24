@@ -27,8 +27,8 @@
         "tagTitle": "Hombre",
         "text": "Hombre"
       }
-    },
-    "blocks": ["submenu.accordion#header-sub-menu"]
+    }/* ,
+    "blocks": ["submenu.accordion#header-sub-menu"] */
   },
   "menu-item#header_category-mujer-mobile": {
     "props": {
@@ -43,8 +43,8 @@
         "tagTitle": "Mujer",
         "text": "Mujer"
       }
-    },
-    "blocks": ["submenu.accordion#header-sub-menu"]
+    }/* ,
+    "blocks": ["submenu.accordion#header-sub-menu"] */
   },
   "menu-item#header_category-ninos-mobile": {
     "props": {
@@ -59,8 +59,8 @@
         "tagTitle": "Niños",
         "text": "Niños"
       }
-    },
-    "blocks": ["submenu.accordion#header-sub-menu"]
+    }/* ,
+    "blocks": ["submenu.accordion#header-sub-menu"] */
   },
   "menu-item#header_category-colecciones-mobile": {
     "props": {
