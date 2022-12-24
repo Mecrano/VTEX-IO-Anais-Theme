@@ -44,7 +44,7 @@
       "tab-list.item#tab1",
       "tab-list.item#tab2",
       "tab-list.item#tab3",
-      "tab-list.item#tab4",
+      //"tab-list.item#tab4",
       "tab-list.item#tab5"
     ],
     "props": {
@@ -107,7 +107,7 @@
   },
 
   "tab-content.item#tab1": {
-    "children": ["disclosure-layout-group#content-faq"],
+    "children": ["disclosure-layout-group#content-faq-1"],
     "props": {
       "tabId": "faq-pagos",
       "blockClass": "tab1"
@@ -115,7 +115,7 @@
   },
 
   "tab-content.item#tab2": {
-    "children": ["disclosure-layout-group#content-faq"],
+    "children": ["disclosure-layout-group#content-faq-2"],
     "props": {
       "tabId": "faq-devoluciones",
       "blockClass": "tab2"
@@ -123,7 +123,7 @@
   },
 
   "tab-content.item#tab3": {
-    "children": ["disclosure-layout-group#content-faq"],
+    "children": ["disclosure-layout-group#content-faq-3"],
     "props": {
       "tabId": "faq-envios",
       "blockClass": "tab3"
@@ -131,7 +131,7 @@
   },
 
   "tab-content.item#tab4": {
-    "children": ["disclosure-layout-group#content-faq"],
+    "children": ["disclosure-layout-group#content-faq-4"],
     "props": {
       "tabId": "faq-tiendas",
       "blockClass": "tab4"
@@ -139,20 +139,72 @@
   },
 
   "tab-content.item#tab5": {
-    "children": ["disclosure-layout-group#content-faq"],
+    "children": ["disclosure-layout-group#content-faq-5"],
     "props": {
       "tabId": "faq-empresa",
       "blockClass": "tab5"
     }
   },
 
-  "disclosure-layout-group#content-faq": {
+  "disclosure-layout-group#content-faq-1": {
     "children": [
       "disclosure-layout#one",
       "disclosure-layout#two",
       "disclosure-layout#three",
       "disclosure-layout#four" ,
       "disclosure-layout#five"
+    ],
+    "props":{
+      "blockClass": "content-faq"
+    }
+  },
+
+  "disclosure-layout-group#content-faq-2": {
+    "children": [
+      "disclosure-layout#one",
+      "disclosure-layout#two",
+      "disclosure-layout#three"/* ,
+      "disclosure-layout#four" ,
+      "disclosure-layout#five" */
+    ],
+    "props":{
+      "blockClass": "content-faq"
+    }
+  },
+
+  "disclosure-layout-group#content-faq-3": {
+    "children": [
+      "disclosure-layout#one",
+      "disclosure-layout#two",
+      "disclosure-layout#three"/* ,
+      "disclosure-layout#four" ,
+      "disclosure-layout#five" */
+    ],
+    "props":{
+      "blockClass": "content-faq"
+    }
+  },
+
+  "disclosure-layout-group#content-faq-4": {
+    "children": [
+      "disclosure-layout#one",
+      "disclosure-layout#two",
+      "disclosure-layout#three",
+      "disclosure-layout#four" ,
+      "disclosure-layout#five"
+    ],
+    "props":{
+      "blockClass": "content-faq"
+    }
+  },
+
+  "disclosure-layout-group#content-faq-5": {
+    "children": [
+      "disclosure-layout#one"/* ,
+      "disclosure-layout#two",
+      "disclosure-layout#three",
+      "disclosure-layout#four" ,
+      "disclosure-layout#five" */
     ],
     "props":{
       "blockClass": "content-faq"
