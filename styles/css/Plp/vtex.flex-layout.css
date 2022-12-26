@@ -610,10 +610,10 @@
     padding-right: 0 !important;
   }
 
-  :global(.vtex-product-summary-2-x-image--image-global) {
+  /* :global(.vtex-product-summary-2-x-image--image-global) {
     height: 100% !important;
   }
-
+ */
   .flexRow--block-one-search-departament :global(.vtex-store-components-3-x-container) {
     padding-left: 2%;
     padding-right: 2%;
