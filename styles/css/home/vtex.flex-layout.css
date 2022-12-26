@@ -45,13 +45,13 @@
 }
 
 .flexRowContent--home--benefits--container .flexRowContent--home--benefits--content .flexRowContent--home--icon-benefit--container .stretchChildrenWidth:first-child {
-  width: 35% !important;
+  width: 42px !important;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   background: #B0E3FF;
   border-radius: 100px;
-  width: max-content !important;
+  /* width: max-content !important; */
   height: 40px;
   margin-inline: 25px;
   padding: 7px;
