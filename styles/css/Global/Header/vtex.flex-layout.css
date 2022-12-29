@@ -1,0 +1,15 @@
+.flexCol--container-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexColChild--container-imagen {
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--container-menu {
+  margin-left: 50px;
+  margin-right: 50px;
+}

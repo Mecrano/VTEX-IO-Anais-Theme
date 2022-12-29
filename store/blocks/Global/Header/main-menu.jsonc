@@ -26,8 +26,8 @@
         "tagTitle": "Hombre",
         "text": "Hombre"
       }
-    }/* ,
-    "blocks": ["submenu#header_sub-menu"] */
+    },
+    "blocks": ["submenu#header_sub-menu"]
   },
   "menu-item#header_category-mujer": {
     "props": {
@@ -42,8 +42,8 @@
         "tagTitle": "Mujer",
         "text": "Mujer"
       }
-    }/* ,
-    "blocks": ["submenu#header_sub-menu"] */
+    },
+    "blocks": ["submenu#header_sub-menu"]
   },
   "menu-item#header_category-ninos": {
     "props": {
@@ -58,8 +58,8 @@
         "tagTitle": "Niños",
         "text": "Niños"
       }
-    }/* ,
-    "blocks": ["submenu#header_sub-menu"] */
+    },
+    "blocks": ["submenu#header_sub-menu"]
   },
   "menu-item#header_category-deportes": {
     "props": {
@@ -74,8 +74,8 @@
         "tagTitle": "Deportes",
         "text": "Deportes"
       }
-    }/* ,
-    "blocks": ["submenu#header_sub-menu"] */
+    },
+    "blocks": ["submenu#header_sub-menu"]
   },
   "menu-item#header_category-colecciones": {
     "props": {
@@ -90,8 +90,8 @@
         "tagTitle": "Colecciones",
         "text": "Colecciones"
       }
-    }/* ,
-    "blocks": ["submenu#header_sub-menu"] */
+    },
+    "blocks": ["submenu#header_sub-menu"]
   },
   "menu-item#header_category-promociones": {
     "props": {
@@ -106,8 +106,8 @@
         "tagTitle": "Promociones",
         "text": "Promociones"
       }
-    }/* ,
-    "blocks": ["submenu#header_sub-menu"] */
+    },
+    "blocks": ["submenu#header_sub-menu"]
   },
 
   "submenu#header_sub-menu": {
@@ -119,62 +119,154 @@
   "flex-layout.row#header-menu-content": {
     "props": {
       "fullWidth": true,
-      "horizontalAlign": "between",
-      "blockClass": "header-menu-content",
-      "colSizing": "auto"
+      "blockClass": "header-menu-content"
     },
     "children": [
       "flex-layout.col#header-menu-content-menu-1",
-      "flex-layout.col#header_menu-content-menu-2",
-      "flex-layout.col#header_menu-content-menu-3",
-      "flex-layout.col#header_menu-content-menu-4",
-      "flex-layout.col#header_menu-content-menu-5"
+      "flex-layout.col#header_menu-content-menu-2"
     ]
   },
   "flex-layout.col#header-menu-content-menu-1": {
     "title": "block 1",
     "props": {
-      "rowGap": 5
+      "rowGap": 5,
+      "blockClass": "container-menu"
     },
-    "children": ["image-new#header_menu-content", "menu#header_content"]
+    "children": ["menu#header_content", "menu#header_content#2-menu"]
   },
   "flex-layout.col#header_menu-content-menu-2": {
     "title": "block 2",
     "props": {
-      "rowGap": 5
+      "rowGap": 5,
+      "blockClass": "container-imagen"
     },
-    "children": ["image-new#header_menu-content", "menu#header_content"]
+    "children": [ "image-new#header_menu-content"]
   },
-  "flex-layout.col#header_menu-content-menu-3": {
-    "title": "block 3",
-    "props": {
-      "rowGap": 5
-    },
-    "children": ["image-new#header_menu-content", "menu#header_content"]
-  },
-  "flex-layout.col#header_menu-content-menu-4": {
-    "title": "block 4",
-    "props": {"rowGap": 5},
-    "children": ["image-new#header_menu-content", "menu#header_content"]
-  },
-  "flex-layout.col#header_menu-content-menu-5": {
-    "title": "block 5",
-    "props": {"rowGap": 5},
-    "children": ["image-new#header_menu-content", "menu#header_content"]
-  },
+
   "image-new#header_menu-content": {
     "title": "image",
     "props": {
-      "src": "assets/images/header/header_brand.jpg",
+      "src": "assets/images/menu.png",
       "link": {
         "url": "/menu-image"
       },
+      "height": 250,
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca"
     }
   },
   "menu#header_content": {
     "title": "submenu-content",
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tenis de hombre",
+            "text": "Tenis de hombre"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Tenis de mujer",
+            "text": "Tenis de mujer"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Tenis de niño",
+            "text": "Tenis de niño"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Tenis de niña",
+            "text": "Tenis de niña"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Ropa de hombre",
+            "text": "Ropa de hombre"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Ropa de mujer",
+            "text": "Ropa de mujer"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Ropa de niño",
+            "text": "Ropa de niño"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Ropa de niña",
+            "text": "Ropa de niña"
+          }
+        }
+      ]
+    }
+  },
+  "menu#header_content#2-menu": {
+    "title": "submenu-content 2",
     "props": {
       "orientation": "vertical",
       "items": [
