@@ -51,17 +51,18 @@
   border-radius: 4px 4px 0px 0px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 
 .listItem--product-specification,
 .listItem--product-description {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
-  width: 25%;
+  width: 33.33%;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 49px;
 }
 
 .listItemActive--product-description,
@@ -97,8 +98,14 @@
     width: 50%;
   }
 
-  .listItem--product-description, .listItem--border-425 {
+  .listItem--product-specification,
+  .listItem--product-description,
+  .listItem--border-425 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .listContainer--product-specification .listItem:nth-child(3n){
+    border-bottom: none;
   }
 
   .contentItem--product-specification {

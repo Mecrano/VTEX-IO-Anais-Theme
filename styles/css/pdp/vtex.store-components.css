@@ -115,6 +115,10 @@
   line-height: 182.5%;
 }
 
+.productDescriptionText--description-pdp::first-letter{
+  text-transform: uppercase;
+}
+
 .seeMoreButton :global(.vtex-button__label) {
   color: #065FBD;
 }

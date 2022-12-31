@@ -22,13 +22,13 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/hombre/",
+        "href": "/categoria-hombre/",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "Hombre"
       }
-    }/* ,
-    "blocks": ["submenu.accordion#header-sub-menu"] */
+    },
+    "blocks": ["submenu.accordion#header-sub-menu"]
   },
   "menu-item#header_category-mujer-mobile": {
     "props": {
@@ -38,13 +38,13 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/mujer/",
+        "href": "/categoria-mujer/",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "Mujer"
       }
-    }/* ,
-    "blocks": ["submenu.accordion#header-sub-menu"] */
+    },
+    "blocks": ["submenu.accordion#header-sub-menu"]
   },
   "menu-item#header_category-ninos-mobile": {
     "props": {
@@ -54,13 +54,13 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/ninos/",
+        "href": "/niños/",
         "noFollow": false,
         "tagTitle": "Niños",
         "text": "Niños"
       }
-    }/* ,
-    "blocks": ["submenu.accordion#header-sub-menu"] */
+    },
+    "blocks": ["submenu.accordion#header-sub-menu"]
   },
   "menu-item#header_category-colecciones-mobile": {
     "props": {
@@ -107,25 +107,13 @@
     },
     "children": [
       "flex-layout.col#header-menu-content-menu-mobile-1",
-      "flex-layout.col#header_menu-content-menu-mobile-2",
-      "flex-layout.col#header_menu-content-menu-mobile-3",
-      "flex-layout.col#header_menu-content-menu-mobile-4",
-      "flex-layout.col#header_menu-content-menu-mobile-5"
+      "flex-layout.col#header_menu-content-menu-mobile-2"
     ]
   },
   "flex-layout.col#header-menu-content-menu-mobile-1": {
     "children": ["menu#header_content"]
   },
   "flex-layout.col#header_menu-content-menu-mobile-2": {
-    "children": ["menu#header_content"]
-  },
-  "flex-layout.col#header_menu-content-menu-mobile-3": {
-    "children": ["menu#header_content"]
-  },
-  "flex-layout.col#header_menu-content-menu-mobile-4": {
-    "children": ["menu#header_content"]
-  },
-  "flex-layout.col#header_menu-content-menu-mobile-5": {
     "children": ["menu#header_content"]
   }
 }

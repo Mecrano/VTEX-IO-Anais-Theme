@@ -48,7 +48,7 @@
       "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
-        "href": "/hombre/",
+        "href": "/categoria-hombre/",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "Hombre"
@@ -63,7 +63,7 @@
       "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
-        "href": "/mujer/",
+        "href": "/categoria-mujer/",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "Mujer"
@@ -123,7 +123,7 @@
       "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
-        "href": "/promociones/",
+        "href": "/descuentos/",
         "noFollow": false,
         "tagTitle": "Promociones",
         "text": "Promociones"

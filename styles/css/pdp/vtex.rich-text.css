@@ -89,6 +89,10 @@
   color: #065FBD
 }
 
+.paragraph--envios-devoluciones-pdp{
+  display: contents;
+}
+
 @media screen and (min-width: 1920px) {
 
   .paragraph--title-slider--pdp,
@@ -107,7 +111,8 @@
 
 @media screen and (max-width: 1024px) {
   .paragraph--title-envios-devoluciones,
-  .paragraph--content-envios-devoluciones {
+  .paragraph--content-envios-devoluciones,
+  .paragraph--description-pdp {
     font-size: 16px;
   }
 }

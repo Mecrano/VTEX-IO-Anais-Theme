@@ -21,7 +21,7 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/hombre/",
+        "href": "/categoria-hombre/",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "Hombre"
@@ -37,7 +37,7 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/mujer/",
+        "href": "/categoria-mujer/",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "Mujer"
@@ -53,7 +53,7 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/ninos/",
+        "href": "/niños/",
         "noFollow": false,
         "tagTitle": "Niños",
         "text": "Niños"
@@ -101,7 +101,7 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/promociones/",
+        "href": "/descuentos/",
         "noFollow": false,
         "tagTitle": "Promociones",
         "text": "Promociones"
@@ -146,9 +146,9 @@
   "image-new#header_menu-content": {
     "title": "image",
     "props": {
-      "src": "assets/images/menu.png",
+      "src": "assets/images/header/menu.png",
       "link": {
-        "url": "/menu-image"
+        "url": "/"
       },
       "height": 250,
       "alt": "Imagen de una marca",
