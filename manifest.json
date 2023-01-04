@@ -1,6 +1,6 @@
 {
   "vendor": "anaisgt",
-  "name": "eobando-theme",
+  "name": "store-theme",
   "version": "1.1.7",
   "builders": {
     "assets": "0.x",
