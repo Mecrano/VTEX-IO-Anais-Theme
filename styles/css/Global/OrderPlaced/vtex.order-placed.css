@@ -1,0 +1,11 @@
+
+.orderPlacedWrapper {
+  background-color: #CBCBCB;
+  padding-top: 1.8rem;
+}
+
+@media(min-width: 640px){
+  .orderPlacedWrapper {
+    background-color: #fff;
+  }
+}

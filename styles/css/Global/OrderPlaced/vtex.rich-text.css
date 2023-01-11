@@ -1,0 +1,31 @@
+.paragraph--op-number-confirmed, .paragraph--op-number-active {
+  color: #fff;
+  background-color: #22B23A;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.paragraph--op-number-active{
+  background-color: #065FBD;
+}
+
+.paragraph--op-text-confirmed, .paragraph--op-text-active{
+  color: #22B23A;
+  font-weight: 500;
+  margin: 0;
+}
+.paragraph--op-text-active{
+  color: #065FBD;
+}
+
+@media (max-width: 640px){
+  .paragraph--op-text-confirmed{
+    display: none;
+    visibility: hidden;
+  }
+}

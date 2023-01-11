@@ -1,0 +1,21 @@
+.flexRowContent--op-steps, .flexRowContent--op-logo {
+  padding: 0 2rem;
+}
+.flexCol--op-step, .flexCol--op-step-active{
+  flex-direction: row;
+  border-bottom: solid 1px #22B23A;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1.675rem;
+}
+
+.flexCol--op-step-active {
+  border-color: #065FBD;
+}
+
+@media (max-width: 640px){
+  .flexCol--op-step {
+    justify-content: center;
+    align-items: start;
+  }
+}

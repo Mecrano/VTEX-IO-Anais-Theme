@@ -1,0 +1,264 @@
+{
+  "order-placed": {
+    "blocks": [
+      "op-header",
+      "op-order"
+    ]
+  },
+  "op-header": {
+    "children": [
+      "op-section#confirmation"
+    ]
+  },
+  "op-section#confirmation": {
+    "props": {
+      "name": "confirmation",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "flex-layout.row#op-logo",
+      "flex-layout.row#op-steps",
+      "op-confirmation-title",
+      "flex-layout.row#op-shelf-title",
+      "flex-layout.row#op-shelf"
+    ]
+  },
+
+
+  "flex-layout.row#op-logo": {
+    "children": ["image#logo-anais-black"],
+    "props": {
+      "fullWidth": false,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "LEFT",
+      "blockClass": ["op-logo"]
+    }
+  },
+  "image#logo-anais-black": {
+    "title": "logoImage",
+    "props": {
+      "src": "assets/images/logo-anais-black.png",
+      "maxWidth": 166,
+      "blockClass": "op-logo"
+    }
+  },
+  "flex-layout.row#op-steps": {
+    "children": [
+      "flex-layout.col#op-step1",
+      "flex-layout.col#op-step2",
+      "flex-layout.col#op-step3"
+    ],
+    "props": {
+      "colGap": 8,
+      "preserveLayoutOnMobile": true,
+      // "preventHorizontalStretch": true,
+      "blockClass": [
+        "op-steps"
+      ]
+    }
+  },
+  "flex-layout.col#op-step1": {
+    "children": [
+      "rich-text#op-text1",
+      "rich-text#op-step1"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "op-step"
+      ]
+    }
+  },
+  "rich-text#op-text1": {
+    "props": {
+      "blockClass": [
+        "op-number-confirmed"
+      ],
+      "font": "t-body",
+      "text": "1",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#op-step1": {
+    "props": {
+      "blockClass": [
+        "op-text-confirmed"
+      ],
+      "font": "t-body",
+      "text": "Carrito",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#op-step2": {
+    "children": [
+      "rich-text#op-text2",
+      "rich-text#op-step2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "op-step"
+      ]
+    }
+  },
+  "rich-text#op-text2": {
+    "props": {
+      "blockClass": [
+        "op-number-confirmed"
+      ],
+      "font": "t-body",
+      "text": "2",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#op-step2": {
+    "props": {
+      "blockClass": [
+        "op-text-confirmed"
+      ],
+      "font": "t-body",
+      "text": "Información, envío y pago",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#op-step3": {
+    "children": [
+      "rich-text#op-text3",
+      "rich-text#op-step3"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "op-step",
+        "op-step-active"
+      ]
+    }
+  },
+  "rich-text#op-text3": {
+    "props": {
+      "blockClass": [
+        "op-number-active"
+      ],
+      "font": "t-body",
+      "text": "3",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#op-step3": {
+    "props": {
+      "blockClass": [
+        "op-text-active"
+      ],
+      "font": "t-body",
+      "text": "Compra finalizada",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#op-shelf-title": {
+
+    "children": [
+      "rich-text#op-shelf-title",
+      "rich-text#op-more-products",
+      "rich-text#op-more-products-mobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "home--shelf--titles-container"
+    }
+  },
+  "rich-text#op-shelf-title": {
+    "props": {
+      "text": "También puede interesarte",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#op-more-products": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "rich-text#op-more-products-mobile": {
+    "props": {
+      "text": "[Ver todo](/)",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "home--shelf--title-1"
+    }
+  },
+  "flex-layout.row#op-shelf": {
+    "title": "block six",
+    "children": [
+      "list-context.product-list#op-shelf"
+    ],
+    "props": {
+      "blockClass": "container-slider--home"
+    }
+  },
+  "list-context.product-list#op-shelf": {
+    "title": "shelf order placed",
+    "blocks": [
+      "product-summary.shelf#global"
+    ],
+    "children": [
+      "slider-layout#op-shelf"
+    ],
+    "props": {
+      /*       "category": "82", */
+      "blockClass": "shelf-pdp",
+      "maxItems": 10,
+      "orderBy": "OrderByReleaseDateDESC"
+    }
+  },
+  "slider-layout#op-shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "navigationStep": 1,
+      "blockClass": "slider-pdp",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always"
+    }
+  },
+
+
+  "op-section#notices": {
+    "props": {
+      "name": "notices",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "op-notices"
+    ]
+  },
+  // each order section
+  "op-order": {
+    "children": [
+
+    ]
+  }
+}
