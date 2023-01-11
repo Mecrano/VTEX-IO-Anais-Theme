@@ -1,16 +1,27 @@
 .flexRowContent--op-steps, .flexRowContent--op-logo {
   padding: 0 2rem;
+  
 }
 .flexCol--op-step, .flexCol--op-step-active{
   flex-direction: row;
-  border-bottom: solid 1px #22B23A;
+  border-bottom: solid 2px #a2eeaf;
   align-items: center;
   gap: 0 1rem;
   padding: 1.675rem;
+  padding-bottom: 0.9 rem;
+
 }
 
 .flexCol--op-step-active {
-  border-color: #065FBD;
+  border-color: #b1c6dd;
+}
+
+.flexRowContent--op-logo {
+  padding-bottom: 7%;
+}
+
+.stretchChildrenWidth{
+  width: 26%;
 }
 
 @media (max-width: 640px){

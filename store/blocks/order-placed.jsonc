@@ -39,7 +39,7 @@
     "title": "logoImage",
     "props": {
       "src": "assets/images/logo-anais-black.png",
-      "maxWidth": 166,
+      "maxWidth": 120,
       "blockClass": "op-logo"
     }
   },
@@ -261,4 +261,5 @@
 
     ]
   }
+  //
 }

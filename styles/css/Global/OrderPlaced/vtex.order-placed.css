@@ -3,7 +3,10 @@
   background-color: #CBCBCB;
   padding-top: 1.8rem;
 }
-
+.confirmationTitle{
+  font-weight: bold;
+  text-align: left;
+}
 @media(min-width: 640px){
   .orderPlacedWrapper {
     background-color: #fff;
