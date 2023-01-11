@@ -2,7 +2,8 @@
   "order-placed": {
     "blocks": [
       "op-header",
-      "op-order"
+      "op-order",
+      "op-footer"
     ]
   },
   "op-header": {
@@ -18,21 +19,20 @@
     },
     "children": [
       "flex-layout.row#op-logo",
-      "flex-layout.row#op-steps",
-      "op-confirmation-title",
-      "flex-layout.row#op-shelf-title",
-      "flex-layout.row#op-shelf"
+      "flex-layout.row#op-steps"
     ]
   },
-
-
   "flex-layout.row#op-logo": {
-    "children": ["image#logo-anais-black"],
+    "children": [
+      "image#logo-anais-black"
+    ],
     "props": {
       "fullWidth": false,
       "preventHorizontalStretch": true,
       "horizontalAlign": "LEFT",
-      "blockClass": ["op-logo"]
+      "blockClass": [
+        "op-logo"
+      ]
     }
   },
   "image#logo-anais-black": {
@@ -167,9 +167,72 @@
       "textPosition": "CENTER"
     }
   },
-
+  // each order section
+  "op-order": {
+    "children": [
+      "op-section#op-summary"
+    ]
+  },
+  "op-section#op-summary": {
+    "children": [
+      "rich-text#op-confirmation-title",
+      "flex-layout.row#op-summary"
+    ]
+  },
+  "rich-text#op-confirmation-title": {
+    "props": {
+      "blockClass": [
+        "op-confirmation-title"
+      ],
+      "font": "t-body",
+      "text": "#### Gracias por tu compra",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#op-summary": {
+    "children": [
+      "flex-layout.col#op-order-data"
+    ],
+    "props": {
+      "blockClass": [
+        "op-summary"
+      ]
+    }
+  },
+  "flex-layout.col#op-order-data": {
+    "children": [
+      "op-order-customer",
+      "op-order-payment",
+      "op-order-delivery-packages",
+      "op-order-pickup-packages"
+    ],
+    "props": {
+      "blockClass": [
+        "op-order-data"
+      ]
+    }
+  },
+  "op-section#notices": {
+    "props": {
+      "name": "notices",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "op-notices"
+    ]
+  },
+  // each order section
+  // FOOTER ORDER-PLACED
+  "op-footer": {
+    "children": [
+      "flex-layout.row#op-shelf-title",
+      "flex-layout.row#op-shelf"
+    ]
+  },
   "flex-layout.row#op-shelf-title": {
-
     "children": [
       "rich-text#op-shelf-title",
       "rich-text#op-more-products",
@@ -242,24 +305,6 @@
       "showPaginationDots": "never",
       "showNavigationArrows": "always"
     }
-  },
-
-
-  "op-section#notices": {
-    "props": {
-      "name": "notices",
-      "marginBottom": 9,
-      "borderless": true
-    },
-    "children": [
-      "op-notices"
-    ]
-  },
-  // each order section
-  "op-order": {
-    "children": [
-
-    ]
   }
   //
 }
