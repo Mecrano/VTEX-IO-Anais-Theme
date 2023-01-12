@@ -52,9 +52,10 @@
 }
 
 @media (max-width: 640px){
-  .paragraph--op-text-confirmed{
+  .paragraph--op-text-confirmed, .paragraph--op-text-active{
     display: none;
     visibility: hidden;
+
   }
 }
 
@@ -83,4 +84,18 @@
 .link--op-change-order, .link--op-track-order{
  color: #7cb6f5;
  font-size: 1rem;
+}
+
+@media ( max-width: 640px){
+  .wrapper--op-number-confirmed{
+    padding-left: 50%;
+    
+  }
+}
+.wrapper--op-total{
+  
+  font-weight: bold;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-top: 10%;
 }

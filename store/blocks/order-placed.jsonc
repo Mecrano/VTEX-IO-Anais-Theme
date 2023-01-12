@@ -252,7 +252,7 @@
     ],
     "props": {
       "blockClass": [
-        "op-order-data"
+        "op-order-data-desktop"
       ]
     }
   },
@@ -278,7 +278,7 @@
     ],
     "props": {
       "blockClass": [
-        "op-order-data"
+        "op-order-data-desktop2"
       ]
     }
   },
@@ -321,7 +321,7 @@
     "props": {
       "blockClass": [
         "rich-text#op-total",
-        "op-total-data"
+        "op-total-data-desktop3"
       ]
     }
   },

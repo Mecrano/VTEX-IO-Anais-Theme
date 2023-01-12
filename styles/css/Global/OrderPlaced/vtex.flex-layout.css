@@ -21,7 +21,7 @@
 }
 
 .stretchChildrenWidth{
-  width: 26%;
+  width: 40%;
 }
 
 @media (max-width: 640px){
@@ -40,5 +40,17 @@
 }*/
 
 .stretchChildrenWidth {
+  width: 50%;
   padding-top: 5%;
+  padding-right: 5%;
+}
+.flexCol--op-order-data-desktop, .flexCol--op-order-data-desktop2, .flexCol--op-total-data-desktop3{
+  border: solid 1px #d8d7d7;
+}
+.flexColChild--op-order-data-desktop2{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.flexColChild {
+  padding-bottom: 5%;
 }
