@@ -1,13 +1,15 @@
-.flexRowContent--op-steps, .flexRowContent--op-logo {
+.flexRowContent--op-steps,
+.flexRowContent--op-logo {
   padding: 0 2rem;
-  
+
 }
-.flexCol--op-step, .flexCol--op-step-active{
+
+.flexCol--op-step,
+.flexCol--op-step-active {
   flex-direction: row;
   border-bottom: solid 2px #a2eeaf;
   align-items: center;
   gap: 0 1rem;
-  padding: 1.675rem;
   padding-bottom: 0.9 rem;
 
 }
@@ -17,14 +19,12 @@
 }
 
 .flexRowContent--op-logo {
-  padding-bottom: 7%;
+  padding-bottom: 0%;
 }
 
-.stretchChildrenWidth{
-  width: 40%;
-}
 
-@media (max-width: 640px){
+
+@media (max-width: 640px) {
   .flexCol--op-step {
     justify-content: center;
     align-items: start;
@@ -43,14 +43,23 @@
   width: 50%;
   padding-top: 5%;
   padding-right: 5%;
+  padding-bottom: 3%;
 }
-.flexCol--op-order-data-desktop, .flexCol--op-order-data-desktop2, .flexCol--op-total-data-desktop3{
+
+
+.flexCol--op-order-data-desktop,
+.flexCol--op-order-data-desktop2,
+.flexCol--op-total-data-desktop3 {
   border: solid 1px #d8d7d7;
 }
-.flexColChild--op-order-data-desktop2{
+
+.flexColChild--op-order-data-desktop2 {
   padding-left: 10%;
   padding-right: 10%;
 }
-.flexColChild {
-  padding-bottom: 5%;
+
+.flexColChild--op-total-data-desktop3, .flexColChild{
+     height: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }

@@ -7,30 +7,38 @@
   font-weight: bold;
   text-align: left;
 }
-.package--op-product-data{
+
+.package--op-product-data {
   border: solid 1px #b1c6dd;
   padding-left: 10%;
+ 
+}
+.productWrapper--op-product-data {
+   flex-direction: column;
 }
 
 
-.productInfoColumn--op-product-data, .productPrice--op-product-data{
-  flex-direction: column;
-  text-align: center;
-  
+.productPrice--op-product-data{
+  padding-left: 0%;
 }
-.totalListWrapper{
+
+.totalList{
+ width: 100%;
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+.totalListWrapper {
   border: solid 1px #b1c6dd;
+   
+}
+.totalListItem--Items{
+  border-bottom: solid 1px black;
+}
+.t-heading-3{
+  color: blue;
 }
 
-
-/*.package--op-product-data--delivery{
-  border: solid 1px #d8d7d7;
-  height: 0%;
-  padding-left: 10%;
-  padding-right: 10%;
-
-}
-*/
 
 .productList--op-order-data,
 .packageHeaderColumn--op-product-data {
@@ -39,13 +47,49 @@
 }
 
 .customerInfoListContainer,
-.orderPaymentItem,
 .packageHeader--op-order-data,
-.addressContainer--op-order-data {
+.addressContainer,
+.orderPaymentWrapper {
   padding-left: 10%;
+  font-size: 15px;
+
+
 }
-.customerInfoListContainer{
+
+.customerInfoListName,
+.paymentGroup,
+.packageDeliveryTitle{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.packageShippingEstimate,
+.packageSLA,
+.customerInfoListEmail,
+.customerInfoListPhone, 
+.productName--op-product-data,
+.roductQuantity--op-product-data,
+.productPrice--op-product-data {
+  
+  color: black;
+}
+
+.packageHeader--op-order-data {
+  margin-top: -63px;
+}
+
+.customerInfoListContainer {
   padding-top: 15%;
+}
+.img{
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+.productName--op-product-data{
+  font-size: 12px;
 }
 
 @media(min-width: 640px) {
