@@ -30,3 +30,15 @@
     align-items: start;
   }
 }
+
+/*
+@media (max-width: 300px){
+  . flexRowContent--op-steps{
+    justify-content: center;
+    align-items: start;
+  }
+}*/
+
+.stretchChildrenWidth {
+  padding-top: 5%;
+}

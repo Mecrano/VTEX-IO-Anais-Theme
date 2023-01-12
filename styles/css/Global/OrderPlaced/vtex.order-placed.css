@@ -1,6 +1,6 @@
 
 .orderPlacedWrapper {
-  background-color: #CBCBCB;
+  /*background-color: #CBCBCB;*/
   padding-top: 1.8rem;
 }
 .confirmationTitle{
@@ -11,4 +11,8 @@
   .orderPlacedWrapper {
     background-color: #fff;
   }
+}
+
+.productListItem--op-product-data{
+  border: solid 2px #d8d7d7;
 }
