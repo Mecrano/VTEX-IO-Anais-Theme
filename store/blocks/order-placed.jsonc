@@ -176,7 +176,8 @@
   "op-section#op-summary": {
     "children": [
       "rich-text#op-confirmation-title",
-      "flex-layout.row#op-summary"
+      "responsive-layout.desktop#op-desktop",
+      "responsive-layout.phone#op-mobile"
     ]
   },
   "rich-text#op-confirmation-title": {
@@ -191,9 +192,37 @@
       "textPosition": "CENTER"
     }
   },
+  "responsive-layout.desktop#op-desktop": {
+    "children": ["flex-layout.row#op-summary-desktop"]
+  },
+  "responsive-layout.tablet#op-tablet": {
+    "children": ["flex-layout.row#op-summary"]
+  },
+  "responsive-layout.phone#op-mobile": {
+    "children": [
+      "flex-layout.row#op-summary"
+    ]
+  },
   "flex-layout.row#op-summary": {
     "children": [
-      "flex-layout.col#op-order-data"
+      "flex-layout.col#op-order-data",
+      "flex-layout.col#op-product-data",
+      "flex-layout.col#op-total-data",
+      "flex-layout.row#op-track-order",
+      "flex-layout.row#op-change-order",
+      "flex-layout.row#op-terms"
+    ],
+    "props": {
+      "blockClass": [
+        "op-summary"
+      ]
+    }
+  },
+  "flex-layout.row#op-summary-desktop": {
+    "children": [
+      "flex-layout.col#op-order-data-desktop",
+      "flex-layout.col#op-product-data-desktop",
+      "flex-layout.col#op-total-data-desktop"
     ],
     "props": {
       "blockClass": [
@@ -205,13 +234,173 @@
     "children": [
       "op-order-customer",
       "op-order-payment",
-      "op-order-delivery-packages",
-      "op-order-pickup-packages"
+      "op-order-delivery-packages#op-order-data",
+      "op-order-pickup-packages#op-order-data"
     ],
     "props": {
       "blockClass": [
         "op-order-data"
       ]
+    }
+  },
+  "flex-layout.col#op-order-data-desktop": {
+    "children": [
+      "op-order-customer",
+      "op-order-payment",
+      "op-order-delivery-packages#op-order-data",
+      "op-order-pickup-packages#op-order-data"
+    ],
+    "props": {
+      "blockClass": [
+        "op-order-data"
+      ]
+    }
+  },
+  "op-order-delivery-packages#op-order-data": {
+    "props": {
+      "blockClass": "op-order-data"
+    }
+  },
+  "op-order-pickup-packages#op-order-data": {
+    "props": {
+      "blockClass": "op-order-data"
+    }
+  },
+  // Mid Col
+  "flex-layout.col#op-product-data-desktop": {
+    "children": [
+      "rich-text#op-product",
+      "op-order-delivery-packages#op-product-data",
+      "op-order-pickup-packages#op-product-data",
+      "flex-layout.row#op-track-order",
+      "flex-layout.row#op-change-order",
+      "flex-layout.row#op-terms"
+    ],
+    "props": {
+      "blockClass": [
+        "op-order-data"
+      ]
+    }
+  },
+  "flex-layout.col#op-product-data": {
+    "children": [
+      "rich-text#op-product",
+      "op-order-delivery-packages#op-product-data",
+      "op-order-pickup-packages#op-product-data"
+    ],
+    "props": {
+      "blockClass": [
+        "op-order-data"
+      ]
+    }
+  },
+  "rich-text#op-product": {
+    "props": {
+      "blockClass": [
+        "op-total"
+      ],
+      "font": "t-body",
+      "text": "Artículos"
+    }
+  },
+  "op-order-delivery-packages#op-product-data": {
+    "props": {
+      "blockClass": "op-product-data"
+    }
+  },
+  "op-order-pickup-packages#op-product-data": {
+    "props": {
+      "blockClass": "op-product-data"
+    }
+  },
+  "flex-layout.col#op-total-data-desktop": {
+    "children": [
+      "rich-text#op-total",
+      "op-order-total"
+    ],
+    "props": {
+      "blockClass": [
+        "rich-text#op-total",
+        "op-total-data"
+      ]
+    }
+  },
+  "flex-layout.col#op-total-data": {
+    "children": [
+      "rich-text#op-total",
+      "op-order-total"
+    ],
+    "props": {
+      "blockClass": [
+        "rich-text#op-total",
+        "op-total-data"
+      ]
+    }
+  },
+  "rich-text#op-total": {
+    "props": {
+      "blockClass": [
+        "op-total"
+      ],
+      "font": "t-body",
+      "text": "Resumen"
+    }
+  },
+  "flex-layout.row#op-track-order": {
+    "children": [
+      "rich-text#op-track-order"
+    ],
+    "props": {
+      "blockClass": [
+        "op-track-order"
+      ]
+    }
+  },
+  "rich-text#op-track-order": {
+    "props": {
+      "blockClass": [
+        "op-track-order"
+      ],
+      "font": "t-body",
+      "text": "[Rastrear pedido](/account#/orders)"
+    }
+  },
+  "flex-layout.row#op-change-order": {
+    "children": [
+      "rich-text#op-change-order"
+    ],
+    "props": {
+      "blockClass": [
+        "op-change-order"
+      ]
+    }
+  },
+  "rich-text#op-change-order": {
+    "props": {
+      "blockClass": [
+        "op-change-order"
+      ],
+      "font": "t-body",
+      "text": "[Cambios y garantías](/)"
+    }
+  },
+  "flex-layout.row#op-terms": {
+    "children": [
+      "rich-text#op-terms"
+    ],
+    "props": {
+      "blockClass": [
+        "op-terms"
+      ]
+    }
+  },
+  "rich-text#op-terms": {
+    "props": {
+      "blockClass": [
+        "op-terms"
+      ],
+      "font": "t-body",
+      "text": "Conoce los términos y condiciones [aquí]()"
     }
   },
   "op-section#notices": {

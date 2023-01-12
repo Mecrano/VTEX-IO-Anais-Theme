@@ -1,5 +1,8 @@
 {
   "store.orderplaced": {
+    "parent": {
+      "header": "header#empty"
+    },
     "blocks": ["order-placed"]
   },
 

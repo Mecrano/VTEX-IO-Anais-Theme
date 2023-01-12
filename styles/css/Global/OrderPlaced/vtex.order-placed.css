@@ -4,6 +4,12 @@
   padding-top: 1.8rem;
 }
 
+
+.productList--op-order-data, .packageHeaderColumn--op-product-data{
+  display: none;
+  visibility: hidden;
+}
+
 @media(min-width: 640px){
   .orderPlacedWrapper {
     background-color: #fff;
