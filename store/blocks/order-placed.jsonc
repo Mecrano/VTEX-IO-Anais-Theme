@@ -193,10 +193,14 @@
     }
   },
   "responsive-layout.desktop#op-desktop": {
-    "children": ["flex-layout.row#op-summary-desktop"]
+    "children": [
+      "flex-layout.row#op-summary-desktop"
+    ]
   },
   "responsive-layout.tablet#op-tablet": {
-    "children": ["flex-layout.row#op-summary"]
+    "children": [
+      "flex-layout.row#op-summary"
+    ]
   },
   "responsive-layout.phone#op-mobile": {
     "children": [
@@ -207,10 +211,8 @@
     "children": [
       "flex-layout.col#op-order-data",
       "flex-layout.col#op-product-data",
-      "flex-layout.col#op-total-data",
-      "flex-layout.row#op-track-order",
-      "flex-layout.row#op-change-order",
-      "flex-layout.row#op-terms"
+      "flex-layout.col#op-total-data"
+     
     ],
     "props": {
       "blockClass": [
@@ -220,16 +222,20 @@
   },
   "flex-layout.row#op-summary-desktop": {
     "children": [
-     "flex-layout.col#op-order-data-desktop",
+      "flex-layout.col#op-order-data-desktop",
       "flex-layout.col#op-product-data-desktop",
       "flex-layout.col#op-total-data-desktop"
+
     ],
     "props": {
+
+      "preventVerticalStretch": true,
       "blockClass": [
         "op-summary"
       ]
     }
   },
+  
   "flex-layout.col#op-order-data": {
     "children": [
       "op-order-customer",
@@ -256,6 +262,7 @@
       ]
     }
   },
+  
   "op-order-delivery-packages#op-order-data": {
     "props": {
       "blockClass": "op-order-data"
@@ -272,9 +279,11 @@
       "rich-text#op-product",
       "op-order-delivery-packages#op-product-data",
       "op-order-pickup-packages#op-product-data",
+
       "flex-layout.row#op-track-order",
       "flex-layout.row#op-change-order",
       "flex-layout.row#op-terms"
+   
     ],
     "props": {
       "blockClass": [
@@ -282,6 +291,7 @@
       ]
     }
   },
+
   "flex-layout.col#op-product-data": {
     "children": [
       "rich-text#op-product",
@@ -319,13 +329,15 @@
       "op-order-total"
     ],
     "props": {
+      "preventVerticalStretch": true,
+
       "blockClass": [
         "rich-text#op-total",
         "op-total-data-desktop3"
       ]
     }
   },
- "flex-layout.col#op-total-data": {
+  "flex-layout.col#op-total-data": {
     "children": [
       "rich-text#op-total",
       "op-order-total"
