@@ -32,6 +32,10 @@
   justify-content: flex-start;
 }
 
+.flexCol--block-one-one :global(.vtex-search-result-3-x-galleryTitle--layout){
+  text-transform: capitalize;
+}
+
 .flexRowContent--block-three-search {
   display: flex;
   flex-direction: row;

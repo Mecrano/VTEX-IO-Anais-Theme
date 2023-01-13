@@ -4,7 +4,9 @@
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "simulationBehavior": "default",
+        "orderByField": "OrderByReleaseDateDESC",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -13,7 +15,9 @@
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
   },
@@ -22,7 +26,9 @@
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
   },
@@ -31,7 +37,9 @@
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
   },
@@ -40,7 +48,9 @@
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
   },

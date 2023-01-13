@@ -2,8 +2,8 @@
   "flex-layout.row#block-two-search": {
     "title": "block two",
     "children": [
-      "flex-layout.col#block-one-one",
-      "flex-layout.col#block-one-two"
+      "flex-layout.col#block-one-one"/* ,
+      "flex-layout.col#block-one-two" */
     ],
     "props": {
       "blockClass": "block-two-search"
