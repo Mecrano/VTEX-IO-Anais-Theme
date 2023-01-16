@@ -7,9 +7,14 @@
 .flexColChild--container-imagen {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .flexColChild--container-menu {
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 100%;
+}
+
+.flexCol--header-submenu-content-menu-1 .flexColChild--header-submenu-content-menu-1:nth-child(1n){
+  padding: 0 !important;
+  height: auto !important;
 }

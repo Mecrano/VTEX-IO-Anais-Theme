@@ -19,6 +19,12 @@
   top: 0;
 }
 
+.link--title-sub-menu{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
 @media (min-width: 1920px) {
   .paragraph--minicart-title {
     font-size: 13px;

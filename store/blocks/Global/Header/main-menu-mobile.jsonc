@@ -44,7 +44,7 @@
         "text": "Mujer"
       }
     },
-    "blocks": ["submenu.accordion#header-sub-menu"]
+    "blocks": ["submenu.accordion#header-sub-menu-dama"]
   },
   "menu-item#header_category-ninos-mobile": {
     "props": {
@@ -106,14 +106,29 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#header-menu-content-menu-mobile-1",
-      "flex-layout.col#header_menu-content-menu-mobile-2"
+      "flex-layout.col#header-submenu-content-menu-1",
+      "flex-layout.col#header-submenu-content-menu-2",
+      "flex-layout.col#header-submenu-content-menu-3"
     ]
   },
-  "flex-layout.col#header-menu-content-menu-mobile-1": {
-    "children": ["menu#header_content"]
+
+"submenu.accordion#header-sub-menu-dama": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#header-menu-content-mobile"]
   },
-  "flex-layout.col#header_menu-content-menu-mobile-2": {
-    "children": ["menu#header_content"]
+  "flex-layout.row#header-menu-content-mobile-dama": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header-submenu-content-menu-1",
+      "flex-layout.col#header-submenu-content-menu-2-dama",
+      "flex-layout.col#header-submenu-content-menu-3"
+    ]
   }
 }
