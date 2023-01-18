@@ -32,7 +32,8 @@
   justify-content: flex-start;
 }
 
-.flexCol--block-one-one :global(.vtex-search-result-3-x-galleryTitle--layout){
+.flexCol--block-one-one :global(.vtex-search-result-3-x-galleryTitle--layout),
+.flexCol--block-one-one-mobile :global(.vtex-search-result-3-x-galleryTitle--layout){
   text-transform: capitalize;
 }
 

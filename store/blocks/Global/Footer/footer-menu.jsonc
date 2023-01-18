@@ -35,7 +35,7 @@
       "menu-item#footer_category-mujer",
       "menu-item#footer_category-ninos",
       "menu-item#footer_category-deportes",
-      "menu-item#footer_category-colecciones",
+      "menu-item#footer_category-1001",
       "menu-item#footer_category-promociones",
       "menu-item#footer_category-hisotrias"
     ]
@@ -100,18 +100,18 @@
       }
     }
   },
-  "menu-item#footer_category-colecciones": {
+  "menu-item#footer_category-1001": {
     "props": {
-      "id": "menu-item-category-footer-colecciones",
+      "id": "menu-item-category-footer-1001",
       "type": "custom",
       "highlight": false,
       "blockClass": "root-footer",
       "itemProps": {
         "type": "internal",
-        "href": "/colecciones/",
+        "href": "/1001%20Athletics",
         "noFollow": false,
-        "tagTitle": "Colecciones",
-        "text": "Colecciones"
+        "tagTitle": "1001",
+        "text": "1001"
       }
     }
   },

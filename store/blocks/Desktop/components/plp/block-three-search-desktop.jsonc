@@ -19,9 +19,9 @@
   /* item filter  */
   "flex-layout.row#item-filtros": {
     "children": [
-      "flex-layout.col#item-filter-one",
-      "flex-layout.col#item-filter-two",
-      "flex-layout.col#item-filter-three"/* ,
+      //"flex-layout.col#item-filter-one",
+      "flex-layout.col#item-filter-two"/* ,
+      "flex-layout.col#item-filter-three",
       "flex-layout.col#item-filter-four" */
     ],
     "props": {"blockClass": "item-filtros"}

@@ -9,7 +9,7 @@
       "menu-item#header_category-hombre-mobile",
       "menu-item#header_category-mujer-mobile",
       "menu-item#header_category-ninos-mobile",
-      "menu-item#header_category-colecciones-mobile",
+      "menu-item#header_category-1001-mobile",
       "menu-item#header_aux-menu-history",
       "menu-item#header_category-tiendas-fisicas-mobile"
     ]
@@ -62,18 +62,18 @@
     },
     "blocks": ["submenu.accordion#header-sub-menu"]
   },
-  "menu-item#header_category-colecciones-mobile": {
+  "menu-item#header_category-1001-mobile": {
     "props": {
-      "id": "menu-item-category-colecciones-mobile",
+      "id": "menu-item-category-1001-mobile",
       "type": "custom",
       "highlight": false,
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/colecciones/",
+        "href": "/1001%20Athletics",
         "noFollow": false,
-        "tagTitle": "Colecciones",
-        "text": "Colecciones"
+        "tagTitle": "1001",
+        "text": "1001"
       }
     }
   },

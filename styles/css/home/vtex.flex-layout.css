@@ -123,6 +123,10 @@
   margin-top: 15px;
 }
 
+.flexCol--home--brands--container-brand-1 .flexColChild--home--brands--container-brand-1:first-child{
+  clip-path: polygon(71px 0, 100% 0, 100% 100%, 0 100%, 0 71px);
+}
+
 .flexColChild--home--brands--container-brand-1,
 .flexRowContent--home--newsletter--container .stretchChildrenWidth:first-child {
   display: flex;
@@ -212,7 +216,10 @@
 }
 
 @media (max-width: 1200px) {
-  .flexRowContent--home--benefits--container .flexRowContent--home--benefits--content .flexRowContent--home--icon-benefit--container .stretchChildrenWidth:first-child {
+  .flexRowContent--home--benefits--container
+    .flexRowContent--home--benefits--content
+    .flexRowContent--home--icon-benefit--container
+    .stretchChildrenWidth:first-child {
     margin-inline: 10px;
   }
 
@@ -236,6 +243,11 @@
   .flexRowContent--home--info--container {
     overflow: auto;
   }
+
+  .flexCol--home--brands--container-brand-1 .flexColChild--home--brands--container-brand-1:first-child{
+    clip-path: none
+  }
+
 }
 
 @media (max-width: 1024px) {
