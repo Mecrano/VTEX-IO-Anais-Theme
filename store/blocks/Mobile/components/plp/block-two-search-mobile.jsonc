@@ -19,7 +19,7 @@
 
   "flex-layout.row#container-mobile": {
     "title": "container filter - order",
-    "children": ["filter-navigator.v3", "order-by.v2"],
+    "children": ["filter-navigator-v3-custom", "order-by.v2"],
     "props": {
       "blockClass": "container-mobile"
     }

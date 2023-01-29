@@ -11,7 +11,7 @@
   },
   "flex-layout.col#serch-colunm-left": {
     "title": "container filtros",
-    "children": [/* "flex-layout.row#item-filtros", */ "filter-navigator.v3"],
+    "children": [/* "flex-layout.row#item-filtros", */ "filter-navigator-v3-custom"],
     "props": {
       "blockClass": "serch-colunm-left"
     }
@@ -113,7 +113,7 @@
   },
 /* item filter */
 
-  "filter-navigator.v3": {
+  "filter-navigator-v3-custom": {
     "props":{
       "blockClass": "filter",
       "initiallyCollapsed": true

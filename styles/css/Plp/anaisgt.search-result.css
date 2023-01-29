@@ -1,0 +1,218 @@
+.filters--layout {
+  background: #FFFFFF;
+  opacity: 0.7;
+  border: 1px solid #065FBD;
+}
+
+.filterTitleSpan--filter {
+  font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #065fbd;
+}
+
+.filter__container--filter--title {
+  display: none;
+}
+
+.filter__container--filter {
+  border-color: #065FBD !important;
+  padding: 5px 0;
+}
+
+.filter--filter {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.filterTemplateOverflow--filter {
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+}
+
+.filterIcon--filter {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.filterItem--filter :global(.vtex-checkbox__label) {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 165.5%;
+  color: #065FBD;
+}
+
+.filterItem--filter :global(.vtex-checkbox__line-container) {
+  align-items: center;
+}
+
+.filter__container--talla .filterContent--filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filter__container--talla .filterContent--filter .filterItem--filter {
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__label) {
+  border: 0.758652px solid #065FBD;
+  text-align: center;
+  border-radius: 3.03461px;
+}
+
+.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__label):hover {
+  color: #FFFFFF;
+  background-color: #065FBD;
+}
+
+.caretIcon {
+  color: #004793;
+}
+
+.containerFilters {
+  border-bottom: 1px solid #065fbd;
+}
+
+.filterPopupTitle {
+  font-size: 0 !important;
+}
+
+.buttonFilter {
+  opacity: 1;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+.filterPopupArrowIcon--filter,
+  .filterPopupArrowIcon {
+    padding-top: 0;
+  }
+
+  .filterPopupButton {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .filterPopupTitle--filter::before {
+    content: "Mostrar filtro";
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #004793;
+  }
+
+  .filterIcon--filter {
+    display: none;
+  }
+
+  .filterPopupArrowIcon--filter::after {
+    content: "+";
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #004793;
+  }
+
+  .filters--layout {
+    border: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+
+  .filtersWrapperMobile--filter {
+    justify-content: flex-start !important;
+  }
+
+  .filterAccordionBreadcrumbs,
+  .filterAccordionItemBox--filter,
+  .filterAccordionItemBox {
+    border-color: #065FBD;
+  }
+
+  .accordionFilterContainer {
+    padding-left: 0;
+  }
+
+  .accordionFilterItemTitle--filter {
+    padding-left: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #065FBD;
+  }
+
+  .buttonFilter {
+    font-size: 16px;
+    opacity: 1;
+  }
+
+  .filterBreadcrumbsItemName--filter,
+  .filterBreadcrumbsText--filter {
+    color: #065FBD;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .filterBreadcrumbsText--filter {
+    margin-right: 10px;
+  }
+
+  .accordionFilterOpen {
+    padding: 0;
+  }
+
+  .filterAccordionItemBox {
+    padding-left: 0.75rem;
+  }
+
+  .filterAccordionItemBox :global(.vtex-checkbox__label) {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #065FBD;
+  }
+
+  .filterClearButtonWrapper--filter {
+    background-color: #000000;
+  }
+
+  .filterApplyButtonWrapper--filter :global(.vtex-button) {
+    background-color: #065FBD;
+    border-color: #065FBD;
+  }
+
+  .filterButtonsBox {
+    padding: 5px;
+  }
+
+  .accordionFilterItemOptions {
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  .filterTitleSpan--filter {
+    font-size: 24px;
+  }
+}
