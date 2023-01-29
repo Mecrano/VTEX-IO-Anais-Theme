@@ -20,6 +20,7 @@
 .filter__container--filter {
   border-color: #065FBD !important;
   padding: 5px 0;
+  background-color: #FAFAFA;
 }
 
 .filter--filter {
@@ -94,6 +95,9 @@
   opacity: 1;
 }
 
+.filterAccordionItemBox{
+  background-color: #FAFAFA;
+}
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
 .filterPopupArrowIcon--filter,
