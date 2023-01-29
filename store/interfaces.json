@@ -4,5 +4,8 @@
     },
     "brand-filter": {
         "component": "BrandFilter"
+    },
+    "especial-filter":{
+      "component": "EspecialSearchFilter"
     }
 }

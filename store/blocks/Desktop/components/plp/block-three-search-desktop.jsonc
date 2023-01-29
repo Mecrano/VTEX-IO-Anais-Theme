@@ -11,7 +11,7 @@
   },
   "flex-layout.col#serch-colunm-left": {
     "title": "container filtros",
-    "children": ["flex-layout.row#item-filtros", "filter-navigator.v3"],
+    "children": [/* "flex-layout.row#item-filtros", */ "filter-navigator.v3"],
     "props": {
       "blockClass": "serch-colunm-left"
     }
@@ -19,8 +19,9 @@
   /* item filter  */
   "flex-layout.row#item-filtros": {
     "children": [
+      "especial-filter"
       //"flex-layout.col#item-filter-one",
-      "flex-layout.col#item-filter-two"/* ,
+      /* "flex-layout.col#item-filter-two",
       "flex-layout.col#item-filter-three",
       "flex-layout.col#item-filter-four" */
     ],
