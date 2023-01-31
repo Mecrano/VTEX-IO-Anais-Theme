@@ -52,15 +52,15 @@
     "title": "image",
     "props": {
       "showBadge": true,
-      "blockClass": "image-global",
-      "width": {
+      "blockClass": "image-global"
+      /* "width": {
         "desktop": 315,
         "mobile" : 315
       },
       "height": {
         "desktop": 315,
         "mobile" : 315
-      }
+      } */
     }
   },
   "flex-layout.col#group-prices": {

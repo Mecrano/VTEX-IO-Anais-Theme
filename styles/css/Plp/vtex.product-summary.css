@@ -46,8 +46,8 @@
 .element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
   opacity: 1;
   position: absolute;
-  bottom: 0;
-  padding-bottom: 15px;
+  bottom: -20px;
+  padding-bottom: 0px;
   background-color: #FFFFFF;
 }
 

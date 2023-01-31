@@ -81,7 +81,7 @@
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  padding: 10px 15px;
+  padding: 35px 15px 10px;
   margin-top: -5px;
 }
 
@@ -144,6 +144,10 @@
 
 .flexRowContent--container-slider--home :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRowContent--column-two) :global(.vtex-product-price-1-x-listPrice) {
   display: none;
+}
+
+:global(.vtex-product-price-1-x-listPrice--list-global){
+  display: block !important;
 }
 
 /* item - filter */

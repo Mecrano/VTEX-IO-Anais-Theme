@@ -99,6 +99,10 @@
   background-color: #FAFAFA;
 }
 
+.filter__container--selectedFilters{
+  display: none;
+}
+
 @media screen and (min-width: 300px) and (max-width: 1024px) {
 .filterPopupArrowIcon--filter,
   .filterPopupArrowIcon {
@@ -163,7 +167,7 @@
   }
 
   .buttonFilter {
-    font-size: 21.9545px;
+    font-size: 16px;
     opacity: 1;
   }
 

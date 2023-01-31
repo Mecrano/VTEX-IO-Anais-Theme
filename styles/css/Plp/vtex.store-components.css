@@ -92,17 +92,17 @@
 
 .discountInsideContainer {
   background-color: #CF0E2D !important;
-  top: 60px;
+  top: 0;
 }
 
-@media screen and (min-width: 1025px) {
-  .discountInsideContainer {
+@media (min-width: 1025px) {
+ /*  .discountInsideContainer {
     top: 60px;
-  }
+  } */
 
-  :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider-pdp)  .discountInsideContainer {
+  /* :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider-pdp)  .discountInsideContainer {
     top: 50px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1025px) {
