@@ -99,6 +99,10 @@
   .discountInsideContainer {
     top: 60px;
   }
+
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider-pdp)  .discountInsideContainer {
+    top: 50px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
