@@ -142,14 +142,6 @@
   width: 16% !important;
 }
 
-.flexRowContent--container-slider--home :global(.vtex-product-summary-2-x-element--global) :global(.vtex-flex-layout-0-x-flexRowContent--column-two) :global(.vtex-product-price-1-x-listPrice) {
-  display: none;
-}
-
-:global(.vtex-product-price-1-x-listPrice--list-global){
-  display: block !important;
-}
-
 /* item - filter */
 .flexCol--item-filter {
   display: flex;
@@ -338,8 +330,11 @@
   padding-right: 10px;
 }
 
-/* genero */
+:global(.vtex-product-summary-2-x-containerNormal--global){
+  max-width: 280px !important
+}
 
+/* genero */
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   :global(.vtex-flex-layout-0-x-flexCol--height-auto) .flexColChild--eight-infocard-search-departament {
     height: 100% !important;

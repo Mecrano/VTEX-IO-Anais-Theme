@@ -55,6 +55,18 @@
   position: relative;
 }
 
+.imageWrapper--image-global{
+  min-height: 180px;
+  background: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .imageWrapper--image-global{
+    min-height: 285px;
+  }
+
+}
+
 @media screen and (min-width: 1400px) {
   .nameContainer--name-global {
     padding-top: 0;
