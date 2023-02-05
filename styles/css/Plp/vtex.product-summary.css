@@ -56,13 +56,13 @@
 }
 
 .imageWrapper--image-global{
-  min-height: 180px;
+  min-height: 201px;
   background: #ffffff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .imageWrapper--image-global{
-    min-height: 285px;
+    min-height: 232px;
   }
 
 }

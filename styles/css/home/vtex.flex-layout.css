@@ -205,7 +205,25 @@
 
 .flexRowContent--list-row-mobile .stretchChildrenWidth:last-child .flexCol--main-container-custom-mobile {
   border-bottom: 0.582876px solid #ABABAB;
+}
 
+:global(.vtex-store-components-3-x-discountContainer){
+  width: 100%;
+}
+
+.flexRowContent--container-slider--home :global(.vtex-product-price-1-x-sellingPriceValue--name-global){
+  font-size: 18px;
+}
+
+.flexRowContent--container-slider--home :global(.vtex-product-price-1-x-listPriceValue--list-global){
+  font-size: 14px;
+}
+
+@media (min-width: 1919) {
+  :global(.vtex-store-components-3-x-discountContainer) :global(.vtex-product-summary-2-x-image--image-global){
+    min-width: 315px !important;
+    max-width: 315px !important;
+  }
 }
 
 @media (max-width: 1400px) {

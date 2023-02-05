@@ -105,12 +105,6 @@
   } */
 }
 
-@media screen and (max-width: 1025px) {
-  .discountInsideContainer {
-    top: 0;
-  }
-}
-
 @media screen and (min-width: 1400px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--block-two-search-departament) .imageElement {
     width: 1903px !important;
