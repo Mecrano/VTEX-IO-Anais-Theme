@@ -20,7 +20,7 @@
   },
   "sku-selector#product": {
     "props": {
-      "hideImpossibleCombinations": false,
+      "hideImpossibleCombinations": true,
       "blockClass": "product--sku-selector"
     }
   },

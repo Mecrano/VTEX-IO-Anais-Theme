@@ -20,7 +20,7 @@
     "props": {
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
+        "tablet": 3,
         "phone": 2
       },
       "infinite": true,

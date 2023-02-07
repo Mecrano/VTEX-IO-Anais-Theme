@@ -180,6 +180,14 @@ margin-top: 20px;
     display: flex;
     justify-content: flex-end;
   }
+
+  :global(.vtex-store-components-3-x-swiperCaretPrev--imagePdp-modal) {
+    padding: 20px 12px 20px 0px;
+  }
+
+  :global(.vtex-store-components-3-x-swiperCaretNext--imagePdp-modal) {
+    padding: 20px 0px 20px 12px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
