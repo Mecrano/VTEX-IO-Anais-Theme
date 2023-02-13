@@ -95,7 +95,7 @@ justify-content: flex-end;
   color: #FFFFFF;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--quickviewDetails) :global(.vtex-store-components-3-x-skuSelectorInternalBox--product--sku-selector):hover {
+:global(.vtex-flex-layout-0-x-flexCol--quickviewDetails) :global(.vtex-store-components-3-x-skuSelectorInternalBox--product--sku-selector):hover, :global(.vtex-product-summary-2-x-skuSelectorInternalBox--product--sku-selector) :global(.vtex-product-summary-2-x-skuSelectorItemTextValue--product--sku-selector):hover {
 border-color: #065FBD;
 background: #065FBD;
 color: #FFFFFF !important;

@@ -49,6 +49,7 @@
 
 .flexRowContent--container-footer-2 .flexRowContent {
   align-items: center;
+  overflow: hidden;
 }
 
 .flexRow--footer-2-column-2,

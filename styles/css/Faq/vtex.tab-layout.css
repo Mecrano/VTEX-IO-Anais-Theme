@@ -107,7 +107,7 @@
   }
 
   .container--faq {
-    height: 500px;
+    min-height: 500px;
   }
 
   .contentContainer--faq-content {

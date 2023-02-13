@@ -91,14 +91,16 @@
       "href": "/",
       "url": "assets/images/footer/footer_logo_social_network.png",
       "width": 22,
-      "mobileWidth": 17
+      "mobileWidth": 17,
+      "target": "_blank"
     }
   },
   "link#social-network-footer": {
     "props": {
       "blockClass": "link-social-network-footer",
       "href": "/",
-      "label": "Email"
+      "label": "Email",
+      "target": "_blank"
     }
   },
   "rich-text#text-social-network-footer": {
@@ -112,6 +114,7 @@
       "blockClass": "logoArrow-social-network-footer",
       "title": "SocialNetwork",
       "href": "/",
+      "target": "_blank",
       "url": "assets/images/footer/footer_social_network_arrow.png",
       "width": 32,
       "mobileWidth": 17
@@ -133,7 +136,8 @@
     "props": {
       "blockClass": "link-social-network-footer",
       "href": "/",
-      "label": "Whatsapp"
+      "label": "Whatsapp",
+      "target": "_blank"
     }
   },
   "logo#social-network-footer-whatsapp": {
@@ -143,7 +147,8 @@
       "href": "/",
       "url": "assets/images/footer/whatsapp.svg",
       "width": 22,
-      "mobileWidth": 17
+      "mobileWidth": 17,
+      "target": "_blank"
     }
   },
   "flex-layout.col#footer-1-social-network-column-2-whatsapp": {
@@ -181,7 +186,8 @@
     "props": {
       "blockClass": "link-social-network-footer",
       "href": "/",
-      "label": "Facebook"
+      "label": "Facebook",
+      "target": "_blank"
     }
   },
   "logo#social-network-footer-facebook": {
@@ -192,7 +198,8 @@
       "url": "assets/images/footer/facebook.svg",
       "width": 22,
       "height": 22,
-      "mobileWidth": 17
+      "mobileWidth": 17,
+      "target": "_blank"
     }
   },
   "flex-layout.col#footer-1-social-network-column-2-facebook": {
@@ -230,7 +237,8 @@
     "props": {
       "blockClass": "link-social-network-footer",
       "href": "/",
-      "label": "Instagram"
+      "label": "Instagram",
+      "target": "_blank"
     }
   },
   "logo#social-network-footer-instagram": {
@@ -240,7 +248,8 @@
       "href": "/",
       "url": "assets/images/footer/instagram.svg",
       "width": 22,
-      "mobileWidth": 17
+      "mobileWidth": 17,
+      "target": "_blank"
     }
   },
   "flex-layout.col#footer-1-social-network-column-2-instagram": {
