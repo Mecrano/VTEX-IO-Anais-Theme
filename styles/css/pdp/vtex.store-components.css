@@ -149,9 +149,10 @@
 
   .skuSelectorInternalBox--product--sku-selector .skuSelectorItemTextValue--product--sku-selector, :global(.vtex-product-summary-2-x-skuSelectorInternalBox--product--sku-selector) :global(.vtex-product-summary-2-x-skuSelectorItemTextValue--product--sku-selector) {
     font-size: 27.4107px;
+    padding: 0;
   }
 
-  .skuSelectorItem--product--sku-selector {
+  .skuSelectorItem--product--sku-selector, :global(.vtex-product-summary-2-x-skuSelectorItem--product--sku-selector) {
     width: 87px !important;
   }
 
@@ -184,7 +185,7 @@
 
 @media (max-width: 450px) {
   .skuSelectorInternalBox--product--sku-selector .skuSelectorItemTextValue--product--sku-selector, :global(.vtex-product-summary-2-x-skuSelectorInternalBox--product--sku-selector) :global(.vtex-product-summary-2-x-skuSelectorItemTextValue--product--sku-selector) {
-    font-size: 18px;
+    font-size: 1.6rem;
   }
 
   .skuSelectorItem--product--sku-selector, :global(.vtex-product-summary-2-x-skuSelectorItem--product--sku-selector) {

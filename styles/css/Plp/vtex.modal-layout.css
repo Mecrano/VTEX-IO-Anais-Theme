@@ -104,6 +104,7 @@ color: #FFFFFF !important;
 
 :global(.vtex-flex-layout-0-x-flexCol--quickviewDetails) :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
   color: #065FBD;
+  padding: 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--quickviewDetails) :global(.vtex-store-components-3-x-skuSelectorItem--product--sku-selector) {
