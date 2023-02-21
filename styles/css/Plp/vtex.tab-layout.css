@@ -1,6 +1,5 @@
 .contentContainer {
-  background-color: #004793;
-  padding: 20px 10px;
+  padding: 80px 65px;
 }
 
 .listContainer--tab-marcas {
@@ -68,6 +67,9 @@
   height: 100%;
 }
 
+.listItemActive :global(.vtex-button)::after{
+  filter: invert();
+}
 
 .listItem--tab-marcas1 :global(.vtex-button)::after {
   content: url(assets/images/genero/adidas.svg);
@@ -149,6 +151,10 @@
 
   .listItem--tab-marcas6 :global(.vtex-button)::after {
     content: url(assets/images/genero/skemobile.svg);
+  }
+
+  .contentContainer {
+    padding: 40px;
   }
 }
 

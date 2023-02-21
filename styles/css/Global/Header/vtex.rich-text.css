@@ -19,6 +19,12 @@
   top: 0;
 }
 
+.link--title-sub-menu{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
 @media (min-width: 1920px) {
   .paragraph--minicart-title {
     font-size: 13px;
@@ -28,6 +34,10 @@
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .container--minicart-title {
     padding-left: 10px;
+  }
+
+  .link--title-sub-menu{
+    color: white !important;
   }
 }
 

@@ -1,0 +1,35 @@
+{
+  "store.custom#category-mujer": {
+    "title": "landing categoria mujer",
+    "blocks": [
+      "responsive-layout.desktop#mujer-page",
+      "responsive-layout.mobile#mujer-page"
+    ]
+  },
+  "responsive-layout.desktop#mujer-page": {
+    "title": "desktop",
+    "children": [
+      "flex-layout.row#block-one-search-departament",
+      "flex-layout.row#block-two-search-departament",
+      "flex-layout.row#block-three-search-departament",
+      "flex-layout.row#block-four-search-departament",
+      "flex-layout.row#block-five-search-departament",
+      "flex-layout.row#block-six-search-departament",
+      "flex-layout.row#block-seven-search-departament",
+      "flex-layout.row#block-eight-search-departament"
+    ]
+  },
+  "responsive-layout.mobile#mujer-page": {
+    "title": "mobile",
+    "children": [
+      "flex-layout.row#block-one-search-departament",
+      "flex-layout.row#block-two-search-departament",
+      "flex-layout.row#block-three-search-departament",
+      "flex-layout.row#block-four-search-departament",
+      "flex-layout.row#block-five-search-departament",
+      "flex-layout.row#block-six-search-departament-mobile",
+      "flex-layout.row#block-seven-search-departament",
+      "flex-layout.row#block-eight-search-departament"
+    ]
+  }
+}

@@ -15,8 +15,8 @@
   "flex-layout.col#info-content-envios": {
     "children": [
       "flex-layout.row#title-icon1",
-      "rich-text#envios-paragraph",
-      "rich-text#envios-mas"
+      "rich-text#envios-paragraph"
+      // "rich-text#envios-mas"
     ],
     "props": {
       "blockClass": ["home--info--content", "home--info--envios"],
@@ -67,8 +67,8 @@
   "flex-layout.col#info-content-tallas": {
     "children": [
       "flex-layout.row#title-icon2",
-      "rich-text#tallas-paragraph",
-      "rich-text#tallas-mas"
+      "rich-text#tallas-paragraph"
+      // "rich-text#tallas-mas"
     ],
     "props": {
       "blockClass": ["home--info--content", "home--info--tallas"],
@@ -119,8 +119,8 @@
   "flex-layout.col#info-content-catalogo": {
     "children": [
       "flex-layout.row#title-icon3",
-      "rich-text#catalog-paragraph",
-      "rich-text#catalog-mas"
+      "rich-text#catalog-paragraph"
+      // "rich-text#catalog-mas"
     ],
     "props": {
       "blockClass": ["home--info--content", "home--info--catalog"],

@@ -45,13 +45,13 @@
 }
 
 .flexRowContent--home--benefits--container .flexRowContent--home--benefits--content .flexRowContent--home--icon-benefit--container .stretchChildrenWidth:first-child {
-  width: 35% !important;
+  width: 42px !important;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   background: #B0E3FF;
   border-radius: 100px;
-  width: max-content !important;
+  /* width: max-content !important; */
   height: 40px;
   margin-inline: 25px;
   padding: 7px;
@@ -121,6 +121,10 @@
   width: 33% !important;
   padding-inline: 5px;
   margin-top: 15px;
+}
+
+.flexCol--home--brands--container-brand-1 .flexColChild--home--brands--container-brand-1:first-child{
+  clip-path: polygon(71px 0, 100% 0, 100% 100%, 0 100%, 0 71px);
 }
 
 .flexColChild--home--brands--container-brand-1,
@@ -201,7 +205,25 @@
 
 .flexRowContent--list-row-mobile .stretchChildrenWidth:last-child .flexCol--main-container-custom-mobile {
   border-bottom: 0.582876px solid #ABABAB;
+}
 
+:global(.vtex-store-components-3-x-discountContainer){
+  width: 100%;
+}
+
+.flexRowContent--container-slider--home :global(.vtex-product-price-1-x-sellingPriceValue--name-global){
+  font-size: 18px;
+}
+
+.flexRowContent--container-slider--home :global(.vtex-product-price-1-x-listPriceValue--list-global){
+  font-size: 14px;
+}
+
+@media (min-width: 1919) {
+  :global(.vtex-store-components-3-x-discountContainer) :global(.vtex-product-summary-2-x-image--image-global){
+    min-width: 315px !important;
+    max-width: 315px !important;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -212,7 +234,10 @@
 }
 
 @media (max-width: 1200px) {
-  .flexRowContent--home--benefits--container .flexRowContent--home--benefits--content .flexRowContent--home--icon-benefit--container .stretchChildrenWidth:first-child {
+  .flexRowContent--home--benefits--container
+    .flexRowContent--home--benefits--content
+    .flexRowContent--home--icon-benefit--container
+    .stretchChildrenWidth:first-child {
     margin-inline: 10px;
   }
 
@@ -236,6 +261,11 @@
   .flexRowContent--home--info--container {
     overflow: auto;
   }
+
+  .flexCol--home--brands--container-brand-1 .flexColChild--home--brands--container-brand-1:first-child{
+    clip-path: none
+  }
+
 }
 
 @media (max-width: 1024px) {

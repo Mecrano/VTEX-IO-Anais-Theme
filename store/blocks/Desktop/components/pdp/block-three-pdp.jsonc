@@ -53,7 +53,6 @@
   "tab-list#product-specification": {
     "children": [
        "tab-list.item#product-1",
-       "tab-list.item#product-2",
        "tab-list.item#product-3",
        "tab-list.item#product-4"
     ],
@@ -64,7 +63,7 @@
    "tab-list.item#product-1": {
      "props": {
        "tabId": "tab1",
-       "label": "Descripcion",
+       "label": "Descripción",
        "defaultActiveTab": true,
        "blockClass": "product-description"
      }
@@ -93,7 +92,6 @@
   "tab-content#product-specification": {
     "children": [
        "tab-content.item#product1",
-       "tab-content.item#product2",
        "tab-content.item#product3",
        "tab-content.item#product4"
     ],
@@ -110,51 +108,63 @@
        "blockClass": "product-specification"
    }
    },
-   "tab-content.item#product2": {
-     "children": ["product-description#pdp"],
-     "props": {
-       "tabId": "tab2",
-       "blockClass": "product-specification"
-     }
-   },
-   "tab-content.item#product3": {
-     "children": ["flex-layout.row#envios"],
+  "tab-content.item#product3": {
+     "children": ["rich-text#saludo"],
      "props": {
        "tabId": "tab3",
        "blockClass": "product-specification"
      }
    },
    "tab-content.item#product4": {
-     "children": ["product-description#pdp"],
+     "children": ["flex-layout.row#tab-content-product4", "rich-text#tab-content-product4"],
      "props": {
        "tabId": "tab4",
        "blockClass": "product-specification"
      }
+   },
+
+   "flex-layout.row#tab-content-product4":{
+    "props":{
+      "blockClass": "tab-content-product4-metod-paid",
+      "colSizing": "auto"
+    },
+    "children":["image#master-card","image#american-express","image#visa"]
+   },
+   "image#master-card": {
+    "props": {
+      "src": "/arquivos/pdp-master-card.png",
+      "maxHeight": 50
+    }
+  },
+  "image#american-express": {
+    "props": {
+      "src": "/arquivos/pdp-american-express.png",
+      "maxHeight": 50
+    }
+  },
+  "image#visa": {
+    "props": {
+      "src": "/arquivos/pdp-visa.png",
+      "maxHeight": 32
+    }
+  },
+
+   "rich-text#tab-content-product4":{
+    "props":{
+      "text": "**Aceptamos tarjetas de crédito y debito**\n Sitio 100% seguro"
+    }
+   },
+   "rich-text#saludo":{
+    "props":{
+      "text": "• Presentar factura original\n • Plazo de 30 días para realizar el cambio\n • Valor de envío por cambio Q30 a toda Guatemala\n • Garantía por defecto de fábrica\n • Accesorios no tiene cambio\n • No se realizan devoluciones en efectivo\n • Mercadería ofertada no tiene cambio\n • Únicamente un cambio por factura",
+      "blockClass": "envios-devoluciones-pdp"
+    }
    },
   "product-description#pdp": {
     "props": {
       "showTitle": false,
       "blockClass": "description-pdp",
       "collapseContent": false
-    }
-  },
-  "flex-layout.row#envios": {
-    "title": "container texto envios",
-    "children": ["rich-text#title-envios-devoluciones",  "rich-text#content-envios-devoluciones"],
-    "props": {"blockClass": "envios"}
-  },
-  "rich-text#title-envios-devoluciones": {
-    "title": "title",
-    "props": {
-      "text": "Envíos gratuitos en compras superiores a Q999.",
-      "blockClass": "title-envios-devoluciones"
-    }
-  },
-  "rich-text#content-envios-devoluciones": {
-    "title": "content",
-    "props": {
-      "text": "Debido a las medidas actuales para proteger la seguridad de los empleados de nuestro centro de distribución con motivo del COVID-19, las entregas pueden presentar un retraso. Puedes [consultar el estatus de tu pedido]() aquí. <br/> Envíos y devoluciones gratis para miembros de anai's",
-      "blockClass": "content-envios-devoluciones"
     }
   }
 }

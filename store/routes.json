@@ -1,5 +1,11 @@
 {
   "store.custom#landing-faq": {
     "path": "/faq"
+  },
+  "store.custom#category-mujer": {
+    "path": "/categoria-mujer"
+  },
+  "store.custom#category-hombre": {
+    "path": "/categoria-hombre"
   }
 }

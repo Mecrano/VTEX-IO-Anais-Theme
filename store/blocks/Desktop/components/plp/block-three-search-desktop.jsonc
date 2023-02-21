@@ -11,7 +11,7 @@
   },
   "flex-layout.col#serch-colunm-left": {
     "title": "container filtros",
-    "children": ["flex-layout.row#item-filtros", "filter-navigator.v3"],
+    "children": [/* "flex-layout.row#item-filtros", */ "filter-navigator-v3-custom"],
     "props": {
       "blockClass": "serch-colunm-left"
     }
@@ -19,9 +19,10 @@
   /* item filter  */
   "flex-layout.row#item-filtros": {
     "children": [
-      "flex-layout.col#item-filter-one",
-      "flex-layout.col#item-filter-two",
-      "flex-layout.col#item-filter-three"/* ,
+      "especial-filter"
+      //"flex-layout.col#item-filter-one",
+      /* "flex-layout.col#item-filter-two",
+      "flex-layout.col#item-filter-three",
       "flex-layout.col#item-filter-four" */
     ],
     "props": {"blockClass": "item-filtros"}
@@ -112,7 +113,7 @@
   },
 /* item filter */
 
-  "filter-navigator.v3": {
+  "filter-navigator-v3-custom": {
     "props":{
       "blockClass": "filter",
       "initiallyCollapsed": true

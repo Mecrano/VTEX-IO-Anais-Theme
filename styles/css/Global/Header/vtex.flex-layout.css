@@ -1,0 +1,27 @@
+.flexCol--container-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexColChild--container-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--container-menu {
+  width: 100%;
+}
+
+.flexCol--header-submenu-content-menu-1 .flexColChild--header-submenu-content-menu-1:nth-child(1n) {
+  padding: 0 !important;
+  height: auto !important;
+}
+
+@media (max-width: 768px) {
+  .flexRowContent--header-menu-content .flexCol--header-submenu-content-menu-1 :global(.vtex-menu-2-x-styledLink) {
+    color: #fff;
+  }
+
+}

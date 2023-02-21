@@ -20,7 +20,7 @@
     "children": ["search-bar#mobile"]
   },
   "drawer-trigger#header_search-mobile": {
-    "children": ["icon#search"]
+    "children": ["icon#search", "close-search-modal"]
   },
   "icon#search": {
     "props": {

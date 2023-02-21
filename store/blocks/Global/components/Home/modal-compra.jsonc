@@ -72,9 +72,15 @@
       "responsive-layout.desktop#details-desktop",
       "responsive-layout.tablet#details-tablet-modal",
       "responsive-layout.phone#details-phone-modal",
-      "sku-selector#product"
+      "product-summary-sku-selector#quickview"
     ],
     "props": {"blockClass": "quickviewContent"}
+  },
+  "product-summary-sku-selector#quickview":{
+    "props": {
+      "hideImpossibleCombinations": true,
+      "blockClass": "product--sku-selector"
+    }
   },
 
   "responsive-layout.tablet#details-tablet-modal":{

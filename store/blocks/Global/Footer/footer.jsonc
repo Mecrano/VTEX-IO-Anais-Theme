@@ -226,7 +226,8 @@
   "flex-layout.col#brands-footer-2": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "brands-footer-2"
     },
     "children": [
       "flex-layout.row#brands-footer-2"

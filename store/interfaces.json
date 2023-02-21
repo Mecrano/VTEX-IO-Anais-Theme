@@ -1,8 +1,11 @@
 {
-    "custom-styles": {
-        "component": "StylesMain"
-    },
-    "brand-filter": {
-        "component": "BrandFilter"
-    }
+  "custom-styles": {
+    "component": "StylesMain"
+  },
+  "especial-filter": {
+    "component": "EspecialSearchFilter"
+  },
+  "close-search-modal": {
+    "component": "CloseSearchModal"
+  }
 }

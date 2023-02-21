@@ -28,7 +28,7 @@
         "tablet": 1,
         "phone": 1
       },
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never"
     }
   }

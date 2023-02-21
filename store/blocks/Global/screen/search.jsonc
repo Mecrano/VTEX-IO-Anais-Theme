@@ -4,7 +4,9 @@
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
+        "simulationBehavior": "default",
+        "orderByField": "OrderByReleaseDateDESC",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -13,7 +15,9 @@
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
   },
@@ -22,16 +26,20 @@
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
   },
   "store.search#department": {
-    "blocks": ["search-result-layout#departament"],
+    "blocks": ["search-result-layout"],
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
   },
@@ -40,16 +48,11 @@
     "props": {
         "context": {
             "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
+            "simulationBehavior": "default",
+            "orderByField": "OrderByReleaseDateDESC",
+            "maxItemsPerPage": 12
         }
      }
-  },
-  "search-result-layout#departament": {
-    "blocks": [
-      "search-result-layout.desktop#departament",
-      "search-result-layout.mobile#departament",
-      "search-not-found-layout"
-    ]
   },
   "search-result-layout": {
     "blocks": [

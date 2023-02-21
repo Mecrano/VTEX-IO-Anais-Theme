@@ -90,6 +90,21 @@
   height: 671px !important;
 }
 
+.discountInsideContainer {
+  background-color: #CF0E2D !important;
+  top: 0;
+}
+
+@media (min-width: 1025px) {
+ /*  .discountInsideContainer {
+    top: 60px;
+  } */
+
+  /* :global(.vtex-slider-layout-0-x-slideChildrenContainer--slider-pdp)  .discountInsideContainer {
+    top: 50px;
+  } */
+}
+
 @media screen and (min-width: 1400px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--block-two-search-departament) .imageElement {
     width: 1903px !important;

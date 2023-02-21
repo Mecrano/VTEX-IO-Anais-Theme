@@ -108,12 +108,12 @@
   },
 
   "flex-layout.row#sku-selector": {
-    "children": ["sku-selector#pdp"],
+    "children": ["sku-selector#product"],
     "props": {"blockClass": "sku-mobile"}
   },
 
   "flex-layout.row#sku-selector-mobile": {
-    "children": ["sku-selector#pdp"],
+    "children": ["sku-selector#product"],
     "props": {"blockClass": ["sku-mobile", "mobile-pdp-sku"]}
   },
 

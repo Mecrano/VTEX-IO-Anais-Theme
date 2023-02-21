@@ -46,13 +46,25 @@
 .element--global :global(.vtex-modal-layout-0-x-triggerContainer--quickview) {
   opacity: 1;
   position: absolute;
-  bottom: 0;
-  padding-bottom: 15px;
+  bottom: -20px;
+  padding-bottom: 0px;
   background-color: #FFFFFF;
 }
 
 .element--global  :global(.vtex-flex-layout-0-x-flexRowContent--column-one) {
   position: relative;
+}
+
+.imageWrapper--image-global{
+  min-height: 201px;
+  background: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .imageWrapper--image-global{
+    min-height: 232px;
+  }
+
 }
 
 @media screen and (min-width: 1400px) {
