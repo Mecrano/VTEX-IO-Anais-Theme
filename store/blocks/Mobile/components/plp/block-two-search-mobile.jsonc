@@ -2,8 +2,7 @@
   "flex-layout.row#block-two-search-mobile": {
     "title": "block two",
     "children": [
-      "flex-layout.col#block-one-one-mobile"/* ,
-      "flex-layout.col#block-one-two" */
+      "flex-layout.col#block-one-one-mobile"
     ],
     "props": {
       "blockClass": "block-two-search"

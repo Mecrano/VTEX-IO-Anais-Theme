@@ -2,8 +2,7 @@
   "flex-layout.row#block-two-search": {
     "title": "block two",
     "children": [
-      "flex-layout.col#block-one-one"/* ,
-      "flex-layout.col#block-one-two" */
+      "flex-layout.col#block-one-one"
     ],
     "props": {
       "blockClass": "block-two-search"
@@ -17,16 +16,6 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true,
       "blockClass": "block-one-one"
-    }
-  },
-
-  "flex-layout.col#block-one-two": {
-    "title": "logos",
-    "children": ["brand-filter"],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true,
-      "blockClass": "block-one-two"
     }
   }
 }

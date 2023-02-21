@@ -51,6 +51,7 @@
     "vtex.search-page-context": "0.x",
     "vtex.product-highlights": "2.x",
     "vtex.search-result": "3.x",
+    "vtex.render-runtime": "8.x",
     "anaisgt.search-filter": "0.x"
   },
   "peerDependencies": {

@@ -1,34 +1,34 @@
 import React from 'react'
 import { useRuntime } from 'vtex.render-runtime'
+
 import styles from './styles.css'
 
 const SORT_OPTIONS = [
   {
-    value: 'OrderByReleaseDateDESC', /* Nuevo ingreso */
+    value: 'OrderByReleaseDateDESC' /* Nuevo ingreso */,
     label: 'Nuevo ingreso',
-    img: '/arquivos/icon2.png'
+    img: '/arquivos/icon2.png',
   },
   {
-    value: 'OrderByTopSaleDESC', /* Lo mas vendido */
+    value: 'OrderByTopSaleDESC' /* Lo mas vendido */,
     label: 'Lo más vendido',
-    img: '/arquivos/star.png'
+    img: '/arquivos/star.png',
   },
   {
-    value: 'OrderByBestDiscountDESC', /* Ofertas */
+    value: 'OrderByBestDiscountDESC' /* Ofertas */,
     label: 'Ofertas',
-    img: '/arquivos/icon3.png'
+    img: '/arquivos/icon3.png',
   },
 ]
 
-const ButtonHandleFilter = ({sort_option}: any) => {
+const ButtonHandleFilter = ({ sort_option }: any) => {
   const { setQuery } = useRuntime()
 
   const handleOptionClick = () => {
     setQuery({ order: sort_option.value, page: undefined })
-    console.log("first", sort_option.value)
   }
 
-  return(
+  return (
     <button
       className={styles.paragraphFilter}
       key={sort_option.value}
@@ -40,12 +40,14 @@ const ButtonHandleFilter = ({sort_option}: any) => {
   )
 }
 
-export default function EspecialSearchFilter() {
+const EspecialSearchFilter: React.FC = () => {
   return (
     <div className={styles.containerFilters}>
-      {SORT_OPTIONS.map(option =>
-        <ButtonHandleFilter key={option.value} sort_option ={option}/>
-      )}
+      {SORT_OPTIONS.map(option => (
+        <ButtonHandleFilter key={option.value} sort_option={option} />
+      ))}
     </div>
-    )
+  )
 }
+
+export default EspecialSearchFilter
