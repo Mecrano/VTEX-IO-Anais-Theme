@@ -263,10 +263,6 @@
     height: 50px;
   }
 
-  .flexRowContent--product--quantity-size-guide--container .stretchChildrenWidth:last-child {
-    width: calc(100% - 150px) !important;
-  }
-
   .flexCol--product-main .flexColChild--product-main:nth-child(5n) {
     overflow: auto;
   }

@@ -79,8 +79,7 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "rich-text#text-social-network-footer",
-      "logo#arrow-social-network-footer"
+      "link#text-social-network-footer"
     ]
   },
 
@@ -88,11 +87,9 @@
     "props": {
       "blockClass": "logo-social-network-footer",
       "title": "Logo SocialNetwork",
-      "href": "/",
       "url": "assets/images/footer/footer_logo_social_network.png",
       "width": 22,
-      "mobileWidth": 17,
-      "target": "_blank"
+      "mobileWidth": 17
     }
   },
   "link#social-network-footer": {
@@ -103,21 +100,12 @@
       "target": "_blank"
     }
   },
-  "rich-text#text-social-network-footer": {
+  "link#text-social-network-footer": {
     "props": {
       "blockClass": "text-social-network-footer",
-      "text": "ecommerce@rimet.com.gt"
-    }
-  },
-  "logo#arrow-social-network-footer": {
-    "props": {
-      "blockClass": "logoArrow-social-network-footer",
-      "title": "SocialNetwork",
-      "href": "/",
-      "target": "_blank",
-      "url": "assets/images/footer/footer_social_network_arrow.png",
-      "width": 32,
-      "mobileWidth": 17
+      "label": "ecommerce@rimet.com.gt",
+      "href": "mailto:ecommerce@rimet.com.gt",
+      "target": "_blank"
     }
   },
   /* whatsapp */
@@ -144,11 +132,9 @@
     "props": {
       "blockClass": "logo-social-network-footer",
       "title": "Logo SocialNetwork",
-      "href": "/",
       "url": "assets/images/footer/whatsapp.svg",
       "width": 22,
-      "mobileWidth": 17,
-      "target": "_blank"
+      "mobileWidth": 17
     }
   },
   "flex-layout.col#footer-1-social-network-column-2-whatsapp": {
@@ -160,14 +146,15 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "rich-text#text-social-network-footer-whatsapp",
-      "logo#arrow-social-network-footer"
+      "link#text-social-network-footer-whatsapp"
     ]
   },
-  "rich-text#text-social-network-footer-whatsapp": {
+  "link#text-social-network-footer-whatsapp": {
     "props": {
       "blockClass": "text-social-network-footer",
-      "text": "4796 - 3586"
+      "label": "4796 - 3586",
+      "href": "https://wa.me/47963586",
+      "target": "_blank"
     }
   },
   /* facebook */
@@ -194,12 +181,10 @@
     "props": {
       "blockClass": "logo-social-network-footer",
       "title": "Logo SocialNetwork",
-      "href": "/",
       "url": "assets/images/footer/facebook.svg",
       "width": 22,
       "height": 22,
-      "mobileWidth": 17,
-      "target": "_blank"
+      "mobileWidth": 17
     }
   },
   "flex-layout.col#footer-1-social-network-column-2-facebook": {
@@ -211,14 +196,15 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "rich-text#text-social-network-footer-facebook",
-      "logo#arrow-social-network-footer"
+      "link#text-social-network-footer-facebook"
     ]
   },
-  "rich-text#text-social-network-footer-facebook": {
+  "link#text-social-network-footer-facebook": {
     "props": {
       "blockClass": "text-social-network-footer",
-      "text": "/TiendasAnais"
+      "label": "/TiendasAnais",
+      "href": "https://es-la.facebook.com/TiendasAnais",
+      "target": "_blank"
     }
   },
   /* instagram */
@@ -245,11 +231,9 @@
     "props": {
       "blockClass": "logo-social-network-footer",
       "title": "Logo SocialNetwork",
-      "href": "/",
       "url": "assets/images/footer/instagram.svg",
       "width": 22,
-      "mobileWidth": 17,
-      "target": "_blank"
+      "mobileWidth": 17
     }
   },
   "flex-layout.col#footer-1-social-network-column-2-instagram": {
@@ -261,14 +245,15 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "rich-text#text-social-network-footer-instagram",
-      "logo#arrow-social-network-footer"
+      "link#text-social-network-footer-instagram"
     ]
   },
-  "rich-text#text-social-network-footer-instagram": {
+  "link#text-social-network-footer-instagram": {
     "props": {
       "blockClass": "text-social-network-footer",
-      "text": "tiendasanaisgt"
+      "label": "tiendasanaisgt",
+      "href": "https://www.instagram.com/tiendasanaisgt",
+      "target": "_blank"
     }
   }
 }

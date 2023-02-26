@@ -127,7 +127,8 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "blockClass": "serch-colunm-right"
+      "blockClass": "serch-colunm-right",
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.row#fetchprevious": {

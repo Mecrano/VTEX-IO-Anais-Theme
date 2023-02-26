@@ -2,6 +2,10 @@
   width: auto !important;
 }
 
+.logoImage--logo-social-network-footer {
+  margin-right: 18px;
+}
+
 @media screen and (min-width: 300px) and (max-width: 375px) {
   .logoImage--logoArrow-social-network-footer {
     max-width: 40px !important;

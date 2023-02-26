@@ -59,6 +59,10 @@
   margin-right: 5px;
 }
 
+.paragraph--footer-1-title-categories-column-1 {
+  white-space: nowrap;
+}
+
 @media (max-width: 1024px) {
   .wrapper--text-footer2 {
     width: 100%;

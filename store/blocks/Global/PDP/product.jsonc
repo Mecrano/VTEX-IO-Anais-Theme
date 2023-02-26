@@ -213,7 +213,8 @@
     "props": {
       "blockClass":["product--quantity-size-guide--container"],
       "preventVerticalStretch": true,
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
     }
   }
   // "flex-layout.row#product--addto-cart-and-list--container": {
