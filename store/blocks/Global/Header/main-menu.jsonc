@@ -53,13 +53,12 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/niños/",
+        "href": "/nino/",
         "noFollow": false,
         "tagTitle": "Niños",
         "text": "Niños"
       }
-    },
-    "blocks": ["submenu#header_sub-menu"]
+    }
   },
   "menu-item#header_category-deportes": {
     "props": {
@@ -171,12 +170,12 @@
   },
   "flex-layout.row#header-menu-content-menu-1-dama": {
     "props":{
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "colJustify": "around"
     },
     "children":[
       "flex-layout.col#header-submenu-content-menu-1-dama",
-      "flex-layout.col#header-submenu-content-menu-2-dama",
-      "flex-layout.col#header-submenu-content-menu-3"
+      "flex-layout.col#header-submenu-content-menu-2-dama"
     ]
   },
 
