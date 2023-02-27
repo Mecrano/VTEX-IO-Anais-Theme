@@ -59,8 +59,7 @@
         "tagTitle": "Niños",
         "text": "Niños"
       }
-    },
-    "blocks": ["submenu.accordion#header-sub-menu"]
+    }
   },
   "menu-item#header_category-1001-mobile": {
     "props": {
