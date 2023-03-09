@@ -9,8 +9,8 @@
 }
 
 .buttonShowMore :global(.vtex-button) {
-  background: #065FBD;
-  border: #065FBD;
+  background: #065fbd;
+  border: #065fbd;
   padding: 10px;
 }
 
@@ -20,13 +20,13 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .filters--layout {
-  background: #FFFFFF;
+  background: #ffffff;
   opacity: 0.7;
-  border: 1px solid #065FBD;
+  border: 1px solid #065fbd;
 }
 
 .filter__container--filter--title {
@@ -34,7 +34,7 @@
 }
 
 .filter__container--filter {
-  border-color: #065FBD !important;
+  border-color: #065fbd !important;
   padding: 5px 0;
 }
 
@@ -59,7 +59,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  color: #065FBD;
+  color: #065fbd;
 }
 
 .filterItem--filter :global(.vtex-checkbox__label) {
@@ -68,7 +68,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 165.5%;
-  color: #065FBD;
+  color: #065fbd;
 }
 
 .filterItem--filter :global(.vtex-checkbox__line-container) {
@@ -98,7 +98,6 @@
 .orderByButton {
   background-color: transparent;
   padding: 0;
-
 }
 
 .galleryTitle--layout {
@@ -115,14 +114,16 @@
 }
 
 .orderByOptionItem {
-  color: #065FBD;
+  color: #065fbd;
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
 }
 
-.container--layout--searchLayout-desk :global(.vtex-flex-layout-0-x-flexRowContent--item-filtros) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.container--layout--searchLayout-desk
+  :global(.vtex-flex-layout-0-x-flexRowContent--item-filtros)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
 
@@ -142,19 +143,28 @@
   padding-bottom: 10px;
 }
 
-.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__container) {
+.filter__container--talla
+  .filterContent--filter
+  .filterItem--filter
+  :global(.vtex-checkbox__container) {
   display: none;
 }
 
-.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__label) {
-  border: 0.758652px solid #065FBD;
+.filter__container--talla
+  .filterContent--filter
+  .filterItem--filter
+  :global(.vtex-checkbox__label) {
+  border: 0.758652px solid #065fbd;
   text-align: center;
   border-radius: 3.03461px;
 }
 
-.filter__container--talla .filterContent--filter .filterItem--filter :global(.vtex-checkbox__label):hover {
-  color: #FFFFFF;
-  background-color: #065FBD;
+.filter__container--talla
+  .filterContent--filter
+  .filterItem--filter
+  :global(.vtex-checkbox__label):hover {
+  color: #ffffff;
+  background-color: #065fbd;
 }
 
 .buttonShowMore :global(.vtex-button) :global(.vtex-button__label) {
@@ -162,7 +172,7 @@
 }
 
 .buttonShowMore :global(.vtex-button) :global(.vtex-button__label)::after {
-  content: "Cargar más";
+  content: 'Cargar más';
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
@@ -174,43 +184,49 @@
 } */
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 50% !important;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 50% !important;
   }
-
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 40% !important;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 60% !important;
   }
-
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 22% !important;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 78% !important;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 18% !important;
   }
 
-  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  :global(.vtex-flex-layout-0-x-flexRowContent--container-mobile)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 82% !important;
   }
 }
@@ -221,7 +237,7 @@
   }
 
   .gallery--grid {
-    background-color: #F2F7FA;
+    background-color: #f2f7fa;
     padding-left: 0;
     padding-right: 0;
   }
@@ -250,7 +266,7 @@
   }
 
   .filterPopupTitle--filter::before {
-    content: "Mostrar filtro";
+    content: 'Mostrar filtro';
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -263,7 +279,7 @@
   }
 
   .filterPopupArrowIcon--filter::after {
-    content: "+";
+    content: '+';
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -301,7 +317,7 @@
   .filterAccordionBreadcrumbs,
   .filterAccordionItemBox--filter,
   .filterAccordionItemBox {
-    border-color: #065FBD;
+    border-color: #065fbd;
   }
 
   .accordionFilterContainer {
@@ -314,12 +330,12 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #065FBD;
+    color: #065fbd;
   }
 
   .filterBreadcrumbsItemName--filter,
   .filterBreadcrumbsText--filter {
-    color: #065FBD;
+    color: #065fbd;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -343,7 +359,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #065FBD;
+    color: #065fbd;
   }
 
   .filterClearButtonWrapper--filter {
@@ -351,8 +367,8 @@
   }
 
   .filterApplyButtonWrapper--filter :global(.vtex-button) {
-    background-color: #065FBD;
-    border-color: #065FBD;
+    background-color: #065fbd;
+    border-color: #065fbd;
   }
 
   .filterButtonsBox {
@@ -399,14 +415,18 @@
   }
 
   .galleryItem--grid :global(.vtex-rich-text-0-x-container--compra-rapida) {
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid #ededed;
   }
 
-  .galleryItem--grid :global(.vtex-product-price-1-x-currencyContainer--name-global),
-  .galleryItem--grid :global(.vtex-product-summary-2-x-productBrand--name-global),
-  .galleryItem--grid :global(.vtex-product-highlights-2-x-productHighlightWrapper--nuevo),
-  .galleryItem--grid :global(.vtex-product-summary-2-x-description--descripcion-global) {
+  .galleryItem--grid
+    :global(.vtex-product-price-1-x-currencyContainer--name-global),
+  .galleryItem--grid
+    :global(.vtex-product-summary-2-x-productBrand--name-global),
+  .galleryItem--grid
+    :global(.vtex-product-highlights-2-x-productHighlightWrapper--nuevo),
+  .galleryItem--grid
+    :global(.vtex-product-summary-2-x-description--descripcion-global) {
     font-size: 14.2079px;
   }
 }
@@ -418,16 +438,21 @@
 }
 
 @media screen and (max-width: 320px) {
-  .galleryItem--grid :global(.vtex-product-price-1-x-currencyContainer--name-global),
-  .galleryItem--grid :global(.vtex-product-summary-2-x-productBrand--name-global),
-  .galleryItem--grid :global(.vtex-product-highlights-2-x-productHighlightWrapper--nuevo),
-  .galleryItem--grid :global(.vtex-product-summary-2-x-description--descripcion-global),
+  .galleryItem--grid
+    :global(.vtex-product-price-1-x-currencyContainer--name-global),
+  .galleryItem--grid
+    :global(.vtex-product-summary-2-x-productBrand--name-global),
+  .galleryItem--grid
+    :global(.vtex-product-highlights-2-x-productHighlightWrapper--nuevo),
+  .galleryItem--grid
+    :global(.vtex-product-summary-2-x-description--descripcion-global),
   .galleryItem--grid :global(.vtex-rich-text-0-x-paragraph--compra-rapida) {
     font-size: 12px;
   }
 
-  .galleryItem--grid :global(.vtex-product-summary-2-x-description--descripcion-global) {
-   height: 28px;
+  .galleryItem--grid
+    :global(.vtex-product-summary-2-x-description--descripcion-global) {
+    height: 28px;
   }
 
   .galleryItem--grid :global(.vtex-product-summary-2-x-container--global) {
@@ -436,7 +461,21 @@
 }
 
 @media screen and (min-width: 1440px) {
-.searchResultContainer--searchLayout-departament {
-  max-width: 100%;
+  .searchResultContainer--searchLayout-departament {
+    max-width: 100%;
+  }
 }
+
+.totalProducts--layout {
+  text-align: left;
+  padding: 0;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .totalProducts--layout {
+    padding: 0;
+  }
 }

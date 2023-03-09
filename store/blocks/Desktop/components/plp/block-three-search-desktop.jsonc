@@ -11,27 +11,10 @@
   },
   "flex-layout.col#serch-colunm-left": {
     "title": "container filtros",
-    "children": [/* "flex-layout.row#item-filtros", */ "filter-navigator-v3-custom"],
+    "children": ["filter-navigator-v3-custom"],
     "props": {
       "blockClass": "serch-colunm-left"
     }
-  },
-  /* item filter  */
-  "flex-layout.row#item-filtros": {
-    "children": [
-      "especial-filter"
-      //"flex-layout.col#item-filter-one",
-      /* "flex-layout.col#item-filter-two",
-      "flex-layout.col#item-filter-three",
-      "flex-layout.col#item-filter-four" */
-    ],
-    "props": {"blockClass": "item-filtros"}
-  },
-
-  "flex-layout.col#item-filter-one": {
-    "title": "block 1",
-    "children": ["link#item-filter-one", "image#item-filter-one"],
-    "props": {"blockClass": "item-filter"}
   },
 
   "link#item-filter-one": {
@@ -49,12 +32,6 @@
     }
   },
 
-  "flex-layout.col#item-filter-two": {
-    "title": "block 1",
-    "children": ["link#item-filter-two", "image#item-filter-two"],
-    "props": {"blockClass": "item-filter"}
-  },
-
   "link#item-filter-two": {
     "props": {
       "href": "/lo-mas-vendido",
@@ -70,12 +47,6 @@
     }
   },
 
-  "flex-layout.col#item-filter-three": {
-    "title": "block 1",
-    "children": ["link#item-filter-three", "image#item-filter-three"],
-    "props": {"blockClass": "item-filter"}
-  },
-
   "link#item-filter-three": {
     "props": {
       "href": "/proximos-lanzamientos",
@@ -89,12 +60,6 @@
       "src": "/arquivos/icon3.png",
       "maxHeight": 24
     }
-  },
-
-  "flex-layout.col#item-filter-four": {
-    "title": "block 1",
-    "children": ["link#item-filter-four", "image#item-filter-four"],
-    "props": {"blockClass": "item-filter"}
   },
 
   "link#item-filter-four": {
@@ -122,6 +87,7 @@
   "flex-layout.col#serch-colunm-right": {
     "title": "container gallery",
     "children": [
+      "flex-layout.row#total-products",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
@@ -130,6 +96,14 @@
       "blockClass": "serch-colunm-right",
       "preventVerticalStretch": true
     }
+  },
+  "flex-layout.row#total-products": {
+    "title": "container total products",
+    "props": {
+      "horizontalAlign": "left",
+      "colSizing": "auto"
+    },
+    "children": ["total-products.v2"]
   },
   "flex-layout.row#fetchprevious": {
     "title": "container fetch previous",
