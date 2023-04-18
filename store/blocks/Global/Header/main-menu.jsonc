@@ -224,21 +224,121 @@
       "rowGap": 5,
       "blockClass": "container-imagen"
     },
-    "children": [ "image-new#header_menu-content"]
+    "children": [ 
+      "flex-layout.row#header_menu-content-menu-1",
+      "flex-layout.row#header_menu-content-menu-2",
+      "flex-layout.row#header_menu-content-menu-3"
+    ]
   },
-
-  "image-new#header_menu-content": {
+  "flex-layout.row#header_menu-content-menu-1":{
+    "children":["flex-layout.col#header_menu-content-image-1"]
+  },
+  "flex-layout.row#header_menu-content-menu-2":{
+    "children":["flex-layout.col#header_menu-content-image-2"]
+  },
+  "flex-layout.row#header_menu-content-menu-3":{
+    "children":["flex-layout.col#header_menu-content-image-3"]
+  },
+  "flex-layout.col#header_menu-content-image-1": {
+    "children":["flex-layout.row#header_menu-content-image-1"]
+  },
+  "flex-layout.col#header_menu-content-image-2": {
+    "children":["flex-layout.row#header_menu-content-image-2"]
+  },
+  "flex-layout.col#header_menu-content-image-3": {
+    "children":["flex-layout.row#header_menu-content-image-3"]
+  },
+  "flex-layout.row#header_menu-content-image-1":{
+    "props":{
+      "blockClass":"container-imagen-brand"
+    },
+    "children":["image-new#header_menu-brand-1","image-new#header_menu-brand-2"]
+  },
+  "flex-layout.row#header_menu-content-image-2":{
+    "props":{
+      "blockClass":"container-imagen-brand"
+    },
+    "children":["image-new#header_menu-brand-3","image-new#header_menu-brand-4"]
+  },
+  "flex-layout.row#header_menu-content-image-3":{
+    "props":{
+      "blockClass":"container-imagen-brand"
+    },
+    "children":["image-new#header_menu-brand-5","image-new#header_menu-brand-6"]
+  },
+  "image-new#header_menu-brand-1": {
     "title": "image",
     "props": {
-      "src": "assets/images/header/menu.png",
+      "src": "assets/images/header/ADIDAS.png",
       "link": {
         "url": "/"
       },
-      "height": 250,
+      "height": 54,
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca"
     }
   },
+  "image-new#header_menu-brand-2": {
+    "title": "image",
+    "props": {
+      "src": "assets/images/header/NEWBALANCE.png",
+      "link": {
+        "url": "/"
+      },
+      "height": 54,
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
+  },
+  "image-new#header_menu-brand-3": {
+    "title": "image",
+    "props": {
+      "src": "assets/images/header/NIKE.png",
+      "link": {
+        "url": "/"
+      },
+      "height": 54,
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
+  },
+  "image-new#header_menu-brand-4": {
+    "title": "image",
+    "props": {
+      "src": "assets/images/header/PUMA.png",
+      "link": {
+        "url": "/"
+      },
+      "height": 54,
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
+  },
+  "image-new#header_menu-brand-5": {
+    "title": "image",
+    "props": {
+      "src": "assets/images/header/REEBOK.png",
+      "link": {
+        "url": "/"
+      },
+      "height": 54,
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
+  },
+  "image-new#header_menu-brand-6": {
+    "title": "image",
+    "props": {
+      "src": "assets/images/header/ADIDAS.png",
+      "link": {
+        "url": "/"
+      },
+      "height": 54,
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
+  },
+  
   "menu#header_content": {
     "title": "submenu-content",
     "props": {

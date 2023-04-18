@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 0;
 }
 
 .flexColChild--container-menu {
@@ -17,6 +18,18 @@
 .flexCol--header-submenu-content-menu-1 .flexColChild--header-submenu-content-menu-1:nth-child(1n) {
   padding: 0 !important;
   height: auto !important;
+}
+
+.flexCol--container-imagen{
+  height: 257px;
+}
+
+.flexRowContent--container-imagen-brand{
+  gap: 40px;
+}
+
+.flexRowContent--header-menu-content .stretchChildrenWidth:nth-child(2n){
+  align-items: center;
 }
 
 @media (max-width: 768px) {
