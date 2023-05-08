@@ -20,7 +20,7 @@
     }
   },
   "slider-layout#first__banner": {
-    "title": "Banner",
+    "title": "Slider banner home",
     "props": {
       "blockClass": ["carousel__home", "carousel__home-1"],
       "itemsPerPage": {
