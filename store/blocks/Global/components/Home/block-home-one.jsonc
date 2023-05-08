@@ -1,6 +1,6 @@
 {
   "list-context.image-list#first__banner": {
-    "title": "block one",
+    "title": "Banner home",
     "children": ["slider-layout#first__banner"],
     "props": {
       "images": [

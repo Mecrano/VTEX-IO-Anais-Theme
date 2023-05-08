@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "list-context.image-list#first__banner",
       "responsive-layout.desktop#home",
       "responsive-layout.mobile#home"
     ]
