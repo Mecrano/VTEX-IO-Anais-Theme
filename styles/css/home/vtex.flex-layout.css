@@ -219,6 +219,10 @@
   font-size: 14px;
 }
 
+.flexRowContent--home--benefits--container{
+  margin-top: -5px;
+}
+
 @media (min-width: 1919) {
   :global(.vtex-store-components-3-x-discountContainer) :global(.vtex-product-summary-2-x-image--image-global){
     min-width: 315px !important;
