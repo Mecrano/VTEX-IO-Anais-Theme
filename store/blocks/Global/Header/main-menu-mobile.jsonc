@@ -74,7 +74,8 @@
         "tagTitle": "1001",
         "text": "1001"
       }
-    }
+    },
+    "blocks": ["submenu.accordion#header-sub-menu-1001"]
   },
   "menu-item#header_category-tiendas-fisicas-mobile": {
     "props": {
@@ -115,7 +116,13 @@
     "props": {
       "width": "100%"
     },
-    "children": ["flex-layout.row#header-menu-content-mobile"]
+    "children": ["flex-layout.row#header-menu-content-mobile-dama"]
+  },
+  "submenu.accordion#header-sub-menu-1001": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#header-menu-content-mobile-1001"]
   },
   "flex-layout.row#header-menu-content-mobile-dama": {
     "props": {
@@ -125,9 +132,19 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#header-submenu-content-menu-1",
-      "flex-layout.col#header-submenu-content-menu-2-dama",
-      "flex-layout.col#header-submenu-content-menu-3"
+      "flex-layout.col#header-submenu-content-menu-1-dama",
+      "flex-layout.col#header-submenu-content-menu-2-dama"
+    ]
+  },
+  "flex-layout.row#header-menu-content-mobile-1001": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header-submenu-content-menu-1-1001"
     ]
   }
 }

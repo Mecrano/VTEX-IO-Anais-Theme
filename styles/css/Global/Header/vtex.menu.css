@@ -60,6 +60,18 @@
   margin: 0;
 }
 
+.submenuContainer--header_sub-menu-1001 {
+  left: -50px;
+}
+
+.submenuWrapper--header_sub-menu-1001--isOpen {
+  width: 547px;
+}
+
+.submenuWrapper--header_sub-menu-1001--isOpen :global(.vtex-flex-layout-0-x-flexRowContent--header-menu-content) {
+  justify-content: space-around;
+}
+
 @media (max-width: 1500px) {
   .menuContainerNav--header_menu .styledLinkContent {
     font-size: 1rem;

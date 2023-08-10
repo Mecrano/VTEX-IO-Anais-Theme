@@ -89,8 +89,8 @@
         "tagTitle": "1001",
         "text": "1001"
       }
-    }/* ,
-    "blocks": ["submenu#header_sub-menu"] */
+    },
+    "blocks": ["submenu#header_sub-menu-1001"]
   },
   "menu-item#header_category-promociones": {
     "props": {
@@ -141,6 +141,23 @@
       "flex-layout.col#header_menu-content-menu-2"
     ]
   },
+  "submenu#header_sub-menu-1001":{
+    "props": {
+      "blockClass": "header_sub-menu-1001"
+    },
+    "children": ["flex-layout.row#header-menu-content-1001"]
+  },
+  "flex-layout.row#header-menu-content-1001": {
+    "props": {
+      "fullWidth": false,
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header-menu-content-menu-1-1001",
+      "flex-layout.col#header_menu-content-menu-2"
+    ]
+  },
   "flex-layout.col#header-menu-content-menu-1": {
     "title": "block 1",
     "props": {
@@ -156,6 +173,14 @@
       "blockClass": "container-menu"
     },
     "children": ["flex-layout.row#header-menu-content-menu-1-dama"]
+  },
+  "flex-layout.col#header-menu-content-menu-1-1001":{
+    "title": "block 1",
+    "props": {
+      "rowGap": 5,
+      "blockClass": "container-menu"
+    },
+    "children": ["flex-layout.row#header-menu-content-menu-1-1001"]
   },
 
   "flex-layout.row#header-menu-content-menu-1": {
@@ -176,6 +201,15 @@
     "children":[
       "flex-layout.col#header-submenu-content-menu-1-dama",
       "flex-layout.col#header-submenu-content-menu-2-dama"
+    ]
+  },
+  "flex-layout.row#header-menu-content-menu-1-1001": {
+    "props":{
+      "colSizing": "auto",
+      "colJustify": "around"
+    },
+    "children":[
+      "flex-layout.col#header-submenu-content-menu-1-1001"
     ]
   },
 
@@ -200,6 +234,10 @@
     "props":{"blockClass": "header-submenu-content-menu-1"},
     "children":["rich-text#title-sub-menu-zapatos", "menu#header_content-menu-zapatos-dama"]
   },
+  "flex-layout.col#header-submenu-content-menu-1-1001":{
+    "props":{"blockClass": "header-submenu-content-menu-1"},
+    "children":["rich-text#title-sub-menu-categories", "menu#header_content-menu-categorias-1001"]
+  },
   "rich-text#title-sub-menu-zapatos": {
     "props": {
       "text": "[ZAPATOS](/)",
@@ -215,6 +253,12 @@
   "rich-text#title-sub-menu-accesorios": {
     "props": {
       "text": "[ACCESORIOS](/)",
+      "blockClass": "title-sub-menu"
+    }
+  },
+  "rich-text#title-sub-menu-categories": {
+    "props": {
+      "text": "[Categorías](/1001-athletics)",
       "blockClass": "title-sub-menu"
     }
   },
@@ -1168,7 +1212,7 @@
       ]
     }
   },
-  "menu#header_content#2-menu": {
+  "menu#header_content-menu-categorias-1001": {
     "title": "submenu-content 2",
     "props": {
       "orientation": "vertical",
@@ -1179,10 +1223,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/1001-athletics/football?initialMap=c&initialQuery=1001-athletics&map=category-1,category-3",
             "noFollow": false,
-            "tagTitle": "Tenis de hombre",
-            "text": "Tenis de hombre"
+            "tagTitle": "Footbal",
+            "text": "Footbal"
           }
         },
         {
@@ -1191,10 +1235,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/1001-athletics/outdoor?initialMap=c&initialQuery=1001-athletics&map=category-1,category-3",
             "noFollow": false,
-            "tagTitle": "Tenis de mujer",
-            "text": "Tenis de mujer"
+            "tagTitle": "Outdoor",
+            "text": "Outdoor"
           }
         },
         {
@@ -1204,10 +1248,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/1001-athletics/running?initialMap=c&initialQuery=1001-athletics&map=category-1,category-3",
             "noFollow": false,
-            "tagTitle": "Tenis de niño",
-            "text": "Tenis de niño"
+            "tagTitle": "Running",
+            "text": "Running"
           }
         },
         {
@@ -1217,62 +1261,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/content",
+            "href": "/1001-athletics/training?initialMap=c&initialQuery=1001-athletics&map=category-1,category-3",
             "noFollow": false,
-            "tagTitle": "Tenis de niña",
-            "text": "Tenis de niña"
-          }
-        },
-        {
-          "id": "menu-item-content-1",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/content",
-            "noFollow": false,
-            "tagTitle": "Ropa de hombre",
-            "text": "Ropa de hombre"
-          }
-        },
-        {
-          "id": "menu-item-content-2",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/content",
-            "noFollow": false,
-            "tagTitle": "Ropa de mujer",
-            "text": "Ropa de mujer"
-          }
-        },
-        {
-          "id": "menu-item-content-1",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/content",
-            "noFollow": false,
-            "tagTitle": "Ropa de niño",
-            "text": "Ropa de niño"
-          }
-        },
-        {
-          "id": "menu-item-content-2",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/content",
-            "noFollow": false,
-            "tagTitle": "Ropa de niña",
-            "text": "Ropa de niña"
+            "tagTitle": "Training",
+            "text": "Training"
           }
         }
       ]
